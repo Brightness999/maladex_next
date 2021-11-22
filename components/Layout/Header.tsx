@@ -18,31 +18,31 @@ const Header: React.FC = () => {
   }, [])
 
   const connectWallet = () => {
-    if (window.cardano) {
-      let cardano = window.cardano;
-      if (cardano.isEnabled()) {
-        cardano.getUsedAddresses().then(res => {
-          console.log(res[0]);
-          setAddress(res[0]);
-        }).catch(res => {
-          if (res.code < 0) {
-            cardano.enable(false).then(() => {
-              cardano.getUsedAddresses().then(res => {
-                console.log(res);
-                setAddress(res[0]);
-              })
-            }).catch(() => { });
-            setWalletModal(false);
-          }
-        })
+    if (typeof window !== undefined) {
+      if (window.cardano) {
+        let cardano = window.cardano;
+        if (cardano.isEnabled()) {
+          cardano.getUsedAddresses().then(res => {
+            setAddress(res[0]);
+          }).catch(res => {
+            if (res.code < 0) {
+              cardano.enable(false).then(() => {
+                cardano.getUsedAddresses().then(res => {
+                  setAddress(res[0]);
+                })
+              }).catch(() => { });
+              setWalletModal(false);
+            }
+          })
+        } else {
+          cardano.enable()
+        }
       } else {
-        cardano.enable()
+        setNoWallet(true);
+        setTimeout(() => {
+          setNoWallet(false);
+        }, 5000);
       }
-    } else {
-      setNoWallet(true);
-      setTimeout(() => {
-        setNoWallet(false);
-      }, 5000);
     }
   }
 
