@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -50,18 +51,26 @@ const Header: React.FC = () => {
     <nav className={`navbar navbar-inverse ${styles.navbar}`} id="header">
       <div className={styles.navbar__container} >
         <div className={`navbar-header ${styles.navbar__container_header}`}>
-          <a className="navbar-brand" href="/">
-            <Image src={Logo} alt="Logo" width="135" height="25" />
-          </a>
+          <Link href="/">
+            <a className="navbar-brand" >
+              <Image src={Logo} alt="Logo" width="135" height="25" />
+            </a>
+          </Link>
           <ul className={`nav ${styles.navbar__nav}`}>
             <li className={`nav-item ${styles.navbar__nav_item}`}>
-              <a className="nav-link" href="#">Trade</a>
+              <Link href="#">
+                <a className="nav-link" >Trade</a>
+              </Link>
             </li>
             <li className={`nav-item ${styles.navbar__nav_mint}`}>
-              <a className="nav-link" href="#">Mint</a>
+              <Link href="#">
+                <a className="nav-link" >Mint</a>
+              </Link>
             </li>
             <li className={`nav-item ${styles.navbar__nav_item}`}>
-              <a className="nav-link" href="#">Track</a>
+              <Link href="#">
+                <a className="nav-link" >Track</a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -111,7 +120,7 @@ const Header: React.FC = () => {
             </div>
             <div className={styles.wallet__content_wallets}>
               <div className={styles.wallet__content_wallets_wallet} onClick={() => connectWallet()}>
-                <Image src="/img/nami.png" width={60} height={60} />
+                <Image src="/img/nami.png" alt="nami_png" width={60} height={60} />
                 <div><span>Nami Wallet</span></div>
               </div>
             </div>
@@ -130,9 +139,11 @@ const Header: React.FC = () => {
               <span>Get Nami Wallet first</span>
             </div>
             <div>
-              <a href="https://namiwallet.io/" target="_blank">
-                <button>Get</button>
-              </a>
+              <Link href="https://namiwallet.io/">
+                <a target="_blank" rel="noreferrer">
+                  <button>Get</button>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

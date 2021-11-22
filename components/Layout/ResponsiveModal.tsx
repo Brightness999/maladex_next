@@ -1,4 +1,5 @@
 import Modal from 'react-modal';
+import Link from 'next/link';
 Modal.setAppElement('*');
 import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +13,7 @@ const customStyles = {
     top: '3%',
     left: '50%',
     right: 'auto',
-    width:'95%',
+    width: '95%',
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, 0)',
@@ -24,7 +25,7 @@ type ModalProps = {
   close: any
 }
 
-const ResponsiveModal = ({show, close} : ModalProps) => {
+const ResponsiveModal = ({ show, close }: ModalProps) => {
   return (
     <>
       <Modal
@@ -33,43 +34,72 @@ const ResponsiveModal = ({show, close} : ModalProps) => {
         contentLabel="Example Modal"
       >
         <div className={styles.modal} >
-          <a className="navbar-brand" href="/">
-            <Image 
-              src={Logo}
-              alt="Logo"
-              width="108"
-              height="20"
-            />
-          </a>
-          <div onClick={close} style={{float:'right'}}>
-            <FontAwesomeIcon icon={faCompressArrowsAlt}/>
+          <Link href="/">
+            <a className="navbar-brand" >
+              <Image
+                src={Logo}
+                alt="Logo"
+                width="108"
+                height="20"
+              />
+            </a>
+          </Link>
+          <div onClick={close} style={{ float: 'right' }}>
+            <FontAwesomeIcon icon={faCompressArrowsAlt} />
           </div>
         </div>
 
-        <hr/>
-        
+        <hr />
+
         <div>
           <ul className="nav navbar-nav">
-            <li className={styles.modal__item}><a href="https://docs.maladex.com/whitepaper.pdf">WhitePaper</a></li>
             <li className={styles.modal__item}>
-              <FontAwesomeIcon icon={faAngleDown}/>
+              <Link href="https://docs.maladex.com/whitepaper.pdf">
+                <a>WhitePaper</a>
+              </Link>
+            </li>
+            <li className={styles.modal__item}>
+              <FontAwesomeIcon icon={faAngleDown} />
               Info
               <dl>
-                <dd><a href="/tokenomics">Tokenomics</a></dd>
-                <dd><a href="/faq">FAQ</a></dd>
+                <dd><Link href="/tokenomics">
+                  <a>Tokenomics</a>
+                </Link></dd>
+                <dd><Link href="/faq">
+                  <a>FAQ</a>
+                </Link></dd>
               </dl>
             </li>
             <li className={styles.modal__item}>
-              <FontAwesomeIcon icon={faAngleDown}/>
+              <FontAwesomeIcon icon={faAngleDown} />
               Pool
-              <dl style={{padding: '5px 20px', marginBottom:'0px'}}>
-                <dd><a href="/pools">Pools</a></dd>
-                <dd><a href="/distribution">Distribution</a></dd>
-                <dd><a href="/distribution-faq">FAQ</a></dd>
-                <dd><a href="/formula">Formula</a></dd>
+              <dl style={{ padding: '5px 20px', marginBottom: '0px' }}>
+                <dd>
+                  <Link href="/pools">
+                    <a>Pools</a>
+                  </Link>
+                </dd>
+                <dd>
+                  <Link href="/distribution">
+                    <a>Distribution</a>
+                  </Link>
+                </dd>
+                <dd>
+                  <Link href="/distribution-faq">
+                    <a>FAQ</a>
+                  </Link>
+                </dd>
+                <dd>
+                  <Link href="/formula">
+                    <a>Formula</a>
+                  </Link>
+                </dd>
               </dl>
             </li>
-            <li className={styles.modal__item}><a href="/press">Press</a></li>
+            <li className={styles.modal__item}>
+              <Link href="/press">
+                <a>Press</a>
+              </Link></li>
           </ul>
         </div>
       </Modal>
