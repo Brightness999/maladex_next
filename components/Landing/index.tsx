@@ -6,6 +6,7 @@ import StockChart from './StockChart';
 import DepthChart from './DepthChart';
 import PlaceOrder from './PlaceOrder';
 import PreviewOrder from './PreviewOrder';
+import styles from '/styles/Home.module.scss';
 
 const Landing: React.FC = () => {
   const [pair, setPair] = useState('AGIX_BTC');
@@ -36,7 +37,7 @@ const Landing: React.FC = () => {
       <SelectPair
         handleSelectPair={(value) => handleSelectPair(value)}
       />
-      <div style={{ display: 'grid', gridTemplateColumns: '75% 25%' }}>
+      <div className={styles.container}>
         <div>
           <StockChart />
           <DepthChart />

@@ -1,17 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 300px);
+  padding: 10px;
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
 .depthchart {
-  padding: 20px 5%;
+  padding: 20px 2%;
   &__content {
     margin: auto;
   }
 }
 .stockchart {
-  padding: 20px 5%;
+  padding: 20px 2%;
   &__content {
     margin: auto;
   }
 }
 .placeorder {
-  padding: 20px;
+  margin: 20px;
   &__menu {
     padding: 10px 0;
     button {
@@ -26,69 +34,12 @@
       margin: 0 10px;
     }
   }
-}
-.pool {
-  margin-top: 150px;
-  &__text {
-    padding-right: 55px;
-    p {
-      color: #546681;
-      font-size: 17px;
-    }
-    h6 {
-      max-width: 500px;
-      margin-bottom: 15px;
-      color: #c5040a;
-      font-size: 14px;
-      font-weight: 700;
-      text-align: left;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-    }
-    h1 {
-      max-width: 500px;
-      margin-top: 0px;
-      margin-bottom: 20px;
-      color: #661a1b;
-      font-size: 46px;
-      line-height: 1;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-    }
-  }
-  &__image {
-    display: flex;
-    justify-content: space-around;
-  }
-  &__btn_join {
-    margin-right: 15px;
-    padding: 18px 35px;
-    border-radius: 45px;
-    background-color: #c5040a;
-    font-size: 16px;
-    display: inline-block;
-    color: white;
-    border: 0;
-    line-height: inherit;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  &__btn_learn {
-    background-color: transparent;
-    color: #546681;
-    border: none;
-    &:hover {
-      color: #c5040a;
-    }
-  }
-  @media (max-width: 992px) {
-    &__text {
-      order: 2 !important;
-    }
+  @media (max-width: 767px) {
+    margin: 20px 5%;
   }
 }
 .previeworder {
-  padding: 20px;
+  margin: 20px;
   &__title {
     span {
       font-weight: bold;
@@ -99,17 +50,17 @@
     &_price {
       flex: 1;
       text-align: left;
-      font-size: 14px;
+      font-size: 12px;
     }
     &_amount {
       flex: 1;
       text-align: right;
-      font-size: 14px;
+      font-size: 12px;
     }
     &_total {
       flex: 1;
       text-align: right;
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   &__price {
@@ -145,6 +96,9 @@
       }
     }
   }
+  @media (max-width: 767px) {
+    margin: 20px 5%;
+  }
 }
 .pair {
   padding: 10px 5%;
@@ -155,6 +109,12 @@
     height: fit-content;
     padding: 5px;
     text-transform: uppercase;
+  }
+  &__formula {
+    display: flex;
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
   }
 }
 .orderform {
@@ -169,6 +129,7 @@
       border-radius: 5px;
       &_name {
         color: #848e9c;
+        font-size: 0.875rem;
       }
       &_value {
         padding: 5px;
@@ -176,6 +137,7 @@
         background-color: transparent;
         text-align: right;
         width: 100%;
+        font-size: 0.875rem;
         &:focus {
           border: none;
           outline: none;
@@ -186,6 +148,7 @@
         font-weight: bold;
         text-transform: uppercase;
         margin-left: 10px;
+        font-size: 0.875rem;
       }
     }
     &_slide {

@@ -34,7 +34,7 @@ const SelectPair: React.FC<Props> = ({ handleSelectPair }) => {
       </select>
       <div className={styles.pair__formula}>
         <MathJaxContext config={config}>
-          <MathJax>{"$$\\mu=105.13, \\sigma=0.24, y=5, v=0.23$$"}</MathJax>
+          <MathJax>{"$$\\mu=105.13, \\sigma=0.24,$$"}</MathJax> <MathJax>{"$$y=5, v=0.23$$"}</MathJax>
         </MathJaxContext>
       </div>
     </div>
