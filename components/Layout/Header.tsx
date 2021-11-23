@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { bech32, bech32m } from 'bech32';
 
 import Logo from '/public/img/logo.png'
 import styles from '/styles/Navbar.module.scss'
@@ -24,12 +25,22 @@ const Header: React.FC = () => {
         let cardano = window.cardano;
         if (cardano.isEnabled()) {
           cardano.getUsedAddresses().then(res => {
-            setAddress(res[0]);
+            const address = bech32.encode(
+              'addr',
+              bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
+              1000
+            );
+            setAddress(address);
           }).catch(res => {
             if (res.code < 0) {
               cardano.enable(false).then(() => {
                 cardano.getUsedAddresses().then(res => {
-                  setAddress(res[0]);
+                  const address = bech32.encode(
+                    'addr',
+                    bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
+                    1000
+                  );
+                  setAddress(address);
                 })
               }).catch(() => { });
               setWalletModal(false);
