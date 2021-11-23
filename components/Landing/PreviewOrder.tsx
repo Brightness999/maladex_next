@@ -29,7 +29,7 @@ const PreviewOrder: React.FC<Props> = (props) => {
   }, [props]);
 
   return (
-    <div className={`container mt-5 ${styles.previeworder}`} id="future">
+    <div className={`mt-5 ${styles.previeworder}`} id="future">
       <div className={styles.previeworder__title}>
         <span>Order Book</span>
       </div>

@@ -36,12 +36,12 @@ const Landing: React.FC = () => {
       <SelectPair
         handleSelectPair={(value) => handleSelectPair(value)}
       />
-      <div style={{ display: 'flex', }}>
-        <div style={{ flex: 3 }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '75% 25%' }}>
+        <div>
           <StockChart />
           <DepthChart />
         </div>
-        <div style={{ flex: 1 }}>
+        <div>
           <PlaceOrder
             pair={pair}
             price={price}

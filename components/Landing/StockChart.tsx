@@ -82,16 +82,14 @@ const StockChart: React.FC = (props: HighchartsReact.Props) => {
 
 
   return (
-    <div className={`${styles.stockchart}`}>
-      <div className="container header">
-        <HighchartsReact
-          highcharts={Highcharts}
-          constructorType={'stockChart'}
-          options={stockOptions}
-          ref={chartComponentRef}
-          {...props}
-        />
-      </div>
+    <div className={styles.stockchart}>
+      <HighchartsReact
+        highcharts={Highcharts}
+        constructorType={'stockChart'}
+        options={stockOptions}
+        ref={chartComponentRef}
+        {...props}
+      />
     </div>
   );
 }

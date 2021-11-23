@@ -75,22 +75,20 @@ const DepthChart: React.FC = (props: HighchartsReact.Props) => {
       data: BidData,
       color: '#03a7a8'
     }, {
-      type:'area',
+      type: 'area',
       name: 'Asks',
       data: AskData,
       color: '#fc5857'
     }]
   }
   return (
-    <div className={`${styles.depthchart}`}>
-      <div className="container header">
-        <HighchartsReact
-          highcharts={Highcharts}
-          options={depthOptions}
-          ref={chartComponentRef}
-          {...props}
-        />
-      </div>
+    <div className={styles.depthchart}>
+      <HighchartsReact
+        highcharts={Highcharts}
+        options={depthOptions}
+        ref={chartComponentRef}
+        {...props}
+      />
     </div>
   );
 }

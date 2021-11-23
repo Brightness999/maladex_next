@@ -97,7 +97,7 @@ const OrderForm: React.FC<OrderProps> = (props) => {
             <div className={styles.orderform__input_item_name}>
               <label>Price</label>
             </div>
-            <input className={styles.orderform__input_item_value} min="0.1" type="number" value={price} onChange={(e) => handlePrice(e)} />
+            <div><input className={styles.orderform__input_item_value} min="0.1" type="number" value={price} onChange={(e) => handlePrice(e)} /></div>
             <div className={styles.orderform__input_item_unit}>
               <label>{props.pair.split('_')[1]}</label>
             </div>
@@ -109,7 +109,7 @@ const OrderForm: React.FC<OrderProps> = (props) => {
             <div className={styles.orderform__input_item_name}>
               <label>Price</label>
             </div>
-            <input className={styles.orderform__input_item_value} min="0.1" type="text" value="Market" onChange={() => { }} />
+            <div><input className={styles.orderform__input_item_value} min="0.1" type="text" value="Market" onChange={() => { }} /></div>
             <div className={styles.orderform__input_item_unit}>
               <label>{props.pair.split('_')[1]}</label>
             </div>
@@ -122,7 +122,7 @@ const OrderForm: React.FC<OrderProps> = (props) => {
               <div className={styles.orderform__input_item_name}>
                 <label>Stop</label>
               </div>
-              <input className={styles.orderform__input_item_value} min="0.1" type="number" value={stop} onChange={(e) => handleStop(e)} />
+              <div><input className={styles.orderform__input_item_value} min="0.1" type="number" value={stop} onChange={(e) => handleStop(e)} /></div>
               <div className={styles.orderform__input_item_unit}>
                 <label>{props.pair.split('_')[1]}</label>
               </div>
@@ -131,7 +131,7 @@ const OrderForm: React.FC<OrderProps> = (props) => {
               <div className={styles.orderform__input_item_name}>
                 <label>Limit</label>
               </div>
-              <input className={styles.orderform__input_item_value} min="0.1" type="number" value={price} onChange={(e) => handlePrice(e)} />
+              <div><input className={styles.orderform__input_item_value} min="0.1" type="number" value={price} onChange={(e) => handlePrice(e)} /></div>
               <div className={styles.orderform__input_item_unit}>
                 <label>{props.pair.split('_')[1]}</label>
               </div>
@@ -142,7 +142,7 @@ const OrderForm: React.FC<OrderProps> = (props) => {
           <div className={styles.orderform__input_item_name}>
             <label>Amount</label>
           </div>
-          <input className={styles.orderform__input_item_value} min="0.1" type="number" value={amount} onChange={(e) => handleAmount(e)} />
+          <div><input className={styles.orderform__input_item_value} min="0.1" type="number" value={amount} onChange={(e) => handleAmount(e)} /></div>
           <div className={styles.orderform__input_item_unit}>
             <label>{props.pair.split('_')[0]}</label>
           </div>
@@ -167,7 +167,7 @@ const OrderForm: React.FC<OrderProps> = (props) => {
             <div className={styles.orderform__input_item_name}>
               <label>Total</label>
             </div>
-            <input className={styles.orderform__input_item_value} min="0.1" type="number" value={total} onChange={(e) => handleTotal(e)} />
+            <div><input className={styles.orderform__input_item_value} min="0.1" type="number" value={total} onChange={(e) => handleTotal(e)} /></div>
             <div className={styles.orderform__input_item_unit}>
               <label>{props.pair.split('_')[1]}</label>
             </div>
@@ -208,7 +208,7 @@ const PlaceOrder: React.FC<Props> = (props) => {
     setAction(e.target.value);
   }
   return (
-    <div className="container">
+    <div className={styles.placeorder}>
       <div className={styles.placeorder__menu}>
         <button value="spot" onClick={(e) => handleMainMenu(e)} className={mainmenu == 'spot' ? styles.placeorder__menu_focus : ''}>Spot</button>
         <span>|</span>

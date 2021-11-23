@@ -1,16 +1,17 @@
 .depthchart {
-  padding: 0px;
+  padding: 20px 5%;
   &__content {
     margin: auto;
   }
 }
 .stockchart {
-  padding: 0px;
+  padding: 20px 5%;
   &__content {
     margin: auto;
   }
 }
 .placeorder {
+  padding: 20px;
   &__menu {
     padding: 10px 0;
     button {
@@ -87,6 +88,7 @@
   }
 }
 .previeworder {
+  padding: 20px;
   &__title {
     span {
       font-weight: bold;
@@ -158,7 +160,8 @@
 .orderform {
   &__input {
     &_item {
-      display: flex;
+      display: grid;
+      grid-template-columns: 50px 1fr 50px;
       align-items: center;
       margin: 10px 0px;
       padding: 8px 10px;
@@ -168,11 +171,11 @@
         color: #848e9c;
       }
       &_value {
-        flex: 1;
         padding: 5px;
         border: none;
         background-color: transparent;
         text-align: right;
+        width: 100%;
         &:focus {
           border: none;
           outline: none;
