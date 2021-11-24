@@ -1,12 +1,17 @@
 import React, { useEffect, useState } from 'react';
+import dynamic from "next/dynamic";
 
 import api from '../../lib/api';
 import SelectPair from './SelectPair';
-import StockChart from './StockChart';
+// import StockChart from './StockChart';
 import DepthChart from './DepthChart';
 import PlaceOrder from './PlaceOrder';
 import PreviewOrder from './PreviewOrder';
 import styles from '/styles/Home.module.scss';
+
+const StockChart = dynamic(() => import("./StockChart"), {
+  ssr: false
+});
 
 const Landing: React.FC = () => {
   const [pair, setPair] = useState('AGIX_BTC');

@@ -30,7 +30,7 @@ const ResponsiveModal = ({ show, close }: ModalProps) => {
     <>
       <Modal
         isOpen={show}
-        style={customStyles}
+        style={customStyles.content}
         contentLabel="Example Modal"
       >
         <div className={styles.modal} >
