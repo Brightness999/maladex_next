@@ -1,25 +1,32 @@
 .navbar {
   &__container {
     display: flex;
-    flex: 1;
     padding: 40px 5%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     &_header {
       display: flex;
-      flex: 2;
       align-items: center;
-      justify-content: space-between;
+      gap: 20px;
+      &_logo {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        gap: 0px;
+      }
     }
     &_launch {
-      flex: 3;
-      text-align: right;
-    }
-    @media (max-width: 1200px) {
-      &_header {
-        flex: 1;
-      }
-      &_launch {
-        flex: 1;
-      }
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
     }
   }
   &__nav {
@@ -29,48 +36,32 @@
       border-bottom: none;
       border-top: none;
     }
-  }
-  li {
-    padding: 0 10px;
-    a {
-      text-decoration: none;
-      color: #3a3a3a;
-      padding: 0;
-      line-height: 1;
-      &:hover {
+    &_item {
+      padding: 0 10px;
+      span {
+        text-decoration: none;
         color: #3a3a3a;
+        padding: 0;
+        line-height: 1;
+        &:hover {
+          color: #3a3a3a;
+        }
+        &:focus {
+          text-decoration: underline;
+          color: #3a3a3a;
+        }
       }
-      &:focus {
-        text-decoration: underline;
-        color: #3a3a3a;
+      @media (max-width: 768px) {
+        display: none;
       }
     }
     @media (max-width: 768px) {
-      display: none;
+      padding: 0px;
     }
   }
-  // &__connect_btn {
-  //   padding: 10px 30px;
-  //   border-radius: 40px;
-  //   background-color: #e20100;
-  //   transition-property: all;
-  //   transition-duration: 250ms;
-  //   transition-timing-function: ease;
-  //   font-size: 1rem;
-  //   font-weight: 700;
-  //   display: inline-block;
-  //   color: white;
-  //   border: 0;
-  //   line-height: inherit;
-  //   text-decoration: none;
-  //   cursor: pointer;
-  //   @media (max-width: 768px) {
-  //     display: none;
-  //   }
-  // }
   &__connect_btn {
     position: relative;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 40px;
     background-color: #e20100;
     transition-property: all;
@@ -80,7 +71,6 @@
     font-weight: 700;
     display: flex;
     align-items: center;
-    float: right;
     color: white;
     border: 0;
     line-height: inherit;
@@ -110,10 +100,12 @@
       display: none;
       position: absolute;
       color: #000;
-      top: 40px;
+      top: 45px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       padding: 1rem;
       text-align: left;
+      background-color: #ffffff;
+      z-index: 2;
       span {
         padding: 10px 0;
         border: 0;
@@ -128,18 +120,47 @@
   &__toggle {
     display: none;
     @media (max-width: 768px) {
-      display: block;
+      display: flex;
       border-radius: 4px;
       color: #e20100;
       border: 1px solid #e20100;
-      padding: 7px;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding: 8px;
+      height: 30px;
+      align-items: center;
     }
   }
   &__toggle:hover {
     color: white;
     background-color: #e20100;
+  }
+  &__bgswitch {
+    border-radius: 40px;
+    border: 1px solid #3a3a3a;
+    background-color: #bdc2c4;
+    &_day {
+      background-color: transparent;
+      border: 3px solid transparent;
+      fill: #ffffff;
+      &_active {
+        border: 3px solid #e20100;
+        border-radius: 50%;
+        background-color: #ffffff;
+        fill: #ffb237;
+      }
+    }
+    &_night {
+      background-color: transparent;
+      border: 3px solid transparent;
+      fill: #ffffff;
+      &_active {
+        border: 3px solid #e20100;
+        border-radius: 50%;
+        background-color: #000000;
+      }
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 }
 .wallet {
@@ -308,4 +329,104 @@
       }
     }
   }
+}
+.modal {
+  display: none;
+  position: fixed;
+  border: 1px solid #cccccc;
+  background: white;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  width: 0px;
+  transition: all 2s ease 0s;
+  &_header {
+    padding: 0 20px;
+    color: #e20100;
+    text-align: right;
+    hr {
+      margin: 3px;
+      border: 1px solid;
+    }
+  }
+  &_content {
+    &_types {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &_item {
+        padding: 10px;
+        color: #e20100;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: transparent;
+        text-align: left;
+        width: 100%;
+      }
+      &_item:hover {
+        background-color: #e7e3eb;
+        transition: all 0.5s ease 0s;
+      }
+    }
+    &_wallet {
+      padding: 10px 15px;
+      text-align: center;
+      border-radius: 40px;
+      background-color: #e20100;
+      transition-property: all;
+      transition-duration: 250ms;
+      transition-timing-function: ease;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: white;
+      border: 0;
+      line-height: inherit;
+      text-decoration: none;
+      cursor: pointer;
+      width: fit-content;
+    }
+    &_connect {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0px;
+      gap: 10px;
+    }
+  }
+  &__bgswitch {
+    border-radius: 40px;
+    border: 1px solid #3a3a3a;
+    background-color: #bdc2c4;
+    width: fit-content;
+    &_day {
+      background-color: transparent;
+      border: 3px solid transparent;
+      fill: #ffffff;
+      &_active {
+        border: 3px solid #e20100;
+        border-radius: 50%;
+        background-color: #ffffff;
+        fill: #ffb237;
+      }
+    }
+    &_night {
+      background-color: transparent;
+      border: 3px solid transparent;
+      fill: #ffffff;
+      &_active {
+        border: 3px solid #e20100;
+        border-radius: 50%;
+        background-color: #000000;
+      }
+    }
+  }
+}
+.modal.active {
+  display: block;
+  width: 250px;
+  transition: all 2s ease 0s;
 }
