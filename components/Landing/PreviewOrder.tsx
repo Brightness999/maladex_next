@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 import styles from '/styles/Home.module.scss';
 
 type Props = {
-  pair: string,
-  price: string,
-  TradingData: Array<any>
+  pair: string;
+  price: string;
+  TradingData: Array<any>;
+  close: any;
 }
 
 const PreviewOrder: React.FC<Props> = (props) => {
@@ -29,7 +30,7 @@ const PreviewOrder: React.FC<Props> = (props) => {
   }, [props]);
 
   return (
-    <div className={`mt-5 ${styles.previeworder}`} id="future">
+    <div className={styles.previeworder}>
       <div className={styles.previeworder__title}>
         <span>Order Book</span>
       </div>
@@ -92,6 +93,11 @@ const PreviewOrder: React.FC<Props> = (props) => {
             })
           }
         </div>
+      </div>
+      <div className={styles.previeworder_close}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" onClick={props.close}>
+          <path d="M10.586 12L4.293 5.707 5 5l.707-.707L12 10.586l6.293-6.293L19 5l.707.707L13.414 12l6.293 6.293-1.414 1.414L12 13.414l-6.293 6.293L5 19l-.707-.707L10.586 12z" fill="currentColor"></path>
+        </svg>
       </div>
     </div>
   );

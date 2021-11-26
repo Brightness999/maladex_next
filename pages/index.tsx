@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Layout from '../components/Layout';
 import Landing from '../components/Landing';
 import {
@@ -13,9 +14,10 @@ const layoutProps = {
 };
 
 const Home = () => {
+  const [theme, setTheme] = useState('light');
   return (
-    <Layout {...layoutProps}>
-      <Landing />
+    <Layout {...layoutProps} theme={theme} changeTheme={(value) => setTheme(value)}>
+      <Landing theme={theme} />
     </Layout>
   )
 }

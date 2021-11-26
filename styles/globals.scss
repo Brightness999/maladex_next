@@ -3,6 +3,26 @@
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  height: 100%;
+  width: 100vw;
+}
+.wrapper {
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollBar:hover::-webkit-scrollbar,
+::-webkit-scrollbar {
+  width: 0px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  height: 90px;
 }
 a {
   color: inherit;
@@ -13,7 +33,6 @@ a {
 }
 .container {
   padding: 20px;
-  
 }
 .container_fluid {
   background: #fefeff;
@@ -64,20 +83,74 @@ h6 {
   display: none;
 }
 .text-red {
-  color: #e20100;
+  color: #f00605;
 }
 .text-green {
-  color: #0ecb81;
+  color: #0fdb8c;
 }
 .bg-red {
-  background-color: #e20100;
+  background-color: #f00605;
 }
 .bg-green {
-  background-color: #0ecb81;
+  background-color: #0fdb8c;
 }
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
   -webkit-appearance: none;
   margin: 0;
+}
+.MathJax.CtxtMenu_Attached_0 {
+  margin: 5px 10px !important;
+}
+
+.react-grid-layout {
+  position: relative;
+  // transition: height 200ms ease;
+}
+.react-grid-item {
+  // transition: all 200ms ease;
+  transition-property: left, top;
+  &:hover .react-resizable-handle {
+    display: block;
+  }
+}
+.react-grid-item.cssTransforms {
+  transition-property: transform;
+}
+.react-grid-item.resizing {
+  will-change: width, height;
+}
+
+.react-grid-item.react-draggable-dragging {
+  transition: none;
+  z-index: 3;
+  will-change: transform;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background: red;
+  opacity: 0.2;
+  transition-duration: 100ms;
+  z-index: 2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.react-grid-item .react-resizable-handle {
+  cursor: se-resize;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 3px;
+  right: 3px;
+  padding: 0 3px 3px 0;
+  box-sizing: border-box;
+  display: none;
+  content: '';
+  border-right: 2px solid rgb(198, 202, 208);
+  border-bottom: 2px solid rgb(198, 202, 208);
 }

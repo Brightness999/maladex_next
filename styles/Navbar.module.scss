@@ -1,4 +1,5 @@
 .navbar {
+  background-color: #ffffff;
   &__container {
     display: flex;
     padding: 40px 5%;
@@ -61,8 +62,8 @@
   }
   &__connect_btn {
     position: relative;
-    padding: 10px 20px;
-    border-radius: 40px;
+    padding: 10px 30px;
+    border-radius: 15px;
     background-color: #e20100;
     transition-property: all;
     transition-duration: 250ms;
@@ -80,16 +81,15 @@
       display: none;
     }
     &_img {
-      fill: #e20100;
-      background-color: #ffffff;
-      border: 2px solid #ffffff;
-      border-radius: 40px;
+      fill: #fff;
+      background-color: transparent;
+      border-radius: 0;
       position: absolute;
       left: 2px;
       top: 2px;
     }
     span {
-      padding: 0 10px 0 25px;
+      padding: 0 10px 0 15px;
     }
     &_arrow {
       position: absolute;
@@ -105,7 +105,7 @@
       padding: 1rem;
       text-align: left;
       background-color: #ffffff;
-      z-index: 2;
+      z-index: 11;
       span {
         padding: 10px 0;
         border: 0;
@@ -161,6 +161,17 @@
     @media (max-width: 768px) {
       display: none;
     }
+  }
+}
+.navbar.dark {
+  background-color: #181a20;
+  .navbar__nav_item span {
+    color: #ffffff;
+  }
+  .navbar__nav_mint {
+    border: 1px solid #ffffff;
+    border-bottom: none;
+    border-top: none;
   }
 }
 .wallet {
@@ -242,6 +253,7 @@
     &_wallets {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      gap: 10px;
       max-height: 453px;
       overflow-y: auto;
       padding-top: 24px;
@@ -251,6 +263,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
         &:hover {
           opacity: 0.8;
         }
@@ -375,7 +388,7 @@
     &_wallet {
       padding: 10px 15px;
       text-align: center;
-      border-radius: 40px;
+      border-radius: 15px;
       background-color: #e20100;
       transition-property: all;
       transition-duration: 250ms;
@@ -388,6 +401,42 @@
       text-decoration: none;
       cursor: pointer;
       width: fit-content;
+      &_img {
+        fill: #fff;
+        background-color: transparent;
+        border-radius: 0;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+      }
+      span {
+        padding: 0 10px 0 15px;
+      }
+      &_arrow {
+        position: absolute;
+        right: 20px;
+        top: 14px;
+      }
+      &_dropdown {
+        display: none;
+        position: absolute;
+        color: #000;
+        top: 45px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        text-align: left;
+        background-color: #ffffff;
+        z-index: 11;
+        span {
+          padding: 10px 0;
+          border: 0;
+          background-color: transparent;
+          text-align: left;
+        }
+      }
+      &:hover &_dropdown {
+        display: grid;
+      }
     }
     &_connect {
       display: flex;
