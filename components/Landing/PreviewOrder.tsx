@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react';
 import styles from '/styles/Home.module.scss';
 
 type Props = {
-  pair: string;
-  price: string;
-  TradingData: Array<any>;
-  close: any;
+  pair?: string;
+  price?: string;
+  TradingData?: Array<any>;
+  close?: any;
+  mobile?: boolean;
 }
 
 const PreviewOrder: React.FC<Props> = (props) => {
@@ -31,9 +32,11 @@ const PreviewOrder: React.FC<Props> = (props) => {
 
   return (
     <div className={styles.previeworder}>
-      <div className={styles.previeworder__title}>
-        <span>Order Book</span>
-      </div>
+      {!props.mobile &&
+        <div className={styles.previeworder__title}>
+          <span>Order Book</span>
+        </div>
+      }
       <div>
         <div className={styles.previeworder__header}>
           <div className={styles.previeworder__header_price}><span>Price({pair.split('_').length > 1 ? pair.split('_')[1] : ''})</span></div>

@@ -4,24 +4,12 @@ import styles from '/styles/Home.module.scss';
 
 type Props = {
   theme: string;
-  orderwidth: number;
-  orderheight: number;
   close: any;
 }
 
 const Orders: React.FC<Props> = (props) => {
   const [item, setItem] = useState<string>("orderbook");
-  const [orderwidth, setOrderWidth] = useState<number>(0);
-  const [orderheight, setOrderHeight] = useState<number>(0);
   const [orders, setOrders] = useState<Array<object>>([]);
-
-  // useEffect(() => {
-  //   setOrderWidth(props.orderwidth);
-  // }, [props.orderwidth]);
-
-  // useEffect(() => {
-  //   setOrderHeight(props.orderheight);
-  // }, [props.orderheight]);
 
   const changeItem = (e) => {
     setItem(e.target.id);

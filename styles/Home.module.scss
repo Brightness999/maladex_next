@@ -1,9 +1,10 @@
 .container {
   background-color: #efefef;
   flex: 1;
-  @media (max-width: 767px) {
-    grid-template-columns: 1fr;
-  }
+}
+.container.mobile {
+  display: grid;
+  grid-template-rows: auto minmax(200px, auto) 64px;
 }
 .container.dark {
   background-color: #181a20;
@@ -18,6 +19,9 @@
     }
     &_content_header span {
       color: #eaecef;
+    }
+    &_content_header_cancel {
+      background-color: #181a20;
     }
   }
   .depthchart_wrapper {
@@ -48,10 +52,13 @@
       background-color: #181a20;
       border: 1px solid #3a3a3a;
     }
-    &__title span {
+    &__title {
+      background-color: transparent;
+      span {
       color: #eaecef;
       z-index: 3;
     }
+  }
     &__header {
       &_price,
       &_amount,
@@ -70,24 +77,14 @@
     }
   }
 }
-.depthchart {
-  &_wrapper {
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #e2e2e2;
-  }
-  &__content {
-    margin: auto;
-  }
-}
 .charts {
   display: grid;
   &_wrapper {
     background-color: #fff;
     padding: 10px;
     outline: 1px solid #e2e2e2;
-    min-width: 450px;
-    min-height: 300px;
+    min-width: 300px;
+    min-height: 200px;
     cursor: pointer;
     z-index: 4;
     &.close {
@@ -155,8 +152,10 @@
       }
     }
   }
-  &:hover &_menu_types svg {
-    visibility: visible;
+  @media (min-width: 1024px) {
+    &:hover &_menu_types svg {
+      visibility: visible;
+    }
   }
 }
 .orders {
@@ -308,14 +307,17 @@
       }
     }
   }
-  &:hover &_menu_action {
-    display: flex;
+  @media (min-width: 1024px) {
+    &:hover &_menu_action {
+      display: flex;
+    }
   }
 }
 .placeorder {
   position: relative;
   height: 100%;
   overflow-y: scroll;
+  transition: height 200ms ease;
   &_wrapper {
     background-color: #fff;
     outline: 1px solid #e2e2e2;
@@ -323,9 +325,15 @@
     padding: 10px;
     z-index: 10;
     cursor: pointer;
+    width: 100%;
     &.close {
       display: none;
     }
+  }
+  &_wrapper.mobile {
+    // display: none;
+    position: fixed;
+    bottom: 0px;
   }
   &__menu {
     padding: 10px 0;
@@ -351,11 +359,15 @@
     right: 0px;
     color: #a1a1a1;
   }
-  &:hover &_close {
-    display: inline-block;
+  @media (min-width: 1024px) {
+    &:hover &_close {
+      display: inline-block;
+    }
   }
-  @media (max-width: 767px) {
-    margin: 20px 5%;
+  @media (max-width: 500px) {
+    &_close {
+      display: inline-block;
+    }
   }
 }
 .previeworder {
@@ -442,11 +454,10 @@
     color: #a1a1a1;
     display: none;
   }
-  &:hover &_close {
-    display: block;
-  }
-  @media (max-width: 767px) {
-    margin: 20px 5%;
+  @media (min-width: 1024px) {
+    &:hover &_close {
+      display: block;
+    }
   }
 }
 .pair {
@@ -464,6 +475,9 @@
     grid-template-columns: repeat(4, auto);
     @media (max-width: 540px) {
       grid-template-columns: repeat(2, auto);
+      span {
+        font-size: 12px;
+      }
     }
   }
 }
@@ -500,7 +514,7 @@
         }
       }
       &_value.strategy {
-        height: 200px;
+        height: 180px;
       }
       &_unit {
         text-align: right;
@@ -551,5 +565,37 @@
       color: white;
       font-weight: bold;
     }
+  }
+  &__confirm.mobile {
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    background: #fff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 4;
+  }
+  &__confirm.dark {
+    background: #181a20;
+  }
+
+}
+.originalchart {
+  display: none;
+  &.active {
+    display: inline-block;
+  }
+}
+.tradingviewchart {
+  display: none;
+  &.active {
+    display: inline-block;
+  }
+}
+.depthchart {
+  display: none;
+  &.active {
+    display: inline-block;
   }
 }

@@ -4,8 +4,8 @@ import { MathJax, MathJaxContext } from "better-react-mathjax";
 import styles from '/styles/Home.module.scss';
 
 type Props = {
-  theme: string;
-  handleSelectPair: any;
+  theme?: string;
+  handleSelectPair?: any;
 }
 
 const SelectPair: React.FC<Props> = ({ theme, handleSelectPair }) => {

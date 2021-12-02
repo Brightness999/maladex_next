@@ -386,6 +386,7 @@
       }
     }
     &_wallet {
+      position: relative;
       padding: 10px 15px;
       text-align: center;
       border-radius: 15px;
@@ -406,15 +407,16 @@
         background-color: transparent;
         border-radius: 0;
         position: absolute;
-        left: 2px;
-        top: 2px;
+        left: -4px;
+        top: 6px;
+        height: 30px;
       }
       span {
         padding: 0 10px 0 15px;
       }
       &_arrow {
         position: absolute;
-        right: 20px;
+        right: 10px;
         top: 14px;
       }
       &_dropdown {
@@ -476,6 +478,10 @@
 }
 .modal.active {
   display: block;
-  width: 250px;
+  width: 280px;
   transition: all 2s ease 0s;
+  z-index: 10;
+}
+.modal.dark {
+  background-color: #181a20;
 }

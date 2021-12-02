@@ -82,14 +82,15 @@ const DepthChart: React.FC = (props: HighchartsReact.Props) => {
     }]
   }
   return (
-    <div className={styles.depthchart}>
+    // <div className={styles.depthchart}>
       <HighchartsReact
         highcharts={Highcharts}
         options={depthOptions}
+        containerProps={{className: "depth"}}
         ref={chartComponentRef}
         {...props}
       />
-    </div>
+    // </div>
   );
 }
 

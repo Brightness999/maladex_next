@@ -11,15 +11,14 @@ import styles from '/styles/Navbar.module.scss';
 import ResponsiveModal from './ResponsiveModal';
 
 type Props = {
-  theme: string;
-  changeTheme: any; 
+  theme?: string;
+  changeTheme?: any; 
 }
 const Header: React.FC<Props> = (props) => {
   const [modal, setModal] = useState(false);
   const [walletmodal, setWalletModal] = useState(false);
   const [nowallet, setNoWallet] = useState(false);
   const [address, setAddress] = useState('');
-  // const [theme, setTheme] = useState(props.theme);
 
   useEffect(() => {
     connectWallet();

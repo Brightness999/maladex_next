@@ -4,18 +4,18 @@ import { faTimes, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import styles from '/styles/Navbar.module.scss';
 
 type Props = {
-  show: boolean,
-  close: any,
-  theme: string,
-  address: string,
-  changeTheme: any,
-  openModal: any,
-  disconnect: any
+  show?: boolean,
+  close?: any,
+  theme?: string,
+  address?: string,
+  changeTheme?: any,
+  openModal?: any,
+  disconnect?: any
 }
 
 const ResponsiveModal: React.FC<Props> = (props) => {
   return (
-    <div className={`${styles.modal} ${props.show ? styles.active : ''}`}>
+    <div className={`${styles.modal} ${props.theme == 'dark' && styles.dark} ${props.show ? styles.active : ''}`}>
       <div className={styles.modal_header} >
         <div onClick={props.close}>
           <FontAwesomeIcon icon={faTimes} />

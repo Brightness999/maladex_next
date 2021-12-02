@@ -13,10 +13,10 @@ const OriginalChart = dynamic(() => import("./OriginalChart"), {
 });
 
 type Props = {
-  theme: string;
-  chartwidth: number;
-  chartheight: number;
-  close: any;
+  theme?: string;
+  chartwidth?: number;
+  chartheight?: number;
+  close?: any;
 }
 
 const Charts: React.FC<Props> = (props) => {
@@ -52,8 +52,6 @@ const Charts: React.FC<Props> = (props) => {
                 <span id="15m" className={charttime == '15m' ? styles.active : ''} onClick={(e) => changeChartTime(e)}>15m</span>
                 <span id="1h" className={charttime == '1h' ? styles.active : ''} onClick={(e) => changeChartTime(e)}>1H</span>
                 <span id="4h" className={charttime == '4h' ? styles.active : ''} onClick={(e) => changeChartTime(e)}>4H</span>
-                <span id="1d" className={charttime == '1d' ? styles.active : ''} onClick={(e) => changeChartTime(e)}>1D</span>
-                <span id="1w" className={charttime == '1w' ? styles.active : ''} onClick={(e) => changeChartTime(e)}>1W</span>
               </div>
               <div className={styles.charts_menu_properties_indicators}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
@@ -73,20 +71,21 @@ const Charts: React.FC<Props> = (props) => {
           </div>
         </div>
       </div>
-      {charttype == 'original' &&
+      <div className={`${styles.originalchart} ${charttype == 'original' && styles.active}`}>
         <OriginalChart
           chartwidth={chartwidth}
           chartheight={chartheight}
         />
-      }
-      {charttype == 'tradingview' &&
+      </div>
+      <div className={`${styles.tradingviewchart} ${charttype == 'tradingview' && styles.active}`}>
         <TradingviewChart
           theme={props.theme}
+          chartheight={chartheight}
         />
-      }
-      {charttype == 'depth' &&
+      </div>
+      <div className={`${styles.depthchart} ${props.theme == 'dark' && 'dark'} ${charttype == 'depth' && styles.active}`}>
         <DepthChart />
-      }
+      </div>
     </div>
   );
 }

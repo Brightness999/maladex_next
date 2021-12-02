@@ -36816,3 +36816,25 @@ export let initialData = [
         volume: 12645699
     }
 ];
+export const initialLayout = {
+    lg: [{ i: "charts", x: 0, y: 0, w: 750, h: 590, minW: 400, minH: 300 },
+    { i: "orders", x: 0, y: 590, w: 750, h: 300, minW: 500, minH: 150 },
+    { i: "placeorder", x: 750, y: 0, w: 250, h: 380, minW: 150, minH: 300 },
+    { i: "previeworder", x: 750, y: 380, w: 250, h: 510, minW: 150, minH: 300 }],
+    md: [{ i: "charts", x: 0, y: 0, w: 1000, h: 590, minW: 400, minH: 300, static: true },
+    { i: "orders", x: 0, y: 590, w: 1000, h: 300, minW: 500, minH: 150, static: true },
+    { i: "placeorder", x: 0, y: 890, w: 500, h: 510, minW: 150, minH: 300, static: true },
+    { i: "previeworder", x: 500, y: 890, w: 500, h: 510, minW: 150, minH: 300, static: true }],
+    sm: [{ i: "charts", x: 0, y: 0, w: 1000, h: 400, minW: 400, minH: 300, static: true },
+    { i: "orders", x: 0, y: 400, w: 1000, h: 300, minW: 500, minH: 150, static: true },
+    { i: "placeorder", x: 0, y: 700, w: 500, h: 510, minW: 150, minH: 300, static: true },
+    { i: "previeworder", x: 500, y: 700, w: 500, h: 510, minW: 150, minH: 300, static: true }],
+    xs: [{ i: "charts", x: 0, y: 0, w: 1000, h: 400, minW: 400, minH: 300, static: true },
+    { i: "orders", x: 0, y: 400, w: 1000, h: 300, minW: 500, minH: 150, static: true },
+    { i: "placeorder", x: 0, y: 700, w: 500, h: 510, minW: 150, minH: 300, static: true },
+    { i: "previeworder", x: 500, y: 700, w: 500, h: 510, minW: 150, minH: 300, static: true }],
+    xxs: [{ i: "charts", x: 0, y: 0, w: 1000, h: 300, minW: 400, minH: 300, static: true },
+    { i: "orders", x: 0, y: 590, w: 1000, h: 300, minW: 500, minH: 150, static: true },
+    { i: "placeorder", x: 0, y: 600, w: 1000, h: 410, minW: 150, minH: 300, static: true },
+    { i: "previeworder", x: 500, y: 1010, w: 1000, h: 510, minW: 150, minH: 300, static: true }],
+  };

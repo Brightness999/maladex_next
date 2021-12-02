@@ -4,11 +4,11 @@ import ReactSlider from 'react-slider';
 import styles from '/styles/Home.module.scss';
 
 type OrderProps = {
-  mainmenu: string;
-  submenu: string;
-  action: string;
-  pair: string;
-  price: string;
+  mainmenu?: string;
+  submenu?: string;
+  action?: string;
+  pair?: string;
+  price?: string;
 }
 
 const OrderForm: React.FC<OrderProps> = (props) => {
@@ -230,9 +230,10 @@ const OrderForm: React.FC<OrderProps> = (props) => {
 }
 
 type Props = {
-  pair: string;
-  price: string;
-  close: any;
+  pair?: string;
+  price?: string;
+  close?: any;
+  tradingaction?: string;
 }
 
 const PlaceOrder: React.FC<Props> = (props) => {
@@ -240,7 +241,7 @@ const PlaceOrder: React.FC<Props> = (props) => {
   const [price, setPrice] = useState(props.price);
   const [mainmenu, setMainMenu] = useState('spot');
   const [submenu, setSubMenu] = useState('limit');
-  const [action, setAction] = useState('buy');
+  const [action, setAction] = useState(props.tradingaction);
 
   useEffect(() => {
     setPair(props.pair);

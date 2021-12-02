@@ -30,13 +30,13 @@ import { timeFormat } from "d3-time-format";
 import { initialData } from '../../lib/data';
 
 type Props = {
-  chartwidth: number;
-  chartheight: number;
+  chartwidth?: number;
+  chartheight?: number;
 }
 
 const OriginalChart: React.FC<Props> = (props) => {
-  const [width, setWidth] = useState<number>(500);
-  const [height, setHeight] = useState<number>(200);
+  const [width, setWidth] = useState<number>(1000);
+  const [height, setHeight] = useState<number>(500);
 
   const ScaleProvider = discontinuousTimeScaleProviderBuilder().inputDateAccessor(
     (d) => new Date(d.date)
@@ -131,15 +131,15 @@ const OriginalChart: React.FC<Props> = (props) => {
       xExtents={xExtents}
       zoomAnchor={lastVisibleItemBasedZoomAnchor}
     >
-      <Chart
+      {/* <Chart
         id={2}
         height={barChartHeight}
         origin={barChartOrigin}
         yExtents={barChartExtents}
       >
         <BarSeries fillStyle={volumeColor} yAccessor={volumeSeries} />
-      </Chart>
-      <Chart id={3} height={chartHeight} yExtents={candleChartExtents}>
+      </Chart> */}
+      <Chart id={3} height={height} yExtents={candleChartExtents}>
         <XAxis showGridLines showTickLabel={false} />
         <YAxis showGridLines tickFormat={pricesDisplayFormat} />
         <CandlestickSeries />
@@ -186,7 +186,7 @@ const OriginalChart: React.FC<Props> = (props) => {
         <ZoomButtons />
         <OHLCTooltip origin={[8, 16]} />
       </Chart>
-      <Chart
+      {/* <Chart
         id={4}
         height={elderRayHeight}
         yExtents={[0, elder.accessor()]}
@@ -201,18 +201,8 @@ const OriginalChart: React.FC<Props> = (props) => {
           rectWidth={margin.right}
           displayFormat={pricesDisplayFormat}
         />
-
         <ElderRaySeries yAccessor={elder.accessor()} />
-
-        <SingleValueTooltip
-          yAccessor={elder.accessor()}
-          yLabel="Elder Ray"
-          yDisplayFormat={(d) =>
-            `${pricesDisplayFormat(d)}, ${pricesDisplayFormat(d)}`
-          }
-          origin={[8, 16]}
-        />
-      </Chart>
+      </Chart> */}
       <CrossHairCursor />
     </ChartCanvas>
   );
