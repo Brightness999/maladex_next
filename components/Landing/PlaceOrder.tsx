@@ -259,7 +259,7 @@ const PlaceOrder: React.FC<Props> = (props) => {
   }
   return (
     <div className={styles.placeorder}>
-      <div className={styles.placeorder__menu}>
+      <div className={`${styles.placeorder__menu} draggableHandle`}>
         <button value="spot" onClick={(e) => handleMainMenu(e)} className={mainmenu == 'spot' ? styles.placeorder__menu_focus : ''}>Spot</button>
         <span>|</span>
         <button value="strategy" onClick={(e) => handleMainMenu(e)} className={mainmenu == 'strategy' ? styles.placeorder__menu_focus : ''}>Strategy</button>

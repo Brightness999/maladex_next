@@ -6,13 +6,12 @@ import { faBars, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { bech32 } from 'bech32';
 
 import Logo from '/public/img/logo.png';
-import Maladex from '/public/img/maladex.png';
 import styles from '/styles/Navbar.module.scss';
 import ResponsiveModal from './ResponsiveModal';
 
 type Props = {
   theme?: string;
-  changeTheme?: any; 
+  changeTheme?: any;
 }
 const Header: React.FC<Props> = (props) => {
   const [modal, setModal] = useState(false);
@@ -21,8 +20,20 @@ const Header: React.FC<Props> = (props) => {
   const [address, setAddress] = useState('');
 
   useEffect(() => {
-    connectWallet();
-  }, [])
+    if (typeof window !== undefined) {
+      try {
+        let connect = window.localStorage.getItem("connect");
+        let preaddress = window.localStorage.getItem("address");
+        if (connect) {
+          if (connect == 'true') {
+            setAddress(preaddress);
+          }
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  }, []);
 
   const connectWallet = () => {
     if (typeof window !== undefined) {
@@ -36,6 +47,8 @@ const Header: React.FC<Props> = (props) => {
               1000
             );
             setAddress(realaddress);
+            window.localStorage.setItem('connect', "true");
+            window.localStorage.setItem('address', realaddress);
             setWalletModal(false);
           }).catch(res => {
             if (res.code < 0) {
@@ -47,6 +60,8 @@ const Header: React.FC<Props> = (props) => {
                     1000
                   );
                   setAddress(realaddress);
+                  window.localStorage.setItem('connect', "true");
+                  window.localStorage.setItem('address', realaddress);
                 })
               }).catch(() => { });
               setWalletModal(false);
@@ -66,6 +81,8 @@ const Header: React.FC<Props> = (props) => {
 
   const disconnectWallet = () => {
     setAddress('');
+    window.localStorage.setItem('connect', "false");
+    window.localStorage.setItem('address', "");
   }
 
   return (

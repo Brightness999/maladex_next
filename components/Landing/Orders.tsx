@@ -17,7 +17,7 @@ const Orders: React.FC<Props> = (props) => {
 
   return (
     <div className={styles.orders}>
-      <div className={styles.orders_menu_wrapper}>
+      <div className={`draggableHandle ${styles.orders_menu_wrapper}`}>
         <div className={styles.orders_menu}>
           <div className={styles.orders_menu_items}>
             <span id="orderbook" className={item == 'orderbook' ? styles.active : ''} onClick={(e) => changeItem(e)}>Order Book</span>

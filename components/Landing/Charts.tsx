@@ -43,7 +43,7 @@ const Charts: React.FC<Props> = (props) => {
 
   return (
     <div className={styles.charts}>
-      <div className={styles.charts_menu_wrapper}>
+      <div className={`${styles.charts_menu_wrapper} draggableHandle`}>
         <div className={styles.charts_menu}>
           {charttype != 'depth' &&
             <div className={styles.charts_menu_properties}>

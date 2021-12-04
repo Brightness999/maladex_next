@@ -164,6 +164,7 @@ const Landing: React.FC<Props> = (props) => {
             onResize={onResize}
             onLayoutChange={onLayoutChange}
             containerPadding={[0, 0]}
+            draggableHandle=".draggableHandle"
             margin={[1, 1]}
           >
             <div key="charts" className={`${styles.charts_wrapper} ${chartclose && styles.close}`}>
@@ -180,7 +181,7 @@ const Landing: React.FC<Props> = (props) => {
                 close={() => setOrdersClose(true)}
               />
             </div>
-            <div key="placeorder" className={`${styles.placeorder_wrapper} ${placeorderclose && styles.close}`}>
+            <div key="placeorder" className={`'placeorders' ${styles.placeorder_wrapper} ${placeorderclose && styles.close}`}>
               <PlaceOrder
                 pair={pair}
                 price={price}

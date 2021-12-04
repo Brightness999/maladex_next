@@ -33,7 +33,7 @@ const PreviewOrder: React.FC<Props> = (props) => {
   return (
     <div className={styles.previeworder}>
       {!props.mobile &&
-        <div className={styles.previeworder__title}>
+        <div className={`draggableHandle ${styles.previeworder__title}`}>
           <span>Order Book</span>
         </div>
       }
