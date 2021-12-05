@@ -3,7 +3,6 @@ import Highcharts from 'highcharts/highstock';
 import HighchartsReact from 'highcharts-react-official';
 
 import { BidData, AskData } from '../../lib/data';
-import styles from '/styles/Home.module.scss';
 
 const DepthChart: React.FC = (props: HighchartsReact.Props) => {
   const chartComponentRef = useRef<HighchartsReact.RefObject>(null);
@@ -82,15 +81,13 @@ const DepthChart: React.FC = (props: HighchartsReact.Props) => {
     }]
   }
   return (
-    // <div className={styles.depthchart}>
-      <HighchartsReact
-        highcharts={Highcharts}
-        options={depthOptions}
-        containerProps={{className: "depth"}}
-        ref={chartComponentRef}
-        {...props}
-      />
-    // </div>
+    <HighchartsReact
+      highcharts={Highcharts}
+      options={depthOptions}
+      containerProps={{ className: "depth" }}
+      ref={chartComponentRef}
+      {...props}
+    />
   );
 }
 

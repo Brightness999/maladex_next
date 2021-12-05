@@ -15,5 +15,11 @@ interface Window {
     signData?: (...args: any[]) => Promise<void>
     signTx?: (...args: any[]) => Promise<void>
     submitTx?: (...args: any[]) => Promise<void>
+    yoroi?: {
+      enable?: (...args: any[]) => Promise<void>
+      isEnabled?: (...args: any[]) => Promise<void>
+    }
   }
+  ergo_check_read_access?: (...args: any[]) => Promise<void>
+  ergo_request_read_access?: (...args: any[]) => Promise<void>
 }

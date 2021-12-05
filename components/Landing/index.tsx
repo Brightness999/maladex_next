@@ -85,6 +85,7 @@ const Landing: React.FC<Props> = (props) => {
     if (typeof window !== undefined) {
       if (layouts) {
         let width = window.document.body.clientWidth;
+        window.localStorage.setItem('layouts', JSON.stringify(layouts));
         if (width > 500) {
           setMobile(false);
         } else {
@@ -143,10 +144,10 @@ const Landing: React.FC<Props> = (props) => {
               </div>
             }
             <div className={`${styles.orderform__confirm} ${styles.mobile} ${props.theme == 'dark' && styles.dark}`}>
-              <button className="bg-green" onClick={() => {setTradingAction("buy"); setPlaceorderClose(false);}}>
+              <button className="bg-green" onClick={() => { setTradingAction("buy"); setPlaceorderClose(false); }}>
                 <span className={styles.orderform__confirm_action}>Buy</span>
               </button>
-              <button className="bg-red" onClick={() => {setTradingAction("sell"); setPlaceorderClose(false);}}>
+              <button className="bg-red" onClick={() => { setTradingAction("sell"); setPlaceorderClose(false); }}>
                 <span className={styles.orderform__confirm_action}>Sell</span>
               </button>
             </div>
