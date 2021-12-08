@@ -49,42 +49,24 @@ const Header: React.FC<Props> = (props) => {
         let cardano = window.cardano;
         if ("isEnabled" in cardano) {
           setConnecting(true);
-          cardano.getUsedAddresses().then(res => {
-            const realaddress = bech32.encode(
-              'addr',
-              bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
-              1000
-            );
-            setAddress(realaddress);
-            window.localStorage.setItem('connect', "true");
-            window.localStorage.setItem('wallettype', "nami");
-            window.localStorage.setItem('address', realaddress);
-            setConnecting(false);
-            setWalletModal(false);
-          }).catch(res => {
-            if (res.code < 0) {
-              cardano.enable(false).then(() => {
-                setConnecting(true);
-                cardano.getUsedAddresses().then(res => {
-                  const realaddress = bech32.encode(
-                    'addr',
-                    bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
-                    1000
-                  );
-                  setAddress(realaddress);
-                  setWalletType("nami");
-                  window.localStorage.setItem('connect', "true");
-                  window.localStorage.setItem('wallettype', "nami");
-                  window.localStorage.setItem('address', realaddress);
-                  setConnecting(false);
-                })
-              }).catch(err => {
-                console.log("reject wallet connection", err);
-                setConnecting(false);
-              });
+          cardano.enable().then(() => {
+            cardano.getUsedAddresses().then(res => {
+              const realaddress = bech32.encode(
+                'addr',
+                bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
+                1000
+              );
+              setAddress(realaddress);
+              window.localStorage.setItem('connect', "true");
+              window.localStorage.setItem('wallettype', "nami");
+              window.localStorage.setItem('address', realaddress);
+              setConnecting(false);
               setWalletModal(false);
-            }
-          })
+            })
+          }).catch(err => {
+            console.log("reject wallet connection", err);
+            setConnecting(false);
+          });
         } else {
           setNoWallet(true);
           setTimeout(() => {
