@@ -512,7 +512,7 @@
     display: none;
     position: absolute;
     left: 0;
-    top: 34px;
+    top: 33px;
     z-index: 5;
     &_search {
       width: 100%;
@@ -767,11 +767,68 @@
       }
     }
   }
+  @media (max-width: 500px) {
+    column-gap: 10px;
+    padding: 10px;
+    &_select {
+      left: -11px;
+      width: 100vw;
+      &_instrumenttypes {
+        font-size: 12px;
+        padding: 10px 5px;
+        column-gap: 5px;
+        &_options_content {
+          left: auto;
+          right: 0;
+        }
+        &_strategies_content {
+          left: auto;
+          right: 0;
+        }
+      }
+      &_table {
+        font-size: 12px;
+        table thead th label {
+          height: 18px;
+        }
+        table tbody td div span.averageprice {
+          display: none;
+        }
+        table tbody td div span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
 }
 .pair.dark {
   background-color: #181a20;
-  .pair_formula span {
-    color: #ffffff;
+  color: #e2e2e2;
+  .pair {
+    &_select {
+      background-color: #1e2329;
+      &_instrumenttypes {
+        color: #e2e2e2;
+        &_pairs_content {
+          background-color: #1e2329;
+        }
+        &_indexes_content {
+          background-color: #1e2329;
+        }
+        &_options_content {
+          background-color: #1e2329;
+        }
+        &_strategies_content {
+          background-color: #1e2329;
+        }
+      }
+      &_table table thead {
+        background-color: #1e2329;
+      }
+    }
+    &_symbol {
+      background-color: transparent;
+    }
   }
 }
 .orderform {

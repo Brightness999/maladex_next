@@ -16,12 +16,14 @@ const PreviewOrder: React.FC<Props> = (props) => {
   const [price, setPrice] = useState(props.price);
 
   useEffect(() => {
+    console.log(props);
+    
     let sell_temp = [], buy_temp = [];
-    props.TradingData.forEach(tranc => {
-      if (tranc.m) {
-        sell_temp.push(tranc);
+    props.TradingData.forEach(transac => {
+      if (transac.m) {
+        sell_temp.push(transac);
       } else {
-        buy_temp.push(tranc);
+        buy_temp.push(transac);
       }
     });
     setSellData(sell_temp.slice(0, 10));
@@ -49,47 +51,50 @@ const PreviewOrder: React.FC<Props> = (props) => {
               return (
                 <div key={index} className={styles.previeworder__content_order}>
                   <div className={styles.previeworder__content_order_price}><span className="text-red">{
-                    pair == 'AGIX_BTC' && parseFloat(item.p).toFixed(8) ||
-                    pair == 'ADA_BTC' && parseFloat(item.p).toFixed(8) ||
-                    pair == 'BNB_BTC' && parseFloat(item.p).toFixed(6)
+                    pair == 'AGIX_MAL' && parseFloat(item.p).toFixed(8) ||
+                    pair == 'ADA_MAL' && parseFloat(item.p).toFixed(8) ||
+                    pair == 'BNB_MAL' && parseFloat(item.p).toFixed(6)
                   }</span></div>
                   <div className={styles.previeworder__content_order_amount}><span>{
-                    pair == 'AGIX_BTC' && parseFloat(item.q).toFixed(0) ||
-                    pair == 'ADA_BTC' && parseFloat(item.q).toFixed(1) ||
-                    pair == 'BNB_BTC' && parseFloat(item.q).toFixed(3)
+                    pair == 'AGIX_MAL' && parseFloat(item.q).toFixed(0) ||
+                    pair == 'ADA_MAL' && parseFloat(item.q).toFixed(1) ||
+                    pair == 'BNB_MAL' && parseFloat(item.q).toFixed(3)
                   }</span></div>
                   <div className={styles.previeworder__content_order_total}><span>{
-                    pair == 'AGIX_BTC' && (item.p * item.q).toFixed(7) ||
-                    pair == 'ADA_BTC' && (item.p * item.q).toFixed(7) ||
-                    pair == 'BNB_BTC' && (item.p * item.q).toFixed(5)
+                    pair == 'AGIX_MAL' && (item.p * item.q).toFixed(7) ||
+                    pair == 'ADA_MAL' && (item.p * item.q).toFixed(7) ||
+                    pair == 'BNB_MAL' && (item.p * item.q).toFixed(5)
                   }</span></div>
                 </div>
               );
             })
           }
         </div>
-        <div className={styles.previeworder__price}>
-          <h5>{price}<span>${pair == 'AGIX_BTC' ? (56920.51 * parseFloat(price)).toFixed(6) : (56920.51 * parseFloat(price)).toFixed(2)}</span> </h5>
-        </div>
+        {
+          props.TradingData.length > 0 &&
+          <div className={styles.previeworder__price}>
+            <h5>{price}<span>${pair == 'AGIX_MAL' ? (56920.51 * parseFloat(price)).toFixed(6) : (56920.51 * parseFloat(price)).toFixed(2)}</span> </h5>
+          </div>
+        }
         <div className={styles.previeworder__content}>
           {
             buydata.map((item, index) => {
               return (
                 <div key={index} className={styles.previeworder__content_order}>
                   <div className={styles.previeworder__content_order_price}><span className="text-green">{
-                    pair == 'AGIX_BTC' && parseFloat(item.p).toFixed(8) ||
-                    pair == 'ADA_BTC' && parseFloat(item.p).toFixed(8) ||
-                    pair == 'BNB_BTC' && parseFloat(item.p).toFixed(6)
+                    pair == 'AGIX_MAL' && parseFloat(item.p).toFixed(8) ||
+                    pair == 'ADA_MAL' && parseFloat(item.p).toFixed(8) ||
+                    pair == 'BNB_MAL' && parseFloat(item.p).toFixed(6)
                   }</span></div>
                   <div className={styles.previeworder__content_order_amount}><span>{
-                    pair == 'AGIX_BTC' && parseFloat(item.q).toFixed(0) ||
-                    pair == 'ADA_BTC' && parseFloat(item.q).toFixed(1) ||
-                    pair == 'BNB_BTC' && parseFloat(item.q).toFixed(3)
+                    pair == 'AGIX_MAL' && parseFloat(item.q).toFixed(0) ||
+                    pair == 'ADA_MAL' && parseFloat(item.q).toFixed(1) ||
+                    pair == 'BNB_MAL' && parseFloat(item.q).toFixed(3)
                   }</span></div>
                   <div className={styles.previeworder__content_order_total}><span>{
-                    pair == 'AGIX_BTC' && (item.p * item.q).toFixed(7) ||
-                    pair == 'ADA_BTC' && (item.p * item.q).toFixed(7) ||
-                    pair == 'BNB_BTC' && (item.p * item.q).toFixed(5)
+                    pair == 'AGIX_MAL' && (item.p * item.q).toFixed(7) ||
+                    pair == 'ADA_MAL' && (item.p * item.q).toFixed(7) ||
+                    pair == 'BNB_MAL' && (item.p * item.q).toFixed(5)
                   }</span></div>
                 </div>
               );

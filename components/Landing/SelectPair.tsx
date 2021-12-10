@@ -150,13 +150,13 @@ const PairTable: React.FC<TableProps> = (props) => {
                   <div>
                     <p>
                       <span>{lastprice}</span>
-                      <span className="text-gray"> / {averageprice}</span>
+                      <span className={`${styles.averageprice} text-gray`}> / {averageprice}</span>
                     </p>
                   </div>
                 </td>
                 <td>
                   <div className={styles.percentage}>
-                    <span className={`${parseFloat(change) > 0 ? 'text-green' : 'text-red'}`}>{change}%</span>
+                    <span className={`${parseFloat(change) < 0 ? 'text-red' : 'text-green'}`}>{change}%</span>
                   </div>
                 </td>
               </tr>
@@ -177,7 +177,7 @@ type Props = {
 
 const SelectPair: React.FC<Props> = (props) => {
   const [pair, setPair] = useState<string>(props.pair);
-  const [symbol, setSymbol] = useState<string>("BTC");
+  const [symbol, setSymbol] = useState<string>("MAL");
   const [index, setIndex] = useState<string>("");
   const [option, setOption] = useState<string>("");
   const [startegy, setStartegy] = useState<string>("");
@@ -324,8 +324,6 @@ const SelectPair: React.FC<Props> = (props) => {
   }, []);
 
   useEffect(() => {
-    console.log(props);
-    
     setPair(props.pair);
   }, [props.pair]);
 

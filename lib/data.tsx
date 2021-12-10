@@ -42,7 +42,7 @@ export const AskData = [
     [0.148, 9.326642],
     [0.1522, 3.76317]
 ];
-export const AGIX_BTCData = [
+export const AGIX_MALData = [
     { "a": 958477, "p": "0.00000437", "q": "197.00000000", "f": 1979915, "l": 1979915, "T": 1637311539874, "m": true, "M": true },
     { "a": 958478, "p": "0.00000438", "q": "228.00000000", "f": 1979916, "l": 1979917, "T": 1637311600353, "m": false, "M": true },
     { "a": 958479, "p": "0.00000438", "q": "42.00000000", "f": 1979918, "l": 1979918, "T": 1637311678154, "m": false, "M": true },
@@ -124,8 +124,8 @@ export const AGIX_BTCData = [
     { "a": 958555, "p": "0.00000441", "q": "37.00000000", "f": 1980055, "l": 1980055, "T": 1637315565801, "m": true, "M": true },
     { "a": 958556, "p": "0.00000443", "q": "5119.00000000", "f": 1980056, "l": 1980056, "T": 1637315622633, "m": false, "M": true }
 ];
-export const AGIX_BTCPrice = '0.00000443';
-export const ADA_BTCData = [
+export const AGIX_MALPrice = '0.00000443';
+export const ADA_MALData = [
     { "a": 61437967, "p": "0.00003189", "q": "828.20000000", "f": 97494729, "l": 97494729, "T": 1637315629015, "m": true, "M": true },
     { "a": 61437968, "p": "0.00003190", "q": "50.40000000", "f": 97494730, "l": 97494730, "T": 1637315629218, "m": false, "M": true },
     { "a": 61437969, "p": "0.00003190", "q": "535.00000000", "f": 97494731, "l": 97494731, "T": 1637315632981, "m": false, "M": true },
@@ -207,8 +207,8 @@ export const ADA_BTCData = [
     { "a": 61438045, "p": "0.00003191", "q": "245.80000000", "f": 97494824, "l": 97494825, "T": 1637315847013, "m": true, "M": true },
     { "a": 61438046, "p": "0.00003190", "q": "244.50000000", "f": 97494826, "l": 97494826, "T": 1637315847013, "m": true, "M": true }
 ];
-export const ADA_BTCPrice = '0.00003185';
-export const BNB_BTCData = [
+export const ADA_MALPrice = '0.00003185';
+export const BNB_MALData = [
     { "a": 132415673, "p": "0.00989800", "q": "1.00000000", "f": 169032626, "l": 169032626, "T": 1637315919467, "m": true, "M": true },
     { "a": 132415674, "p": "0.00989800", "q": "1.00000000", "f": 169032627, "l": 169032627, "T": 1637315919569, "m": true, "M": true },
     { "a": 132415675, "p": "0.00989800", "q": "1.00000000", "f": 169032628, "l": 169032628, "T": 1637315919669, "m": true, "M": true },
@@ -290,7 +290,7 @@ export const BNB_BTCData = [
     { "a": 132415751, "p": "0.00989700", "q": "0.11200000", "f": 169032719, "l": 169032719, "T": 1637315976974, "m": false, "M": true },
     { "a": 132415752, "p": "0.00989600", "q": "0.03600000", "f": 169032720, "l": 169032720, "T": 1637315977329, "m": true, "M": true }
 ];
-export const BNB_BTCPrice = '0.009908';
+export const BNB_MALPrice = '0.009908';
 export const areaData = [
     { time: '2018-10-19', value: 54.9 },
     { time: '2018-10-22', value: 54.98 },
@@ -3276,7 +3276,7 @@ export const pairData = [
     {
         "s": "BNBBTC",
         "b": "BNB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.011387",
         "h": "0.011877",
@@ -3295,7 +3295,7 @@ export const pairData = [
     {
         "s": "NULSBTC",
         "b": "NULS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001789",
         "h": "0.00001790",
@@ -3312,7 +3312,7 @@ export const pairData = [
     {
         "s": "NEOBTC",
         "b": "NEO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000585",
         "h": "0.000627",
@@ -3330,7 +3330,7 @@ export const pairData = [
     {
         "s": "LINKBTC",
         "b": "LINK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0004061",
         "h": "0.0004587",
@@ -3346,7 +3346,7 @@ export const pairData = [
     {
         "s": "IOTABTC",
         "b": "IOTA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002330",
         "h": "0.00002404",
@@ -3362,7 +3362,7 @@ export const pairData = [
     {
         "s": "ETCBTC",
         "b": "ETC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000774",
         "h": "0.000872",
@@ -3379,7 +3379,7 @@ export const pairData = [
     {
         "s": "KNCBTC",
         "b": "KNC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002986",
         "h": "0.00003070",
@@ -3395,7 +3395,7 @@ export const pairData = [
     {
         "s": "WTCBTC",
         "b": "WTC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001761",
         "h": "0.00002789",
@@ -3480,7 +3480,7 @@ export const pairData = [
     {
         "s": "GASBTC",
         "b": "GAS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001289",
         "h": "0.0001344",
@@ -3527,7 +3527,7 @@ export const pairData = [
     {
         "s": "SNMBTC",
         "b": "SNM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000653",
         "h": "0.00000670",
@@ -3593,7 +3593,7 @@ export const pairData = [
     {
         "s": "QTUMBTC",
         "b": "QTUM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002210",
         "h": "0.0002295",
@@ -3624,7 +3624,7 @@ export const pairData = [
     {
         "s": "LTCBTC",
         "b": "LTC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.003198",
         "h": "0.003363",
@@ -3657,7 +3657,7 @@ export const pairData = [
     {
         "s": "ETHBTC",
         "b": "ETH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.084644",
         "h": "0.088000",
@@ -3692,7 +3692,7 @@ export const pairData = [
     {
         "s": "ZRXBTC",
         "b": "ZRX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001768",
         "h": "0.00001836",
@@ -3724,7 +3724,7 @@ export const pairData = [
     {
         "s": "OMGBTC",
         "b": "OMG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001432",
         "h": "0.0001460",
@@ -3742,7 +3742,7 @@ export const pairData = [
     {
         "s": "1INCHBTC",
         "b": "1INCH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00005346",
         "h": "0.00005483",
@@ -3759,7 +3759,7 @@ export const pairData = [
     {
         "s": "1INCHBUSD",
         "b": "1INCH",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.730",
         "h": "2.792",
@@ -3793,7 +3793,7 @@ export const pairData = [
     {
         "s": "AAVEBNB",
         "b": "AAVE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.3272",
         "h": "0.3276",
@@ -3809,7 +3809,7 @@ export const pairData = [
     {
         "s": "AAVEBTC",
         "b": "AAVE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.003729",
         "h": "0.003832",
@@ -3825,7 +3825,7 @@ export const pairData = [
     {
         "s": "AAVEBUSD",
         "b": "AAVE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "190.6",
         "h": "193.8",
@@ -3873,7 +3873,7 @@ export const pairData = [
     {
         "s": "ACMBTC",
         "b": "ACM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001176",
         "h": "0.0001267",
@@ -3889,7 +3889,7 @@ export const pairData = [
     {
         "s": "ACMBUSD",
         "b": "ACM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "6.002",
         "h": "6.425",
@@ -3957,7 +3957,7 @@ export const pairData = [
     {
         "s": "ADABNB",
         "b": "ADA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002428",
         "h": "0.002433",
@@ -3993,7 +3993,7 @@ export const pairData = [
     {
         "s": "ADABTC",
         "b": "ADA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002764",
         "h": "0.00002805",
@@ -4001,24 +4001,6 @@ export const pairData = [
         "c": "0.00002775",
         "v": "29715010.50000000",
         "qv": "816.02086349",
-        "tags": [
-            "mining-zone",
-            "pos",
-            "Layer1_Layer2"
-        ],
-        "sd": false,
-    },
-    {
-        "s": "ADABUSD",
-        "b": "ADA",
-        "q": "BUSD",
-        "ts": "0.001",
-        "o": "1.413",
-        "h": "1.425",
-        "l": "1.340",
-        "c": "1.397",
-        "v": "25031168.900",
-        "qv": "34579880.0857",
         "tags": [
             "mining-zone",
             "pos",
@@ -4205,7 +4187,7 @@ export const pairData = [
     {
         "s": "ADXBTC",
         "b": "ADX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001192",
         "h": "0.00001253",
@@ -4219,7 +4201,7 @@ export const pairData = [
     {
         "s": "ADXBUSD",
         "b": "ADX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.6098",
         "h": "0.6306",
@@ -4247,7 +4229,7 @@ export const pairData = [
     {
         "s": "AERGOBTC",
         "b": "AERGO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000563",
         "h": "0.00000579",
@@ -4263,7 +4245,7 @@ export const pairData = [
     {
         "s": "AERGOBUSD",
         "b": "AERGO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2894",
         "h": "0.2929",
@@ -4279,7 +4261,7 @@ export const pairData = [
     {
         "s": "AIONBTC",
         "b": "AION",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000337",
         "h": "0.00000347",
@@ -4330,7 +4312,7 @@ export const pairData = [
     {
         "s": "AKROBTC",
         "b": "AKRO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000045",
         "h": "0.00000050",
@@ -4366,7 +4348,7 @@ export const pairData = [
     {
         "s": "ALGOBNB",
         "b": "ALGO",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002942",
         "h": "0.002942",
@@ -4384,7 +4366,7 @@ export const pairData = [
     {
         "s": "ALGOBTC",
         "b": "ALGO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003357",
         "h": "0.00003405",
@@ -4402,7 +4384,7 @@ export const pairData = [
     {
         "s": "ALGOBUSD",
         "b": "ALGO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.7135",
         "h": "1.7135",
@@ -4438,7 +4420,7 @@ export const pairData = [
     {
         "s": "ALICEBTC",
         "b": "ALICE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002736",
         "h": "0.0002749",
@@ -4458,7 +4440,7 @@ export const pairData = [
     {
         "s": "ALICEBUSD",
         "b": "ALICE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "13.94",
         "h": "13.98",
@@ -4498,7 +4480,7 @@ export const pairData = [
     {
         "s": "ALPACABNB",
         "b": "ALPACA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001016",
         "h": "0.001073",
@@ -4514,7 +4496,7 @@ export const pairData = [
     {
         "s": "ALPACABTC",
         "b": "ALPACA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001154",
         "h": "0.00001258",
@@ -4530,7 +4512,7 @@ export const pairData = [
     {
         "s": "ALPACABUSD",
         "b": "ALPACA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.5928",
         "h": "0.6454",
@@ -4562,7 +4544,7 @@ export const pairData = [
     {
         "s": "ALPHABNB",
         "b": "ALPHA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001409",
         "h": "0.001521",
@@ -4581,7 +4563,7 @@ export const pairData = [
     {
         "s": "ALPHABTC",
         "b": "ALPHA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001608",
         "h": "0.00001728",
@@ -4600,7 +4582,7 @@ export const pairData = [
     {
         "s": "ALPHABUSD",
         "b": "ALPHA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.8204",
         "h": "0.8733",
@@ -4638,7 +4620,7 @@ export const pairData = [
     {
         "s": "AMBBTC",
         "b": "AMB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000078",
         "h": "0.00000080",
@@ -4655,7 +4637,7 @@ export const pairData = [
     {
         "s": "ANKRBNB",
         "b": "ANKR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001966",
         "h": "0.0002083",
@@ -4673,7 +4655,7 @@ export const pairData = [
     {
         "s": "ANKRBTC",
         "b": "ANKR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000225",
         "h": "0.00000244",
@@ -4709,7 +4691,7 @@ export const pairData = [
     {
         "s": "ANTBNB",
         "b": "ANT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.00719",
         "h": "0.01098",
@@ -4726,7 +4708,7 @@ export const pairData = [
     {
         "s": "ANTBUSD",
         "b": "ANT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.171",
         "h": "6.350",
@@ -4760,7 +4742,7 @@ export const pairData = [
     {
         "s": "APPCBTC",
         "b": "APPC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000137",
         "h": "0.00000141",
@@ -4774,7 +4756,7 @@ export const pairData = [
     {
         "s": "ARBNB",
         "b": "AR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.08407",
         "h": "0.08658",
@@ -4788,7 +4770,7 @@ export const pairData = [
     {
         "s": "ARBTC",
         "b": "AR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0009528",
         "h": "0.0009850",
@@ -4802,7 +4784,7 @@ export const pairData = [
     {
         "s": "ARBUSD",
         "b": "AR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "48.86",
         "h": "49.97",
@@ -4816,7 +4798,7 @@ export const pairData = [
     {
         "s": "ARDRBTC",
         "b": "ARDR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000532",
         "h": "0.00000572",
@@ -4850,7 +4832,7 @@ export const pairData = [
     {
         "s": "ARKBTC",
         "b": "ARK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002709",
         "h": "0.00003002",
@@ -4867,7 +4849,7 @@ export const pairData = [
     {
         "s": "ARPABNB",
         "b": "ARPA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001995",
         "h": "0.0002019",
@@ -4881,7 +4863,7 @@ export const pairData = [
     {
         "s": "ARPABTC",
         "b": "ARPA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000227",
         "h": "0.00000237",
@@ -4923,7 +4905,7 @@ export const pairData = [
     {
         "s": "ASRBTC",
         "b": "ASR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000845",
         "h": "0.0000900",
@@ -4961,7 +4943,7 @@ export const pairData = [
     {
         "s": "ASTBTC",
         "b": "AST",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000648",
         "h": "0.00000675",
@@ -4977,7 +4959,7 @@ export const pairData = [
     {
         "s": "ATABNB",
         "b": "ATA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001260",
         "h": "0.001323",
@@ -4995,7 +4977,7 @@ export const pairData = [
     {
         "s": "ATABTC",
         "b": "ATA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001438",
         "h": "0.00001549",
@@ -5013,7 +4995,7 @@ export const pairData = [
     {
         "s": "ATABUSD",
         "b": "ATA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7379",
         "h": "0.7805",
@@ -5049,7 +5031,7 @@ export const pairData = [
     {
         "s": "ATMBTC",
         "b": "ATM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001646",
         "h": "0.0001930",
@@ -5068,7 +5050,7 @@ export const pairData = [
     {
         "s": "ATMBUSD",
         "b": "ATM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "8.26",
         "h": "9.69",
@@ -5106,7 +5088,7 @@ export const pairData = [
     {
         "s": "ATOMBNB",
         "b": "ATOM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.04278",
         "h": "0.04392",
@@ -5124,7 +5106,7 @@ export const pairData = [
     {
         "s": "ATOMBTC",
         "b": "ATOM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0004895",
         "h": "0.0005139",
@@ -5142,7 +5124,7 @@ export const pairData = [
     {
         "s": "ATOMBUSD",
         "b": "ATOM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "24.99",
         "h": "26.02",
@@ -5196,7 +5178,7 @@ export const pairData = [
     {
         "s": "AUCTIONBTC",
         "b": "AUCTION",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0005610",
         "h": "0.0005665",
@@ -5214,7 +5196,7 @@ export const pairData = [
     {
         "s": "AUCTIONBUSD",
         "b": "AUCTION",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "28.59",
         "h": "28.66",
@@ -5232,7 +5214,7 @@ export const pairData = [
     {
         "s": "AUDBUSD",
         "b": "AUD",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7100",
         "h": "0.7169",
@@ -5246,7 +5228,7 @@ export const pairData = [
     {
         "s": "AUDIOBTC",
         "b": "AUDIO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003408",
         "h": "0.00003483",
@@ -5260,7 +5242,7 @@ export const pairData = [
     {
         "s": "AUDIOBUSD",
         "b": "AUDIO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.740",
         "h": "1.760",
@@ -5302,7 +5284,7 @@ export const pairData = [
     {
         "s": "AUTOBTC",
         "b": "AUTO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00001",
         "o": "0.01525",
         "h": "0.01538",
@@ -5320,7 +5302,7 @@ export const pairData = [
     {
         "s": "AUTOBUSD",
         "b": "AUTO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "780.0",
         "h": "780.0",
@@ -5356,7 +5338,7 @@ export const pairData = [
     {
         "s": "AVABNB",
         "b": "AVA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.003268",
         "h": "0.003619",
@@ -5370,7 +5352,7 @@ export const pairData = [
     {
         "s": "AVABTC",
         "b": "AVA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003726",
         "h": "0.00004210",
@@ -5384,7 +5366,7 @@ export const pairData = [
     {
         "s": "AVABUSD",
         "b": "AVA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.900",
         "h": "2.135",
@@ -5412,7 +5394,7 @@ export const pairData = [
     {
         "s": "AVAXBNB",
         "b": "AVAX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.15888",
         "h": "0.16001",
@@ -5429,7 +5411,7 @@ export const pairData = [
     {
         "s": "AVAXBTC",
         "b": "AVAX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0018102",
         "h": "0.0018308",
@@ -5446,7 +5428,7 @@ export const pairData = [
     {
         "s": "AVAXBUSD",
         "b": "AVAX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "92.54",
         "h": "93.10",
@@ -5533,7 +5515,7 @@ export const pairData = [
     {
         "s": "AXSBNB",
         "b": "AXS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.1856",
         "h": "0.2125",
@@ -5571,7 +5553,7 @@ export const pairData = [
     {
         "s": "AXSBTC",
         "b": "AXS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.002114",
         "h": "0.002423",
@@ -5590,7 +5572,7 @@ export const pairData = [
     {
         "s": "AXSBUSD",
         "b": "AXS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "107.73",
         "h": "122.00",
@@ -5628,7 +5610,7 @@ export const pairData = [
     {
         "s": "BADGERBTC",
         "b": "BADGER",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003010",
         "h": "0.0003071",
@@ -5645,7 +5627,7 @@ export const pairData = [
     {
         "s": "BADGERBUSD",
         "b": "BADGER",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "15.41",
         "h": "15.58",
@@ -5679,7 +5661,7 @@ export const pairData = [
     {
         "s": "BAKEBNB",
         "b": "BAKE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002267",
         "h": "0.002269",
@@ -5698,7 +5680,7 @@ export const pairData = [
     {
         "s": "BAKEBTC",
         "b": "BAKE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002576",
         "h": "0.00002619",
@@ -5717,7 +5699,7 @@ export const pairData = [
     {
         "s": "BAKEBUSD",
         "b": "BAKE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.318",
         "h": "1.321",
@@ -5755,7 +5737,7 @@ export const pairData = [
     {
         "s": "BALBUSD",
         "b": "BAL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "16.04",
         "h": "16.29",
@@ -5787,7 +5769,7 @@ export const pairData = [
     {
         "s": "BANDBTC",
         "b": "BAND",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001173",
         "h": "0.0001225",
@@ -5805,7 +5787,7 @@ export const pairData = [
     {
         "s": "BANDBUSD",
         "b": "BAND",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "6.004",
         "h": "6.198",
@@ -5841,7 +5823,7 @@ export const pairData = [
     {
         "s": "BARBTC",
         "b": "BAR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001928",
         "h": "0.0002013",
@@ -5858,7 +5840,7 @@ export const pairData = [
     {
         "s": "BARBUSD",
         "b": "BAR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "9.79",
         "h": "10.10",
@@ -5875,7 +5857,7 @@ export const pairData = [
     {
         "s": "BATBTC",
         "b": "BAT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002650",
         "h": "0.00002676",
@@ -5889,7 +5871,7 @@ export const pairData = [
     {
         "s": "BATBUSD",
         "b": "BAT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.3536",
         "h": "1.3572",
@@ -5931,7 +5913,7 @@ export const pairData = [
     {
         "s": "BCDBTC",
         "b": "BCD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003050",
         "h": "0.00003138",
@@ -5948,7 +5930,7 @@ export const pairData = [
     {
         "s": "BCHBNB",
         "b": "BCH",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.001",
         "o": "0.829",
         "h": "0.831",
@@ -5965,7 +5947,7 @@ export const pairData = [
     {
         "s": "BCHBTC",
         "b": "BCH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00001",
         "o": "0.00943",
         "h": "0.00976",
@@ -5982,7 +5964,7 @@ export const pairData = [
     {
         "s": "BCHBUSD",
         "b": "BCH",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "481.8",
         "h": "487.5",
@@ -6082,7 +6064,7 @@ export const pairData = [
     {
         "s": "BEAMBTC",
         "b": "BEAM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001479",
         "h": "0.00001694",
@@ -6116,7 +6098,7 @@ export const pairData = [
     {
         "s": "BELBNB",
         "b": "BEL",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002912",
         "h": "0.003078",
@@ -6135,7 +6117,7 @@ export const pairData = [
     {
         "s": "BELBTC",
         "b": "BEL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003322",
         "h": "0.00003586",
@@ -6154,7 +6136,7 @@ export const pairData = [
     {
         "s": "BELBUSD",
         "b": "BEL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.700",
         "h": "1.816",
@@ -6208,7 +6190,7 @@ export const pairData = [
     {
         "s": "BIFIBUSD",
         "b": "BIFI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "1359.5",
         "h": "1381.7",
@@ -6226,7 +6208,7 @@ export const pairData = [
     {
         "s": "BLZBTC",
         "b": "BLZ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000526",
         "h": "0.00000564",
@@ -6331,7 +6313,7 @@ export const pairData = [
     {
         "s": "BNBBUSD",
         "b": "BNB",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "581.9",
         "h": "596.4",
@@ -6572,7 +6554,7 @@ export const pairData = [
     {
         "s": "BNTBTC",
         "b": "BNT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007021",
         "h": "0.00007318",
@@ -6588,7 +6570,7 @@ export const pairData = [
     {
         "s": "BNTBUSD",
         "b": "BNT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.581",
         "h": "3.695",
@@ -6620,7 +6602,7 @@ export const pairData = [
     {
         "s": "BONDBNB",
         "b": "BOND",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.03386",
         "h": "0.03432",
@@ -6634,7 +6616,7 @@ export const pairData = [
     {
         "s": "BONDBTC",
         "b": "BOND",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003863",
         "h": "0.0003911",
@@ -6648,7 +6630,7 @@ export const pairData = [
     {
         "s": "BONDBUSD",
         "b": "BOND",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "19.66",
         "h": "19.80",
@@ -6676,7 +6658,7 @@ export const pairData = [
     {
         "s": "BRDBTC",
         "b": "BRD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002529",
         "h": "0.00002547",
@@ -6755,7 +6737,7 @@ export const pairData = [
     {
         "s": "BTCBUSD",
         "b": "BTC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "51109.19",
         "h": "51242.37",
@@ -6873,7 +6855,7 @@ export const pairData = [
     {
         "s": "BTCSTBTC",
         "b": "BTCST",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0005186",
         "h": "0.0005289",
@@ -6892,7 +6874,7 @@ export const pairData = [
     {
         "s": "BTCSTBUSD",
         "b": "BTCST",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "26.48",
         "h": "26.82",
@@ -7014,7 +6996,7 @@ export const pairData = [
     {
         "s": "BTGBTC",
         "b": "BTG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000913",
         "h": "0.000935",
@@ -7031,7 +7013,7 @@ export const pairData = [
     {
         "s": "BTGBUSD",
         "b": "BTG",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "46.64",
         "h": "47.16",
@@ -7048,7 +7030,7 @@ export const pairData = [
     {
         "s": "BTSBTC",
         "b": "BTS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000075",
         "h": "0.00000079",
@@ -7066,7 +7048,7 @@ export const pairData = [
     {
         "s": "BTTBNB",
         "b": "BTT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00000661",
         "h": "0.00000727",
@@ -7104,7 +7086,7 @@ export const pairData = [
     {
         "s": "BTTBUSD",
         "b": "BTT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.000001",
         "o": "0.003837",
         "h": "0.004200",
@@ -7237,7 +7219,7 @@ export const pairData = [
     {
         "s": "BURGERBNB",
         "b": "BURGER",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.00549",
         "h": "0.00551",
@@ -7255,7 +7237,7 @@ export const pairData = [
     {
         "s": "BURGERBUSD",
         "b": "BURGER",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.179",
         "h": "3.201",
@@ -7427,7 +7409,7 @@ export const pairData = [
     {
         "s": "BZRXBTC",
         "b": "BZRX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000522",
         "h": "0.00000611",
@@ -7444,7 +7426,7 @@ export const pairData = [
     {
         "s": "BZRXBUSD",
         "b": "BZRX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2667",
         "h": "0.3093",
@@ -7478,7 +7460,7 @@ export const pairData = [
     {
         "s": "C98BNB",
         "b": "C98",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.003877",
         "h": "0.003948",
@@ -7494,7 +7476,7 @@ export const pairData = [
     {
         "s": "C98BTC",
         "b": "C98",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004416",
         "h": "0.00004504",
@@ -7510,7 +7492,7 @@ export const pairData = [
     {
         "s": "C98BUSD",
         "b": "C98",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.259",
         "h": "2.281",
@@ -7542,7 +7524,7 @@ export const pairData = [
     {
         "s": "CAKEBNB",
         "b": "CAKE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02111",
         "h": "0.02122",
@@ -7576,7 +7558,7 @@ export const pairData = [
     {
         "s": "CAKEBTC",
         "b": "CAKE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002403",
         "h": "0.0002428",
@@ -7593,7 +7575,7 @@ export const pairData = [
     {
         "s": "CAKEBUSD",
         "b": "CAKE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "12.28",
         "h": "12.38",
@@ -7644,7 +7626,7 @@ export const pairData = [
     {
         "s": "CELOBTC",
         "b": "CELO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007278",
         "h": "0.00007451",
@@ -7678,7 +7660,7 @@ export const pairData = [
     {
         "s": "CELRBNB",
         "b": "CELR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00014350",
         "h": "0.00014600",
@@ -7694,7 +7676,7 @@ export const pairData = [
     {
         "s": "CELRBTC",
         "b": "CELR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000163",
         "h": "0.00000167",
@@ -7726,7 +7708,7 @@ export const pairData = [
     {
         "s": "CFXBTC",
         "b": "CFX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000432",
         "h": "0.00000472",
@@ -7742,7 +7724,7 @@ export const pairData = [
     {
         "s": "CFXBUSD",
         "b": "CFX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2200",
         "h": "0.2371",
@@ -7774,7 +7756,7 @@ export const pairData = [
     {
         "s": "CHRBNB",
         "b": "CHR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0011500",
         "h": "0.0011510",
@@ -7790,7 +7772,7 @@ export const pairData = [
     {
         "s": "CHRBTC",
         "b": "CHR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001310",
         "h": "0.00001313",
@@ -7806,7 +7788,7 @@ export const pairData = [
     {
         "s": "CHRBUSD",
         "b": "CHR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.6690",
         "h": "0.6692",
@@ -7838,7 +7820,7 @@ export const pairData = [
     {
         "s": "CHZBNB",
         "b": "CHZ",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0005598",
         "h": "0.0005652",
@@ -7872,7 +7854,7 @@ export const pairData = [
     {
         "s": "CHZBTC",
         "b": "CHZ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000637",
         "h": "0.00000656",
@@ -7889,7 +7871,7 @@ export const pairData = [
     {
         "s": "CHZBUSD",
         "b": "CHZ",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.3255",
         "h": "0.3345",
@@ -7974,7 +7956,7 @@ export const pairData = [
     {
         "s": "CKBBTC",
         "b": "CKB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000049",
         "h": "0.00000054",
@@ -7990,7 +7972,7 @@ export const pairData = [
     {
         "s": "CKBBUSD",
         "b": "CKB",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.02471",
         "h": "0.02748",
@@ -8022,7 +8004,7 @@ export const pairData = [
     {
         "s": "CLVBNB",
         "b": "CLV",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001482",
         "h": "0.001482",
@@ -8036,7 +8018,7 @@ export const pairData = [
     {
         "s": "CLVBTC",
         "b": "CLV",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001663",
         "h": "0.00001686",
@@ -8050,7 +8032,7 @@ export const pairData = [
     {
         "s": "CLVBUSD",
         "b": "CLV",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "0.843",
         "h": "0.862",
@@ -8078,7 +8060,7 @@ export const pairData = [
     {
         "s": "CNDBTC",
         "b": "CND",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000029",
         "h": "0.00000032",
@@ -8092,7 +8074,7 @@ export const pairData = [
     {
         "s": "COCOSBNB",
         "b": "COCOS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.004307",
         "h": "0.005623",
@@ -8130,7 +8112,7 @@ export const pairData = [
     {
         "s": "COMPBTC",
         "b": "COMP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00001",
         "o": "0.00443",
         "h": "0.00451",
@@ -8146,7 +8128,7 @@ export const pairData = [
     {
         "s": "COMPBUSD",
         "b": "COMP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "226.4",
         "h": "228.7",
@@ -8178,7 +8160,7 @@ export const pairData = [
     {
         "s": "COSBNB",
         "b": "COS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00004463",
         "h": "0.00004547",
@@ -8192,7 +8174,7 @@ export const pairData = [
     {
         "s": "COSBTC",
         "b": "COS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000051",
         "h": "0.00000052",
@@ -8220,7 +8202,7 @@ export const pairData = [
     {
         "s": "COTIBNB",
         "b": "COTI",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0006326",
         "h": "0.0006434",
@@ -8234,7 +8216,7 @@ export const pairData = [
     {
         "s": "COTIBTC",
         "b": "COTI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000723",
         "h": "0.00000734",
@@ -8248,7 +8230,7 @@ export const pairData = [
     {
         "s": "COTIBUSD",
         "b": "COTI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.3701",
         "h": "0.3708",
@@ -8276,7 +8258,7 @@ export const pairData = [
     {
         "s": "CREAMBNB",
         "b": "CREAM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0563",
         "h": "0.0688",
@@ -8293,7 +8275,7 @@ export const pairData = [
     {
         "s": "CREAMBUSD",
         "b": "CREAM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "32.8",
         "h": "41.0",
@@ -8310,7 +8292,7 @@ export const pairData = [
     {
         "s": "CRVBTC",
         "b": "CRV",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007789",
         "h": "0.00008333",
@@ -8326,7 +8308,7 @@ export const pairData = [
     {
         "s": "CRVBUSD",
         "b": "CRV",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.974",
         "h": "4.223",
@@ -8358,7 +8340,7 @@ export const pairData = [
     {
         "s": "CTKBNB",
         "b": "CTK",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002912",
         "h": "0.002934",
@@ -8376,7 +8358,7 @@ export const pairData = [
     {
         "s": "CTKBTC",
         "b": "CTK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003314",
         "h": "0.00003335",
@@ -8394,7 +8376,7 @@ export const pairData = [
     {
         "s": "CTKBUSD",
         "b": "CTK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.696",
         "h": "1.704",
@@ -8430,7 +8412,7 @@ export const pairData = [
     {
         "s": "CTSIBNB",
         "b": "CTSI",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001324",
         "h": "0.001425",
@@ -8448,7 +8430,7 @@ export const pairData = [
     {
         "s": "CTSIBTC",
         "b": "CTSI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001511",
         "h": "0.00001674",
@@ -8466,7 +8448,7 @@ export const pairData = [
     {
         "s": "CTSIBUSD",
         "b": "CTSI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7718",
         "h": "0.8437",
@@ -8502,7 +8484,7 @@ export const pairData = [
     {
         "s": "CTXCBTC",
         "b": "CTXC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000867",
         "h": "0.00000974",
@@ -8536,7 +8518,7 @@ export const pairData = [
     {
         "s": "CVCBTC",
         "b": "CVC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000777",
         "h": "0.00000827",
@@ -8578,7 +8560,7 @@ export const pairData = [
     {
         "s": "CVPBUSD",
         "b": "CVP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.247",
         "h": "1.340",
@@ -8612,7 +8594,7 @@ export const pairData = [
     {
         "s": "DASHBNB",
         "b": "DASH",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.2398",
         "h": "0.2501",
@@ -8630,7 +8612,7 @@ export const pairData = [
     {
         "s": "DASHBTC",
         "b": "DASH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.002730",
         "h": "0.002960",
@@ -8648,7 +8630,7 @@ export const pairData = [
     {
         "s": "DASHBUSD",
         "b": "DASH",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "139.0",
         "h": "149.0",
@@ -8702,7 +8684,7 @@ export const pairData = [
     {
         "s": "DATABTC",
         "b": "DATA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000271",
         "h": "0.00000280",
@@ -8716,7 +8698,7 @@ export const pairData = [
     {
         "s": "DATABUSD",
         "b": "DATA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.13774",
         "h": "0.14330",
@@ -8758,7 +8740,7 @@ export const pairData = [
     {
         "s": "DCRBTC",
         "b": "DCR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.001869",
         "h": "0.002040",
@@ -8794,7 +8776,7 @@ export const pairData = [
     {
         "s": "DEGOBTC",
         "b": "DEGO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001327",
         "h": "0.0001418",
@@ -8812,7 +8794,7 @@ export const pairData = [
     {
         "s": "DEGOBUSD",
         "b": "DEGO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "6.79",
         "h": "7.19",
@@ -8876,7 +8858,7 @@ export const pairData = [
     {
         "s": "DEXEBUSD",
         "b": "DEXE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "13.85",
         "h": "16.35",
@@ -8927,7 +8909,7 @@ export const pairData = [
     {
         "s": "DFBUSD",
         "b": "DF",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1473",
         "h": "0.1519",
@@ -8944,7 +8926,7 @@ export const pairData = [
     {
         "s": "DGBBNB",
         "b": "DGB",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0000680",
         "h": "0.0000700",
@@ -8961,7 +8943,7 @@ export const pairData = [
     {
         "s": "DGBBUSD",
         "b": "DGB",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.03962",
         "h": "0.04058",
@@ -8995,7 +8977,7 @@ export const pairData = [
     {
         "s": "DIABTC",
         "b": "DIA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002879",
         "h": "0.00003068",
@@ -9013,7 +8995,7 @@ export const pairData = [
     {
         "s": "DIABUSD",
         "b": "DIA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.467",
         "h": "1.562",
@@ -9049,7 +9031,7 @@ export const pairData = [
     {
         "s": "DNTBTC",
         "b": "DNT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000299",
         "h": "0.00000326",
@@ -9063,7 +9045,7 @@ export const pairData = [
     {
         "s": "DNTBUSD",
         "b": "DNT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1528",
         "h": "0.1600",
@@ -9091,7 +9073,7 @@ export const pairData = [
     {
         "s": "DOCKBTC",
         "b": "DOCK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000159",
         "h": "0.00000163",
@@ -9105,7 +9087,7 @@ export const pairData = [
     {
         "s": "DOCKBUSD",
         "b": "DOCK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.08038",
         "h": "0.08227",
@@ -9133,7 +9115,7 @@ export const pairData = [
     {
         "s": "DODOBTC",
         "b": "DODO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001917",
         "h": "0.00001950",
@@ -9152,7 +9134,7 @@ export const pairData = [
     {
         "s": "DODOBUSD",
         "b": "DODO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "0.986",
         "h": "0.986",
@@ -9241,7 +9223,7 @@ export const pairData = [
     {
         "s": "DOGEBTC",
         "b": "DOGE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000351",
         "h": "0.00000360",
@@ -9258,7 +9240,7 @@ export const pairData = [
     {
         "s": "DOGEBUSD",
         "b": "DOGE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1796",
         "h": "0.1825",
@@ -9398,7 +9380,7 @@ export const pairData = [
     {
         "s": "DOTBNB",
         "b": "DOT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.05286",
         "h": "0.05332",
@@ -9436,7 +9418,7 @@ export const pairData = [
     {
         "s": "DOTBTC",
         "b": "DOT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0006014",
         "h": "0.0006075",
@@ -9455,7 +9437,7 @@ export const pairData = [
     {
         "s": "DOTBUSD",
         "b": "DOT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "30.75",
         "h": "30.99",
@@ -9601,7 +9583,7 @@ export const pairData = [
     {
         "s": "DREPBTC",
         "b": "DREP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001916",
         "h": "0.00002017",
@@ -9635,7 +9617,7 @@ export const pairData = [
     {
         "s": "DUSKBTC",
         "b": "DUSK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000727",
         "h": "0.00000773",
@@ -9663,7 +9645,7 @@ export const pairData = [
     {
         "s": "EGLDBNB",
         "b": "EGLD",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.5028",
         "h": "0.5272",
@@ -9681,7 +9663,7 @@ export const pairData = [
     {
         "s": "EGLDBTC",
         "b": "EGLD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.005734",
         "h": "0.006069",
@@ -9699,7 +9681,7 @@ export const pairData = [
     {
         "s": "EGLDBUSD",
         "b": "EGLD",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "292.54",
         "h": "305.13",
@@ -9753,7 +9735,7 @@ export const pairData = [
     {
         "s": "ELFBTC",
         "b": "ELF",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000980",
         "h": "0.00001042",
@@ -9787,7 +9769,7 @@ export const pairData = [
     {
         "s": "ENJBNB",
         "b": "ENJ",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.004930",
         "h": "0.004987",
@@ -9821,7 +9803,7 @@ export const pairData = [
     {
         "s": "ENJBTC",
         "b": "ENJ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00005617",
         "h": "0.00005710",
@@ -9838,7 +9820,7 @@ export const pairData = [
     {
         "s": "ENJBUSD",
         "b": "ENJ",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.864",
         "h": "2.907",
@@ -9923,7 +9905,7 @@ export const pairData = [
     {
         "s": "EOSBNB",
         "b": "EOS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.00558",
         "h": "0.00666",
@@ -9941,7 +9923,7 @@ export const pairData = [
     {
         "s": "EOSBTC",
         "b": "EOS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000635",
         "h": "0.0000797",
@@ -9959,7 +9941,7 @@ export const pairData = [
     {
         "s": "EOSBUSD",
         "b": "EOS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.248",
         "h": "3.894",
@@ -10081,7 +10063,7 @@ export const pairData = [
     {
         "s": "EPSBTC",
         "b": "EPS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000685",
         "h": "0.00000697",
@@ -10099,7 +10081,7 @@ export const pairData = [
     {
         "s": "EPSBUSD",
         "b": "EPS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.3499",
         "h": "0.3521",
@@ -10135,7 +10117,7 @@ export const pairData = [
     {
         "s": "ERNBNB",
         "b": "ERN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01992",
         "h": "0.02005",
@@ -10152,7 +10134,7 @@ export const pairData = [
     {
         "s": "ERNBUSD",
         "b": "ERN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "11.420",
         "h": "11.553",
@@ -10186,7 +10168,7 @@ export const pairData = [
     {
         "s": "ETCBNB",
         "b": "ETC",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0679",
         "h": "0.0716",
@@ -10220,7 +10202,7 @@ export const pairData = [
     {
         "s": "ETCBUSD",
         "b": "ETC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "39.49",
         "h": "41.92",
@@ -10359,7 +10341,7 @@ export const pairData = [
     {
         "s": "ETHBUSD",
         "b": "ETH",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "4325.15",
         "h": "4455.00",
@@ -10553,7 +10535,7 @@ export const pairData = [
     {
         "s": "EURBUSD",
         "b": "EUR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.125",
         "h": "1.135",
@@ -10581,7 +10563,7 @@ export const pairData = [
     {
         "s": "EVXBTC",
         "b": "EVX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001139",
         "h": "0.00001186",
@@ -10595,7 +10577,7 @@ export const pairData = [
     {
         "s": "EZBTC",
         "b": "EZ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007028",
         "h": "0.00007101",
@@ -10631,7 +10613,7 @@ export const pairData = [
     {
         "s": "FARMBNB",
         "b": "FARM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.1911",
         "h": "0.1911",
@@ -10647,7 +10629,7 @@ export const pairData = [
     {
         "s": "FARMBTC",
         "b": "FARM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.002178",
         "h": "0.002178",
@@ -10663,7 +10645,7 @@ export const pairData = [
     {
         "s": "FARMBUSD",
         "b": "FARM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "110.7",
         "h": "111.0",
@@ -10695,7 +10677,7 @@ export const pairData = [
     {
         "s": "FETBNB",
         "b": "FET",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001040",
         "h": "0.001047",
@@ -10712,7 +10694,7 @@ export const pairData = [
     {
         "s": "FETBTC",
         "b": "FET",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001189",
         "h": "0.00001206",
@@ -10746,7 +10728,7 @@ export const pairData = [
     {
         "s": "FILBNB",
         "b": "FIL",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0680",
         "h": "0.0759",
@@ -10762,7 +10744,7 @@ export const pairData = [
     {
         "s": "FILBTC",
         "b": "FIL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000773",
         "h": "0.000861",
@@ -10778,7 +10760,7 @@ export const pairData = [
     {
         "s": "FILBUSD",
         "b": "FIL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "39.50",
         "h": "44.40",
@@ -10842,7 +10824,7 @@ export const pairData = [
     {
         "s": "FIOBNB",
         "b": "FIO",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0003221",
         "h": "0.0003223",
@@ -10860,7 +10842,7 @@ export const pairData = [
     {
         "s": "FIOBTC",
         "b": "FIO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000365",
         "h": "0.00000372",
@@ -10878,7 +10860,7 @@ export const pairData = [
     {
         "s": "FIOBUSD",
         "b": "FIO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1860",
         "h": "0.1881",
@@ -10914,7 +10896,7 @@ export const pairData = [
     {
         "s": "FIROBTC",
         "b": "FIRO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001159",
         "h": "0.0001222",
@@ -10956,7 +10938,7 @@ export const pairData = [
     {
         "s": "FISBTC",
         "b": "FIS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002471",
         "h": "0.00003100",
@@ -10973,7 +10955,7 @@ export const pairData = [
     {
         "s": "FISBUSD",
         "b": "FIS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.2642",
         "h": "1.5700",
@@ -11007,7 +10989,7 @@ export const pairData = [
     {
         "s": "FLMBTC",
         "b": "FLM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000786",
         "h": "0.00000826",
@@ -11025,7 +11007,7 @@ export const pairData = [
     {
         "s": "FLMBUSD",
         "b": "FLM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.4000",
         "h": "0.4151",
@@ -11061,7 +11043,7 @@ export const pairData = [
     {
         "s": "FLOWBNB",
         "b": "FLOW",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01736",
         "h": "0.01842",
@@ -11077,7 +11059,7 @@ export const pairData = [
     {
         "s": "FLOWBTC",
         "b": "FLOW",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001979",
         "h": "0.0002097",
@@ -11093,7 +11075,7 @@ export const pairData = [
     {
         "s": "FLOWBUSD",
         "b": "FLOW",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "10.09",
         "h": "10.56",
@@ -11125,7 +11107,7 @@ export const pairData = [
     {
         "s": "FORBTC",
         "b": "FOR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000139",
         "h": "0.00000141",
@@ -11143,7 +11125,7 @@ export const pairData = [
     {
         "s": "FORBUSD",
         "b": "FOR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.07125",
         "h": "0.07138",
@@ -11161,7 +11143,7 @@ export const pairData = [
     {
         "s": "FORTHBTC",
         "b": "FORTH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002273",
         "h": "0.0002278",
@@ -11175,7 +11157,7 @@ export const pairData = [
     {
         "s": "FORTHBUSD",
         "b": "FORTH",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "11.61",
         "h": "11.63",
@@ -11203,7 +11185,7 @@ export const pairData = [
     {
         "s": "FRONTBTC",
         "b": "FRONT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001531",
         "h": "0.00001646",
@@ -11220,7 +11202,7 @@ export const pairData = [
     {
         "s": "FRONTBUSD",
         "b": "FRONT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7822",
         "h": "0.8325",
@@ -11237,7 +11219,7 @@ export const pairData = [
     {
         "s": "FTMBNB",
         "b": "FTM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0028279",
         "h": "0.0028422",
@@ -11255,7 +11237,7 @@ export const pairData = [
     {
         "s": "FTMBTC",
         "b": "FTM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003229",
         "h": "0.00003236",
@@ -11273,7 +11255,7 @@ export const pairData = [
     {
         "s": "FTMBUSD",
         "b": "FTM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.6499",
         "h": "1.6556",
@@ -11309,7 +11291,7 @@ export const pairData = [
     {
         "s": "FTTBNB",
         "b": "FTT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0745",
         "h": "0.0748",
@@ -11323,7 +11305,7 @@ export const pairData = [
     {
         "s": "FTTBTC",
         "b": "FTT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0008468",
         "h": "0.0008554",
@@ -11337,7 +11319,7 @@ export const pairData = [
     {
         "s": "FTTBUSD",
         "b": "FTT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "43.26",
         "h": "43.52",
@@ -11365,7 +11347,7 @@ export const pairData = [
     {
         "s": "FUNBTC",
         "b": "FUN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000030",
         "h": "0.00000031",
@@ -11393,7 +11375,7 @@ export const pairData = [
     {
         "s": "FXSBTC",
         "b": "FXS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00035949",
         "h": "0.00044000",
@@ -11410,7 +11392,7 @@ export const pairData = [
     {
         "s": "FXSBUSD",
         "b": "FXS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "18.238",
         "h": "21.875",
@@ -11427,7 +11409,7 @@ export const pairData = [
     {
         "s": "GBPBUSD",
         "b": "GBP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.326",
         "h": "1.329",
@@ -11455,7 +11437,7 @@ export const pairData = [
     {
         "s": "GHSTBUSD",
         "b": "GHST",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.518",
         "h": "2.550",
@@ -11495,7 +11477,7 @@ export const pairData = [
     {
         "s": "GLMBTC",
         "b": "GLM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001048",
         "h": "0.00001180",
@@ -11523,7 +11505,7 @@ export const pairData = [
     {
         "s": "GOBTC",
         "b": "GO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000076",
         "h": "0.00000081",
@@ -11540,7 +11522,7 @@ export const pairData = [
     {
         "s": "GRSBTC",
         "b": "GRS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001502",
         "h": "0.00001608",
@@ -11557,7 +11539,7 @@ export const pairData = [
     {
         "s": "GRTBTC",
         "b": "GRT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001366",
         "h": "0.00001534",
@@ -11571,7 +11553,7 @@ export const pairData = [
     {
         "s": "GRTBUSD",
         "b": "GRT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.6979",
         "h": "0.7800",
@@ -11641,7 +11623,7 @@ export const pairData = [
     {
         "s": "GTCBNB",
         "b": "GTC",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02341",
         "h": "0.02592",
@@ -11655,7 +11637,7 @@ export const pairData = [
     {
         "s": "GTCBTC",
         "b": "GTC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002671",
         "h": "0.0002963",
@@ -11669,7 +11651,7 @@ export const pairData = [
     {
         "s": "GTCBUSD",
         "b": "GTC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "13.614",
         "h": "14.915",
@@ -11697,7 +11679,7 @@ export const pairData = [
     {
         "s": "GTOBTC",
         "b": "GTO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000132",
         "h": "0.00000133",
@@ -11729,7 +11711,7 @@ export const pairData = [
     {
         "s": "GXSBTC",
         "b": "GXS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004877",
         "h": "0.00005065",
@@ -11777,7 +11759,7 @@ export const pairData = [
     {
         "s": "HARDBNB",
         "b": "HARD",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001435",
         "h": "0.001739",
@@ -11795,7 +11777,7 @@ export const pairData = [
     {
         "s": "HARDBTC",
         "b": "HARD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001624",
         "h": "0.00002057",
@@ -11813,7 +11795,7 @@ export const pairData = [
     {
         "s": "HARDBUSD",
         "b": "HARD",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.8303",
         "h": "1.0171",
@@ -11849,7 +11831,7 @@ export const pairData = [
     {
         "s": "HBARBNB",
         "b": "HBAR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0004755",
         "h": "0.0004863",
@@ -11865,7 +11847,7 @@ export const pairData = [
     {
         "s": "HBARBTC",
         "b": "HBAR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000541",
         "h": "0.00000554",
@@ -11881,7 +11863,7 @@ export const pairData = [
     {
         "s": "HBARBUSD",
         "b": "HBAR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2767",
         "h": "0.2799",
@@ -11913,7 +11895,7 @@ export const pairData = [
     {
         "s": "HEGICBUSD",
         "b": "HEGIC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.0860",
         "h": "0.0883",
@@ -11947,7 +11929,7 @@ export const pairData = [
     {
         "s": "HIVEBTC",
         "b": "HIVE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003382",
         "h": "0.00003449",
@@ -11981,7 +11963,7 @@ export const pairData = [
     {
         "s": "HNTBTC",
         "b": "HNT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0006560",
         "h": "0.0006936",
@@ -11995,7 +11977,7 @@ export const pairData = [
     {
         "s": "HNTBUSD",
         "b": "HNT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "33.50",
         "h": "35.02",
@@ -12023,7 +12005,7 @@ export const pairData = [
     {
         "s": "HOTBNB",
         "b": "HOT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00001704",
         "h": "0.00001788",
@@ -12039,7 +12021,7 @@ export const pairData = [
     {
         "s": "HOTBUSD",
         "b": "HOT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.000001",
         "o": "0.009897",
         "h": "0.010283",
@@ -12119,7 +12101,7 @@ export const pairData = [
     {
         "s": "ICPBNB",
         "b": "ICP",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0517",
         "h": "0.0575",
@@ -12135,7 +12117,7 @@ export const pairData = [
     {
         "s": "ICPBTC",
         "b": "ICP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000588",
         "h": "0.000657",
@@ -12151,7 +12133,7 @@ export const pairData = [
     {
         "s": "ICPBUSD",
         "b": "ICP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "30.12",
         "h": "33.32",
@@ -12199,7 +12181,7 @@ export const pairData = [
     {
         "s": "ICXBTC",
         "b": "ICX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002571",
         "h": "0.00002768",
@@ -12215,7 +12197,7 @@ export const pairData = [
     {
         "s": "ICXBUSD",
         "b": "ICX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.314",
         "h": "1.392",
@@ -12263,7 +12245,7 @@ export const pairData = [
     {
         "s": "IDEXBTC",
         "b": "IDEX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000841",
         "h": "0.00000866",
@@ -12279,7 +12261,7 @@ export const pairData = [
     {
         "s": "IDEXBUSD",
         "b": "IDEX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.42963",
         "h": "0.44030",
@@ -12295,7 +12277,7 @@ export const pairData = [
     {
         "s": "INJBNB",
         "b": "INJ",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01670",
         "h": "0.01670",
@@ -12314,7 +12296,7 @@ export const pairData = [
     {
         "s": "INJBTC",
         "b": "INJ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001896",
         "h": "0.0001915",
@@ -12333,7 +12315,7 @@ export const pairData = [
     {
         "s": "INJBUSD",
         "b": "INJ",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "9.642",
         "h": "9.674",
@@ -12371,7 +12353,7 @@ export const pairData = [
     {
         "s": "IOSTBNB",
         "b": "IOST",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00005949",
         "h": "0.00006027",
@@ -12387,7 +12369,7 @@ export const pairData = [
     {
         "s": "IOSTBTC",
         "b": "IOST",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000067",
         "h": "0.00000069",
@@ -12403,7 +12385,7 @@ export const pairData = [
     {
         "s": "IOSTBUSD",
         "b": "IOST",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.03453",
         "h": "0.03472",
@@ -12451,7 +12433,7 @@ export const pairData = [
     {
         "s": "IOTABNB",
         "b": "IOTA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002047",
         "h": "0.002072",
@@ -12467,7 +12449,7 @@ export const pairData = [
     {
         "s": "IOTABUSD",
         "b": "IOTA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.1894",
         "h": "1.2194",
@@ -12499,7 +12481,7 @@ export const pairData = [
     {
         "s": "IOTXBTC",
         "b": "IOTX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000231",
         "h": "0.00000232",
@@ -12516,7 +12498,7 @@ export const pairData = [
     {
         "s": "IOTXBUSD",
         "b": "IOTX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.11842",
         "h": "0.11850",
@@ -12567,7 +12549,7 @@ export const pairData = [
     {
         "s": "IQBNB",
         "b": "IQ",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00002429",
         "h": "0.00002488",
@@ -12581,7 +12563,7 @@ export const pairData = [
     {
         "s": "IQBUSD",
         "b": "IQ",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.01403",
         "h": "0.01475",
@@ -12595,7 +12577,7 @@ export const pairData = [
     {
         "s": "IRISBTC",
         "b": "IRIS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000187",
         "h": "0.00000195",
@@ -12629,7 +12611,7 @@ export const pairData = [
     {
         "s": "JSTBTC",
         "b": "JST",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000127",
         "h": "0.00000148",
@@ -12661,7 +12643,7 @@ export const pairData = [
     {
         "s": "JUVBTC",
         "b": "JUV",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001956",
         "h": "0.0002000",
@@ -12680,7 +12662,7 @@ export const pairData = [
     {
         "s": "JUVBUSD",
         "b": "JUV",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "9.95",
         "h": "10.11",
@@ -12718,7 +12700,7 @@ export const pairData = [
     {
         "s": "KAVABNB",
         "b": "KAVA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.00684",
         "h": "0.00714",
@@ -12737,7 +12719,7 @@ export const pairData = [
     {
         "s": "KAVABTC",
         "b": "KAVA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000780",
         "h": "0.0000812",
@@ -12756,7 +12738,7 @@ export const pairData = [
     {
         "s": "KAVABUSD",
         "b": "KAVA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.985",
         "h": "4.103",
@@ -12794,7 +12776,7 @@ export const pairData = [
     {
         "s": "KEEPBNB",
         "b": "KEEP",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0012310",
         "h": "0.0012719",
@@ -12808,7 +12790,7 @@ export const pairData = [
     {
         "s": "KEEPBTC",
         "b": "KEEP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001402",
         "h": "0.00001457",
@@ -12822,7 +12804,7 @@ export const pairData = [
     {
         "s": "KEEPBUSD",
         "b": "KEEP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7186",
         "h": "0.7396",
@@ -12878,7 +12860,7 @@ export const pairData = [
     {
         "s": "KLAYBNB",
         "b": "KLAY",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002338",
         "h": "0.002407",
@@ -12895,7 +12877,7 @@ export const pairData = [
     {
         "s": "KLAYBTC",
         "b": "KLAY",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002670",
         "h": "0.00002795",
@@ -12912,7 +12894,7 @@ export const pairData = [
     {
         "s": "KLAYBUSD",
         "b": "KLAY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.356",
         "h": "1.413",
@@ -12946,7 +12928,7 @@ export const pairData = [
     {
         "s": "KMDBTC",
         "b": "KMD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001736",
         "h": "0.00001923",
@@ -12997,7 +12979,7 @@ export const pairData = [
     {
         "s": "KNCBUSD",
         "b": "KNC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.515",
         "h": "1.552",
@@ -13029,7 +13011,7 @@ export const pairData = [
     {
         "s": "KP3RBNB",
         "b": "KP3R",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "1.4548",
         "h": "1.5593",
@@ -13046,7 +13028,7 @@ export const pairData = [
     {
         "s": "KP3RBUSD",
         "b": "KP3R",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "848.00",
         "h": "900.82",
@@ -13063,7 +13045,7 @@ export const pairData = [
     {
         "s": "KSMBNB",
         "b": "KSM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.5406",
         "h": "0.5406",
@@ -13082,7 +13064,7 @@ export const pairData = [
     {
         "s": "KSMBUSD",
         "b": "KSM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "315.3",
         "h": "316.3",
@@ -13120,7 +13102,7 @@ export const pairData = [
     {
         "s": "LINABTC",
         "b": "LINA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000088",
         "h": "0.00000097",
@@ -13138,7 +13120,7 @@ export const pairData = [
     {
         "s": "LINABUSD",
         "b": "LINA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.04512",
         "h": "0.04900",
@@ -13206,7 +13188,7 @@ export const pairData = [
     {
         "s": "LINKBUSD",
         "b": "LINK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "20.75",
         "h": "23.22",
@@ -13334,7 +13316,7 @@ export const pairData = [
     {
         "s": "LITBTC",
         "b": "LIT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00006432",
         "h": "0.00007185",
@@ -13353,7 +13335,7 @@ export const pairData = [
     {
         "s": "LITBUSD",
         "b": "LIT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.278",
         "h": "3.560",
@@ -13391,7 +13373,7 @@ export const pairData = [
     {
         "s": "LOOMBTC",
         "b": "LOOM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000186",
         "h": "0.00000191",
@@ -13419,7 +13401,7 @@ export const pairData = [
     {
         "s": "LPTBNB",
         "b": "LPT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.07303",
         "h": "0.07372",
@@ -13433,7 +13415,7 @@ export const pairData = [
     {
         "s": "LPTBTC",
         "b": "LPT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0008322",
         "h": "0.0008421",
@@ -13447,7 +13429,7 @@ export const pairData = [
     {
         "s": "LPTBUSD",
         "b": "LPT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "42.39",
         "h": "43.02",
@@ -13475,7 +13457,7 @@ export const pairData = [
     {
         "s": "LRCBTC",
         "b": "LRC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004789",
         "h": "0.00005000",
@@ -13491,7 +13473,7 @@ export const pairData = [
     {
         "s": "LRCBUSD",
         "b": "LRC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "2.4446",
         "h": "2.5329",
@@ -13539,7 +13521,7 @@ export const pairData = [
     {
         "s": "LSKBTC",
         "b": "LSK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00005360",
         "h": "0.00005998",
@@ -13590,7 +13572,7 @@ export const pairData = [
     {
         "s": "LTCBNB",
         "b": "LTC",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.2807",
         "h": "0.2916",
@@ -13624,7 +13606,7 @@ export const pairData = [
     {
         "s": "LTCBUSD",
         "b": "LTC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "163.3",
         "h": "170.5",
@@ -13792,7 +13774,7 @@ export const pairData = [
     {
         "s": "LTOBTC",
         "b": "LTO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000680",
         "h": "0.00000980",
@@ -13808,7 +13790,7 @@ export const pairData = [
     {
         "s": "LTOBUSD",
         "b": "LTO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.3478",
         "h": "0.4946",
@@ -13840,7 +13822,7 @@ export const pairData = [
     {
         "s": "LUNABNB",
         "b": "LUNA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.12070",
         "h": "0.12372",
@@ -13859,7 +13841,7 @@ export const pairData = [
     {
         "s": "LUNABTC",
         "b": "LUNA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0013775",
         "h": "0.0014568",
@@ -13878,7 +13860,7 @@ export const pairData = [
     {
         "s": "LUNABUSD",
         "b": "LUNA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "70.35",
         "h": "73.25",
@@ -13935,7 +13917,7 @@ export const pairData = [
     {
         "s": "MANABTC",
         "b": "MANA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007672",
         "h": "0.00007770",
@@ -13953,7 +13935,7 @@ export const pairData = [
     {
         "s": "MANABUSD",
         "b": "MANA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "3.9190",
         "h": "3.9448",
@@ -14007,7 +13989,7 @@ export const pairData = [
     {
         "s": "MASKBNB",
         "b": "MASK",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02164",
         "h": "0.02300",
@@ -14021,7 +14003,7 @@ export const pairData = [
     {
         "s": "MASKBUSD",
         "b": "MASK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "12.571",
         "h": "13.300",
@@ -14085,7 +14067,7 @@ export const pairData = [
     {
         "s": "MATICBNB",
         "b": "MATIC",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.003993",
         "h": "0.004334",
@@ -14121,7 +14103,7 @@ export const pairData = [
     {
         "s": "MATICBTC",
         "b": "MATIC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004552",
         "h": "0.00005084",
@@ -14139,7 +14121,7 @@ export const pairData = [
     {
         "s": "MATICBUSD",
         "b": "MATIC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.328",
         "h": "2.581",
@@ -14247,7 +14229,7 @@ export const pairData = [
     {
         "s": "MBLBNB",
         "b": "MBL",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00001688",
         "h": "0.00001716",
@@ -14275,7 +14257,7 @@ export const pairData = [
     {
         "s": "MDABTC",
         "b": "MDA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001339",
         "h": "0.00001456",
@@ -14289,7 +14271,7 @@ export const pairData = [
     {
         "s": "MDTBTC",
         "b": "MDT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000127",
         "h": "0.00000128",
@@ -14317,7 +14299,7 @@ export const pairData = [
     {
         "s": "MDXBNB",
         "b": "MDX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.000848",
         "h": "0.000861",
@@ -14333,7 +14315,7 @@ export const pairData = [
     {
         "s": "MDXBTC",
         "b": "MDX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000965",
         "h": "0.00001000",
@@ -14349,7 +14331,7 @@ export const pairData = [
     {
         "s": "MDXBUSD",
         "b": "MDX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "0.493",
         "h": "0.505",
@@ -14381,7 +14363,7 @@ export const pairData = [
     {
         "s": "MFTBNB",
         "b": "MFT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00001767",
         "h": "0.00001826",
@@ -14432,7 +14414,7 @@ export const pairData = [
     {
         "s": "MINABNB",
         "b": "MINA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.006742",
         "h": "0.006892",
@@ -14448,7 +14430,7 @@ export const pairData = [
     {
         "s": "MINABTC",
         "b": "MINA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007637",
         "h": "0.00007918",
@@ -14464,7 +14446,7 @@ export const pairData = [
     {
         "s": "MINABUSD",
         "b": "MINA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.915",
         "h": "4.002",
@@ -14496,7 +14478,7 @@ export const pairData = [
     {
         "s": "MIRBTC",
         "b": "MIR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004230",
         "h": "0.00004612",
@@ -14512,7 +14494,7 @@ export const pairData = [
     {
         "s": "MIRBUSD",
         "b": "MIR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.161",
         "h": "2.263",
@@ -14528,7 +14510,7 @@ export const pairData = [
     {
         "s": "MITHBNB",
         "b": "MITH",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001214",
         "h": "0.0001254",
@@ -14542,7 +14524,7 @@ export const pairData = [
     {
         "s": "MITHBTC",
         "b": "MITH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000138",
         "h": "0.00000145",
@@ -14570,7 +14552,7 @@ export const pairData = [
     {
         "s": "MKRBTC",
         "b": "MKR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00001",
         "o": "0.05162",
         "h": "0.05553",
@@ -14586,7 +14568,7 @@ export const pairData = [
     {
         "s": "MKRBUSD",
         "b": "MKR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "1",
         "o": "2640",
         "h": "2752",
@@ -14618,7 +14600,7 @@ export const pairData = [
     {
         "s": "MLNBNB",
         "b": "MLN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.1622",
         "h": "0.1760",
@@ -14632,7 +14614,7 @@ export const pairData = [
     {
         "s": "MLNBTC",
         "b": "MLN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.001858",
         "h": "0.002034",
@@ -14646,7 +14628,7 @@ export const pairData = [
     {
         "s": "MLNBUSD",
         "b": "MLN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "94.7",
         "h": "103.5",
@@ -14674,7 +14656,7 @@ export const pairData = [
     {
         "s": "MTHBTC",
         "b": "MTH",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000079",
         "h": "0.00000085",
@@ -14688,7 +14670,7 @@ export const pairData = [
     {
         "s": "MTLBTC",
         "b": "MTL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004652",
         "h": "0.00005170",
@@ -14730,7 +14712,7 @@ export const pairData = [
     {
         "s": "NANOBTC",
         "b": "NANO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000768",
         "h": "0.0000823",
@@ -14746,7 +14728,7 @@ export const pairData = [
     {
         "s": "NANOBUSD",
         "b": "NANO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.913",
         "h": "4.081",
@@ -14794,7 +14776,7 @@ export const pairData = [
     {
         "s": "NASBTC",
         "b": "NAS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000077",
         "h": "0.0000079",
@@ -14826,7 +14808,7 @@ export const pairData = [
     {
         "s": "NAVBTC",
         "b": "NAV",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000681",
         "h": "0.00000684",
@@ -14875,7 +14857,7 @@ export const pairData = [
     {
         "s": "NEARBNB",
         "b": "NEAR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.012648",
         "h": "0.014988",
@@ -14892,7 +14874,7 @@ export const pairData = [
     {
         "s": "NEARBTC",
         "b": "NEAR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00014443",
         "h": "0.00017610",
@@ -14909,7 +14891,7 @@ export const pairData = [
     {
         "s": "NEARBUSD",
         "b": "NEAR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "7.361",
         "h": "8.847",
@@ -14943,7 +14925,7 @@ export const pairData = [
     {
         "s": "NEBLBTC",
         "b": "NEBL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002325",
         "h": "0.00002446",
@@ -14971,7 +14953,7 @@ export const pairData = [
     {
         "s": "NEOBNB",
         "b": "NEO",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0514",
         "h": "0.0537",
@@ -14989,7 +14971,7 @@ export const pairData = [
     {
         "s": "NEOBUSD",
         "b": "NEO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "29.90",
         "h": "31.63",
@@ -15061,7 +15043,7 @@ export const pairData = [
     {
         "s": "NKNBTC",
         "b": "NKN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000789",
         "h": "0.00000847",
@@ -15078,7 +15060,7 @@ export const pairData = [
     {
         "s": "NMRBNB",
         "b": "NMR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.0623",
         "h": "0.0623",
@@ -15094,7 +15076,7 @@ export const pairData = [
     {
         "s": "NMRBTC",
         "b": "NMR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000708",
         "h": "0.000723",
@@ -15110,7 +15092,7 @@ export const pairData = [
     {
         "s": "NMRBUSD",
         "b": "NMR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "36.10",
         "h": "36.16",
@@ -15142,7 +15124,7 @@ export const pairData = [
     {
         "s": "NUBNB",
         "b": "NU",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0013663",
         "h": "0.0014074",
@@ -15156,7 +15138,7 @@ export const pairData = [
     {
         "s": "NUBTC",
         "b": "NU",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001550",
         "h": "0.00001615",
@@ -15170,7 +15152,7 @@ export const pairData = [
     {
         "s": "NUBUSD",
         "b": "NU",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7914",
         "h": "0.8146",
@@ -15215,7 +15197,7 @@ export const pairData = [
     {
         "s": "NXSBTC",
         "b": "NXS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001095",
         "h": "0.00001155",
@@ -15233,7 +15215,7 @@ export const pairData = [
     {
         "s": "OAXBTC",
         "b": "OAX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000436",
         "h": "0.00000447",
@@ -15249,7 +15231,7 @@ export const pairData = [
     {
         "s": "OCEANBNB",
         "b": "OCEAN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001602",
         "h": "0.001623",
@@ -15263,7 +15245,7 @@ export const pairData = [
     {
         "s": "OCEANBTC",
         "b": "OCEAN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001828",
         "h": "0.00001887",
@@ -15277,7 +15259,7 @@ export const pairData = [
     {
         "s": "OCEANBUSD",
         "b": "OCEAN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.9337",
         "h": "0.9589",
@@ -15305,7 +15287,7 @@ export const pairData = [
     {
         "s": "OGBTC",
         "b": "OG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000885",
         "h": "0.0000943",
@@ -15324,7 +15306,7 @@ export const pairData = [
     {
         "s": "OGNBNB",
         "b": "OGN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001285",
         "h": "0.001313",
@@ -15340,7 +15322,7 @@ export const pairData = [
     {
         "s": "OGNBTC",
         "b": "OGN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001464",
         "h": "0.00001539",
@@ -15391,7 +15373,7 @@ export const pairData = [
     {
         "s": "OMBTC",
         "b": "OM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000348",
         "h": "0.00000368",
@@ -15408,7 +15390,7 @@ export const pairData = [
     {
         "s": "OMBUSD",
         "b": "OM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1776",
         "h": "0.1851",
@@ -15425,7 +15407,7 @@ export const pairData = [
     {
         "s": "OMGBUSD",
         "b": "OMG",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "7.371",
         "h": "7.410",
@@ -15478,7 +15460,7 @@ export const pairData = [
     {
         "s": "ONEBNB",
         "b": "ONE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0003447",
         "h": "0.0003535",
@@ -15497,7 +15479,7 @@ export const pairData = [
     {
         "s": "ONEBTC",
         "b": "ONE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000393",
         "h": "0.00000404",
@@ -15516,7 +15498,7 @@ export const pairData = [
     {
         "s": "ONEBUSD",
         "b": "ONE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.20056",
         "h": "0.20510",
@@ -15554,7 +15536,7 @@ export const pairData = [
     {
         "s": "ONGBTC",
         "b": "ONG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001765",
         "h": "0.00001969",
@@ -15582,7 +15564,7 @@ export const pairData = [
     {
         "s": "ONTBTC",
         "b": "ONT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001504",
         "h": "0.00001634",
@@ -15602,7 +15584,7 @@ export const pairData = [
     {
         "s": "ONTBUSD",
         "b": "ONT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7697",
         "h": "0.8160",
@@ -15682,7 +15664,7 @@ export const pairData = [
     {
         "s": "ORNBTC",
         "b": "ORN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001203",
         "h": "0.0001263",
@@ -15698,7 +15680,7 @@ export const pairData = [
     {
         "s": "ORNBUSD",
         "b": "ORN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "6.117",
         "h": "6.326",
@@ -15730,7 +15712,7 @@ export const pairData = [
     {
         "s": "OXTBTC",
         "b": "OXT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000813",
         "h": "0.00000831",
@@ -15758,7 +15740,7 @@ export const pairData = [
     {
         "s": "PAXGBNB",
         "b": "PAXG",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.001",
         "o": "3.079",
         "h": "3.135",
@@ -15772,7 +15754,7 @@ export const pairData = [
     {
         "s": "PAXGBTC",
         "b": "PAXG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00001",
         "o": "0.03496",
         "h": "0.03669",
@@ -15800,7 +15782,7 @@ export const pairData = [
     {
         "s": "PERLBNB",
         "b": "PERL",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001481",
         "h": "0.0001482",
@@ -15817,7 +15799,7 @@ export const pairData = [
     {
         "s": "PERLBTC",
         "b": "PERL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000168",
         "h": "0.00000171",
@@ -15851,7 +15833,7 @@ export const pairData = [
     {
         "s": "PERPBTC",
         "b": "PERP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002217",
         "h": "0.0002220",
@@ -15868,7 +15850,7 @@ export const pairData = [
     {
         "s": "PERPBUSD",
         "b": "PERP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "11.32",
         "h": "11.33",
@@ -15902,7 +15884,7 @@ export const pairData = [
     {
         "s": "PHABTC",
         "b": "PHA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000895",
         "h": "0.00000904",
@@ -15919,7 +15901,7 @@ export const pairData = [
     {
         "s": "PHABUSD",
         "b": "PHA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.4571",
         "h": "0.4571",
@@ -15953,7 +15935,7 @@ export const pairData = [
     {
         "s": "PHBBTC",
         "b": "PHB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001043",
         "h": "0.00001100",
@@ -15981,7 +15963,7 @@ export const pairData = [
     {
         "s": "PIVXBTC",
         "b": "PIVX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001215",
         "h": "0.00001217",
@@ -16015,7 +15997,7 @@ export const pairData = [
     {
         "s": "PNTBTC",
         "b": "PNT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001959",
         "h": "0.00002095",
@@ -16047,7 +16029,7 @@ export const pairData = [
     {
         "s": "POLSBNB",
         "b": "POLS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.007283",
         "h": "0.007283",
@@ -16063,7 +16045,7 @@ export const pairData = [
     {
         "s": "POLSBTC",
         "b": "POLS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00008235",
         "h": "0.00008235",
@@ -16079,7 +16061,7 @@ export const pairData = [
     {
         "s": "POLSBUSD",
         "b": "POLS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.159",
         "h": "4.159",
@@ -16111,7 +16093,7 @@ export const pairData = [
     {
         "s": "POLYBTC",
         "b": "POLY",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001167",
         "h": "0.00001216",
@@ -16128,7 +16110,7 @@ export const pairData = [
     {
         "s": "PONDBTC",
         "b": "POND",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000157",
         "h": "0.00000160",
@@ -16144,7 +16126,7 @@ export const pairData = [
     {
         "s": "PONDBUSD",
         "b": "POND",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.08045",
         "h": "0.08071",
@@ -16176,7 +16158,7 @@ export const pairData = [
     {
         "s": "POWRBTC",
         "b": "POWR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000979",
         "h": "0.00001022",
@@ -16204,7 +16186,7 @@ export const pairData = [
     {
         "s": "PROMBNB",
         "b": "PROM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02380",
         "h": "0.02409",
@@ -16221,7 +16203,7 @@ export const pairData = [
     {
         "s": "PROMBUSD",
         "b": "PROM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "13.92",
         "h": "13.95",
@@ -16255,7 +16237,7 @@ export const pairData = [
     {
         "s": "PSGBTC",
         "b": "PSG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003244",
         "h": "0.0003363",
@@ -16274,7 +16256,7 @@ export const pairData = [
     {
         "s": "PSGBUSD",
         "b": "PSG",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "16.60",
         "h": "16.98",
@@ -16340,7 +16322,7 @@ export const pairData = [
     {
         "s": "QKCBTC",
         "b": "QKC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000046",
         "h": "0.00000049",
@@ -16376,7 +16358,7 @@ export const pairData = [
     {
         "s": "QLCBTC",
         "b": "QLC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000081",
         "h": "0.00000104",
@@ -16410,7 +16392,7 @@ export const pairData = [
     {
         "s": "QNTBNB",
         "b": "QNT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.2885",
         "h": "0.2893",
@@ -16424,7 +16406,7 @@ export const pairData = [
     {
         "s": "QNTBTC",
         "b": "QNT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.003278",
         "h": "0.003372",
@@ -16438,7 +16420,7 @@ export const pairData = [
     {
         "s": "QNTBUSD",
         "b": "QNT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "167.5",
         "h": "170.0",
@@ -16466,7 +16448,7 @@ export const pairData = [
     {
         "s": "QSPBTC",
         "b": "QSP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000095",
         "h": "0.00000096",
@@ -16494,7 +16476,7 @@ export const pairData = [
     {
         "s": "QTUMBUSD",
         "b": "QTUM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "11.238",
         "h": "11.601",
@@ -16528,7 +16510,7 @@ export const pairData = [
     {
         "s": "QUICKBNB",
         "b": "QUICK",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.001",
         "o": "0.470",
         "h": "0.493",
@@ -16544,7 +16526,7 @@ export const pairData = [
     {
         "s": "QUICKBTC",
         "b": "QUICK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.005413",
         "h": "0.005754",
@@ -16560,7 +16542,7 @@ export const pairData = [
     {
         "s": "QUICKBUSD",
         "b": "QUICK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "276.9",
         "h": "293.8",
@@ -16592,7 +16574,7 @@ export const pairData = [
     {
         "s": "RAMPBTC",
         "b": "RAMP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000462",
         "h": "0.00000468",
@@ -16609,7 +16591,7 @@ export const pairData = [
     {
         "s": "RAMPBUSD",
         "b": "RAMP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2348",
         "h": "0.2350",
@@ -16643,7 +16625,7 @@ export const pairData = [
     {
         "s": "RAYBNB",
         "b": "RAY",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01534",
         "h": "0.01534",
@@ -16657,7 +16639,7 @@ export const pairData = [
     {
         "s": "RAYBUSD",
         "b": "RAY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "8.925",
         "h": "8.946",
@@ -16685,7 +16667,7 @@ export const pairData = [
     {
         "s": "RDNBTC",
         "b": "RDN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001007",
         "h": "0.00001390",
@@ -16699,7 +16681,7 @@ export const pairData = [
     {
         "s": "REEFBTC",
         "b": "REEF",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000040",
         "h": "0.00000041",
@@ -16718,7 +16700,7 @@ export const pairData = [
     {
         "s": "REEFBUSD",
         "b": "REEF",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.02044",
         "h": "0.02066",
@@ -16756,7 +16738,7 @@ export const pairData = [
     {
         "s": "RENBTC",
         "b": "REN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001238",
         "h": "0.00001282",
@@ -16774,7 +16756,7 @@ export const pairData = [
     {
         "s": "RENBTCBTC",
         "b": "RENBTC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0001",
         "o": "0.9999",
         "h": "0.9999",
@@ -16790,7 +16772,7 @@ export const pairData = [
     {
         "s": "REPBTC",
         "b": "REP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003546",
         "h": "0.0003887",
@@ -16838,7 +16820,7 @@ export const pairData = [
     {
         "s": "REQBTC",
         "b": "REQ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001079",
         "h": "0.00001086",
@@ -16854,7 +16836,7 @@ export const pairData = [
     {
         "s": "RIFBTC",
         "b": "RIF",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000434",
         "h": "0.00000437",
@@ -16890,7 +16872,7 @@ export const pairData = [
     {
         "s": "RLCBTC",
         "b": "RLC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00006590",
         "h": "0.00006706",
@@ -16904,7 +16886,7 @@ export const pairData = [
     {
         "s": "RLCBUSD",
         "b": "RLC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.371",
         "h": "3.414",
@@ -16946,7 +16928,7 @@ export const pairData = [
     {
         "s": "ROSEBTC",
         "b": "ROSE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000529",
         "h": "0.00000533",
@@ -16960,7 +16942,7 @@ export const pairData = [
     {
         "s": "ROSEBUSD",
         "b": "ROSE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.27100",
         "h": "0.27250",
@@ -16988,7 +16970,7 @@ export const pairData = [
     {
         "s": "RSRBNB",
         "b": "RSR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0000627",
         "h": "0.0000646",
@@ -17004,7 +16986,7 @@ export const pairData = [
     {
         "s": "RSRBTC",
         "b": "RSR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000072",
         "h": "0.00000074",
@@ -17036,7 +17018,7 @@ export const pairData = [
     {
         "s": "RUNEBNB",
         "b": "RUNE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01298",
         "h": "0.01357",
@@ -17052,7 +17034,7 @@ export const pairData = [
     {
         "s": "RUNEBTC",
         "b": "RUNE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001481",
         "h": "0.0001604",
@@ -17068,7 +17050,7 @@ export const pairData = [
     {
         "s": "RUNEBUSD",
         "b": "RUNE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "7.535",
         "h": "7.954",
@@ -17132,7 +17114,7 @@ export const pairData = [
     {
         "s": "RVNBNB",
         "b": "RVN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001608",
         "h": "0.0001618",
@@ -17149,7 +17131,7 @@ export const pairData = [
     {
         "s": "RVNBTC",
         "b": "RVN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000182",
         "h": "0.00000187",
@@ -17166,7 +17148,7 @@ export const pairData = [
     {
         "s": "RVNBUSD",
         "b": "RVN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.09356",
         "h": "0.09500",
@@ -17217,7 +17199,7 @@ export const pairData = [
     {
         "s": "SANDBNB",
         "b": "SAND",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.009349",
         "h": "0.009574",
@@ -17236,7 +17218,7 @@ export const pairData = [
     {
         "s": "SANDBTC",
         "b": "SAND",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00010643",
         "h": "0.00010900",
@@ -17255,7 +17237,7 @@ export const pairData = [
     {
         "s": "SANDBUSD",
         "b": "SAND",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "5.4382",
         "h": "5.5002",
@@ -17293,7 +17275,7 @@ export const pairData = [
     {
         "s": "SCBNB",
         "b": "SC",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00003112",
         "h": "0.00003178",
@@ -17311,7 +17293,7 @@ export const pairData = [
     {
         "s": "SCBTC",
         "b": "SC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000035",
         "h": "0.00000037",
@@ -17329,7 +17311,7 @@ export const pairData = [
     {
         "s": "SCBUSD",
         "b": "SC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.01794",
         "h": "0.01838",
@@ -17365,7 +17347,7 @@ export const pairData = [
     {
         "s": "SCRTBTC",
         "b": "SCRT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00009728",
         "h": "0.00009872",
@@ -17415,7 +17397,7 @@ export const pairData = [
     {
         "s": "SFPBTC",
         "b": "SFP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003660",
         "h": "0.00003672",
@@ -17432,7 +17414,7 @@ export const pairData = [
     {
         "s": "SFPBUSD",
         "b": "SFP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.8713",
         "h": "1.8769",
@@ -17482,7 +17464,7 @@ export const pairData = [
     {
         "s": "SHIBBUSD",
         "b": "SHIB",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00000001",
         "o": "0.00003734",
         "h": "0.00003765",
@@ -17546,7 +17528,7 @@ export const pairData = [
     {
         "s": "SKLBTC",
         "b": "SKL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000460",
         "h": "0.00000466",
@@ -17562,7 +17544,7 @@ export const pairData = [
     {
         "s": "SKLBUSD",
         "b": "SKL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2338",
         "h": "0.2386",
@@ -17594,7 +17576,7 @@ export const pairData = [
     {
         "s": "SLPBUSD",
         "b": "SLP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.0393",
         "h": "0.0543",
@@ -17651,7 +17633,7 @@ export const pairData = [
     {
         "s": "SNTBTC",
         "b": "SNT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000158",
         "h": "0.00000160",
@@ -17665,7 +17647,7 @@ export const pairData = [
     {
         "s": "SNXBNB",
         "b": "SNX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01023",
         "h": "0.01048",
@@ -17681,7 +17663,7 @@ export const pairData = [
     {
         "s": "SNXBTC",
         "b": "SNX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001161",
         "h": "0.0001230",
@@ -17697,7 +17679,7 @@ export const pairData = [
     {
         "s": "SNXBUSD",
         "b": "SNX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "5.947",
         "h": "6.295",
@@ -17729,7 +17711,7 @@ export const pairData = [
     {
         "s": "SOLBNB",
         "b": "SOL",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.3386",
         "h": "0.3388",
@@ -17765,7 +17747,7 @@ export const pairData = [
     {
         "s": "SOLBTC",
         "b": "SOL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0038522",
         "h": "0.0038564",
@@ -17783,7 +17765,7 @@ export const pairData = [
     {
         "s": "SOLBUSD",
         "b": "SOL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "197.06",
         "h": "197.06",
@@ -17891,7 +17873,7 @@ export const pairData = [
     {
         "s": "SPARTABNB",
         "b": "SPARTA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0003494",
         "h": "0.0003612",
@@ -17909,7 +17891,7 @@ export const pairData = [
     {
         "s": "SRMBNB",
         "b": "SRM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.00725",
         "h": "0.00762",
@@ -17925,7 +17907,7 @@ export const pairData = [
     {
         "s": "SRMBTC",
         "b": "SRM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000823",
         "h": "0.0000865",
@@ -17941,7 +17923,7 @@ export const pairData = [
     {
         "s": "SRMBUSD",
         "b": "SRM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.204",
         "h": "4.371",
@@ -17973,7 +17955,7 @@ export const pairData = [
     {
         "s": "STEEMBTC",
         "b": "STEEM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000979",
         "h": "0.00001031",
@@ -18007,7 +17989,7 @@ export const pairData = [
     {
         "s": "STMXBNB",
         "b": "STMX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00004289",
         "h": "0.00005001",
@@ -18021,7 +18003,7 @@ export const pairData = [
     {
         "s": "STMXBTC",
         "b": "STMX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000049",
         "h": "0.00000060",
@@ -18035,7 +18017,7 @@ export const pairData = [
     {
         "s": "STMXBUSD",
         "b": "STMX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.02486",
         "h": "0.02947",
@@ -18077,7 +18059,7 @@ export const pairData = [
     {
         "s": "STORJBTC",
         "b": "STORJ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003647",
         "h": "0.00004003",
@@ -18093,7 +18075,7 @@ export const pairData = [
     {
         "s": "STORJBUSD",
         "b": "STORJ",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.8600",
         "h": "2.0182",
@@ -18125,7 +18107,7 @@ export const pairData = [
     {
         "s": "STPTBTC",
         "b": "STPT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000232",
         "h": "0.00000244",
@@ -18153,7 +18135,7 @@ export const pairData = [
     {
         "s": "STRAXBTC",
         "b": "STRAX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003108",
         "h": "0.00003640",
@@ -18167,7 +18149,7 @@ export const pairData = [
     {
         "s": "STRAXBUSD",
         "b": "STRAX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.583",
         "h": "1.832",
@@ -18209,7 +18191,7 @@ export const pairData = [
     {
         "s": "STXBNB",
         "b": "STX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.004044",
         "h": "0.004065",
@@ -18227,7 +18209,7 @@ export const pairData = [
     {
         "s": "STXBTC",
         "b": "STX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004600",
         "h": "0.00004664",
@@ -18280,7 +18262,7 @@ export const pairData = [
     {
         "s": "SUPERBTC",
         "b": "SUPER",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003326",
         "h": "0.00003326",
@@ -18298,7 +18280,7 @@ export const pairData = [
     {
         "s": "SUPERBUSD",
         "b": "SUPER",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.7006",
         "h": "1.7028",
@@ -18351,7 +18333,7 @@ export const pairData = [
     {
         "s": "SUSHIBNB",
         "b": "SUSHI",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01053",
         "h": "0.01067",
@@ -18368,7 +18350,7 @@ export const pairData = [
     {
         "s": "SUSHIBTC",
         "b": "SUSHI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001199",
         "h": "0.0001230",
@@ -18385,7 +18367,7 @@ export const pairData = [
     {
         "s": "SUSHIBUSD",
         "b": "SUSHI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "6.123",
         "h": "6.221",
@@ -18483,7 +18465,7 @@ export const pairData = [
     {
         "s": "SXPBNB",
         "b": "SXP",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002834",
         "h": "0.002948",
@@ -18499,7 +18481,7 @@ export const pairData = [
     {
         "s": "SXPBTC",
         "b": "SXP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003220",
         "h": "0.00003421",
@@ -18515,7 +18497,7 @@ export const pairData = [
     {
         "s": "SXPBUSD",
         "b": "SXP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.643",
         "h": "1.741",
@@ -18595,7 +18577,7 @@ export const pairData = [
     {
         "s": "SYSBTC",
         "b": "SYS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001204",
         "h": "0.00001226",
@@ -18613,7 +18595,7 @@ export const pairData = [
     {
         "s": "SYSBUSD",
         "b": "SYS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.6138",
         "h": "0.6274",
@@ -18631,7 +18613,7 @@ export const pairData = [
     {
         "s": "TCTBTC",
         "b": "TCT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000070",
         "h": "0.00000073",
@@ -18663,7 +18645,7 @@ export const pairData = [
     {
         "s": "TFUELBTC",
         "b": "TFUEL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000498",
         "h": "0.00000510",
@@ -18691,7 +18673,7 @@ export const pairData = [
     {
         "s": "THETABNB",
         "b": "THETA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.00831",
         "h": "0.00848",
@@ -18708,7 +18690,7 @@ export const pairData = [
     {
         "s": "THETABTC",
         "b": "THETA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000945",
         "h": "0.0000998",
@@ -18725,7 +18707,7 @@ export const pairData = [
     {
         "s": "THETABUSD",
         "b": "THETA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.828",
         "h": "5.034",
@@ -18810,7 +18792,7 @@ export const pairData = [
     {
         "s": "TKOBTC",
         "b": "TKO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002766",
         "h": "0.00003029",
@@ -18827,7 +18809,7 @@ export const pairData = [
     {
         "s": "TKOBUSD",
         "b": "TKO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.410",
         "h": "1.533",
@@ -18861,7 +18843,7 @@ export const pairData = [
     {
         "s": "TLMBTC",
         "b": "TLM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000513",
         "h": "0.00000521",
@@ -18879,7 +18861,7 @@ export const pairData = [
     {
         "s": "TLMBUSD",
         "b": "TLM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2620",
         "h": "0.2633",
@@ -18933,7 +18915,7 @@ export const pairData = [
     {
         "s": "TOMOBTC",
         "b": "TOMO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004249",
         "h": "0.00004974",
@@ -18950,7 +18932,7 @@ export const pairData = [
     {
         "s": "TOMOBUSD",
         "b": "TOMO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.180",
         "h": "2.437",
@@ -18984,7 +18966,7 @@ export const pairData = [
     {
         "s": "TORNBNB",
         "b": "TORN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.06295",
         "h": "0.06622",
@@ -18998,7 +18980,7 @@ export const pairData = [
     {
         "s": "TORNBTC",
         "b": "TORN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0007191",
         "h": "0.0007743",
@@ -19012,7 +18994,7 @@ export const pairData = [
     {
         "s": "TORNBUSD",
         "b": "TORN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "36.62",
         "h": "38.79",
@@ -19040,7 +19022,7 @@ export const pairData = [
     {
         "s": "TRBBTC",
         "b": "TRB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.000750",
         "h": "0.000786",
@@ -19059,7 +19041,7 @@ export const pairData = [
     {
         "s": "TRBBUSD",
         "b": "TRB",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "38.37",
         "h": "39.59",
@@ -19097,7 +19079,7 @@ export const pairData = [
     {
         "s": "TROYBNB",
         "b": "TROY",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00002254",
         "h": "0.00002309",
@@ -19129,7 +19111,7 @@ export const pairData = [
     {
         "s": "TRUBTC",
         "b": "TRU",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000649",
         "h": "0.00000657",
@@ -19163,7 +19145,7 @@ export const pairData = [
     {
         "s": "TRXBNB",
         "b": "TRX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001560",
         "h": "0.0001620",
@@ -19181,7 +19163,7 @@ export const pairData = [
     {
         "s": "TRXBTC",
         "b": "TRX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000178",
         "h": "0.00000187",
@@ -19199,7 +19181,7 @@ export const pairData = [
     {
         "s": "TRXBUSD",
         "b": "TRX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.09081",
         "h": "0.09396",
@@ -19375,7 +19357,7 @@ export const pairData = [
     {
         "s": "TUSDBUSD",
         "b": "TUSD",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.0000",
         "h": "1.0000",
@@ -19407,7 +19389,7 @@ export const pairData = [
     {
         "s": "TVKBTC",
         "b": "TVK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000501",
         "h": "0.00000533",
@@ -19425,7 +19407,7 @@ export const pairData = [
     {
         "s": "TVKBUSD",
         "b": "TVK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2552",
         "h": "0.2697",
@@ -19461,7 +19443,7 @@ export const pairData = [
     {
         "s": "TWTBTC",
         "b": "TWT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001571",
         "h": "0.00001639",
@@ -19478,7 +19460,7 @@ export const pairData = [
     {
         "s": "TWTBUSD",
         "b": "TWT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7999",
         "h": "0.8378",
@@ -19512,7 +19494,7 @@ export const pairData = [
     {
         "s": "UFTBUSD",
         "b": "UFT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7517",
         "h": "0.7623",
@@ -19546,7 +19528,7 @@ export const pairData = [
     {
         "s": "UMABTC",
         "b": "UMA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002056",
         "h": "0.0002341",
@@ -19578,7 +19560,7 @@ export const pairData = [
     {
         "s": "UNFIBTC",
         "b": "UNFI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001599",
         "h": "0.0001705",
@@ -19597,7 +19579,7 @@ export const pairData = [
     {
         "s": "UNFIBUSD",
         "b": "UNFI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "8.138",
         "h": "8.586",
@@ -19635,7 +19617,7 @@ export const pairData = [
     {
         "s": "UNIBNB",
         "b": "UNI",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02955",
         "h": "0.03121",
@@ -19651,7 +19633,7 @@ export const pairData = [
     {
         "s": "UNIBTC",
         "b": "UNI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003363",
         "h": "0.0003660",
@@ -19667,7 +19649,7 @@ export const pairData = [
     {
         "s": "UNIBUSD",
         "b": "UNI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "17.19",
         "h": "18.35",
@@ -19747,7 +19729,7 @@ export const pairData = [
     {
         "s": "USDCBUSD",
         "b": "USDC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.0000",
         "h": "1.0002",
@@ -19907,7 +19889,7 @@ export const pairData = [
     {
         "s": "UTKBTC",
         "b": "UTK",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000587",
         "h": "0.00000610",
@@ -19921,7 +19903,7 @@ export const pairData = [
     {
         "s": "UTKBUSD",
         "b": "UTK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.3010",
         "h": "0.3114",
@@ -19949,7 +19931,7 @@ export const pairData = [
     {
         "s": "VETBNB",
         "b": "VET",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001623",
         "h": "0.0001626",
@@ -19967,7 +19949,7 @@ export const pairData = [
     {
         "s": "VETBTC",
         "b": "VET",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000185",
         "h": "0.00000189",
@@ -19985,7 +19967,7 @@ export const pairData = [
     {
         "s": "VETBUSD",
         "b": "VET",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.09466",
         "h": "0.09612",
@@ -20093,7 +20075,7 @@ export const pairData = [
     {
         "s": "VIBBTC",
         "b": "VIB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000086",
         "h": "0.00000091",
@@ -20121,7 +20103,7 @@ export const pairData = [
     {
         "s": "VIDTBTC",
         "b": "VIDT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001846",
         "h": "0.00001851",
@@ -20137,7 +20119,7 @@ export const pairData = [
     {
         "s": "VIDTBUSD",
         "b": "VIDT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.9430",
         "h": "0.9430",
@@ -20153,7 +20135,7 @@ export const pairData = [
     {
         "s": "VITEBTC",
         "b": "VITE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000184",
         "h": "0.00000192",
@@ -20187,7 +20169,7 @@ export const pairData = [
     {
         "s": "VTHOBNB",
         "b": "VTHO",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00001197",
         "h": "0.00001218",
@@ -20215,7 +20197,7 @@ export const pairData = [
     {
         "s": "WABIBNB",
         "b": "WABI",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0003625",
         "h": "0.0003673",
@@ -20232,7 +20214,7 @@ export const pairData = [
     {
         "s": "WABIBTC",
         "b": "WABI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000415",
         "h": "0.00000420",
@@ -20249,7 +20231,7 @@ export const pairData = [
     {
         "s": "WANBTC",
         "b": "WAN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001501",
         "h": "0.00001618",
@@ -20300,7 +20282,7 @@ export const pairData = [
     {
         "s": "WAVESBNB",
         "b": "WAVES",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.03339",
         "h": "0.03344",
@@ -20318,7 +20300,7 @@ export const pairData = [
     {
         "s": "WAVESBTC",
         "b": "WAVES",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003800",
         "h": "0.0003822",
@@ -20336,7 +20318,7 @@ export const pairData = [
     {
         "s": "WAVESBUSD",
         "b": "WAVES",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "19.39",
         "h": "19.44",
@@ -20390,7 +20372,7 @@ export const pairData = [
     {
         "s": "WBTCBTC",
         "b": "WBTC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0001",
         "o": "1.0002",
         "h": "1.0007",
@@ -20418,7 +20400,7 @@ export const pairData = [
     {
         "s": "WINBNB",
         "b": "WIN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00000099",
         "h": "0.00000102",
@@ -20466,7 +20448,7 @@ export const pairData = [
     {
         "s": "WINGBTC",
         "b": "WING",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003126",
         "h": "0.0003198",
@@ -20484,7 +20466,7 @@ export const pairData = [
     {
         "s": "WINGBUSD",
         "b": "WING",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "15.91",
         "h": "16.19",
@@ -20568,7 +20550,7 @@ export const pairData = [
     {
         "s": "WNXMBTC",
         "b": "WNXM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.001148",
         "h": "0.001186",
@@ -20602,7 +20584,7 @@ export const pairData = [
     {
         "s": "WRXBNB",
         "b": "WRX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002134",
         "h": "0.002136",
@@ -20618,7 +20600,7 @@ export const pairData = [
     {
         "s": "WRXBTC",
         "b": "WRX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002432",
         "h": "0.00002434",
@@ -20634,7 +20616,7 @@ export const pairData = [
     {
         "s": "WRXBUSD",
         "b": "WRX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.242",
         "h": "1.243",
@@ -20700,7 +20682,7 @@ export const pairData = [
     {
         "s": "XECBUSD",
         "b": "XEC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00000001",
         "o": "0.00012757",
         "h": "0.00013087",
@@ -20714,7 +20696,7 @@ export const pairData = [
     {
         "s": "XEMBTC",
         "b": "XEM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000271",
         "h": "0.00000294",
@@ -20731,7 +20713,7 @@ export const pairData = [
     {
         "s": "XEMBUSD",
         "b": "XEM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1380",
         "h": "0.1488",
@@ -20782,7 +20764,7 @@ export const pairData = [
     {
         "s": "XLMBNB",
         "b": "XLM",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0004962",
         "h": "0.0005244",
@@ -20798,7 +20780,7 @@ export const pairData = [
     {
         "s": "XLMBTC",
         "b": "XLM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000565",
         "h": "0.00000605",
@@ -20814,7 +20796,7 @@ export const pairData = [
     {
         "s": "XLMBUSD",
         "b": "XLM",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.2886",
         "h": "0.3056",
@@ -20926,7 +20908,7 @@ export const pairData = [
     {
         "s": "XMRBNB",
         "b": "XMR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.3486",
         "h": "0.3746",
@@ -20943,7 +20925,7 @@ export const pairData = [
     {
         "s": "XMRBTC",
         "b": "XMR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.003973",
         "h": "0.004230",
@@ -20960,7 +20942,7 @@ export const pairData = [
     {
         "s": "XMRBUSD",
         "b": "XMR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "202.3",
         "h": "214.3",
@@ -21027,7 +21009,7 @@ export const pairData = [
     {
         "s": "XRPBNB",
         "b": "XRP",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001423",
         "h": "0.001479",
@@ -21059,7 +21041,7 @@ export const pairData = [
     {
         "s": "XRPBTC",
         "b": "XRP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001622",
         "h": "0.00001735",
@@ -21075,7 +21057,7 @@ export const pairData = [
     {
         "s": "XRPBUSD",
         "b": "XRP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.8288",
         "h": "0.8799",
@@ -21251,7 +21233,7 @@ export const pairData = [
     {
         "s": "XTZBNB",
         "b": "XTZ",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.008013",
         "h": "0.010136",
@@ -21269,7 +21251,7 @@ export const pairData = [
     {
         "s": "XTZBTC",
         "b": "XTZ",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00009663",
         "h": "0.00011567",
@@ -21287,7 +21269,7 @@ export const pairData = [
     {
         "s": "XTZBUSD",
         "b": "XTZ",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.898",
         "h": "5.869",
@@ -21355,7 +21337,7 @@ export const pairData = [
     {
         "s": "XVGBTC",
         "b": "XVG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000039",
         "h": "0.00000040",
@@ -21372,7 +21354,7 @@ export const pairData = [
     {
         "s": "XVGBUSD",
         "b": "XVG",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.01990",
         "h": "0.02009",
@@ -21406,7 +21388,7 @@ export const pairData = [
     {
         "s": "XVSBNB",
         "b": "XVS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02920",
         "h": "0.02928",
@@ -21424,7 +21406,7 @@ export const pairData = [
     {
         "s": "XVSBTC",
         "b": "XVS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003322",
         "h": "0.0003351",
@@ -21442,7 +21424,7 @@ export const pairData = [
     {
         "s": "XVSBUSD",
         "b": "XVS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "16.98",
         "h": "17.04",
@@ -21478,7 +21460,7 @@ export const pairData = [
     {
         "s": "YFIBTC",
         "b": "YFI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0001",
         "o": "0.4711",
         "h": "0.4717",
@@ -21494,7 +21476,7 @@ export const pairData = [
     {
         "s": "YFIBUSD",
         "b": "YFI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "24066.13",
         "h": "24100.10",
@@ -21526,7 +21508,7 @@ export const pairData = [
     {
         "s": "YFIIBNB",
         "b": "YFII",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.01",
         "o": "4.82",
         "h": "5.07",
@@ -21542,7 +21524,7 @@ export const pairData = [
     {
         "s": "YFIIBTC",
         "b": "YFII",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0001",
         "o": "0.0548",
         "h": "0.0582",
@@ -21558,7 +21540,7 @@ export const pairData = [
     {
         "s": "YFIIBUSD",
         "b": "YFII",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "1",
         "o": "2795",
         "h": "2938",
@@ -21606,7 +21588,7 @@ export const pairData = [
     {
         "s": "YOYOBTC",
         "b": "YOYO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000040",
         "h": "0.00000042",
@@ -21623,7 +21605,7 @@ export const pairData = [
     {
         "s": "ZECBNB",
         "b": "ZEC",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.3048",
         "h": "0.3098",
@@ -21640,7 +21622,7 @@ export const pairData = [
     {
         "s": "ZECBTC",
         "b": "ZEC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.003466",
         "h": "0.003627",
@@ -21657,7 +21639,7 @@ export const pairData = [
     {
         "s": "ZECBUSD",
         "b": "ZEC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "177.2",
         "h": "182.6",
@@ -21725,7 +21707,7 @@ export const pairData = [
     {
         "s": "ZENBNB",
         "b": "ZEN",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.1295",
         "h": "0.1352",
@@ -21742,7 +21724,7 @@ export const pairData = [
     {
         "s": "ZENBTC",
         "b": "ZEN",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.001473",
         "h": "0.001542",
@@ -21759,7 +21741,7 @@ export const pairData = [
     {
         "s": "ZENBUSD",
         "b": "ZEN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "75.18",
         "h": "78.01",
@@ -21827,7 +21809,7 @@ export const pairData = [
     {
         "s": "ZILBNB",
         "b": "ZIL",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0001225",
         "h": "0.0001270",
@@ -21844,7 +21826,7 @@ export const pairData = [
     {
         "s": "ZILBTC",
         "b": "ZIL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000140",
         "h": "0.00000150",
@@ -21861,7 +21843,7 @@ export const pairData = [
     {
         "s": "ZILBUSD",
         "b": "ZIL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.07130",
         "h": "0.07463",
@@ -21912,7 +21894,7 @@ export const pairData = [
     {
         "s": "ZRXBUSD",
         "b": "ZRX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.9012",
         "h": "0.9275",
@@ -22034,7 +22016,7 @@ export const pairData = [
     {
         "s": "DGBBTC",
         "b": "DGB",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000078",
         "h": "0.00000080",
@@ -22051,7 +22033,7 @@ export const pairData = [
     {
         "s": "BALBTC",
         "b": "BAL",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003126",
         "h": "0.0003203",
@@ -22067,7 +22049,7 @@ export const pairData = [
     {
         "s": "JSTBUSD",
         "b": "JST",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.06513",
         "h": "0.07427",
@@ -22083,7 +22065,7 @@ export const pairData = [
     {
         "s": "ANTBTC",
         "b": "ANT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00008180",
         "h": "0.00013000",
@@ -22100,7 +22082,7 @@ export const pairData = [
     {
         "s": "RSRBUSD",
         "b": "RSR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.03666",
         "h": "0.03726",
@@ -22116,7 +22098,7 @@ export const pairData = [
     {
         "s": "KSMBTC",
         "b": "KSM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.006166",
         "h": "0.006203",
@@ -22185,7 +22167,7 @@ export const pairData = [
     {
         "s": "AGIXBTC",
         "b": "AGIX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000475",
         "h": "0.00000542",
@@ -22199,7 +22181,7 @@ export const pairData = [
     {
         "s": "CELRBUSD",
         "b": "CELR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.08375",
         "h": "0.08491",
@@ -22215,7 +22197,7 @@ export const pairData = [
     {
         "s": "WINBUSD",
         "b": "WIN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0000001",
         "o": "0.0005759",
         "h": "0.0006029",
@@ -22231,7 +22213,7 @@ export const pairData = [
     {
         "s": "MBOXBTC",
         "b": "MBOX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00013270",
         "h": "0.00013799",
@@ -22248,7 +22230,7 @@ export const pairData = [
     {
         "s": "MBOXBNB",
         "b": "MBOX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.011679",
         "h": "0.012080",
@@ -22265,7 +22247,7 @@ export const pairData = [
     {
         "s": "MBOXBUSD",
         "b": "MBOX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "6.793",
         "h": "6.994",
@@ -22299,7 +22281,7 @@ export const pairData = [
     {
         "s": "VGXBTC",
         "b": "VGX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00007481",
         "h": "0.00008454",
@@ -22432,7 +22414,7 @@ export const pairData = [
     {
         "s": "WAXPBUSD",
         "b": "WAXP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.4845",
         "h": "0.7434",
@@ -22449,7 +22431,7 @@ export const pairData = [
     {
         "s": "WAXPBNB",
         "b": "WAXP",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0008364",
         "h": "0.0012600",
@@ -22466,7 +22448,7 @@ export const pairData = [
     {
         "s": "WAXPBTC",
         "b": "WAXP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000950",
         "h": "0.00001474",
@@ -22483,7 +22465,7 @@ export const pairData = [
     {
         "s": "TRIBEBTC",
         "b": "TRIBE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002014",
         "h": "0.00002151",
@@ -22499,7 +22481,7 @@ export const pairData = [
     {
         "s": "TRIBEBNB",
         "b": "TRIBE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.001792",
         "h": "0.001841",
@@ -22515,7 +22497,7 @@ export const pairData = [
     {
         "s": "TRIBEBUSD",
         "b": "TRIBE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.0255",
         "h": "1.0872",
@@ -22561,7 +22543,7 @@ export const pairData = [
     {
         "s": "GNOBUSD",
         "b": "GNO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "431.9",
         "h": "464.5",
@@ -22575,7 +22557,7 @@ export const pairData = [
     {
         "s": "GNOBNB",
         "b": "GNO",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.7409",
         "h": "0.7929",
@@ -22589,7 +22571,7 @@ export const pairData = [
     {
         "s": "GNOBTC",
         "b": "GNO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.008451",
         "h": "0.009076",
@@ -22617,7 +22599,7 @@ export const pairData = [
     {
         "s": "PROMBTC",
         "b": "PROM",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002725",
         "h": "0.0002788",
@@ -22634,7 +22616,7 @@ export const pairData = [
     {
         "s": "MTLBUSD",
         "b": "MTL",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.368",
         "h": "2.541",
@@ -22648,7 +22630,7 @@ export const pairData = [
     {
         "s": "OGNBUSD",
         "b": "OGN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.7444",
         "h": "0.7763",
@@ -22745,7 +22727,7 @@ export const pairData = [
     {
         "s": "POLYBUSD",
         "b": "POLY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.5953",
         "h": "0.6070",
@@ -22795,7 +22777,7 @@ export const pairData = [
     {
         "s": "DYDXBUSD",
         "b": "DYDX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "9.094",
         "h": "9.785",
@@ -22811,7 +22793,7 @@ export const pairData = [
     {
         "s": "DYDXBNB",
         "b": "DYDX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.015590",
         "h": "0.017006",
@@ -22827,7 +22809,7 @@ export const pairData = [
     {
         "s": "DYDXBTC",
         "b": "DYDX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00017760",
         "h": "0.00019935",
@@ -22843,7 +22825,7 @@ export const pairData = [
     {
         "s": "ELFBUSD",
         "b": "ELF",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.5005",
         "h": "0.5231",
@@ -23000,7 +22982,7 @@ export const pairData = [
     {
         "s": "USDPBUSD",
         "b": "USDP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.0001",
         "h": "1.0002",
@@ -23050,7 +23032,7 @@ export const pairData = [
     {
         "s": "GALABUSD",
         "b": "GALA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.49328",
         "h": "0.49328",
@@ -23068,7 +23050,7 @@ export const pairData = [
     {
         "s": "GALABNB",
         "b": "GALA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00084656",
         "h": "0.00084786",
@@ -23086,7 +23068,7 @@ export const pairData = [
     {
         "s": "GALABTC",
         "b": "GALA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000965",
         "h": "0.00000967",
@@ -23177,7 +23159,7 @@ export const pairData = [
     {
         "s": "SUNBUSD",
         "b": "SUN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.02488",
         "h": "0.02637",
@@ -23211,7 +23193,7 @@ export const pairData = [
     {
         "s": "ILVBUSD",
         "b": "ILV",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "1325.6",
         "h": "1387.9",
@@ -23228,7 +23210,7 @@ export const pairData = [
     {
         "s": "ILVBNB",
         "b": "ILV",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.001",
         "o": "2.274",
         "h": "2.350",
@@ -23245,7 +23227,7 @@ export const pairData = [
     {
         "s": "ILVBTC",
         "b": "ILV",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00001",
         "o": "0.02598",
         "h": "0.02727",
@@ -23262,7 +23244,7 @@ export const pairData = [
     {
         "s": "RENBUSD",
         "b": "REN",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.6322",
         "h": "0.6448",
@@ -23296,7 +23278,7 @@ export const pairData = [
     {
         "s": "YGGBUSD",
         "b": "YGG",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "6.211",
         "h": "6.338",
@@ -23312,7 +23294,7 @@ export const pairData = [
     {
         "s": "YGGBNB",
         "b": "YGG",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01069",
         "h": "0.01107",
@@ -23328,7 +23310,7 @@ export const pairData = [
     {
         "s": "YGGBTC",
         "b": "YGG",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001219",
         "h": "0.0001260",
@@ -23344,7 +23326,7 @@ export const pairData = [
     {
         "s": "STXBUSD",
         "b": "STX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.353",
         "h": "2.365",
@@ -23446,7 +23428,7 @@ export const pairData = [
     {
         "s": "FETBUSD",
         "b": "FET",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.6061",
         "h": "0.6113",
@@ -23463,7 +23445,7 @@ export const pairData = [
     {
         "s": "ARPABUSD",
         "b": "ARPA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.11604",
         "h": "0.11979",
@@ -23477,7 +23459,7 @@ export const pairData = [
     {
         "s": "LSKBUSD",
         "b": "LSK",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.736",
         "h": "3.076",
@@ -23547,7 +23529,7 @@ export const pairData = [
     {
         "s": "FIDABUSD",
         "b": "FIDA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "7.609",
         "h": "7.616",
@@ -23563,7 +23545,7 @@ export const pairData = [
     {
         "s": "FIDABNB",
         "b": "FIDA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01306",
         "h": "0.01313",
@@ -23579,7 +23561,7 @@ export const pairData = [
     {
         "s": "FIDABTC",
         "b": "FIDA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001487",
         "h": "0.0001504",
@@ -23595,7 +23577,7 @@ export const pairData = [
     {
         "s": "DENTBUSD",
         "b": "DENT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.000001",
         "o": "0.004022",
         "h": "0.004136",
@@ -23643,7 +23625,7 @@ export const pairData = [
     {
         "s": "AGLDBTC",
         "b": "AGLD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003412",
         "h": "0.00003456",
@@ -23660,7 +23642,7 @@ export const pairData = [
     {
         "s": "AGLDBNB",
         "b": "AGLD",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.003016",
         "h": "0.003016",
@@ -23677,7 +23659,7 @@ export const pairData = [
     {
         "s": "AGLDBUSD",
         "b": "AGLD",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.736",
         "h": "1.747",
@@ -23711,7 +23693,7 @@ export const pairData = [
     {
         "s": "RADBTC",
         "b": "RAD",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002292",
         "h": "0.0002421",
@@ -23725,7 +23707,7 @@ export const pairData = [
     {
         "s": "RADBNB",
         "b": "RAD",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.02030",
         "h": "0.02051",
@@ -23739,7 +23721,7 @@ export const pairData = [
     {
         "s": "RADBUSD",
         "b": "RAD",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "11.719",
         "h": "11.924",
@@ -23767,7 +23749,7 @@ export const pairData = [
     {
         "s": "HIVEBUSD",
         "b": "HIVE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "1.7258",
         "h": "1.7534",
@@ -23784,7 +23766,7 @@ export const pairData = [
     {
         "s": "STPTBUSD",
         "b": "STPT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.11812",
         "h": "0.12296",
@@ -23798,7 +23780,7 @@ export const pairData = [
     {
         "s": "BETABTC",
         "b": "BETA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00001577",
         "h": "0.00001826",
@@ -23814,7 +23796,7 @@ export const pairData = [
     {
         "s": "BETABNB",
         "b": "BETA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0013861",
         "h": "0.0015571",
@@ -23830,7 +23812,7 @@ export const pairData = [
     {
         "s": "BETABUSD",
         "b": "BETA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.80533",
         "h": "0.92535",
@@ -23878,7 +23860,7 @@ export const pairData = [
     {
         "s": "RAREBTC",
         "b": "RARE",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00002874",
         "h": "0.00003010",
@@ -23894,7 +23876,7 @@ export const pairData = [
     {
         "s": "RAREBNB",
         "b": "RARE",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002532",
         "h": "0.002625",
@@ -23910,7 +23892,7 @@ export const pairData = [
     {
         "s": "RAREBUSD",
         "b": "RARE",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.465",
         "h": "1.532",
@@ -23995,7 +23977,7 @@ export const pairData = [
     {
         "s": "TROYBUSD",
         "b": "TROY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.000001",
         "o": "0.013059",
         "h": "0.013270",
@@ -24066,7 +24048,7 @@ export const pairData = [
     {
         "s": "SSVBTC",
         "b": "SSV",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001818",
         "h": "0.0001892",
@@ -24130,7 +24112,7 @@ export const pairData = [
     {
         "s": "LAZIOBTC",
         "b": "LAZIO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00011310",
         "h": "0.00011763",
@@ -24166,7 +24148,7 @@ export const pairData = [
     {
         "s": "CHESSBTC",
         "b": "CHESS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004174",
         "h": "0.00004516",
@@ -24183,7 +24165,7 @@ export const pairData = [
     {
         "s": "CHESSBNB",
         "b": "CHESS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.003680",
         "h": "0.003941",
@@ -24200,7 +24182,7 @@ export const pairData = [
     {
         "s": "CHESSBUSD",
         "b": "CHESS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "2.134",
         "h": "2.291",
@@ -24270,7 +24252,7 @@ export const pairData = [
     {
         "s": "SCRTBUSD",
         "b": "SCRT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.964",
         "h": "4.998",
@@ -24318,7 +24300,7 @@ export const pairData = [
     {
         "s": "CELOBUSD",
         "b": "CELO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "3.714",
         "h": "3.798",
@@ -24455,7 +24437,7 @@ export const pairData = [
     {
         "s": "DARBUSD",
         "b": "DAR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "2.14729",
         "h": "2.42205",
@@ -24475,7 +24457,7 @@ export const pairData = [
     {
         "s": "DARBNB",
         "b": "DAR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00370814",
         "h": "0.00416399",
@@ -24495,7 +24477,7 @@ export const pairData = [
     {
         "s": "DARBTC",
         "b": "DAR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00004221",
         "h": "0.00004875",
@@ -24515,7 +24497,7 @@ export const pairData = [
     {
         "s": "BNXBTC",
         "b": "BNX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.001428",
         "h": "0.001428",
@@ -24534,7 +24516,7 @@ export const pairData = [
     {
         "s": "BNXBNB",
         "b": "BNX",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.1253",
         "h": "0.1253",
@@ -24553,7 +24535,7 @@ export const pairData = [
     {
         "s": "BNXBUSD",
         "b": "BNX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "72.6",
         "h": "72.8",
@@ -24607,7 +24589,7 @@ export const pairData = [
     {
         "s": "RGTBTC",
         "b": "RGT",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0004666",
         "h": "0.0004701",
@@ -24623,7 +24605,7 @@ export const pairData = [
     {
         "s": "RGTBUSD",
         "b": "RGT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "23.82",
         "h": "23.91",
@@ -24639,7 +24621,7 @@ export const pairData = [
     {
         "s": "RGTBNB",
         "b": "RGT",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.04146",
         "h": "0.04149",
@@ -24655,7 +24637,7 @@ export const pairData = [
     {
         "s": "LAZIOBUSD",
         "b": "LAZIO",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "5.7677",
         "h": "5.9800",
@@ -24673,7 +24655,7 @@ export const pairData = [
     {
         "s": "OXTBUSD",
         "b": "OXT",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.4155",
         "h": "0.4195",
@@ -24772,7 +24754,7 @@ export const pairData = [
     {
         "s": "MOVRBTC",
         "b": "MOVR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.004195",
         "h": "0.004264",
@@ -24788,7 +24770,7 @@ export const pairData = [
     {
         "s": "MOVRBNB",
         "b": "MOVR",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0001",
         "o": "0.3708",
         "h": "0.3708",
@@ -24804,7 +24786,7 @@ export const pairData = [
     {
         "s": "MOVRBUSD",
         "b": "MOVR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "214.1",
         "h": "215.0",
@@ -24836,7 +24818,7 @@ export const pairData = [
     {
         "s": "CITYBTC",
         "b": "CITY",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0002048",
         "h": "0.0002083",
@@ -24852,7 +24834,7 @@ export const pairData = [
     {
         "s": "CITYBNB",
         "b": "CITY",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.01788",
         "h": "0.01807",
@@ -24868,7 +24850,7 @@ export const pairData = [
     {
         "s": "CITYBUSD",
         "b": "CITY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "10.43",
         "h": "10.43",
@@ -24900,7 +24882,7 @@ export const pairData = [
     {
         "s": "ENSBTC",
         "b": "ENS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0010106",
         "h": "0.0010315",
@@ -24914,7 +24896,7 @@ export const pairData = [
     {
         "s": "ENSBNB",
         "b": "ENS",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00001",
         "o": "0.08824",
         "h": "0.09033",
@@ -24928,7 +24910,7 @@ export const pairData = [
     {
         "s": "ENSBUSD",
         "b": "ENS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "51.48",
         "h": "52.44",
@@ -25012,7 +24994,7 @@ export const pairData = [
     {
         "s": "ANKRBUSD",
         "b": "ANKR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.11440",
         "h": "0.12345",
@@ -25101,7 +25083,7 @@ export const pairData = [
     {
         "s": "QIBUSD",
         "b": "QI",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1808",
         "h": "0.1852",
@@ -25118,7 +25100,7 @@ export const pairData = [
     {
         "s": "QIBNB",
         "b": "QI",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0003128",
         "h": "0.0003180",
@@ -25135,7 +25117,7 @@ export const pairData = [
     {
         "s": "QIBTC",
         "b": "QI",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000355",
         "h": "0.00000363",
@@ -25152,7 +25134,7 @@ export const pairData = [
     {
         "s": "PORTOBTC",
         "b": "PORTO",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00008562",
         "h": "0.00009160",
@@ -25234,7 +25216,7 @@ export const pairData = [
     {
         "s": "POWRBUSD",
         "b": "POWR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.5008",
         "h": "0.5154",
@@ -25398,7 +25380,7 @@ export const pairData = [
     {
         "s": "JASMYBUSD",
         "b": "JASMY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "0.1227",
         "h": "0.1236",
@@ -25414,7 +25396,7 @@ export const pairData = [
     {
         "s": "JASMYBNB",
         "b": "JASMY",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.0000001",
         "o": "0.0002126",
         "h": "0.0002145",
@@ -25430,7 +25412,7 @@ export const pairData = [
     {
         "s": "JASMYBTC",
         "b": "JASMY",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000240",
         "h": "0.00000244",
@@ -25446,7 +25428,7 @@ export const pairData = [
     {
         "s": "AMPBTC",
         "b": "AMP",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00000103",
         "h": "0.00000127",
@@ -25463,7 +25445,7 @@ export const pairData = [
     {
         "s": "AMPBNB",
         "b": "AMP",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.00000001",
         "o": "0.00009152",
         "h": "0.00010780",
@@ -25480,7 +25462,7 @@ export const pairData = [
     {
         "s": "AMPBUSD",
         "b": "AMP",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.00001",
         "o": "0.05300",
         "h": "0.06348",
@@ -25514,7 +25496,7 @@ export const pairData = [
     {
         "s": "PLABTC",
         "b": "PLA",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00003234",
         "h": "0.00003271",
@@ -25531,7 +25513,7 @@ export const pairData = [
     {
         "s": "PLABNB",
         "b": "PLA",
-        "q": "BNB",
+        "q": "AGIX",
         "ts": "0.000001",
         "o": "0.002818",
         "h": "0.002868",
@@ -25548,7 +25530,7 @@ export const pairData = [
     {
         "s": "PLABUSD",
         "b": "PLA",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "1.651",
         "h": "1.669",
@@ -25582,7 +25564,7 @@ export const pairData = [
     {
         "s": "PYRBTC",
         "b": "PYR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0006364",
         "h": "0.0006545",
@@ -25601,7 +25583,7 @@ export const pairData = [
     {
         "s": "PYRBUSD",
         "b": "PYR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "32.67",
         "h": "33.37",
@@ -25639,7 +25621,7 @@ export const pairData = [
     {
         "s": "RNDRBTC",
         "b": "RNDR",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0000939",
         "h": "0.0000939",
@@ -25671,7 +25653,7 @@ export const pairData = [
     {
         "s": "RNDRBUSD",
         "b": "RNDR",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.001",
         "o": "4.803",
         "h": "4.803",
@@ -25687,7 +25669,7 @@ export const pairData = [
     {
         "s": "ALCXBTC",
         "b": "ALCX",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.000001",
         "o": "0.005512",
         "h": "0.005832",
@@ -25704,7 +25686,7 @@ export const pairData = [
     {
         "s": "ALCXBUSD",
         "b": "ALCX",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.1",
         "o": "281.6",
         "h": "294.1",
@@ -25738,7 +25720,7 @@ export const pairData = [
     {
         "s": "SANTOSBTC",
         "b": "SANTOS",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.00000001",
         "o": "0.00010169",
         "h": "0.00010429",
@@ -25806,7 +25788,7 @@ export const pairData = [
     {
         "s": "MCBTC",
         "b": "MC",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0001117",
         "h": "0.0001125",
@@ -25824,7 +25806,7 @@ export const pairData = [
     {
         "s": "MCBUSD",
         "b": "MC",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "5.71",
         "h": "5.74",
@@ -25879,7 +25861,7 @@ export const pairData = [
     {
         "s": "COCOSBUSD",
         "b": "COCOS",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.0001",
         "o": "2.4896",
         "h": "3.2628",
@@ -25985,7 +25967,7 @@ export const pairData = [
     {
         "s": "ANYBTC",
         "b": "ANY",
-        "q": "BTC",
+        "q": "MAL",
         "ts": "0.0000001",
         "o": "0.0003083",
         "h": "0.0004297",
@@ -26003,7 +25985,7 @@ export const pairData = [
     {
         "s": "ANYBUSD",
         "b": "ANY",
-        "q": "BUSD",
+        "q": "ADA",
         "ts": "0.01",
         "o": "15.64",
         "h": "21.87",
@@ -26037,6 +26019,7 @@ export const pairData = [
         "sd": false,
     }
 ];
-export const Symbols = ["BUSD", "USDT", "BNB", "BTC"];
+export const ActiveAssets = []
+export const Symbols = ["ADA", "USDT", "AGIX", "MAL"];
 export const Indexes = ["ETH", "TRX", "XRP", "DOGE"];
 export const Options = ["AUD", "BIDR", "BRL", "EUR", "GBP", "RUB", "TRY", "TUSD", "USDC", "DAI", "IDRI", "UAH", "NGN", "VAI", "USDP"];
