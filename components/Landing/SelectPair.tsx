@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faCogs, faStar, faSearch, faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 
 import styles from '/styles/Home.module.scss';
-import { pairData, Symbols, Indexes, Options } from "../../lib/data";
+import { pairData, Symbols, Indexes, Options, ActiveAssets } from "../../lib/data";
 
 type TableProps = {
   pair?: string;
@@ -214,7 +214,31 @@ const SelectPair: React.FC<Props> = (props) => {
     });
     setTableData(temp_data);
   }
+  
+  const selectStar = () => {
+    setIsStar(true);
+    let temp_data = [];
+    pairdata.forEach(element => {
+      if (element.sd) {
+        temp_data.push(element);
+      }
+    });
+    setTableData(temp_data);
+  }
 
+  const selectActiveAssets = () => {
+    let temp_data = [];
+    pairdata.forEach(element => {
+      ActiveAssets.forEach(activeasset => {
+        if (element.q == symbol && element.b == activeasset) {
+          temp_data.push(element);
+        }
+      })
+    });
+    setIsStar(false);
+    setTableData(temp_data);
+  }
+  
   const changeSymbol = (value: React.SetStateAction<string>) => {
     setSymbol(value);
     let temp_data = [];
@@ -224,17 +248,6 @@ const SelectPair: React.FC<Props> = (props) => {
       }
     });
     setIsStar(false);
-    setTableData(temp_data);
-  }
-
-  const selectStar = () => {
-    setIsStar(true);
-    let temp_data = [];
-    pairdata.forEach(element => {
-      if (element.sd) {
-        temp_data.push(element);
-      }
-    });
     setTableData(temp_data);
   }
 
@@ -346,7 +359,7 @@ const SelectPair: React.FC<Props> = (props) => {
               <FontAwesomeIcon icon={faStar} onClick={() => selectStar()} />
             </div>
             <div className={styles.pair_select_instrumenttypes_activeassets}>
-              <FontAwesomeIcon icon={faCogs} />
+              <FontAwesomeIcon icon={faCogs} onClick={() => selectActiveAssets()} />
             </div>
             <div className={styles.pair_select_instrumenttypes_pairs}>
               <span>Pairs</span>

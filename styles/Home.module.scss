@@ -534,7 +534,7 @@
         font-size: 32px;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
-        color:#878787;
+        color: #878787;
       }
     }
     &_instrumenttypes {
@@ -807,19 +807,32 @@
   .pair {
     &_select {
       background-color: #1e2329;
+      &_search {
+        input {
+          background-color: #2b3139;
+          color: #e2e2e2;
+        }
+        svg {
+          background-color: #2b3139;
+        }
+      }
       &_instrumenttypes {
         color: #e2e2e2;
         &_pairs_content {
           background-color: #1e2329;
+          border: 1px solid #3a3a3a;
         }
         &_indexes_content {
           background-color: #1e2329;
+          border: 1px solid #3a3a3a;
         }
         &_options_content {
           background-color: #1e2329;
+          border: 1px solid #3a3a3a;
         }
         &_strategies_content {
           background-color: #1e2329;
+          border: 1px solid #3a3a3a;
         }
       }
       &_table table thead {

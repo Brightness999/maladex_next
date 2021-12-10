@@ -26019,7 +26019,7 @@ export const pairData = [
         "sd": false,
     }
 ];
-export const ActiveAssets = []
+export const ActiveAssets = ["ETH", "BNB", "MAL", "ADA", "BUSD", "USDT"]
 export const Symbols = ["ADA", "USDT", "AGIX", "MAL"];
 export const Indexes = ["ETH", "TRX", "XRP", "DOGE"];
 export const Options = ["AUD", "BIDR", "BRL", "EUR", "GBP", "RUB", "TRY", "TUSD", "USDC", "DAI", "IDRI", "UAH", "NGN", "VAI", "USDP"];
