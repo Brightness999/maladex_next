@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { MathJax, MathJaxContext } from "better-react-mathjax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faCogs, faStar, faSort, faSearch, faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faCogs, faStar, faSearch, faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 
 import styles from '/styles/Home.module.scss';
 import { pairData, Symbols, Indexes, Options } from "../../lib/data";
-import next from "next";
-import { access } from "fs";
 
 type TableProps = {
   pair?: string;
@@ -142,7 +140,7 @@ const PairTable: React.FC<TableProps> = (props) => {
                 <td>
                   <div className={value.sd ? styles.star : ''}>
                     <FontAwesomeIcon icon={faStar} onClick={() => props.changeStarPair(value.s)} />
-                    <p id={`${value.b}_${value.q}`} onClick={(e) => props.handleSelectPair((e.target as HTMLElement).id)}>
+                    <p id={`${value.b}_${value.q}`} onClick={(e) => props.handleSelectPair((e.target as HTMLElement).parentElement.id)}>
                       <span>{value.b}</span>
                       <span className="text-gray"> / {value.q}</span>
                     </p>
@@ -174,17 +172,17 @@ const PairTable: React.FC<TableProps> = (props) => {
 type Props = {
   theme?: string;
   handleSelectPair?: any;
+  pair?: string;
 }
 
-const SelectPair: React.FC<Props> = ({ theme, handleSelectPair }) => {
-  const [pair, setPair] = useState<string>("AGIX_BTC");
+const SelectPair: React.FC<Props> = (props) => {
+  const [pair, setPair] = useState<string>(props.pair);
   const [symbol, setSymbol] = useState<string>("BTC");
   const [index, setIndex] = useState<string>("");
   const [option, setOption] = useState<string>("");
   const [startegy, setStartegy] = useState<string>("");
   const [tabledata, setTableData] = useState<Array<any>>([]);
   const [isstar, setIsStar] = useState<boolean>(false);
-  const [starindexes, setStarIndexes] = useState<Array<string>>([]);
   const [pairdata, setPairData] = useState<Array<any>>(pairData);
   const [currentsort, setCurrentSort] = useState<string>("default");
   const [sortitem, setSortitem] = useState<string>("default");
@@ -208,7 +206,6 @@ const SelectPair: React.FC<Props> = ({ theme, handleSelectPair }) => {
   };
 
   const handleSearchPair = (event: React.ChangeEvent<HTMLInputElement>) => {
-    // if (event.target.value != '') {
     let temp_data = [];
     pairdata.forEach(element => {
       if (element.s.indexOf(event.target.value.toUpperCase()) >= 0) {
@@ -216,18 +213,7 @@ const SelectPair: React.FC<Props> = ({ theme, handleSelectPair }) => {
       }
     });
     setTableData(temp_data);
-    // }
   }
-
-  useEffect(() => {
-    let temp_data = [];
-    pairdata.forEach(element => {
-      if (element.q == symbol) {
-        temp_data.push(element);
-      }
-    });
-    setTableData(temp_data);
-  }, []);
 
   const changeSymbol = (value: React.SetStateAction<string>) => {
     setSymbol(value);
@@ -327,8 +313,24 @@ const SelectPair: React.FC<Props> = ({ theme, handleSelectPair }) => {
     setSortitem(type);
   }
 
+  useEffect(() => {
+    let temp_data = [];
+    pairdata.forEach(element => {
+      if (element.q == symbol) {
+        temp_data.push(element);
+      }
+    });
+    setTableData(temp_data);
+  }, []);
+
+  useEffect(() => {
+    console.log(props);
+    
+    setPair(props.pair);
+  }, [props.pair]);
+
   return (
-    <div className={`${styles.pair} ${theme == 'dark' && styles.dark}`} >
+    <div className={`${styles.pair} ${props.theme == 'dark' && styles.dark}`} >
       <div className={styles.pair_symbol}>
         <div className={styles.pair_symbol_text}>
           <span>{pair.replace('_', '/')}</span>
@@ -407,7 +409,7 @@ const SelectPair: React.FC<Props> = ({ theme, handleSelectPair }) => {
             <PairTable
               tabledata={tabledata}
               pair={pair}
-              handleSelectPair={handleSelectPair}
+              handleSelectPair={props.handleSelectPair}
               changeStarPair={changeStarPair}
               currentsort={currentsort}
               changeSort={(type) => changeSort(type)}

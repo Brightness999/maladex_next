@@ -112,6 +112,7 @@ const Landing: React.FC<Props> = (props) => {
       <SelectPair
         theme={props.theme}
         handleSelectPair={(value: any) => handleSelectPair(value)}
+        pair={pair}
       />
       <div className={`${styles.container} ${mobile && styles.mobile} ${props.theme == 'dark' && styles.dark}`}>
         {mobile ?
