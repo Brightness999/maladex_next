@@ -3285,7 +3285,7 @@ export const pairData = [
         "v": "139367.785000",
         "qv": "1612.24303614",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -3304,7 +3304,7 @@ export const pairData = [
         "v": "3255287.00000000",
         "qv": "52.82778557",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -3321,7 +3321,7 @@ export const pairData = [
         "v": "91791.290000",
         "qv": "55.68305159",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -3339,7 +3339,7 @@ export const pairData = [
         "v": "2623312.1900000",
         "qv": "1139.55554651",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3355,7 +3355,7 @@ export const pairData = [
         "v": "2519162.00000000",
         "qv": "59.1964789",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -3371,7 +3371,7 @@ export const pairData = [
         "v": "180673.840000",
         "qv": "146.25026614",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -3388,7 +3388,7 @@ export const pairData = [
         "v": "569410.60000000",
         "qv": "16.91451644",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3404,8 +3404,8 @@ export const pairData = [
         "v": "15811421.00000000",
         "qv": "372.4731271",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -3422,7 +3422,7 @@ export const pairData = [
         "v": "1877459.600000",
         "qv": "1554.5665111",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -3454,7 +3454,7 @@ export const pairData = [
         "v": "39996.02",
         "qv": "2005265427.3353366",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -3471,7 +3471,7 @@ export const pairData = [
         "v": "151094.100000",
         "qv": "246.7911682",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -3503,7 +3503,7 @@ export const pairData = [
         "v": "42826.200000",
         "qv": "110.1629013",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -3520,7 +3520,7 @@ export const pairData = [
         "v": "46499.300000",
         "qv": "38.340551",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3536,7 +3536,7 @@ export const pairData = [
         "v": "1906329.00000000",
         "qv": "12.27112192",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -3552,7 +3552,7 @@ export const pairData = [
         "v": "50136.20000",
         "qv": "350.4796908",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -3570,7 +3570,7 @@ export const pairData = [
         "v": "175752.4000000",
         "qv": "60.41159376",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3586,7 +3586,7 @@ export const pairData = [
         "v": "157481.0000000",
         "qv": "32.6046827",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3602,7 +3602,7 @@ export const pairData = [
         "v": "213814.0000000",
         "qv": "47.42219022",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -3633,7 +3633,7 @@ export const pairData = [
         "v": "203764.783000",
         "qv": "660.48579278",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -3650,7 +3650,7 @@ export const pairData = [
         "v": "484686.780000",
         "qv": "2426.47679457",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3666,7 +3666,7 @@ export const pairData = [
         "v": "75473.827100",
         "qv": "6516.02006608",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -3684,7 +3684,7 @@ export const pairData = [
         "v": "21931010.00000000",
         "qv": "98.80475392",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -3701,7 +3701,7 @@ export const pairData = [
         "v": "836116.00000000",
         "qv": "14.90998737",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3717,7 +3717,7 @@ export const pairData = [
         "v": "144143.0000000",
         "qv": "39.2887874",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -3733,7 +3733,7 @@ export const pairData = [
         "v": "787460.3000000",
         "qv": "110.21888521",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -3751,8 +3751,8 @@ export const pairData = [
         "v": "1231128.30000000",
         "qv": "65.95225237",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3768,8 +3768,8 @@ export const pairData = [
         "v": "908245.900",
         "qv": "2442291.1512",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3785,8 +3785,8 @@ export const pairData = [
         "v": "10193849.000",
         "qv": "27395085.5144",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3802,7 +3802,7 @@ export const pairData = [
         "v": "4068.2910",
         "qv": "1306.8319322",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3818,7 +3818,7 @@ export const pairData = [
         "v": "30126.041000",
         "qv": "111.81104189",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3834,7 +3834,7 @@ export const pairData = [
         "v": "12128.3",
         "qv": "2270778.8743",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3850,7 +3850,7 @@ export const pairData = [
         "v": "9206.4090",
         "qv": "393.9231508",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3866,7 +3866,7 @@ export const pairData = [
         "v": "149068.2",
         "qv": "27850109.8784",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -3931,7 +3931,7 @@ export const pairData = [
         "qv": "1606468.5507",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -3949,7 +3949,7 @@ export const pairData = [
         "qv": "5199957064.1",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -3967,7 +3967,7 @@ export const pairData = [
         "qv": "4907.4700059",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -3985,7 +3985,7 @@ export const pairData = [
         "qv": "6982007.1048",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4003,7 +4003,7 @@ export const pairData = [
         "qv": "816.02086349",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4037,7 +4037,7 @@ export const pairData = [
         "qv": "1708.61650616",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4055,7 +4055,7 @@ export const pairData = [
         "qv": "8031817.5309",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4073,7 +4073,7 @@ export const pairData = [
         "qv": "840395.63922",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4091,7 +4091,7 @@ export const pairData = [
         "qv": "11361898.939",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4109,7 +4109,7 @@ export const pairData = [
         "qv": "53186938.515",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4127,7 +4127,7 @@ export const pairData = [
         "qv": "493378.2999",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4161,7 +4161,7 @@ export const pairData = [
         "qv": "1972209.1295",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4179,7 +4179,7 @@ export const pairData = [
         "qv": "275256218.2761",
         "tags": [
             "mining-zone",
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -4238,7 +4238,7 @@ export const pairData = [
         "v": "1265473.00000000",
         "qv": "7.08238231",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -4254,7 +4254,7 @@ export const pairData = [
         "v": "1475779.0000",
         "qv": "412922.9123",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -4270,7 +4270,7 @@ export const pairData = [
         "v": "3868779.00000000",
         "qv": "13.11684751",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4287,7 +4287,7 @@ export const pairData = [
         "v": "1421890.00000000",
         "qv": "55.86457919",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4304,7 +4304,7 @@ export const pairData = [
         "v": "35644072.0000",
         "qv": "6059710.3083",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4321,8 +4321,8 @@ export const pairData = [
         "v": "57877535.00000000",
         "qv": "26.94569896",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot"
         ],
         "sd": false,
@@ -4339,8 +4339,8 @@ export const pairData = [
         "v": "317200587.00000",
         "qv": "7471831.51049",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot"
         ],
         "sd": false,
@@ -4357,7 +4357,7 @@ export const pairData = [
         "v": "276681.000000",
         "qv": "794.042466",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -4375,7 +4375,7 @@ export const pairData = [
         "v": "3078838.00000000",
         "qv": "102.28699662",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -4393,7 +4393,7 @@ export const pairData = [
         "v": "3695233.0000",
         "qv": "6169058.1823",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -4411,7 +4411,7 @@ export const pairData = [
         "v": "28418626.0000",
         "qv": "47345728.1036",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -4429,7 +4429,7 @@ export const pairData = [
         "v": "335675.6600000",
         "qv": "90.02918294",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse",
@@ -4449,7 +4449,7 @@ export const pairData = [
         "v": "559530.12",
         "qv": "7538050.0988",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse",
@@ -4469,7 +4469,7 @@ export const pairData = [
         "v": "5283414.06",
         "qv": "71129768.7564",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse",
@@ -4489,7 +4489,7 @@ export const pairData = [
         "v": "166709.700000",
         "qv": "169.5050337",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -4505,7 +4505,7 @@ export const pairData = [
         "v": "1119165.90000000",
         "qv": "13.37086076",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -4521,7 +4521,7 @@ export const pairData = [
         "v": "1669939.0000",
         "qv": "991890.71868",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -4537,7 +4537,7 @@ export const pairData = [
         "v": "6026624.7000",
         "qv": "3580340.52431",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -4553,8 +4553,8 @@ export const pairData = [
         "v": "109456.000000",
         "qv": "155.867846",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool",
             "Launchpad"
         ],
@@ -4572,8 +4572,8 @@ export const pairData = [
         "v": "756006.00000000",
         "qv": "12.47565603",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool",
             "Launchpad"
         ],
@@ -4591,8 +4591,8 @@ export const pairData = [
         "v": "850542.0000",
         "qv": "708440.1434",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool",
             "Launchpad"
         ],
@@ -4610,8 +4610,8 @@ export const pairData = [
         "v": "11888710.0000",
         "qv": "9877811.1645",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool",
             "Launchpad"
         ],
@@ -4629,7 +4629,7 @@ export const pairData = [
         "v": "15379292.00000000",
         "qv": "11.68858292",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4646,9 +4646,9 @@ export const pairData = [
         "v": "3898963.0000000",
         "qv": "762.9316844",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -4664,9 +4664,9 @@ export const pairData = [
         "v": "38805700.00000000",
         "qv": "89.22847917",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -4682,9 +4682,9 @@ export const pairData = [
         "v": "344848133.80000",
         "qv": "39676616.383048",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -4700,7 +4700,7 @@ export const pairData = [
         "v": "317497.80000",
         "qv": "3006.076259",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4717,7 +4717,7 @@ export const pairData = [
         "v": "2187923.300",
         "qv": "11744912.7788",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4734,7 +4734,7 @@ export const pairData = [
         "v": "13941014.600",
         "qv": "75003250.769",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4807,7 +4807,7 @@ export const pairData = [
         "v": "1568855.00000000",
         "qv": "8.46909906",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4824,7 +4824,7 @@ export const pairData = [
         "v": "7379531.0000",
         "qv": "2004203.619",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4841,7 +4841,7 @@ export const pairData = [
         "v": "784472.20000000",
         "qv": "21.93149045",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -4914,7 +4914,7 @@ export const pairData = [
         "v": "41080.1000000",
         "qv": "3.51972731",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -4933,7 +4933,7 @@ export const pairData = [
         "v": "193992.500",
         "qv": "839325.3844",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -4952,7 +4952,7 @@ export const pairData = [
         "v": "2691548.00000000",
         "qv": "17.32455165",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -4969,7 +4969,7 @@ export const pairData = [
         "qv": "220.02225",
         "tags": [
             "mining-zone",
-            "innovation-zone",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -4987,7 +4987,7 @@ export const pairData = [
         "qv": "16.20356221",
         "tags": [
             "mining-zone",
-            "innovation-zone",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -5005,7 +5005,7 @@ export const pairData = [
         "qv": "2561889.971",
         "tags": [
             "mining-zone",
-            "innovation-zone",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -5023,7 +5023,7 @@ export const pairData = [
         "qv": "17585640.1337",
         "tags": [
             "mining-zone",
-            "innovation-zone",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -5040,7 +5040,7 @@ export const pairData = [
         "v": "66971.3200000",
         "qv": "11.64489007",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -5059,7 +5059,7 @@ export const pairData = [
         "v": "73240.61",
         "qv": "641493.1345",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -5078,7 +5078,7 @@ export const pairData = [
         "v": "416764.53",
         "qv": "3636797.9549",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -5097,7 +5097,7 @@ export const pairData = [
         "v": "18116.86000",
         "qv": "754.0661821",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -5115,7 +5115,7 @@ export const pairData = [
         "v": "539085.6600000",
         "qv": "262.9434683",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -5133,7 +5133,7 @@ export const pairData = [
         "v": "474002.62",
         "qv": "11630574.9606",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -5151,7 +5151,7 @@ export const pairData = [
         "v": "22840.84",
         "qv": "556846.6832",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -5169,7 +5169,7 @@ export const pairData = [
         "v": "3786492.21",
         "qv": "92296859.8253",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -5187,8 +5187,8 @@ export const pairData = [
         "v": "40121.8300000",
         "qv": "21.87838492",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -5205,8 +5205,8 @@ export const pairData = [
         "v": "54427.88",
         "qv": "1494834.1831",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -5293,9 +5293,9 @@ export const pairData = [
         "v": "151.78200",
         "qv": "2.2853556",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5311,9 +5311,9 @@ export const pairData = [
         "v": "297.6",
         "qv": "224783.9811",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5329,9 +5329,9 @@ export const pairData = [
         "v": "1918.1",
         "qv": "1450607.2968",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5403,7 +5403,7 @@ export const pairData = [
         "v": "49997.65000",
         "qv": "7764.7095354",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -5420,7 +5420,7 @@ export const pairData = [
         "v": "186432.3400000",
         "qv": "333.81365239",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -5437,7 +5437,7 @@ export const pairData = [
         "v": "279347.37",
         "qv": "25176292.2187",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -5454,7 +5454,7 @@ export const pairData = [
         "v": "27193.41",
         "qv": "2165647.8923",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -5471,7 +5471,7 @@ export const pairData = [
         "v": "141431.0",
         "qv": "178951271.779",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -5488,7 +5488,7 @@ export const pairData = [
         "v": "2175148.29",
         "qv": "195539903.7201",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -5619,8 +5619,8 @@ export const pairData = [
         "v": "18539.5800000",
         "qv": "5.48197879",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5636,8 +5636,8 @@ export const pairData = [
         "v": "29935.38",
         "qv": "446954.0824",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5653,8 +5653,8 @@ export const pairData = [
         "v": "195918.83",
         "qv": "2909452.9331",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5670,8 +5670,8 @@ export const pairData = [
         "v": "499615.800000",
         "qv": "1104.2080085",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "NFT"
         ],
@@ -5689,8 +5689,8 @@ export const pairData = [
         "v": "569949.00000000",
         "qv": "14.55017257",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "NFT"
         ],
@@ -5708,8 +5708,8 @@ export const pairData = [
         "v": "1822270.400",
         "qv": "2339393.2357",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "NFT"
         ],
@@ -5727,8 +5727,8 @@ export const pairData = [
         "v": "11144878.800",
         "qv": "14286470.513",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "NFT"
         ],
@@ -5746,7 +5746,7 @@ export const pairData = [
         "v": "11532.69",
         "qv": "182208.1835",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5762,7 +5762,7 @@ export const pairData = [
         "v": "184733.16",
         "qv": "2913534.7304",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -5778,8 +5778,8 @@ export const pairData = [
         "v": "248155.4000000",
         "qv": "29.46804542",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -5796,8 +5796,8 @@ export const pairData = [
         "v": "135085.100",
         "qv": "804558.493",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -5814,8 +5814,8 @@ export const pairData = [
         "v": "1267007.500",
         "qv": "7534287.4966",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -5832,7 +5832,7 @@ export const pairData = [
         "v": "18843.9400000",
         "qv": "3.64215082",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token"
         ],
         "sd": false,
@@ -5849,7 +5849,7 @@ export const pairData = [
         "v": "12566.47",
         "qv": "121960.1667",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token"
         ],
         "sd": false,
@@ -5922,7 +5922,7 @@ export const pairData = [
         "v": "927190.80000000",
         "qv": "27.80303788",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -5939,7 +5939,7 @@ export const pairData = [
         "v": "1659.524",
         "qv": "1359.753327",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -5956,7 +5956,7 @@ export const pairData = [
         "v": "17513.09500",
         "qv": "165.80331221",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -5973,7 +5973,7 @@ export const pairData = [
         "v": "9332.4",
         "qv": "4437588.4337",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6006,7 +6006,7 @@ export const pairData = [
         "v": "1186.4",
         "qv": "499890.0997",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6039,7 +6039,7 @@ export const pairData = [
         "v": "1133.0",
         "qv": "539355.5878",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6056,7 +6056,7 @@ export const pairData = [
         "v": "120455.8",
         "qv": "57182639.486",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6073,7 +6073,7 @@ export const pairData = [
         "v": "1822679.00000000",
         "qv": "28.76422011",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6090,7 +6090,7 @@ export const pairData = [
         "v": "21764542.0000",
         "qv": "17148747.5283",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6107,8 +6107,8 @@ export const pairData = [
         "v": "169108.700000",
         "qv": "492.1514317",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -6126,8 +6126,8 @@ export const pairData = [
         "v": "405513.30000000",
         "qv": "13.73266832",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -6145,8 +6145,8 @@ export const pairData = [
         "v": "473887.100",
         "qv": "797670.7304",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -6164,8 +6164,8 @@ export const pairData = [
         "v": "5235940.600",
         "qv": "8865306.2929",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -6199,8 +6199,8 @@ export const pairData = [
         "v": "849.0",
         "qv": "1130933.1226",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -6217,7 +6217,7 @@ export const pairData = [
         "v": "10967544.00000000",
         "qv": "58.20205932",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -6233,7 +6233,7 @@ export const pairData = [
         "v": "1959934.00000000",
         "qv": "121.21147619",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -6249,7 +6249,7 @@ export const pairData = [
         "v": "76024976.0000",
         "qv": "20264936.249",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -6265,7 +6265,7 @@ export const pairData = [
         "v": "3260.1",
         "qv": "2654512.7102",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6284,7 +6284,7 @@ export const pairData = [
         "v": "2212",
         "qv": "18554289352.11",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6303,7 +6303,7 @@ export const pairData = [
         "v": "10997",
         "qv": "36110945.899",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6322,7 +6322,7 @@ export const pairData = [
         "v": "318303.0",
         "qv": "185063774.773",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6341,7 +6341,7 @@ export const pairData = [
         "v": "297.6",
         "qv": "172784.7781",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6376,7 +6376,7 @@ export const pairData = [
         "v": "41706.3470",
         "qv": "5588.0186669",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6395,7 +6395,7 @@ export const pairData = [
         "v": "18047.0",
         "qv": "9294779.4973",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6414,7 +6414,7 @@ export const pairData = [
         "v": "1959.7",
         "qv": "860142.1439",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6433,7 +6433,7 @@ export const pairData = [
         "v": "669",
         "qv": "5536483348.95",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6452,7 +6452,7 @@ export const pairData = [
         "v": "802.61",
         "qv": "34565933.19537",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6471,7 +6471,7 @@ export const pairData = [
         "v": "6752",
         "qv": "55060576.212",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6490,7 +6490,7 @@ export const pairData = [
         "v": "4210.3",
         "qv": "2445148.1352",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6509,7 +6509,7 @@ export const pairData = [
         "v": "133",
         "qv": "2173170.222",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6544,7 +6544,7 @@ export const pairData = [
         "v": "6508.4",
         "qv": "3775093.5618",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -6563,7 +6563,7 @@ export const pairData = [
         "v": "126046.10000000",
         "qv": "9.00512985",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -6579,7 +6579,7 @@ export const pairData = [
         "v": "12835.000",
         "qv": "45949.804",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -6595,7 +6595,7 @@ export const pairData = [
         "v": "343978.100",
         "qv": "1228219.9305",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -6695,7 +6695,7 @@ export const pairData = [
         "v": "204.78",
         "qv": "14426825.2717329",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6712,7 +6712,7 @@ export const pairData = [
         "v": "45",
         "qv": "32201209192.22",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6729,7 +6729,7 @@ export const pairData = [
         "v": "309",
         "qv": "87497285.2433",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6746,7 +6746,7 @@ export const pairData = [
         "v": "11439.10",
         "qv": "574005947.3589848",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6763,7 +6763,7 @@ export const pairData = [
         "v": "65.15",
         "qv": "3268861.9182011",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6796,7 +6796,7 @@ export const pairData = [
         "v": "1909.68",
         "qv": "84897859.203",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6813,7 +6813,7 @@ export const pairData = [
         "v": "137.42",
         "qv": "5185338.6189061",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6830,7 +6830,7 @@ export const pairData = [
         "v": "6",
         "qv": "145500368.95691",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6847,7 +6847,7 @@ export const pairData = [
         "v": "41",
         "qv": "151672680.58933",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6864,8 +6864,8 @@ export const pairData = [
         "v": "17596.5800000",
         "qv": "8.95442091",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -6883,8 +6883,8 @@ export const pairData = [
         "v": "53240.00",
         "qv": "1369460.366",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -6902,8 +6902,8 @@ export const pairData = [
         "v": "228678.43",
         "qv": "5876981.9987",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -6921,7 +6921,7 @@ export const pairData = [
         "v": "271",
         "qv": "190365180.4212",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6938,7 +6938,7 @@ export const pairData = [
         "v": "119.94",
         "qv": "6030019.3101875",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6955,7 +6955,7 @@ export const pairData = [
         "v": "8",
         "qv": "10007869.36386",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -6988,7 +6988,7 @@ export const pairData = [
         "v": "1570.21",
         "qv": "78855617.258444",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -7005,7 +7005,7 @@ export const pairData = [
         "v": "4935.040000",
         "qv": "4.50542455",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -7022,7 +7022,7 @@ export const pairData = [
         "v": "1612.44",
         "qv": "73951.2674",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -7039,8 +7039,8 @@ export const pairData = [
         "v": "23634327.00000000",
         "qv": "18.02597323",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -7057,8 +7057,8 @@ export const pairData = [
         "v": "1255327594.00000000",
         "qv": "8351.62514687",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7076,8 +7076,8 @@ export const pairData = [
         "v": "723727785.20000",
         "qv": "16020507.100942",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7095,8 +7095,8 @@ export const pairData = [
         "v": "9077302161.000000",
         "qv": "35375761.955223",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7114,8 +7114,8 @@ export const pairData = [
         "v": "1256015809.000000",
         "qv": "4332292.597913",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7133,8 +7133,8 @@ export const pairData = [
         "v": "1484546277.40000",
         "qv": "63031378.972821",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7152,8 +7152,8 @@ export const pairData = [
         "v": "10190755921.00000",
         "qv": "553012411.63842",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7171,8 +7171,8 @@ export const pairData = [
         "v": "747627695.000000",
         "qv": "2885631.123821",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7190,8 +7190,8 @@ export const pairData = [
         "v": "1186644538.000000",
         "qv": "4579633.251343",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7209,8 +7209,8 @@ export const pairData = [
         "v": "81072241041.000000",
         "qv": "314417802.214081",
         "tags": [
-            "storage-zone",
-            "pos",
+            "Storage",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -7228,8 +7228,8 @@ export const pairData = [
         "v": "25532.30000",
         "qv": "136.01128",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7246,8 +7246,8 @@ export const pairData = [
         "v": "90776.500",
         "qv": "279736.7817",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7264,8 +7264,8 @@ export const pairData = [
         "v": "792679.800",
         "qv": "2438196.2811",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7418,8 +7418,8 @@ export const pairData = [
         "v": "7302763.00000000",
         "qv": "41.46544004",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -7435,8 +7435,8 @@ export const pairData = [
         "v": "5342080.0000",
         "qv": "1533772.8494",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -7452,8 +7452,8 @@ export const pairData = [
         "v": "63138704.0000",
         "qv": "17952803.63",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -7533,7 +7533,7 @@ export const pairData = [
         "v": "306503.08000",
         "qv": "6347.6351924",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7550,7 +7550,7 @@ export const pairData = [
         "v": "6332.98",
         "qv": "430076.0772",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7567,7 +7567,7 @@ export const pairData = [
         "v": "405690.9200000",
         "qv": "96.98426743",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7584,7 +7584,7 @@ export const pairData = [
         "v": "895686.00",
         "qv": "10768600.9582",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7601,7 +7601,7 @@ export const pairData = [
         "v": "13326.69",
         "qv": "120614.107",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7618,7 +7618,7 @@ export const pairData = [
         "v": "2396448.55",
         "qv": "28787689.6643",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -7635,7 +7635,7 @@ export const pairData = [
         "v": "187729.40000000",
         "qv": "13.59301915",
         "tags": [
-            "defi",
+            "DeFi",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -7652,7 +7652,7 @@ export const pairData = [
         "v": "4157945.500",
         "qv": "15152040.4588",
         "tags": [
-            "defi",
+            "DeFi",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -7717,7 +7717,7 @@ export const pairData = [
         "v": "1699017.00000000",
         "qv": "7.63771556",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -7733,7 +7733,7 @@ export const pairData = [
         "v": "2826275.0000",
         "qv": "635168.0214",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -7749,7 +7749,7 @@ export const pairData = [
         "v": "19170034.0000",
         "qv": "4313820.7006",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -7965,7 +7965,7 @@ export const pairData = [
         "v": "181052543.00000000",
         "qv": "92.70090051",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -7981,7 +7981,7 @@ export const pairData = [
         "v": "155721417.00000",
         "qv": "3998238.58532",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -7997,7 +7997,7 @@ export const pairData = [
         "v": "563452753.00000",
         "qv": "14460560.53689",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -8083,7 +8083,7 @@ export const pairData = [
         "v": "1852845.000000",
         "qv": "9222.317141",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT",
             "BSC"
@@ -8102,7 +8102,7 @@ export const pairData = [
         "v": "73623160.0000",
         "qv": "212774632.2355",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT",
             "BSC"
@@ -8121,7 +8121,7 @@ export const pairData = [
         "v": "5004.01200",
         "qv": "22.05162068",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8137,7 +8137,7 @@ export const pairData = [
         "v": "6509.4",
         "qv": "1441524.0285",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8153,7 +8153,7 @@ export const pairData = [
         "v": "41067.7",
         "qv": "9082836.2001",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8267,8 +8267,8 @@ export const pairData = [
         "v": "38489.8260",
         "qv": "2331.9318121",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -8284,8 +8284,8 @@ export const pairData = [
         "v": "150014.4",
         "qv": "5438475.5817",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -8301,7 +8301,7 @@ export const pairData = [
         "v": "2159608.10000000",
         "qv": "172.52205109",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8317,7 +8317,7 @@ export const pairData = [
         "v": "1633692.900",
         "qv": "6557081.6707",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8333,7 +8333,7 @@ export const pairData = [
         "v": "18522740.900",
         "qv": "74263528.2137",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8349,7 +8349,7 @@ export const pairData = [
         "v": "85536.100000",
         "qv": "234.4242554",
         "tags": [
-            "pos",
+            "POS",
             "BSC",
             "Launchpool"
         ],
@@ -8367,7 +8367,7 @@ export const pairData = [
         "v": "434696.90000000",
         "qv": "13.86241757",
         "tags": [
-            "pos",
+            "POS",
             "BSC",
             "Launchpool"
         ],
@@ -8385,7 +8385,7 @@ export const pairData = [
         "v": "474453.400",
         "qv": "761526.4096",
         "tags": [
-            "pos",
+            "POS",
             "BSC",
             "Launchpool"
         ],
@@ -8403,7 +8403,7 @@ export const pairData = [
         "v": "5370342.400",
         "qv": "8584301.9521",
         "tags": [
-            "pos",
+            "POS",
             "BSC",
             "Launchpool"
         ],
@@ -8421,7 +8421,7 @@ export const pairData = [
         "v": "2990084.000000",
         "qv": "4002.931477",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -8439,7 +8439,7 @@ export const pairData = [
         "v": "3964794.00000000",
         "qv": "61.4008249",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -8457,7 +8457,7 @@ export const pairData = [
         "v": "5306900.0000",
         "qv": "4108670.1556",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -8475,7 +8475,7 @@ export const pairData = [
         "v": "33385762.0000",
         "qv": "25954660.3649",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -8493,7 +8493,7 @@ export const pairData = [
         "v": "9078788.00000000",
         "qv": "77.54410682",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -8510,7 +8510,7 @@ export const pairData = [
         "v": "62577069.0000",
         "qv": "27245417.0283",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -8569,8 +8569,8 @@ export const pairData = [
         "v": "1261310.300",
         "qv": "1608350.9246",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8586,8 +8586,8 @@ export const pairData = [
         "v": "177408.0000000",
         "qv": "52.4669158",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8603,8 +8603,8 @@ export const pairData = [
         "v": "661.3270",
         "qv": "161.0621961",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8621,8 +8621,8 @@ export const pairData = [
         "v": "24739.437000",
         "qv": "69.84903447",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8639,8 +8639,8 @@ export const pairData = [
         "v": "11712.9",
         "qv": "1658020.0499",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8657,8 +8657,8 @@ export const pairData = [
         "v": "3644.34200",
         "qv": "119.01258954",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8675,8 +8675,8 @@ export const pairData = [
         "v": "200433.1",
         "qv": "28384750.3981",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8749,8 +8749,8 @@ export const pairData = [
         "v": "18400.559000",
         "qv": "35.25749744",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8767,8 +8767,8 @@ export const pairData = [
         "v": "25835.8",
         "qv": "2479113.496",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -8785,8 +8785,8 @@ export const pairData = [
         "v": "86339.7200000",
         "qv": "11.65571021",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT"
         ],
         "sd": false,
@@ -8803,8 +8803,8 @@ export const pairData = [
         "v": "124500.41",
         "qv": "844974.0787",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT"
         ],
         "sd": false,
@@ -8821,8 +8821,8 @@ export const pairData = [
         "v": "872410.89",
         "qv": "5907751.1106",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT"
         ],
         "sd": false,
@@ -8867,8 +8867,8 @@ export const pairData = [
         "v": "266970.17",
         "qv": "3874702.6477",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8884,8 +8884,8 @@ export const pairData = [
         "v": "77936.970000",
         "qv": "258.42249507",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8901,8 +8901,8 @@ export const pairData = [
         "v": "1149393.14",
         "qv": "16702858.4343",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8918,8 +8918,8 @@ export const pairData = [
         "v": "12807970.0000",
         "qv": "1827114.6818",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -8935,7 +8935,7 @@ export const pairData = [
         "v": "2115451.0000000",
         "qv": "142.5202528",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -8952,7 +8952,7 @@ export const pairData = [
         "v": "12944726.50000",
         "qv": "502687.075855",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -8969,7 +8969,7 @@ export const pairData = [
         "v": "198235908.30000",
         "qv": "7712228.098233",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -8986,8 +8986,8 @@ export const pairData = [
         "v": "499329.50000000",
         "qv": "14.60477322",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9004,8 +9004,8 @@ export const pairData = [
         "v": "464997.600",
         "qv": "686086.6123",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9022,8 +9022,8 @@ export const pairData = [
         "v": "2040735.100",
         "qv": "3007975.4971",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9124,9 +9124,9 @@ export const pairData = [
         "v": "712841.70000000",
         "qv": "13.49783303",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -9143,9 +9143,9 @@ export const pairData = [
         "v": "4931647.600",
         "qv": "4691948.1857",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -9162,9 +9162,9 @@ export const pairData = [
         "v": "13973464.500",
         "qv": "13261287.6743",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -9181,7 +9181,7 @@ export const pairData = [
         "v": "3194752.0000",
         "qv": "797540.2215",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9198,7 +9198,7 @@ export const pairData = [
         "v": "1069835",
         "qv": "2745016086",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9215,7 +9215,7 @@ export const pairData = [
         "v": "2530917.000",
         "qv": "2540416.749",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9232,7 +9232,7 @@ export const pairData = [
         "v": "78394714.00000000",
         "qv": "277.1654302",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9249,7 +9249,7 @@ export const pairData = [
         "v": "121767053.0000",
         "qv": "21642827.82",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9266,7 +9266,7 @@ export const pairData = [
         "v": "12286338.0000",
         "qv": "1929416.2",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9283,7 +9283,7 @@ export const pairData = [
         "v": "4796933.0000",
         "qv": "644996.3244",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9300,7 +9300,7 @@ export const pairData = [
         "v": "668804.00",
         "qv": "8818836",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9317,7 +9317,7 @@ export const pairData = [
         "v": "39391757.000",
         "qv": "98285305.701",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9334,7 +9334,7 @@ export const pairData = [
         "v": "926717089.0000",
         "qv": "164598164.5837",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -9351,7 +9351,7 @@ export const pairData = [
         "v": "19318.41",
         "qv": "802390.2468",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9370,7 +9370,7 @@ export const pairData = [
         "v": "17006",
         "qv": "7227319359.47",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9389,7 +9389,7 @@ export const pairData = [
         "v": "305434.47000",
         "qv": "15538.3481829",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9408,7 +9408,7 @@ export const pairData = [
         "v": "20418.55",
         "qv": "3404773.044",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9427,7 +9427,7 @@ export const pairData = [
         "v": "1917908.1300000",
         "qv": "1125.20887597",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9446,7 +9446,7 @@ export const pairData = [
         "v": "1304892.80",
         "qv": "38432697.1756",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9481,7 +9481,7 @@ export const pairData = [
         "v": "211681.40",
         "qv": "5529413.4358",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9500,7 +9500,7 @@ export const pairData = [
         "v": "24462.99",
         "qv": "546364.5738",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9519,7 +9519,7 @@ export const pairData = [
         "v": "7740",
         "qv": "16972583.74",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9538,7 +9538,7 @@ export const pairData = [
         "v": "93455.1",
         "qv": "38669745.852",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9573,7 +9573,7 @@ export const pairData = [
         "v": "11400408.55",
         "qv": "334985245.9212",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -9592,7 +9592,7 @@ export const pairData = [
         "v": "506629.00000000",
         "qv": "9.60194934",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9609,7 +9609,7 @@ export const pairData = [
         "v": "4907324.0000",
         "qv": "4670034.7938",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9654,7 +9654,7 @@ export const pairData = [
         "v": "3176.1500",
         "qv": "1565.267901",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -9672,7 +9672,7 @@ export const pairData = [
         "v": "13977.340000",
         "qv": "80.5209134",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -9690,7 +9690,7 @@ export const pairData = [
         "v": "37786.05",
         "qv": "10926436.0268",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -9708,7 +9708,7 @@ export const pairData = [
         "v": "10447.37",
         "qv": "2665717.042",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -9726,7 +9726,7 @@ export const pairData = [
         "v": "215378.67",
         "qv": "61974512.4415",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -9744,7 +9744,7 @@ export const pairData = [
         "v": "6167802.00000000",
         "qv": "58.83238047",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9761,7 +9761,7 @@ export const pairData = [
         "v": "1438734.0000000",
         "qv": "163.540787",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -9914,7 +9914,7 @@ export const pairData = [
         "v": "243685.50000",
         "qv": "1495.282514",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -9932,7 +9932,7 @@ export const pairData = [
         "v": "7590111.2000000",
         "qv": "546.89489166",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -9950,7 +9950,7 @@ export const pairData = [
         "v": "7172137.400",
         "qv": "25735087.2778",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -9984,7 +9984,7 @@ export const pairData = [
         "v": "682369.657",
         "qv": "2142917.785355",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10002,7 +10002,7 @@ export const pairData = [
         "v": "2286654.80",
         "qv": "116589948.154",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10036,7 +10036,7 @@ export const pairData = [
         "v": "1082040.200",
         "qv": "3905574.193",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10054,7 +10054,7 @@ export const pairData = [
         "v": "79229913.800",
         "qv": "284389186.4877",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10072,9 +10072,9 @@ export const pairData = [
         "v": "2749559.00000000",
         "qv": "18.63668425",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -10090,9 +10090,9 @@ export const pairData = [
         "v": "1832748.0000",
         "qv": "622261.2068",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -10108,9 +10108,9 @@ export const pairData = [
         "v": "20991881.0000",
         "qv": "7136361.4933",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -10126,7 +10126,7 @@ export const pairData = [
         "v": "10973.50000",
         "qv": "205.674574",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT"
         ],
         "sd": false,
@@ -10143,7 +10143,7 @@ export const pairData = [
         "v": "67677.400",
         "qv": "746765.5439",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT"
         ],
         "sd": false,
@@ -10160,7 +10160,7 @@ export const pairData = [
         "v": "257664.900",
         "qv": "2822913.5544",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT"
         ],
         "sd": false,
@@ -10177,7 +10177,7 @@ export const pairData = [
         "v": "6746.7000",
         "qv": "468.58709",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10194,7 +10194,7 @@ export const pairData = [
         "v": "3010.8",
         "qv": "689571.741",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10211,7 +10211,7 @@ export const pairData = [
         "v": "65185.29",
         "qv": "2644596.8628",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10228,7 +10228,7 @@ export const pairData = [
         "v": "18729.73000",
         "qv": "174.7946085",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10245,7 +10245,7 @@ export const pairData = [
         "v": "12213.83",
         "qv": "438348.0489",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10262,7 +10262,7 @@ export const pairData = [
         "v": "1587.31",
         "qv": "48271.2364",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10279,7 +10279,7 @@ export const pairData = [
         "v": "2058051.97",
         "qv": "83117482.3844",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -10296,7 +10296,7 @@ export const pairData = [
         "v": "3190.56",
         "qv": "19424253.192037",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10314,7 +10314,7 @@ export const pairData = [
         "v": "520",
         "qv": "32457599895.56",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10332,7 +10332,7 @@ export const pairData = [
         "v": "1459.17",
         "qv": "35706906.343466",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10350,7 +10350,7 @@ export const pairData = [
         "v": "147871.09",
         "qv": "640820023.149436",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10368,7 +10368,7 @@ export const pairData = [
         "v": "4867.24",
         "qv": "21082544.261297",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10402,7 +10402,7 @@ export const pairData = [
         "v": "24453.80",
         "qv": "93820807.08959",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10420,7 +10420,7 @@ export const pairData = [
         "v": "2616.89",
         "qv": "8563180.148858",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10438,7 +10438,7 @@ export const pairData = [
         "v": "514.7",
         "qv": "165603058.57563",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10456,7 +10456,7 @@ export const pairData = [
         "v": "2833",
         "qv": "172646697.5836",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10474,7 +10474,7 @@ export const pairData = [
         "v": "1054.98",
         "qv": "4577508.162918",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10492,7 +10492,7 @@ export const pairData = [
         "v": "56",
         "qv": "6803245.656",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10526,7 +10526,7 @@ export const pairData = [
         "v": "8584.65",
         "qv": "37319156.706758",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -10586,9 +10586,9 @@ export const pairData = [
         "v": "114726.80000000",
         "qv": "7.90825519",
         "tags": [
-            "defi",
-            "innovation-zone",
-            "pos"
+            "DeFi",
+            "Innovation",
+            "POS"
         ],
         "sd": false,
     },
@@ -10604,9 +10604,9 @@ export const pairData = [
         "v": "18676.600000",
         "qv": "14.895298",
         "tags": [
-            "defi",
-            "innovation-zone",
-            "pos"
+            "DeFi",
+            "Innovation",
+            "POS"
         ],
         "sd": false,
     },
@@ -10622,7 +10622,7 @@ export const pairData = [
         "v": "3329.5490",
         "qv": "592.9933013",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -10638,7 +10638,7 @@ export const pairData = [
         "v": "3693.392000",
         "qv": "7.66598212",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -10654,7 +10654,7 @@ export const pairData = [
         "v": "2977.1",
         "qv": "311656.9636",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -10670,7 +10670,7 @@ export const pairData = [
         "v": "15160.9",
         "qv": "1577870.7362",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -10686,7 +10686,7 @@ export const pairData = [
         "v": "257904.000000",
         "qv": "258.485315",
         "tags": [
-            "pos",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -10703,7 +10703,7 @@ export const pairData = [
         "v": "4173390.00000000",
         "qv": "48.62023093",
         "tags": [
-            "pos",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -10720,7 +10720,7 @@ export const pairData = [
         "v": "19264983.0000",
         "qv": "11303771.8024",
         "tags": [
-            "pos",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -10737,7 +10737,7 @@ export const pairData = [
         "v": "56169.6800",
         "qv": "4039.764537",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -10753,7 +10753,7 @@ export const pairData = [
         "v": "326825.090000",
         "qv": "270.05343023",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -10769,7 +10769,7 @@ export const pairData = [
         "v": "389616.46",
         "qv": "16191559.5517",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -10817,7 +10817,7 @@ export const pairData = [
         "v": "6528831.48",
         "qv": "268421904.6709",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -10833,7 +10833,7 @@ export const pairData = [
         "v": "1397169.0000000",
         "qv": "431.5867484",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT"
         ],
@@ -10851,7 +10851,7 @@ export const pairData = [
         "v": "7090250.00000000",
         "qv": "25.18974084",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT"
         ],
@@ -10869,7 +10869,7 @@ export const pairData = [
         "v": "10467243.0000",
         "qv": "1869952.1671",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT"
         ],
@@ -10887,7 +10887,7 @@ export const pairData = [
         "v": "37900663.0000",
         "qv": "6771597.0343",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT"
         ],
@@ -10947,8 +10947,8 @@ export const pairData = [
         "v": "1716566.00000000",
         "qv": "47.17033703",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -10964,8 +10964,8 @@ export const pairData = [
         "v": "1789262.0000",
         "qv": "2507392.8037",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -10981,8 +10981,8 @@ export const pairData = [
         "v": "15643709.0000",
         "qv": "21509336.7393",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -10998,8 +10998,8 @@ export const pairData = [
         "v": "595583.00000000",
         "qv": "4.77582089",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -11016,8 +11016,8 @@ export const pairData = [
         "v": "867357.0000",
         "qv": "347733.9582",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -11034,8 +11034,8 @@ export const pairData = [
         "v": "16973863.0000",
         "qv": "6804981.0807",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -11116,8 +11116,8 @@ export const pairData = [
         "v": "9216645.00000000",
         "qv": "12.60621779",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -11134,8 +11134,8 @@ export const pairData = [
         "v": "11977152.60000",
         "qv": "824364.046241",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -11194,8 +11194,8 @@ export const pairData = [
         "v": "919303.00000000",
         "qv": "14.25495834",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -11211,8 +11211,8 @@ export const pairData = [
         "v": "3480899.0000",
         "qv": "2727354.3804",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -11228,7 +11228,7 @@ export const pairData = [
         "v": "867503.0000000",
         "qv": "2367.2292957",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -11246,7 +11246,7 @@ export const pairData = [
         "v": "6078082.00000000",
         "qv": "191.15590155",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -11264,7 +11264,7 @@ export const pairData = [
         "v": "11587742.0000",
         "qv": "18332453.0006",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -11282,7 +11282,7 @@ export const pairData = [
         "v": "81108538.0000",
         "qv": "127920258.7383",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -11384,8 +11384,8 @@ export const pairData = [
         "v": "66383.00000000",
         "qv": "26.81171328",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -11401,8 +11401,8 @@ export const pairData = [
         "v": "235931.900",
         "qv": "4772226.7784",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -11446,8 +11446,8 @@ export const pairData = [
         "v": "176482.300",
         "qv": "442537.1227",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -11466,8 +11466,8 @@ export const pairData = [
         "v": "277200.8000000",
         "qv": "160.21848223",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -11514,7 +11514,7 @@ export const pairData = [
         "v": "14606770.00000000",
         "qv": "11.23918532",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -11531,7 +11531,7 @@ export const pairData = [
         "v": "654644.00000000",
         "qv": "10.06625427",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -11720,7 +11720,7 @@ export const pairData = [
         "v": "3549602.00000000",
         "qv": "162.82086394",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11736,7 +11736,7 @@ export const pairData = [
         "v": "1325596.0000000",
         "qv": "711.4610183",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11752,7 +11752,7 @@ export const pairData = [
         "v": "16998871.0000",
         "qv": "39525936.2495",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11768,8 +11768,8 @@ export const pairData = [
         "v": "381766.000000",
         "qv": "600.699802",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -11786,8 +11786,8 @@ export const pairData = [
         "v": "2321112.00000000",
         "qv": "42.03386907",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -11804,8 +11804,8 @@ export const pairData = [
         "v": "3785329.0000",
         "qv": "3425791.5646",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -11822,8 +11822,8 @@ export const pairData = [
         "v": "15630632.0000",
         "qv": "14244654.4135",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Launchpool"
         ],
         "sd": false,
@@ -11840,7 +11840,7 @@ export const pairData = [
         "v": "668064.0000000",
         "qv": "313.1146096",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11856,7 +11856,7 @@ export const pairData = [
         "v": "14009122.00000000",
         "qv": "75.7042204",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11872,7 +11872,7 @@ export const pairData = [
         "v": "10826021.0000",
         "qv": "2931147.8859",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11888,7 +11888,7 @@ export const pairData = [
         "v": "71471386.0000",
         "qv": "19373457.2634",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -11904,8 +11904,8 @@ export const pairData = [
         "v": "5735116.0000",
         "qv": "490911.0183",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -11921,8 +11921,8 @@ export const pairData = [
         "v": "760884.00000000",
         "qv": "15.02765236",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -11938,7 +11938,7 @@ export const pairData = [
         "v": "982135.00000000",
         "qv": "32.42901498",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -11955,7 +11955,7 @@ export const pairData = [
         "v": "5298152.0000",
         "qv": "8744609.9385",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12014,7 +12014,7 @@ export const pairData = [
         "v": "59710452.00000000",
         "qv": "1016.40262973",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -12030,7 +12030,7 @@ export const pairData = [
         "v": "257831258.200000",
         "qv": "2531886.3912816",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -12046,7 +12046,7 @@ export const pairData = [
         "v": "117884612.00000000",
         "qv": "268.38810403",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -12062,7 +12062,7 @@ export const pairData = [
         "v": "67026806.600000",
         "qv": "581192.3042384",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -12078,7 +12078,7 @@ export const pairData = [
         "v": "2149003761.00000",
         "qv": "296389861.76806",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -12094,7 +12094,7 @@ export const pairData = [
         "v": "5517938833.000000",
         "qv": "54027249.173378",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -12190,7 +12190,7 @@ export const pairData = [
         "v": "2388190.00000000",
         "qv": "62.40992148",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12206,7 +12206,7 @@ export const pairData = [
         "v": "1852063.700",
         "qv": "2433361.0897",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12222,7 +12222,7 @@ export const pairData = [
         "v": "218081.0000000",
         "qv": "66.0692549",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12238,7 +12238,7 @@ export const pairData = [
         "v": "10536969.700",
         "qv": "13805220.0226",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12254,7 +12254,7 @@ export const pairData = [
         "v": "13030384.00000000",
         "qv": "99.37289102",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -12270,7 +12270,7 @@ export const pairData = [
         "v": "29697156.10000",
         "qv": "11463931.924252",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -12286,8 +12286,8 @@ export const pairData = [
         "v": "24380.00000",
         "qv": "391.34673",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "BSC",
             "Launchpad"
         ],
@@ -12305,8 +12305,8 @@ export const pairData = [
         "v": "79449.2000000",
         "qv": "14.71174235",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "BSC",
             "Launchpad"
         ],
@@ -12324,8 +12324,8 @@ export const pairData = [
         "v": "74212.400",
         "qv": "689964.0304",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "BSC",
             "Launchpad"
         ],
@@ -12343,8 +12343,8 @@ export const pairData = [
         "v": "455507.800",
         "qv": "4232608.9768",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "BSC",
             "Launchpad"
         ],
@@ -12362,7 +12362,7 @@ export const pairData = [
         "v": "3646656.00000000",
         "qv": "212.30278683",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12378,7 +12378,7 @@ export const pairData = [
         "v": "109510961.00000000",
         "qv": "73.65348923",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12394,7 +12394,7 @@ export const pairData = [
         "v": "33426237.30000",
         "qv": "1129544.560832",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12410,7 +12410,7 @@ export const pairData = [
         "v": "16346214.00000000",
         "qv": "128.53360776",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12426,7 +12426,7 @@ export const pairData = [
         "v": "343336287.00000",
         "qv": "11603341.44844",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -12442,7 +12442,7 @@ export const pairData = [
         "v": "122962.000000",
         "qv": "250.113229",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -12458,7 +12458,7 @@ export const pairData = [
         "v": "1439122.0000",
         "qv": "1698794.4699",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -12474,7 +12474,7 @@ export const pairData = [
         "v": "14953947.0000",
         "qv": "17630711.721",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -12490,7 +12490,7 @@ export const pairData = [
         "v": "11869606.00000000",
         "qv": "26.5612177",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12507,7 +12507,7 @@ export const pairData = [
         "v": "18059118.00000",
         "qv": "2027245.3419",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12524,7 +12524,7 @@ export const pairData = [
         "v": "3299756.00000000",
         "qv": "86.03271398",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12541,7 +12541,7 @@ export const pairData = [
         "v": "163416293.00000",
         "qv": "18399457.15171",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12586,7 +12586,7 @@ export const pairData = [
         "v": "7137176.00000000",
         "qv": "13.49816949",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12603,7 +12603,7 @@ export const pairData = [
         "v": "24871982.20000",
         "qv": "2360362.203155",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -12620,7 +12620,7 @@ export const pairData = [
         "v": "12030715.00000000",
         "qv": "16.74463933",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -12636,7 +12636,7 @@ export const pairData = [
         "v": "894125571.70000",
         "qv": "60133441.682331",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -12652,7 +12652,7 @@ export const pairData = [
         "v": "26531.9800000",
         "qv": "5.12572955",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -12671,7 +12671,7 @@ export const pairData = [
         "v": "60311.32",
         "qv": "588197.617",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -12690,7 +12690,7 @@ export const pairData = [
         "v": "220397.75",
         "qv": "2141072.8977",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -12709,8 +12709,8 @@ export const pairData = [
         "v": "42203.50000",
         "qv": "292.55587",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -12728,8 +12728,8 @@ export const pairData = [
         "v": "217041.8000000",
         "qv": "17.13772851",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -12747,8 +12747,8 @@ export const pairData = [
         "v": "174929.300",
         "qv": "693685.4311",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -12766,8 +12766,8 @@ export const pairData = [
         "v": "5540989.800",
         "qv": "21978808.5534",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Launchpad"
         ],
@@ -12937,7 +12937,7 @@ export const pairData = [
         "v": "1357149.00000000",
         "qv": "24.69840165",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -12954,7 +12954,7 @@ export const pairData = [
         "v": "301275.0000000",
         "qv": "63.3575875",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -12971,7 +12971,7 @@ export const pairData = [
         "v": "5684624.0000",
         "qv": "5179671.5366",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -12988,7 +12988,7 @@ export const pairData = [
         "v": "294613.000",
         "qv": "438959.7929",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13004,7 +13004,7 @@ export const pairData = [
         "v": "2986836.900",
         "qv": "4455017.6653",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13020,8 +13020,8 @@ export const pairData = [
         "v": "228.0000",
         "qv": "336.860539",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13037,8 +13037,8 @@ export const pairData = [
         "v": "2897.66",
         "qv": "2452182.257",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13054,7 +13054,7 @@ export const pairData = [
         "v": "310.7270",
         "qv": "160.7187851",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -13073,7 +13073,7 @@ export const pairData = [
         "v": "5283.2",
         "qv": "1589176.4728",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -13092,7 +13092,7 @@ export const pairData = [
         "v": "56118.7",
         "qv": "16864012.9507",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -13111,9 +13111,9 @@ export const pairData = [
         "v": "109589222.00000000",
         "qv": "98.55412025",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13129,9 +13129,9 @@ export const pairData = [
         "v": "173092148.00000",
         "qv": "7830750.9882155",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13147,9 +13147,9 @@ export const pairData = [
         "v": "1494827415.19000",
         "qv": "67624419.9261488",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13165,7 +13165,7 @@ export const pairData = [
         "v": "23015.99",
         "qv": "704408.2747",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13181,7 +13181,7 @@ export const pairData = [
         "v": "25553.9",
         "qv": "3161211.767",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13197,7 +13197,7 @@ export const pairData = [
         "v": "1387587.94",
         "qv": "30318656.1298",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13229,7 +13229,7 @@ export const pairData = [
         "v": "222833.49",
         "qv": "4313068.4741",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13245,7 +13245,7 @@ export const pairData = [
         "v": "28628.21",
         "qv": "469050.2137",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13261,7 +13261,7 @@ export const pairData = [
         "v": "135272.7",
         "qv": "41665273.755",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13293,7 +13293,7 @@ export const pairData = [
         "v": "121869.93",
         "qv": "2658525.6959",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13309,7 +13309,7 @@ export const pairData = [
         "v": "11331882.02",
         "qv": "246985945.3834",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13325,8 +13325,8 @@ export const pairData = [
         "v": "261307.50000000",
         "qv": "17.67211424",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -13344,8 +13344,8 @@ export const pairData = [
         "v": "745725.100",
         "qv": "2509099.6449",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -13363,8 +13363,8 @@ export const pairData = [
         "v": "4864144.900",
         "qv": "16317698.486",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -13466,7 +13466,7 @@ export const pairData = [
         "v": "4328211.00000000",
         "qv": "207.52985446",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13482,7 +13482,7 @@ export const pairData = [
         "v": "4949854.0000",
         "qv": "11935087.5408",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13498,7 +13498,7 @@ export const pairData = [
         "v": "882604.00000000",
         "qv": "490.45484676",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13514,7 +13514,7 @@ export const pairData = [
         "v": "33371871.0000",
         "qv": "80362926.8586",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -13530,7 +13530,7 @@ export const pairData = [
         "v": "258855.40000000",
         "qv": "14.66525461",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -13547,7 +13547,7 @@ export const pairData = [
         "v": "41268.700000",
         "qv": "27.1554295",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -13564,7 +13564,7 @@ export const pairData = [
         "v": "628926.700",
         "qv": "1797106.3487",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -13581,7 +13581,7 @@ export const pairData = [
         "v": "13817.5360",
         "qv": "3874.3676414",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13598,7 +13598,7 @@ export const pairData = [
         "v": "3888.3",
         "qv": "3579988.4657",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13615,7 +13615,7 @@ export const pairData = [
         "v": "80278.7",
         "qv": "13082337.6547",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13648,7 +13648,7 @@ export const pairData = [
         "v": "24019.66400",
         "qv": "902.55579867",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13665,7 +13665,7 @@ export const pairData = [
         "v": "25924.5",
         "qv": "3733035.7429",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13682,7 +13682,7 @@ export const pairData = [
         "v": "1186.64",
         "qv": "146736.35768",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13699,7 +13699,7 @@ export const pairData = [
         "v": "1989.3",
         "qv": "24000445.9726",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13716,7 +13716,7 @@ export const pairData = [
         "v": "1951.6",
         "qv": "317771.4743",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13749,7 +13749,7 @@ export const pairData = [
         "v": "11386.2",
         "qv": "1859072.7536",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13766,7 +13766,7 @@ export const pairData = [
         "v": "906552.4",
         "qv": "147573188.442",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -13783,7 +13783,7 @@ export const pairData = [
         "v": "47474633.00000000",
         "qv": "391.43492833",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -13799,7 +13799,7 @@ export const pairData = [
         "v": "26961656.0000",
         "qv": "11595175.8994",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -13815,7 +13815,7 @@ export const pairData = [
         "v": "151997764.0000",
         "qv": "64471498.5409",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -13831,8 +13831,8 @@ export const pairData = [
         "v": "419219.45000",
         "qv": "49875.1799547",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -13850,8 +13850,8 @@ export const pairData = [
         "v": "1161626.1300000",
         "qv": "1594.34140701",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -13869,8 +13869,8 @@ export const pairData = [
         "v": "1769784.29",
         "qv": "122219652.5518",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -13888,8 +13888,8 @@ export const pairData = [
         "v": "634612.31",
         "qv": "38706115.0138",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -13907,8 +13907,8 @@ export const pairData = [
         "v": "6767067.22",
         "qv": "466465970.7169",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -14040,7 +14040,7 @@ export const pairData = [
         "v": "1074397.100",
         "qv": "3612766.2715",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14058,7 +14058,7 @@ export const pairData = [
         "v": "1440831",
         "qv": "49995065726.7",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14076,7 +14076,7 @@ export const pairData = [
         "v": "6310490.500000",
         "qv": "26005.1783322",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14094,7 +14094,7 @@ export const pairData = [
         "v": "821058.200",
         "qv": "11102868.4625",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14112,7 +14112,7 @@ export const pairData = [
         "v": "61434325.70000000",
         "qv": "2924.9536871",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14130,7 +14130,7 @@ export const pairData = [
         "v": "72975945.700",
         "qv": "174997528.082309",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14148,7 +14148,7 @@ export const pairData = [
         "v": "6143834.7900",
         "qv": "13052121.117842",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14166,7 +14166,7 @@ export const pairData = [
         "v": "801812.9000",
         "qv": "1451872.78573",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14184,7 +14184,7 @@ export const pairData = [
         "v": "765421.90",
         "qv": "135944220.885",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14202,7 +14202,7 @@ export const pairData = [
         "v": "5417388.100",
         "qv": "183501750.8882",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14220,7 +14220,7 @@ export const pairData = [
         "v": "411030882.900",
         "qv": "985767535.897711",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -14308,7 +14308,7 @@ export const pairData = [
         "v": "160967.300000",
         "qv": "135.1469203",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14324,7 +14324,7 @@ export const pairData = [
         "v": "977505.60000000",
         "qv": "9.41123466",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14340,7 +14340,7 @@ export const pairData = [
         "v": "970868.800",
         "qv": "471011.3504",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14356,7 +14356,7 @@ export const pairData = [
         "v": "6809028.600",
         "qv": "3302294.8255",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14373,7 +14373,7 @@ export const pairData = [
         "qv": "138.52783015",
         "tags": [
             "mining-zone",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14390,7 +14390,7 @@ export const pairData = [
         "qv": "66.402609",
         "tags": [
             "mining-zone",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14407,7 +14407,7 @@ export const pairData = [
         "qv": "1533736.846426",
         "tags": [
             "mining-zone",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14423,7 +14423,7 @@ export const pairData = [
         "v": "44809.100000",
         "qv": "298.1976838",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14439,7 +14439,7 @@ export const pairData = [
         "v": "320306.80000000",
         "qv": "24.62209727",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14455,7 +14455,7 @@ export const pairData = [
         "v": "1005143.500",
         "qv": "3879029.7069",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14471,7 +14471,7 @@ export const pairData = [
         "v": "5284553.400",
         "qv": "20361220.8472",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14487,7 +14487,7 @@ export const pairData = [
         "v": "922016.80000000",
         "qv": "39.67431357",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14503,7 +14503,7 @@ export const pairData = [
         "v": "650572.600",
         "qv": "1399802.0544",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -14561,7 +14561,7 @@ export const pairData = [
         "v": "192.24100",
         "qv": "10.23495372",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14577,7 +14577,7 @@ export const pairData = [
         "v": "194",
         "qv": "520280.2466",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14593,7 +14593,7 @@ export const pairData = [
         "v": "2337",
         "qv": "6257810.1326",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14721,7 +14721,7 @@ export const pairData = [
         "v": "339528.9000000",
         "qv": "26.43285989",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -14737,7 +14737,7 @@ export const pairData = [
         "v": "148259.700",
         "qv": "580902.9163",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -14753,7 +14753,7 @@ export const pairData = [
         "v": "145558.100000",
         "qv": "131.6635064",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -14769,7 +14769,7 @@ export const pairData = [
         "v": "868145.700",
         "qv": "3394310.703",
         "tags": [
-            "pow"
+            "POW"
         ],
         "sd": false,
     },
@@ -14785,7 +14785,7 @@ export const pairData = [
         "v": "1259337.0000000",
         "qv": "9.6367175",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -14801,7 +14801,7 @@ export const pairData = [
         "v": "537883.0000000",
         "qv": "47.8029891",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -14817,7 +14817,7 @@ export const pairData = [
         "v": "253370.00000000",
         "qv": "1.70141051",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -14834,9 +14834,9 @@ export const pairData = [
         "v": "155413870.70000",
         "qv": "2934410.642658",
         "tags": [
-            "innovation-zone",
-            "pos",
-            "defi"
+            "Innovation",
+            "POS",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -14866,7 +14866,7 @@ export const pairData = [
         "v": "89709.200000",
         "qv": "1241.7607485",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -14883,7 +14883,7 @@ export const pairData = [
         "v": "1235541.90000000",
         "qv": "198.46122297",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -14900,7 +14900,7 @@ export const pairData = [
         "v": "1298144.200",
         "qv": "10508797.4753",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -14917,7 +14917,7 @@ export const pairData = [
         "v": "13052801.400",
         "qv": "105174161.7432",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -14962,7 +14962,7 @@ export const pairData = [
         "v": "26148.1700",
         "qv": "1367.972169",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -14980,7 +14980,7 @@ export const pairData = [
         "v": "40576.71",
         "qv": "1230290.9328",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -14998,7 +14998,7 @@ export const pairData = [
         "v": "50107.2",
         "qv": "21452258.13",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -15016,7 +15016,7 @@ export const pairData = [
         "v": "7499.86",
         "qv": "230684.7814",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -15034,7 +15034,7 @@ export const pairData = [
         "v": "770695.84",
         "qv": "23389707.3388",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -15052,7 +15052,7 @@ export const pairData = [
         "v": "2697963.00000000",
         "qv": "21.87915681",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -15069,7 +15069,7 @@ export const pairData = [
         "v": "920.5800",
         "qv": "56.216698",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15085,7 +15085,7 @@ export const pairData = [
         "v": "10518.490000",
         "qv": "7.38214915",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15101,7 +15101,7 @@ export const pairData = [
         "v": "3066.19",
         "qv": "107995.8669",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15117,7 +15117,7 @@ export const pairData = [
         "v": "19832.90",
         "qv": "701287.8693",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15175,7 +15175,7 @@ export const pairData = [
         "v": "15904397.0000",
         "qv": "12998862.7317",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -15206,8 +15206,8 @@ export const pairData = [
         "v": "770895.00000000",
         "qv": "8.47227615",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -15224,7 +15224,7 @@ export const pairData = [
         "v": "551411.00000000",
         "qv": "2.41997691",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15296,7 +15296,7 @@ export const pairData = [
         "v": "66824.4000000",
         "qv": "6.02504779",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -15363,7 +15363,7 @@ export const pairData = [
         "v": "539755.600",
         "qv": "2451505.0561",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -15382,8 +15382,8 @@ export const pairData = [
         "v": "4577164.00000000",
         "qv": "16.10800787",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15399,8 +15399,8 @@ export const pairData = [
         "v": "6748696.0000",
         "qv": "1193489.2247",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15416,7 +15416,7 @@ export const pairData = [
         "v": "564492.600",
         "qv": "3989443.2665",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -15434,7 +15434,7 @@ export const pairData = [
         "v": "15942468.200",
         "qv": "111760226.974",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -15452,8 +15452,8 @@ export const pairData = [
         "v": "23579603.0000",
         "qv": "4172474.3085",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15469,7 +15469,7 @@ export const pairData = [
         "v": "7234398.0000000",
         "qv": "2399.0342546",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2",
             "Launchpad"
@@ -15488,7 +15488,7 @@ export const pairData = [
         "v": "22432175.00000000",
         "qv": "86.36679609",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2",
             "Launchpad"
@@ -15507,7 +15507,7 @@ export const pairData = [
         "v": "48622331.90000",
         "qv": "9415272.206583",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2",
             "Launchpad"
@@ -15526,7 +15526,7 @@ export const pairData = [
         "v": "282695229.60000",
         "qv": "54697003.985553",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2",
             "Launchpad"
@@ -15573,8 +15573,8 @@ export const pairData = [
         "v": "4461930.00000000",
         "qv": "69.72045005",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -15593,8 +15593,8 @@ export const pairData = [
         "v": "2435679.0000",
         "qv": "1912931.6072",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -15613,8 +15613,8 @@ export const pairData = [
         "v": "267346.0000000",
         "qv": "48.4574154",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -15633,8 +15633,8 @@ export const pairData = [
         "v": "2214873.000",
         "qv": "24478484.028",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -15653,8 +15653,8 @@ export const pairData = [
         "v": "34874258.0000",
         "qv": "27277013.5968",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -15673,7 +15673,7 @@ export const pairData = [
         "v": "106609.8000000",
         "qv": "12.75182939",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15689,7 +15689,7 @@ export const pairData = [
         "v": "32892.600",
         "qv": "198121.9247",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15705,7 +15705,7 @@ export const pairData = [
         "v": "389208.300",
         "qv": "2337171.9458",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15791,7 +15791,7 @@ export const pairData = [
         "v": "2357986.0000000",
         "qv": "336.9881677",
         "tags": [
-            "defi",
+            "DeFi",
             "Launchpad"
         ],
         "sd": false,
@@ -15808,7 +15808,7 @@ export const pairData = [
         "v": "5143880.00000000",
         "qv": "8.49827867",
         "tags": [
-            "defi",
+            "DeFi",
             "Launchpad"
         ],
         "sd": false,
@@ -15825,7 +15825,7 @@ export const pairData = [
         "v": "31511767.60000",
         "qv": "2618565.49598",
         "tags": [
-            "defi",
+            "DeFi",
             "Launchpad"
         ],
         "sd": false,
@@ -15842,8 +15842,8 @@ export const pairData = [
         "v": "35038.4800000",
         "qv": "7.54919417",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15859,8 +15859,8 @@ export const pairData = [
         "v": "36749.14",
         "qv": "399586.0052",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15876,8 +15876,8 @@ export const pairData = [
         "v": "417844.54",
         "qv": "4516551.8628",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -15893,7 +15893,7 @@ export const pairData = [
         "v": "1394699.00000000",
         "qv": "12.06119319",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Polkadot"
         ],
         "sd": false,
@@ -15910,7 +15910,7 @@ export const pairData = [
         "v": "1514974.0000",
         "qv": "658221.3879",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Polkadot"
         ],
         "sd": false,
@@ -15927,7 +15927,7 @@ export const pairData = [
         "v": "5771357.0000",
         "qv": "2502898.9011",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Polkadot"
         ],
         "sd": false,
@@ -15972,7 +15972,7 @@ export const pairData = [
         "v": "342875.00000000",
         "qv": "4.08976338",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -15989,7 +15989,7 @@ export const pairData = [
         "v": "71727.0000000",
         "qv": "9.9088367",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16006,7 +16006,7 @@ export const pairData = [
         "v": "633212.00000000",
         "qv": "12.63860564",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16022,7 +16022,7 @@ export const pairData = [
         "v": "6304593.0000",
         "qv": "6330659.1403",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16038,7 +16038,7 @@ export const pairData = [
         "v": "68365.400000",
         "qv": "457.8429783",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16054,7 +16054,7 @@ export const pairData = [
         "v": "431637.40000000",
         "qv": "33.09722787",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16070,7 +16070,7 @@ export const pairData = [
         "v": "659277.000",
         "qv": "2552039.4108",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16086,7 +16086,7 @@ export const pairData = [
         "v": "3390652.000",
         "qv": "13233679.9875",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16102,7 +16102,7 @@ export const pairData = [
         "v": "1433157.00000000",
         "qv": "16.78180362",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16119,7 +16119,7 @@ export const pairData = [
         "v": "19291032.00000000",
         "qv": "30.02062963",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16135,7 +16135,7 @@ export const pairData = [
         "v": "35759722.02000",
         "qv": "2794778.4950614",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16151,7 +16151,7 @@ export const pairData = [
         "v": "144271620.14000",
         "qv": "11261458.7658142",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16195,8 +16195,8 @@ export const pairData = [
         "v": "4522.88000",
         "qv": "106.5408418",
         "tags": [
-            "innovation-zone",
-            "storage-zone"
+            "Innovation",
+            "Storage"
         ],
         "sd": false,
     },
@@ -16212,8 +16212,8 @@ export const pairData = [
         "v": "41531.16",
         "qv": "565627.0074",
         "tags": [
-            "innovation-zone",
-            "storage-zone"
+            "Innovation",
+            "Storage"
         ],
         "sd": false,
     },
@@ -16229,8 +16229,8 @@ export const pairData = [
         "v": "783929.0000000",
         "qv": "256.7086424",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16246,7 +16246,7 @@ export const pairData = [
         "v": "25398.8600000",
         "qv": "8.14987854",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -16265,7 +16265,7 @@ export const pairData = [
         "v": "21523.91",
         "qv": "347006.4968",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -16284,7 +16284,7 @@ export const pairData = [
         "v": "142203.95",
         "qv": "2299053.0278",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "fan_token",
             "Launchpool"
@@ -16331,8 +16331,8 @@ export const pairData = [
         "v": "15491330.00000000",
         "qv": "7.32283387",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16349,8 +16349,8 @@ export const pairData = [
         "v": "1189116.00000000",
         "qv": "6.53046379",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16367,7 +16367,7 @@ export const pairData = [
         "v": "68365743.00000000",
         "qv": "62.79801783",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16384,7 +16384,7 @@ export const pairData = [
         "v": "9174198.00000000",
         "qv": "97.21336017",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16485,7 +16485,7 @@ export const pairData = [
         "v": "136357.200",
         "qv": "1523112.3288",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16502,7 +16502,7 @@ export const pairData = [
         "v": "1948633.000",
         "qv": "21688366.1141",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -16519,7 +16519,7 @@ export const pairData = [
         "v": "65.508",
         "qv": "31.04255",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16535,7 +16535,7 @@ export const pairData = [
         "v": "1084.487000",
         "qv": "5.97614519",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16551,7 +16551,7 @@ export const pairData = [
         "v": "609.3",
         "qv": "169258.8393",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16567,7 +16567,7 @@ export const pairData = [
         "v": "4345.3",
         "qv": "1214592.1074",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -16583,8 +16583,8 @@ export const pairData = [
         "v": "1910512.00000000",
         "qv": "8.75901907",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16600,8 +16600,8 @@ export const pairData = [
         "v": "3115564.0000",
         "qv": "716571.4046",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16617,8 +16617,8 @@ export const pairData = [
         "v": "35207217.0000",
         "qv": "8097854.8274",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16690,8 +16690,8 @@ export const pairData = [
         "v": "31458893.00000000",
         "qv": "12.32913629",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -16709,8 +16709,8 @@ export const pairData = [
         "v": "79031435.00000",
         "qv": "1572573.306428",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -16728,8 +16728,8 @@ export const pairData = [
         "v": "651720844.00000",
         "qv": "12930037.79539",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -16747,9 +16747,9 @@ export const pairData = [
         "v": "1435432.00000000",
         "qv": "17.8101688",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16765,7 +16765,7 @@ export const pairData = [
         "v": "7.7346",
         "qv": "7.73087426",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16781,7 +16781,7 @@ export const pairData = [
         "v": "26272.4500000",
         "qv": "9.4925966",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16797,7 +16797,7 @@ export const pairData = [
         "v": "3533.380000",
         "qv": "14.77580407",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16813,7 +16813,7 @@ export const pairData = [
         "v": "84363.52",
         "qv": "1534756.0565",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16829,7 +16829,7 @@ export const pairData = [
         "v": "5496325.00000000",
         "qv": "57.32374012",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16845,9 +16845,9 @@ export const pairData = [
         "v": "690411.00000000",
         "qv": "2.97016546",
         "tags": [
-            "defi",
-            "storage-zone",
-            "pow"
+            "DeFi",
+            "Storage",
+            "POW"
         ],
         "sd": false,
     },
@@ -16863,9 +16863,9 @@ export const pairData = [
         "v": "2383413.0000",
         "qv": "515062.782",
         "tags": [
-            "defi",
-            "storage-zone",
-            "pow"
+            "DeFi",
+            "Storage",
+            "POW"
         ],
         "sd": false,
     },
@@ -16979,7 +16979,7 @@ export const pairData = [
         "v": "4611514.0000000",
         "qv": "283.013801",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -16995,7 +16995,7 @@ export const pairData = [
         "v": "64836625.00000000",
         "qv": "45.72208028",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17011,7 +17011,7 @@ export const pairData = [
         "v": "592318515.20000",
         "qv": "21014900.777678",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17027,7 +17027,7 @@ export const pairData = [
         "v": "160437.30000",
         "qv": "2058.785348",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17043,7 +17043,7 @@ export const pairData = [
         "v": "610238.9000000",
         "qv": "91.31343126",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17059,7 +17059,7 @@ export const pairData = [
         "v": "719755.500",
         "qv": "5383469.7864",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17075,7 +17075,7 @@ export const pairData = [
         "v": "86046.600",
         "qv": "565018.1545",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17091,7 +17091,7 @@ export const pairData = [
         "v": "35002.200",
         "qv": "197859.535",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17107,7 +17107,7 @@ export const pairData = [
         "v": "4595276.100",
         "qv": "34305540.0346",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17123,7 +17123,7 @@ export const pairData = [
         "v": "991018.0000000",
         "qv": "156.6970184",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17140,7 +17140,7 @@ export const pairData = [
         "v": "17232203.00000000",
         "qv": "31.5353608",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17157,7 +17157,7 @@ export const pairData = [
         "v": "5094663.00000",
         "qv": "467382.578769",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17174,7 +17174,7 @@ export const pairData = [
         "v": "8901177.6000",
         "qv": "11472987.345138",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17191,7 +17191,7 @@ export const pairData = [
         "v": "114220411.70000",
         "qv": "10494626.235944",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17284,8 +17284,8 @@ export const pairData = [
         "v": "2447710.00000000",
         "qv": "74.64006479",
         "tags": [
-            "storage-zone",
-            "pow",
+            "Storage",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17302,8 +17302,8 @@ export const pairData = [
         "v": "135897406.00000000",
         "qv": "47.90087545",
         "tags": [
-            "storage-zone",
-            "pow",
+            "Storage",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17320,8 +17320,8 @@ export const pairData = [
         "v": "40453358.00000",
         "qv": "719100.30994",
         "tags": [
-            "storage-zone",
-            "pow",
+            "Storage",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17338,8 +17338,8 @@ export const pairData = [
         "v": "21415103.00000000",
         "qv": "88.38794324",
         "tags": [
-            "storage-zone",
-            "pow",
+            "Storage",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17356,7 +17356,7 @@ export const pairData = [
         "v": "173996.40000000",
         "qv": "16.71541332",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -17372,7 +17372,7 @@ export const pairData = [
         "v": "77968.0000000",
         "qv": "86.9381923",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -17388,8 +17388,8 @@ export const pairData = [
         "v": "533761118.00000",
         "qv": "9474342.75688",
         "tags": [
-            "storage-zone",
-            "pow",
+            "Storage",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -17457,7 +17457,7 @@ export const pairData = [
         "v": "43244540850.00000000",
         "qv": "8963544.0995601",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -17473,7 +17473,7 @@ export const pairData = [
         "v": "2415404304885.00000000",
         "qv": "88674297.01841149",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -17489,7 +17489,7 @@ export const pairData = [
         "v": "277061583163.00000000",
         "qv": "9006941.45563762",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -17505,7 +17505,7 @@ export const pairData = [
         "v": "1339852646278.00000000",
         "qv": "690256947.99284491",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -17521,7 +17521,7 @@ export const pairData = [
         "v": "8932921291185.00000000",
         "qv": "327555974.77902027",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -17585,7 +17585,7 @@ export const pairData = [
         "v": "1200185852.0000",
         "qv": "55735037.9957",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -17604,7 +17604,7 @@ export const pairData = [
         "v": "589554770.00000000",
         "qv": "6467.07306261",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -17623,7 +17623,7 @@ export const pairData = [
         "v": "4718731881.0000",
         "qv": "218493952.7765",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -17656,7 +17656,7 @@ export const pairData = [
         "v": "10357.70000",
         "qv": "106.039133",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17672,7 +17672,7 @@ export const pairData = [
         "v": "229040.7000000",
         "qv": "26.96244243",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17688,7 +17688,7 @@ export const pairData = [
         "v": "127387.100",
         "qv": "756558.647",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17704,7 +17704,7 @@ export const pairData = [
         "v": "2161551.000",
         "qv": "12811922.1225",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17720,7 +17720,7 @@ export const pairData = [
         "v": "34531.2200",
         "qv": "11323.371123",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17738,7 +17738,7 @@ export const pairData = [
         "v": "4679.1",
         "qv": "5029514.647",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17756,7 +17756,7 @@ export const pairData = [
         "v": "262727.1500000",
         "qv": "992.73220218",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17774,7 +17774,7 @@ export const pairData = [
         "v": "392993.70",
         "qv": "74795090.2276",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17792,7 +17792,7 @@ export const pairData = [
         "v": "29976.40",
         "qv": "5055914.0171",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17810,7 +17810,7 @@ export const pairData = [
         "v": "3965.13",
         "qv": "569033.3742",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17828,7 +17828,7 @@ export const pairData = [
         "v": "932",
         "qv": "13135241.66",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17846,7 +17846,7 @@ export const pairData = [
         "v": "24135.5",
         "qv": "64490249.968",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17864,7 +17864,7 @@ export const pairData = [
         "v": "1798339.56",
         "qv": "341856474.2869",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -17882,8 +17882,8 @@ export const pairData = [
         "v": "12204427.0000000",
         "qv": "4279.7253174",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -17900,7 +17900,7 @@ export const pairData = [
         "v": "27641.10000",
         "qv": "203.070416",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17916,7 +17916,7 @@ export const pairData = [
         "v": "389495.5000000",
         "qv": "32.98420638",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17932,7 +17932,7 @@ export const pairData = [
         "v": "533210.800",
         "qv": "2264171.1654",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17948,7 +17948,7 @@ export const pairData = [
         "v": "4186614.100",
         "qv": "17784318.0379",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -17964,7 +17964,7 @@ export const pairData = [
         "v": "709727.00000000",
         "qv": "6.983334",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -17981,7 +17981,7 @@ export const pairData = [
         "v": "295916.0000000",
         "qv": "33.7642912",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18068,7 +18068,7 @@ export const pairData = [
         "v": "1098730.00000000",
         "qv": "40.69889176",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -18084,7 +18084,7 @@ export const pairData = [
         "v": "399399.0000",
         "qv": "747252.3081",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -18100,7 +18100,7 @@ export const pairData = [
         "v": "7563306.0000",
         "qv": "14092917.8761",
         "tags": [
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -18200,9 +18200,9 @@ export const pairData = [
         "v": "189383.600000",
         "qv": "746.2976775",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -18218,9 +18218,9 @@ export const pairData = [
         "v": "775174.30000000",
         "qv": "35.09517003",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -18236,9 +18236,9 @@ export const pairData = [
         "v": "4076962.600",
         "qv": "9234666.9311",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -18254,8 +18254,8 @@ export const pairData = [
         "v": "1769522909.00000",
         "qv": "44518373.16624",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -18271,8 +18271,8 @@ export const pairData = [
         "v": "1429957.00000000",
         "qv": "44.78412865",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT"
         ],
         "sd": false,
@@ -18289,8 +18289,8 @@ export const pairData = [
         "v": "3134575.0000",
         "qv": "4948222.0362",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT"
         ],
         "sd": false,
@@ -18307,8 +18307,8 @@ export const pairData = [
         "v": "17947866.0000",
         "qv": "28327989.6357",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT"
         ],
         "sd": false,
@@ -18325,8 +18325,8 @@ export const pairData = [
         "v": "70846.600",
         "qv": "70815.7122",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -18342,8 +18342,8 @@ export const pairData = [
         "v": "251535.70000",
         "qv": "2557.193627",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -18359,8 +18359,8 @@ export const pairData = [
         "v": "2097287.5000000",
         "qv": "246.02122786",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -18376,8 +18376,8 @@ export const pairData = [
         "v": "1068210.900",
         "qv": "6328346.5931",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -18425,8 +18425,8 @@ export const pairData = [
         "v": "7973277.600",
         "qv": "46885376.1413",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -18586,8 +18586,8 @@ export const pairData = [
         "v": "4855824.00000000",
         "qv": "55.44574394",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18604,8 +18604,8 @@ export const pairData = [
         "v": "6562565.0000",
         "qv": "3750332.3806",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18682,7 +18682,7 @@ export const pairData = [
         "v": "303960.70000",
         "qv": "2473.075909",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18699,7 +18699,7 @@ export const pairData = [
         "v": "1680647.5000000",
         "qv": "157.79099304",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18716,7 +18716,7 @@ export const pairData = [
         "v": "714022.600",
         "qv": "3364299.7467",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18733,7 +18733,7 @@ export const pairData = [
         "v": "457811.800000",
         "qv": "500.0859983",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18750,7 +18750,7 @@ export const pairData = [
         "v": "124477.000",
         "qv": "517634.1397",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18767,7 +18767,7 @@ export const pairData = [
         "v": "17068997.200",
         "qv": "80523814.3358",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18784,7 +18784,7 @@ export const pairData = [
         "v": "903494.30",
         "qv": "18700531833.38",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Launchpad"
         ],
         "sd": false,
@@ -18801,7 +18801,7 @@ export const pairData = [
         "v": "1035375.60000000",
         "qv": "29.83022888",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Launchpad"
         ],
         "sd": false,
@@ -18818,7 +18818,7 @@ export const pairData = [
         "v": "837072.700",
         "qv": "1205905.9463",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Launchpad"
         ],
         "sd": false,
@@ -18835,7 +18835,7 @@ export const pairData = [
         "v": "3732489.900",
         "qv": "5345583.5317",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Launchpad"
         ],
         "sd": false,
@@ -18852,7 +18852,7 @@ export const pairData = [
         "v": "12647142.00000000",
         "qv": "63.68285914",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming",
             "Launchpool"
         ],
@@ -18870,7 +18870,7 @@ export const pairData = [
         "v": "30185358.0000",
         "qv": "7647265.8224",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming",
             "Launchpool"
         ],
@@ -18888,7 +18888,7 @@ export const pairData = [
         "v": "61958744.000",
         "qv": "220309333.941",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming",
             "Launchpool"
         ],
@@ -18906,7 +18906,7 @@ export const pairData = [
         "v": "229515559.0000",
         "qv": "58040015.8841",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming",
             "Launchpool"
         ],
@@ -18924,7 +18924,7 @@ export const pairData = [
         "v": "467483.30000000",
         "qv": "21.10961525",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18941,7 +18941,7 @@ export const pairData = [
         "v": "236185.800",
         "qv": "538801.9556",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -18958,7 +18958,7 @@ export const pairData = [
         "v": "4543670.000",
         "qv": "10354553.8894",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -19031,9 +19031,9 @@ export const pairData = [
         "v": "16593.280000",
         "qv": "12.53621727",
         "tags": [
-            "pow",
-            "defi",
-            "pos",
+            "POW",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -19050,9 +19050,9 @@ export const pairData = [
         "v": "17289.31",
         "qv": "651731.2122",
         "tags": [
-            "pow",
-            "defi",
-            "pos",
+            "POW",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -19069,9 +19069,9 @@ export const pairData = [
         "v": "95901.71",
         "qv": "3628954.4861",
         "tags": [
-            "pow",
-            "defi",
-            "pos",
+            "POW",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -19120,8 +19120,8 @@ export const pairData = [
         "v": "850125.00000000",
         "qv": "5.39326905",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19137,8 +19137,8 @@ export const pairData = [
         "v": "10111892.0000",
         "qv": "3226518.7192",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19154,7 +19154,7 @@ export const pairData = [
         "v": "29918426.0000000",
         "qv": "4736.4805433",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19172,7 +19172,7 @@ export const pairData = [
         "v": "104425837.00000000",
         "qv": "190.3590268",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19190,7 +19190,7 @@ export const pairData = [
         "v": "60041608.40000",
         "qv": "5511048.848548",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19224,7 +19224,7 @@ export const pairData = [
         "v": "28181064.00000000",
         "qv": "596.8051884",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19242,7 +19242,7 @@ export const pairData = [
         "v": "7253639.00000",
         "qv": "589442.33019",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19260,7 +19260,7 @@ export const pairData = [
         "v": "34231859.0000",
         "qv": "44170686.7722",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19278,7 +19278,7 @@ export const pairData = [
         "v": "9299252.30000",
         "qv": "853365.134698",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19312,7 +19312,7 @@ export const pairData = [
         "v": "30706681.90000",
         "qv": "2814457.81468",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19330,7 +19330,7 @@ export const pairData = [
         "v": "1869721481.80000",
         "qv": "171390148.500062",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19348,7 +19348,7 @@ export const pairData = [
         "v": "8947001.50000",
         "qv": "991044.091977",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19398,7 +19398,7 @@ export const pairData = [
         "v": "5261287.00000000",
         "qv": "26.54209102",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Metaverse"
         ],
@@ -19416,7 +19416,7 @@ export const pairData = [
         "v": "12097140.0000",
         "qv": "3061617.9096",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Metaverse"
         ],
@@ -19434,7 +19434,7 @@ export const pairData = [
         "v": "30719903.0000",
         "qv": "7767469.4601",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Metaverse"
         ],
@@ -19452,7 +19452,7 @@ export const pairData = [
         "v": "448184.00000000",
         "qv": "7.09522415",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC"
         ],
         "sd": false,
@@ -19469,7 +19469,7 @@ export const pairData = [
         "v": "3075023.0000",
         "qv": "2441605.4233",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC"
         ],
         "sd": false,
@@ -19486,7 +19486,7 @@ export const pairData = [
         "v": "9307572.0000",
         "qv": "7396783.9949",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC"
         ],
         "sd": false,
@@ -19503,8 +19503,8 @@ export const pairData = [
         "v": "647694.0000",
         "qv": "478201.7082",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19520,8 +19520,8 @@ export const pairData = [
         "v": "276010.0000000",
         "qv": "47.0531128",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19537,7 +19537,7 @@ export const pairData = [
         "v": "60691.0000000",
         "qv": "13.17877314",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19553,7 +19553,7 @@ export const pairData = [
         "v": "534518.700",
         "qv": "5806800.9055",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19569,8 +19569,8 @@ export const pairData = [
         "v": "103434.6000000",
         "qv": "16.78340525",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -19588,8 +19588,8 @@ export const pairData = [
         "v": "35485.400",
         "qv": "288372.849",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -19607,8 +19607,8 @@ export const pairData = [
         "v": "1724099.700",
         "qv": "13980857.7601",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -19626,7 +19626,7 @@ export const pairData = [
         "v": "101725.58000",
         "qv": "3095.1595018",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19642,7 +19642,7 @@ export const pairData = [
         "v": "679190.0600000",
         "qv": "238.14319178",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19658,7 +19658,7 @@ export const pairData = [
         "v": "249399.14",
         "qv": "4411497.4005",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19690,7 +19690,7 @@ export const pairData = [
         "v": "49957.29",
         "qv": "780434.3867",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19722,7 +19722,7 @@ export const pairData = [
         "v": "2008826.62",
         "qv": "35472021.2954",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -19940,7 +19940,7 @@ export const pairData = [
         "v": "21292077.0000000",
         "qv": "3377.3760068",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19958,7 +19958,7 @@ export const pairData = [
         "v": "145255477.00000000",
         "qv": "265.49357053",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19976,7 +19976,7 @@ export const pairData = [
         "v": "165130957.90000",
         "qv": "15193203.983909",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -19994,7 +19994,7 @@ export const pairData = [
         "v": "43124767.00000000",
         "qv": "917.5911818",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20012,7 +20012,7 @@ export const pairData = [
         "v": "37466222.92000",
         "qv": "3054641.2529753",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20030,7 +20030,7 @@ export const pairData = [
         "v": "8063498.14000",
         "qv": "559836.637073",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20048,7 +20048,7 @@ export const pairData = [
         "v": "11313975.6000",
         "qv": "14601902.55547",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20066,7 +20066,7 @@ export const pairData = [
         "v": "1075873218.20000",
         "qv": "98952474.256462",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20112,7 +20112,7 @@ export const pairData = [
         "v": "1572329.00000000",
         "qv": "27.6625812",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -20128,7 +20128,7 @@ export const pairData = [
         "v": "1246188.0000",
         "qv": "1102631.9117",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -20144,7 +20144,7 @@ export const pairData = [
         "v": "5058889.00000000",
         "qv": "9.31543538",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20161,7 +20161,7 @@ export const pairData = [
         "v": "37030194.90000",
         "qv": "3427759.536687",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20206,7 +20206,7 @@ export const pairData = [
         "v": "1200462.0000000",
         "qv": "424.0616206",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20223,7 +20223,7 @@ export const pairData = [
         "v": "2587465.00000000",
         "qv": "10.5705542",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20240,7 +20240,7 @@ export const pairData = [
         "v": "1304403.00000000",
         "qv": "19.81698624",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20257,7 +20257,7 @@ export const pairData = [
         "v": "421485.0000000",
         "qv": "73.7383787",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20274,7 +20274,7 @@ export const pairData = [
         "v": "4928342.0000",
         "qv": "3752380.1341",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20291,7 +20291,7 @@ export const pairData = [
         "v": "11476.97000",
         "qv": "376.192944",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20309,7 +20309,7 @@ export const pairData = [
         "v": "45084.9200000",
         "qv": "16.99346167",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20327,7 +20327,7 @@ export const pairData = [
         "v": "29892.37",
         "qv": "565145.3755",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20345,7 +20345,7 @@ export const pairData = [
         "v": "24068.740000",
         "qv": "105.61457179",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20363,7 +20363,7 @@ export const pairData = [
         "v": "366565.47",
         "qv": "6923593.9702",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -20457,8 +20457,8 @@ export const pairData = [
         "v": "6623.4100000",
         "qv": "2.05976339",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -20475,8 +20475,8 @@ export const pairData = [
         "v": "9853.22",
         "qv": "154613.7827",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -20493,8 +20493,8 @@ export const pairData = [
         "v": "62773.08",
         "qv": "980787.563",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "Launchpool"
         ],
         "sd": false,
@@ -20559,8 +20559,8 @@ export const pairData = [
         "v": "3976.420000",
         "qv": "4.56319215",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -20576,8 +20576,8 @@ export const pairData = [
         "v": "23715.34",
         "qv": "1361732.7469",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -20673,8 +20673,8 @@ export const pairData = [
         "v": "90321115.0000",
         "qv": "107776783.627",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20705,7 +20705,7 @@ export const pairData = [
         "v": "12433990.00000000",
         "qv": "35.28451373",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20722,7 +20722,7 @@ export const pairData = [
         "v": "2909868.0000",
         "qv": "413497.2487",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20739,7 +20739,7 @@ export const pairData = [
         "v": "672750.00000000",
         "qv": "22.15954205",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20756,7 +20756,7 @@ export const pairData = [
         "v": "51661582.0000",
         "qv": "7381859.6121",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -20917,7 +20917,7 @@ export const pairData = [
         "v": "2086.6020",
         "qv": "747.1704133",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -20934,7 +20934,7 @@ export const pairData = [
         "v": "66175.690000",
         "qv": "274.17876805",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -20951,7 +20951,7 @@ export const pairData = [
         "v": "8345.7",
         "qv": "1732764.7996",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -20968,7 +20968,7 @@ export const pairData = [
         "v": "12638.54900",
         "qv": "609.02087191",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -20985,7 +20985,7 @@ export const pairData = [
         "v": "99572.5",
         "qv": "20686675.8287",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21242,7 +21242,7 @@ export const pairData = [
         "v": "590220.400000",
         "qv": "5572.784274",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -21260,7 +21260,7 @@ export const pairData = [
         "v": "13126210.80000000",
         "qv": "1408.97020687",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -21278,7 +21278,7 @@ export const pairData = [
         "v": "4865532.400",
         "qv": "26456114.6957",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -21328,7 +21328,7 @@ export const pairData = [
         "v": "47950945.600",
         "qv": "260059982.3234",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -21346,7 +21346,7 @@ export const pairData = [
         "v": "59542568.00000000",
         "qv": "23.17798684",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21363,7 +21363,7 @@ export const pairData = [
         "v": "30497552.50000",
         "qv": "596908.25335",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21380,7 +21380,7 @@ export const pairData = [
         "v": "138246695.00000",
         "qv": "2696198.02469",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21397,7 +21397,7 @@ export const pairData = [
         "v": "10931.44000",
         "qv": "311.0845989",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -21415,7 +21415,7 @@ export const pairData = [
         "v": "44725.9600000",
         "qv": "14.7003518",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -21433,7 +21433,7 @@ export const pairData = [
         "v": "57969.47",
         "qv": "961420.8254",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -21451,7 +21451,7 @@ export const pairData = [
         "v": "309887.35",
         "qv": "5103346.951",
         "tags": [
-            "defi",
+            "DeFi",
             "BSC",
             "Launchpool"
         ],
@@ -21469,7 +21469,7 @@ export const pairData = [
         "v": "289.7488",
         "qv": "127.57609676",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21485,7 +21485,7 @@ export const pairData = [
         "v": "87.02",
         "qv": "1939160.6333857",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21501,7 +21501,7 @@ export const pairData = [
         "v": "36.80",
         "qv": "729614.1112689",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21517,7 +21517,7 @@ export const pairData = [
         "v": "17.80",
         "qv": "86.071348",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21533,7 +21533,7 @@ export const pairData = [
         "v": "126.7291",
         "qv": "7.08198524",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21549,7 +21549,7 @@ export const pairData = [
         "v": "116",
         "qv": "323356.1386",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21565,7 +21565,7 @@ export const pairData = [
         "v": "2051",
         "qv": "5742331.531",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21581,7 +21581,7 @@ export const pairData = [
         "v": "1176.12",
         "qv": "26055468.2152755",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21597,7 +21597,7 @@ export const pairData = [
         "v": "15033325.00000000",
         "qv": "6.09748217",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21614,7 +21614,7 @@ export const pairData = [
         "v": "1266.0230",
         "qv": "382.2605395",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21631,7 +21631,7 @@ export const pairData = [
         "v": "40553.878000",
         "qv": "141.28234296",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21648,7 +21648,7 @@ export const pairData = [
         "v": "34087.4",
         "qv": "5938627.026",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21665,7 +21665,7 @@ export const pairData = [
         "v": "5147.86500",
         "qv": "207.61356865",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21682,7 +21682,7 @@ export const pairData = [
         "v": "1761.9",
         "qv": "308916.8382",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21699,7 +21699,7 @@ export const pairData = [
         "v": "468435.2",
         "qv": "81715610.2192",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21716,7 +21716,7 @@ export const pairData = [
         "v": "4530.1200",
         "qv": "585.253896",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21733,7 +21733,7 @@ export const pairData = [
         "v": "32605.580000",
         "qv": "48.26007603",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21750,7 +21750,7 @@ export const pairData = [
         "v": "8288.68",
         "qv": "617565.4179",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21767,7 +21767,7 @@ export const pairData = [
         "v": "5170.39000",
         "qv": "88.8910508",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21784,7 +21784,7 @@ export const pairData = [
         "v": "216571.66",
         "qv": "16077991.6783",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21801,7 +21801,7 @@ export const pairData = [
         "v": "3993899",
         "qv": "4129086211",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21818,7 +21818,7 @@ export const pairData = [
         "v": "4525072.0000000",
         "qv": "557.1864015",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21835,7 +21835,7 @@ export const pairData = [
         "v": "77610981.00000000",
         "qv": "111.07572401",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21852,7 +21852,7 @@ export const pairData = [
         "v": "38027300.30000",
         "qv": "2716037.201915",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21869,7 +21869,7 @@ export const pairData = [
         "v": "10128083.00000000",
         "qv": "166.49441328",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21886,7 +21886,7 @@ export const pairData = [
         "v": "350667615.90000",
         "qv": "25001685.266451",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -21903,7 +21903,7 @@ export const pairData = [
         "v": "410761.0000",
         "qv": "366931.8499",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21919,7 +21919,7 @@ export const pairData = [
         "v": "4284404.0000",
         "qv": "3808677.117",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21935,7 +21935,7 @@ export const pairData = [
         "v": "1038049.3",
         "qv": "602899454.9344",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -21954,7 +21954,7 @@ export const pairData = [
         "v": "433961.85",
         "qv": "1880383797.981398",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -21972,9 +21972,9 @@ export const pairData = [
         "v": "11193880.0000",
         "qv": "6961994.5673",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -21990,7 +21990,7 @@ export const pairData = [
         "v": "18539751.0000",
         "qv": "7560784.8418",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -22007,8 +22007,8 @@ export const pairData = [
         "v": "151489847.60000",
         "qv": "5762346.241485",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -22025,7 +22025,7 @@ export const pairData = [
         "v": "45618536.00000000",
         "qv": "35.47930098",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -22042,7 +22042,7 @@ export const pairData = [
         "v": "26685.0300000",
         "qv": "8.39052659",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22058,7 +22058,7 @@ export const pairData = [
         "v": "10192135.20000",
         "qv": "706989.27928",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22074,7 +22074,7 @@ export const pairData = [
         "v": "1827264.90000000",
         "qv": "195.35915595",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -22091,7 +22091,7 @@ export const pairData = [
         "v": "46441971.90000",
         "qv": "1655663.112273",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22107,7 +22107,7 @@ export const pairData = [
         "v": "7836.216000",
         "qv": "46.8746612",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -22126,7 +22126,7 @@ export const pairData = [
         "v": "11541.31",
         "qv": "528958.1856",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -22143,7 +22143,7 @@ export const pairData = [
         "v": "2715133.800",
         "qv": "5862758.295",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22159,7 +22159,7 @@ export const pairData = [
         "v": "96199.35",
         "qv": "934047.4646",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token"
         ],
         "sd": false,
@@ -22318,8 +22318,8 @@ export const pairData = [
         "v": "37471762.00000",
         "qv": "2583670.0072",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -22336,7 +22336,7 @@ export const pairData = [
         "v": "30747267.0000",
         "qv": "16127157.0037",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22352,8 +22352,8 @@ export const pairData = [
         "v": "978986.200",
         "qv": "2449242.2682",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -22372,8 +22372,8 @@ export const pairData = [
         "v": "10903.00",
         "qv": "262722.9",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22389,8 +22389,8 @@ export const pairData = [
         "v": "240401.40",
         "qv": "1863984.705",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22474,7 +22474,7 @@ export const pairData = [
         "v": "246284.00000000",
         "qv": "5.1097515",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22490,7 +22490,7 @@ export const pairData = [
         "v": "142662.000000",
         "qv": "256.486397",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22506,7 +22506,7 @@ export const pairData = [
         "v": "206006.0000",
         "qv": "215214.1619",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22522,7 +22522,7 @@ export const pairData = [
         "v": "2588424.0000",
         "qv": "2711165.7997",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22608,8 +22608,8 @@ export const pairData = [
         "v": "15818.3100000",
         "qv": "4.28666944",
         "tags": [
-            "innovation-zone",
-            "storage-zone"
+            "Innovation",
+            "Storage"
         ],
         "sd": false,
     },
@@ -22685,7 +22685,7 @@ export const pairData = [
         "v": "7520.88",
         "qv": "2003035.567",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -22703,8 +22703,8 @@ export const pairData = [
         "v": "12114",
         "qv": "1028951127.96",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22736,7 +22736,7 @@ export const pairData = [
         "v": "868662.6000",
         "qv": "508202.76214",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -22753,7 +22753,7 @@ export const pairData = [
         "v": "18822625.3000",
         "qv": "9117522.33827",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -22770,7 +22770,7 @@ export const pairData = [
         "v": "7765503.400",
         "qv": "72191775.63182",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22786,7 +22786,7 @@ export const pairData = [
         "v": "900722.510",
         "qv": "8384877.94198",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22802,7 +22802,7 @@ export const pairData = [
         "v": "31802.330000",
         "qv": "512.90204949",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22818,7 +22818,7 @@ export const pairData = [
         "v": "709065.19000000",
         "qv": "132.04482787",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22834,7 +22834,7 @@ export const pairData = [
         "v": "3695782.2000",
         "qv": "1784249.12173",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -22851,7 +22851,7 @@ export const pairData = [
         "v": "13717325.2000",
         "qv": "8007589.07925",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -22868,7 +22868,7 @@ export const pairData = [
         "v": "107086289.60000",
         "qv": "41217476.807682",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -22884,7 +22884,7 @@ export const pairData = [
         "v": "11037036.7000",
         "qv": "9735683.50426",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -22900,7 +22900,7 @@ export const pairData = [
         "v": "2275",
         "qv": "6245334337.72",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -22937,7 +22937,7 @@ export const pairData = [
         "v": "7.51",
         "qv": "377597.0609304",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -22954,7 +22954,7 @@ export const pairData = [
         "v": "88.43",
         "qv": "381389.821927",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -22972,7 +22972,7 @@ export const pairData = [
         "v": "618.71",
         "qv": "359482.37105",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "BSC",
             "Layer1_Layer2"
@@ -23095,7 +23095,7 @@ export const pairData = [
         "v": "65235",
         "qv": "1477123731.4",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -23113,7 +23113,7 @@ export const pairData = [
         "v": "17280",
         "qv": "414590803.6",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -23131,7 +23131,7 @@ export const pairData = [
         "v": "69.4",
         "qv": "29036.644",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -23150,7 +23150,7 @@ export const pairData = [
         "v": "387.46",
         "qv": "539126.2907",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -23168,8 +23168,8 @@ export const pairData = [
         "v": "96309372.00000",
         "qv": "2431162.44287",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23253,9 +23253,9 @@ export const pairData = [
         "v": "1485046.0000",
         "qv": "921065.1826",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23335,9 +23335,9 @@ export const pairData = [
         "v": "324239.000",
         "qv": "731926.1716",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "storage-zone"
+            "Storage"
         ],
         "sd": false,
     },
@@ -23353,8 +23353,8 @@ export const pairData = [
         "v": "14616586.0000",
         "qv": "8387173.1998",
         "tags": [
-            "pow",
-            "pos",
+            "POW",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -23371,8 +23371,8 @@ export const pairData = [
         "v": "31651515.0000",
         "qv": "4515745.1356",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23388,7 +23388,7 @@ export const pairData = [
         "v": "23116.39",
         "qv": "4383664.391",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -23420,7 +23420,7 @@ export const pairData = [
         "v": "852",
         "qv": "3905677.209",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone"
         ],
         "sd": false,
@@ -23437,7 +23437,7 @@ export const pairData = [
         "v": "2777841.0000",
         "qv": "1624851.2908",
         "tags": [
-            "pos",
+            "POS",
             "Launchpad"
         ],
         "sd": false,
@@ -23468,7 +23468,7 @@ export const pairData = [
         "v": "52358.900",
         "qv": "150664.7226",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -23485,7 +23485,7 @@ export const pairData = [
         "v": "848",
         "qv": "1098139213.62",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -23502,7 +23502,7 @@ export const pairData = [
         "v": "12473",
         "qv": "2423986138.56",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse",
@@ -23522,7 +23522,7 @@ export const pairData = [
         "v": "96125.700",
         "qv": "712356.3597",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23538,7 +23538,7 @@ export const pairData = [
         "v": "28485.200",
         "qv": "210988.1716",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23554,7 +23554,7 @@ export const pairData = [
         "v": "16222.60000",
         "qv": "206.554349",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23570,7 +23570,7 @@ export const pairData = [
         "v": "12827.6000000",
         "qv": "1.89108732",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23600,8 +23600,8 @@ export const pairData = [
         "v": "5578789.0000",
         "qv": "4379516.3071",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23617,8 +23617,8 @@ export const pairData = [
         "v": "4916364.900",
         "qv": "6282202.0023",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -23634,7 +23634,7 @@ export const pairData = [
         "v": "322932.90000000",
         "qv": "10.67616583",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming"
         ],
         "sd": false,
@@ -23651,7 +23651,7 @@ export const pairData = [
         "v": "53732.600000",
         "qv": "154.2137512",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming"
         ],
         "sd": false,
@@ -23668,7 +23668,7 @@ export const pairData = [
         "v": "621454.400",
         "qv": "1029675.8382",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming"
         ],
         "sd": false,
@@ -23685,7 +23685,7 @@ export const pairData = [
         "v": "2738380.100",
         "qv": "4540341.9954",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "Gaming"
         ],
         "sd": false,
@@ -23758,7 +23758,7 @@ export const pairData = [
         "v": "538074.0000",
         "qv": "895713.2722",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone"
         ],
         "sd": false,
@@ -23853,7 +23853,7 @@ export const pairData = [
         "v": "29714170053.00000000",
         "qv": "1529368.02138045",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -23933,7 +23933,7 @@ export const pairData = [
         "v": "3351.0",
         "qv": "1709522.57",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -23950,7 +23950,7 @@ export const pairData = [
         "v": "5805.19",
         "qv": "733589.9137",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -23967,8 +23967,8 @@ export const pairData = [
         "v": "39765.09",
         "qv": "3838110.4954",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24021,7 +24021,7 @@ export const pairData = [
         "v": "662529.1000000",
         "qv": "243.12061653",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24039,7 +24039,7 @@ export const pairData = [
         "v": "24817.55600",
         "qv": "1090.68642668",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24085,7 +24085,7 @@ export const pairData = [
         "v": "1231159.610",
         "qv": "96767272.3123",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token",
             "Launchpad"
         ],
@@ -24103,7 +24103,7 @@ export const pairData = [
         "v": "25834.9100",
         "qv": "126062.62153",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token",
             "Launchpad"
         ],
@@ -24121,7 +24121,7 @@ export const pairData = [
         "v": "92179.01000000",
         "qv": "10.11007285",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token",
             "Launchpad"
         ],
@@ -24139,7 +24139,7 @@ export const pairData = [
         "v": "1266515.6900",
         "qv": "7050460.821815",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token",
             "Launchpad"
         ],
@@ -24157,8 +24157,8 @@ export const pairData = [
         "v": "616558.90000000",
         "qv": "25.58197975",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -24174,8 +24174,8 @@ export const pairData = [
         "v": "120128.000000",
         "qv": "443.4373664",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -24191,8 +24191,8 @@ export const pairData = [
         "v": "599554.500",
         "qv": "1252260.9382",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -24208,8 +24208,8 @@ export const pairData = [
         "v": "3640748.400",
         "qv": "7596116.1669",
         "tags": [
-            "defi",
-            "innovation-zone"
+            "DeFi",
+            "Innovation"
         ],
         "sd": false,
     },
@@ -24225,7 +24225,7 @@ export const pairData = [
         "v": "192631.0000",
         "qv": "426845.9243",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24243,7 +24243,7 @@ export const pairData = [
         "v": "109272.30",
         "qv": "979045.483",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24261,7 +24261,7 @@ export const pairData = [
         "v": "436043.300",
         "qv": "2098764.585",
         "tags": [
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -24291,8 +24291,8 @@ export const pairData = [
         "v": "121799.79",
         "qv": "3347004.7886",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "BSC"
         ],
         "sd": false,
@@ -24309,7 +24309,7 @@ export const pairData = [
         "v": "278745.800",
         "qv": "1016003.3625",
         "tags": [
-            "defi",
+            "DeFi",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -24326,7 +24326,7 @@ export const pairData = [
         "v": "4693.5",
         "qv": "550903.95",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24372,8 +24372,8 @@ export const pairData = [
         "v": "112044482.0000",
         "qv": "31244880.0209",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -24391,8 +24391,8 @@ export const pairData = [
         "v": "4080864.0",
         "qv": "1171821704.2",
         "tags": [
-            "innovation-zone",
-            "defi",
+            "Innovation",
+            "DeFi",
             "Polkadot",
             "Launchpool"
         ],
@@ -24410,7 +24410,7 @@ export const pairData = [
         "v": "39859600308.0000000",
         "qv": "8232742.2940924",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -24506,7 +24506,7 @@ export const pairData = [
         "v": "26499.185000",
         "qv": "33.1112388",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "Gaming",
             "NFT"
@@ -24525,7 +24525,7 @@ export const pairData = [
         "v": "9869.8080",
         "qv": "1081.4775125",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "Gaming",
             "NFT"
@@ -24544,7 +24544,7 @@ export const pairData = [
         "v": "62948.4",
         "qv": "4004871.2227",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "Gaming",
             "NFT"
@@ -24563,7 +24563,7 @@ export const pairData = [
         "v": "167440.0",
         "qv": "10639727.0067",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "BSC",
             "Gaming",
             "NFT"
@@ -24582,7 +24582,7 @@ export const pairData = [
         "v": "45728.80",
         "qv": "1029466.3549",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -24598,7 +24598,7 @@ export const pairData = [
         "v": "12804.9900000",
         "qv": "5.73829355",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -24614,7 +24614,7 @@ export const pairData = [
         "v": "9315.11",
         "qv": "210383.8339",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -24630,7 +24630,7 @@ export const pairData = [
         "v": "13001.17000",
         "qv": "492.0429916",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -24646,7 +24646,7 @@ export const pairData = [
         "v": "167884.3800",
         "qv": "934237.2562",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "fan_token",
             "Launchpad"
         ],
@@ -24696,7 +24696,7 @@ export const pairData = [
         "v": "10680.7",
         "qv": "1328054.53",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24714,7 +24714,7 @@ export const pairData = [
         "v": "605886766.000000",
         "qv": "623461.362574",
         "tags": [
-            "innovation-zone"
+            "Innovation"
         ],
         "sd": false,
     },
@@ -24730,8 +24730,8 @@ export const pairData = [
         "v": "1940",
         "qv": "1932588449.66",
         "tags": [
-            "defi",
-            "pos",
+            "DeFi",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -24966,7 +24966,7 @@ export const pairData = [
         "v": "61605.640000",
         "qv": "418.31316093",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Polkadot",
             "Layer1_Layer2"
@@ -24985,7 +24985,7 @@ export const pairData = [
         "v": "5222467.5000000",
         "qv": "2889.13008238",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2",
             "Launchpad"
         ],
@@ -25003,9 +25003,9 @@ export const pairData = [
         "v": "14356295.50000",
         "qv": "1660330.817263",
         "tags": [
-            "pow",
+            "POW",
             "mining-zone",
-            "pos"
+            "POS"
         ],
         "sd": false,
     },
@@ -25058,8 +25058,8 @@ export const pairData = [
         "v": "5368.77",
         "qv": "4546370.1557",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25076,7 +25076,7 @@ export const pairData = [
         "qv": "7405597.4199",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25093,7 +25093,7 @@ export const pairData = [
         "qv": "2332064.74",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25110,7 +25110,7 @@ export const pairData = [
         "qv": "240.6842639",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25127,7 +25127,7 @@ export const pairData = [
         "qv": "12.7554344",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25239,7 +25239,7 @@ export const pairData = [
         "v": "27724.52000",
         "qv": "575.6919589",
         "tags": [
-            "pos",
+            "POS",
             "Layer1_Layer2"
         ],
         "sd": false,
@@ -25256,7 +25256,7 @@ export const pairData = [
         "v": "209885282.0000",
         "qv": "135976833.4628",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -25275,8 +25275,8 @@ export const pairData = [
         "v": "165897.50",
         "qv": "3211699.381",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25292,7 +25292,7 @@ export const pairData = [
         "v": "832216.20",
         "qv": "28210270.683",
         "tags": [
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25324,8 +25324,8 @@ export const pairData = [
         "v": "38376",
         "qv": "787544326.4",
         "tags": [
-            "innovation-zone",
-            "defi"
+            "Innovation",
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25438,7 +25438,7 @@ export const pairData = [
         "qv": "88.13841856",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25455,7 +25455,7 @@ export const pairData = [
         "qv": "3781.81947199",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25472,7 +25472,7 @@ export const pairData = [
         "qv": "11185467.34715",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25489,7 +25489,7 @@ export const pairData = [
         "qv": "30473256.95782",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25679,7 +25679,7 @@ export const pairData = [
         "qv": "5.77117067",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25696,7 +25696,7 @@ export const pairData = [
         "qv": "173554.61756",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25713,7 +25713,7 @@ export const pairData = [
         "qv": "1386324.59862",
         "tags": [
             "newListing",
-            "defi"
+            "DeFi"
         ],
         "sd": false,
     },
@@ -25851,8 +25851,8 @@ export const pairData = [
         "v": "1128199.86",
         "qv": "26828772.053",
         "tags": [
-            "defi",
-            "innovation-zone",
+            "DeFi",
+            "Innovation",
             "BSC",
             "Launchpool"
         ],
@@ -25870,7 +25870,7 @@ export const pairData = [
         "v": "6718406.0000",
         "qv": "19417328.1487",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "NFT",
             "BSC"
@@ -25920,7 +25920,7 @@ export const pairData = [
         "v": "300",
         "qv": "683841.304",
         "tags": [
-            "pos",
+            "POS",
             "mining-zone",
             "Layer1_Layer2"
         ],
@@ -25957,7 +25957,7 @@ export const pairData = [
         "v": "10372310.0",
         "qv": "6899797232.2",
         "tags": [
-            "innovation-zone",
+            "Innovation",
             "NFT",
             "Gaming",
             "Metaverse"
@@ -25977,7 +25977,7 @@ export const pairData = [
         "qv": "49.94041926",
         "tags": [
             "BSC",
-            "defi",
+            "DeFi",
             "newListing"
         ],
         "sd": false,
@@ -25995,7 +25995,7 @@ export const pairData = [
         "qv": "3670638.7957",
         "tags": [
             "BSC",
-            "defi",
+            "DeFi",
             "newListing"
         ],
         "sd": false,
@@ -26013,7 +26013,7 @@ export const pairData = [
         "qv": "22440960.9634",
         "tags": [
             "BSC",
-            "defi",
+            "DeFi",
             "newListing"
         ],
         "sd": false,
@@ -26023,3 +26023,4 @@ export const ActiveAssets = ["ETH", "BNB", "MAL", "ADA", "BUSD", "USDT"]
 export const Symbols = ["ADA", "USDT", "AGIX", "MAL"];
 export const Indexes = ["ETH", "TRX", "XRP", "DOGE"];
 export const Options = ["AUD", "BIDR", "BRL", "EUR", "GBP", "RUB", "TRY", "TUSD", "USDC", "DAI", "IDRI", "UAH", "NGN", "VAI", "USDP"];
+export const Strategies = ["Innovation", "DeFi", "BSC", "POS", "POW", "Storage", "NFT", "Polkadot", "Gaming", "Metaverse", "Launchpad", "Launchpool", "ETF"];

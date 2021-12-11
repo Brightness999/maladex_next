@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faCogs, faStar, faSearch, faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 
 import styles from '/styles/Home.module.scss';
-import { pairData, Symbols, Indexes, Options, ActiveAssets } from "../../lib/data";
+import { pairData, Symbols, Indexes, Options, ActiveAssets, Strategies } from "../../lib/data";
 
 type TableProps = {
   pair?: string;
@@ -177,12 +177,14 @@ type Props = {
 
 const SelectPair: React.FC<Props> = (props) => {
   const [pair, setPair] = useState<string>(props.pair);
-  const [symbol, setSymbol] = useState<string>("MAL");
+  const [currentsymbol, setCurrentSymbol] = useState<string>("MAL");
+  const [symbol, setSymbol] = useState<string>("");
   const [index, setIndex] = useState<string>("");
   const [option, setOption] = useState<string>("");
   const [startegy, setStartegy] = useState<string>("");
   const [tabledata, setTableData] = useState<Array<any>>([]);
   const [isstar, setIsStar] = useState<boolean>(false);
+  const [isactiveaasets, setIsActiveAasets] = useState<boolean>(false);
   const [pairdata, setPairData] = useState<Array<any>>(pairData);
   const [currentsort, setCurrentSort] = useState<string>("default");
   const [sortitem, setSortitem] = useState<string>("default");
@@ -214,15 +216,21 @@ const SelectPair: React.FC<Props> = (props) => {
     });
     setTableData(temp_data);
   }
-  
+
   const selectStar = () => {
-    setIsStar(true);
     let temp_data = [];
     pairdata.forEach(element => {
       if (element.sd) {
         temp_data.push(element);
       }
     });
+    setIsStar(true);
+    setIsActiveAasets(false);
+    // setCurrentSymbol("");
+    setSymbol("");
+    setIndex("");
+    setOption("");
+    setStartegy("");
     setTableData(temp_data);
   }
 
@@ -230,24 +238,34 @@ const SelectPair: React.FC<Props> = (props) => {
     let temp_data = [];
     pairdata.forEach(element => {
       ActiveAssets.forEach(activeasset => {
-        if (element.q == symbol && element.b == activeasset) {
+        if (element.q == currentsymbol && element.b == activeasset) {
           temp_data.push(element);
         }
       })
     });
+    setIsActiveAasets(true);
     setIsStar(false);
+    // setCurrentSymbol("");
+    setSymbol("");
+    setIndex("");
+    setOption("");
+    setStartegy("");
     setTableData(temp_data);
   }
-  
+
   const changeSymbol = (value: React.SetStateAction<string>) => {
-    setSymbol(value);
     let temp_data = [];
     pairdata.forEach(element => {
       if (element.q == value) {
         temp_data.push(element);
       }
     });
+    setCurrentSymbol(value);
+    setSymbol(value);
     setIsStar(false);
+    setIndex("");
+    setOption("");
+    setStartegy("");
     setTableData(temp_data);
   }
 
@@ -263,40 +281,55 @@ const SelectPair: React.FC<Props> = (props) => {
   }
 
   const changeIndex = (value: React.SetStateAction<string>) => {
-    setIndex(value);
     let temp_data = [];
     pairdata.forEach(element => {
       if (element.q == value) {
         temp_data.push(element);
       }
     });
+    setCurrentSymbol(value);
+    setIndex(value);
     setIsStar(false);
+    setIsActiveAasets(false);
+    setSymbol("");
+    setOption("");
+    setStartegy("");
     setTableData(temp_data);
   }
 
   const changeOption = (value: React.SetStateAction<string>) => {
-    setOption(value);
     let temp_data = [];
     pairdata.forEach(element => {
       if (element.q == value) {
         temp_data.push(element);
       }
     });
+    setCurrentSymbol(value);
+    setOption(value);
     setIsStar(false);
+    setIsActiveAasets(false);
+    setSymbol("");
+    setIndex("");
+    setStartegy("");
     setTableData(temp_data);
   }
 
   const changeStrategy = (value: React.SetStateAction<string>) => {
-    setStartegy(value);
     let temp_data = [];
     pairdata.forEach(element => {
-      element.tags.forEach(tag => {
+      element.tags.forEach((tag: React.SetStateAction<string>) => {
         if (tag == value) {
           temp_data.push(element);
         }
       })
     });
+    setCurrentSymbol(symbol);
+    setStartegy(value);
     setIsStar(false);
+    setIsActiveAasets(false);
+    setSymbol("");
+    setIndex("");
+    setOption("");
     setTableData(temp_data);
   }
 
@@ -316,7 +349,7 @@ const SelectPair: React.FC<Props> = (props) => {
     if (nextsort == 'default') {
       let temp_data = [];
       pairdata.forEach(element => {
-        if (element.q == symbol) {
+        if (element.q == currentsymbol) {
           temp_data.push(element);
         }
       });
@@ -329,7 +362,7 @@ const SelectPair: React.FC<Props> = (props) => {
   useEffect(() => {
     let temp_data = [];
     pairdata.forEach(element => {
-      if (element.q == symbol) {
+      if (element.q == currentsymbol) {
         temp_data.push(element);
       }
     });
@@ -358,61 +391,51 @@ const SelectPair: React.FC<Props> = (props) => {
             <div className={`${styles.pair_select_instrumenttypes_star} ${isstar && styles.star}`}>
               <FontAwesomeIcon icon={faStar} onClick={() => selectStar()} />
             </div>
-            <div className={styles.pair_select_instrumenttypes_activeassets}>
+            <div className={`${styles.pair_select_instrumenttypes_activeassets} ${isactiveaasets && styles.active}`}>
               <FontAwesomeIcon icon={faCogs} onClick={() => selectActiveAssets()} />
             </div>
             <div className={styles.pair_select_instrumenttypes_pairs}>
-              <span>Pairs</span>
+              <span>{symbol ? symbol : 'Pairs'}</span>
               <FontAwesomeIcon icon={faCaretDown} />
               <div className={styles.pair_select_instrumenttypes_pairs_content}>
                 {Symbols.map((value, key) => {
                   return (
-                    <span key={key} id={value} onClick={(e) => changeSymbol((e.target as HTMLElement).id)}>{value}</span>
+                    <span key={key} id={value} className={value == symbol ? styles.symbol : ''} onClick={(e) => changeSymbol((e.target as HTMLElement).id)}>{value}</span>
                   );
                 })}
               </div>
             </div>
             <div className={styles.pair_select_instrumenttypes_indexes}>
-              <span>Indexes</span>
+              <span>{index? index : 'Indexes'}</span>
               <FontAwesomeIcon icon={faCaretDown} />
               <div className={styles.pair_select_instrumenttypes_indexes_content}>
                 {Indexes.map((value, key) => {
                   return (
-                    <span key={key} id={value} onClick={(e) => changeIndex((e.target as HTMLElement).id)}>{value}</span>
+                    <span key={key} id={value} className={value == index ? styles.index : ''} onClick={(e) => changeIndex((e.target as HTMLElement).id)}>{value}</span>
                   );
                 })}
               </div>
             </div>
             <div className={styles.pair_select_instrumenttypes_options}>
-              <span>Options</span>
+              <span>{option ? option : 'Options'}</span>
               <FontAwesomeIcon icon={faCaretDown} />
               <div className={styles.pair_select_instrumenttypes_options_content}>
                 {Options.map((value, key) => {
                   return (
-                    <span key={key} id={value} onClick={(e) => changeOption((e.target as HTMLElement).id)}>{value}</span>
+                    <span key={key} id={value} className={value == option ? styles.option : ''} onClick={(e) => changeOption((e.target as HTMLElement).id)}>{value}</span>
                   );
                 })}
               </div>
             </div>
             <div className={styles.pair_select_instrumenttypes_strategies}>
-              <span>Strategies</span>
+              <span>{startegy ? startegy : 'Strategies'}</span>
               <FontAwesomeIcon icon={faCaretDown} />
               <div className={styles.pair_select_instrumenttypes_strategies_content}>
-                <span id="innovation-zone" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Innovation</span>
-                <span id="defi" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>DeFi</span>
-                <span id="BSC" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>BSC</span>
-                <span id="pos" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>POS</span>
-                <span id="pow" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>POW</span>
-                <span id="storage-zone" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Storage</span>
-                <span id="NFT" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>NFT</span>
-                <span id="Polkadot" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Polkadot</span>
-                <span id="Gaming" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Gaming</span>
-                <span id="Metaverse" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Metaverse</span>
-                <span id="Layer1_Layer2" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Layer1 / Layer2</span>
-                <span id="fan_token" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Fan Token</span>
-                <span id="Launchpad" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Launchpad</span>
-                <span id="Launchpool" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>Launchpool</span>
-                <span id="ETF" onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>ETF</span>
+                {Strategies.map((value, key) => {
+                  return (
+                    <span key={key} id={value} className={value == startegy ? styles.strategy : ''} onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>{value}</span>
+                  );
+                })}
               </div>
             </div>
           </div>

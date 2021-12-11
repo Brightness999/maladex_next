@@ -311,6 +311,9 @@
     &:hover &_menu_action {
       display: flex;
     }
+    &_content_header span {
+      font-size: 14px;
+    }
   }
 }
 .placeorder {
@@ -331,11 +334,12 @@
     }
   }
   &_wrapper.mobile {
-    // display: none;
     position: fixed;
     bottom: 0px;
   }
   &__menu {
+    display: flex;
+    align-items: center;
     padding: 10px 0;
     button {
       border: none;
@@ -347,6 +351,10 @@
     }
     span {
       margin: 0 10px;
+    }
+    &_draggable {
+      flex: 1;
+      height: 24px;
     }
   }
   &_close {
@@ -545,7 +553,7 @@
       &_star {
         cursor: pointer;
         &:hover {
-          color: #c99400;
+          color: #f0b90b;
         }
       }
       &_star.star {
@@ -553,6 +561,12 @@
       }
       &_activeassets {
         cursor: pointer;
+        &:hover {
+          color: #f0b90b;
+        }
+      }
+      &_activeassets.active {
+        color: #c99400;
       }
       &_pairs {
         display: flex;
@@ -573,12 +587,15 @@
             padding: 0 10px;
             cursor: pointer;
             &:hover {
-              color: #c99400;
+              color: #f0b90b;
             }
+          }
+          span.symbol {
+            color: #c99400;
           }
         }
         &:hover svg {
-          color: #c99400;
+          color: #f0b90b;
         }
         &:hover &_content {
           display: flex;
@@ -603,12 +620,15 @@
             padding: 0 10px;
             cursor: pointer;
             &:hover {
-              color: #c99400;
+              color: #f0b90b;
             }
+          }
+          span.index {
+            color: #c99400;
           }
         }
         &:hover svg {
-          color: #c99400;
+          color: #f0b90b;
         }
         &:hover &_content {
           display: flex;
@@ -634,12 +654,15 @@
           span {
             cursor: pointer;
             &:hover {
-              color: #c99400;
+              color: #f0b90b;
             }
+          }
+          span.option {
+            color: #c99400;
           }
         }
         &:hover svg {
-          color: #c99400;
+          color: #f0b90b;
         }
         &:hover &_content {
           display: grid;
@@ -665,12 +688,15 @@
           span {
             cursor: pointer;
             &:hover {
-              color: #c99400;
+              color: #f0b90b;
             }
+          }
+          span.strategy {
+            color: #c99400;
           }
         }
         &:hover svg {
-          color: #c99400;
+          color: #f0b90b;
         }
         &:hover &_content {
           display: grid;
@@ -751,6 +777,7 @@
               }
               p {
                 margin: 0;
+                white-space: nowrap;
               }
             }
             div.percentage {
