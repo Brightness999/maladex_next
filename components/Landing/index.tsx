@@ -17,7 +17,7 @@ type Props = {
 }
 
 const Landing: React.FC<Props> = (props) => {
-  const [pair, setPair] = useState<string>("AGIX_BTC");
+  const [pair, setPair] = useState<string>("AGIX_MAL");
   const [price, setPrice] = useState<string>("");
   const [TradingData, setTradingData] = useState<Array<object>>([]);
   const [chartwidth, setChartWidth] = useState<number>(0);
@@ -58,6 +58,9 @@ const Landing: React.FC<Props> = (props) => {
           if (res.data.TradingData) {
             setTradingData(res.data.TradingData);
             setPrice(res.data.Price);
+          } else {
+            setTradingData([]);
+            setPrice("");
           }
         }
       });
@@ -112,6 +115,7 @@ const Landing: React.FC<Props> = (props) => {
       <SelectPair
         theme={props.theme}
         handleSelectPair={(value: any) => handleSelectPair(value)}
+        pair={pair}
       />
       <div className={`${styles.container} ${mobile && styles.mobile} ${props.theme == 'dark' && styles.dark}`}>
         {mobile ?

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import ReactSlider from 'react-slider';
 
 import styles from '/styles/Home.module.scss';
 
@@ -21,70 +20,70 @@ const OrderForm: React.FC<OrderProps> = (props) => {
     setPrice(props.price);
   }, [props.price]);
 
-  const handlePrice = (e) => {
+  const handlePrice = (e: React.ChangeEvent<HTMLInputElement>) => {
     let arr = e.target.value.split('.');
     let p = '';
     if (arr.length > 1) {
-      p = props.pair == 'AGIX_BTC' && `${arr[0]}.${arr[1].substr(0, 8)}`
-        || props.pair == 'ADA_BTC' && `${arr[0]}.${arr[1].substr(0, 8)}`
-        || props.pair == 'BNB_BTC' && `${arr[0]}.${arr[1].substr(0, 6)}`;
+      p = props.pair == 'AGIX_MAL' && `${arr[0]}.${arr[1].substr(0, 8)}`
+        || props.pair == 'ADA_MAL' && `${arr[0]}.${arr[1].substr(0, 8)}`
+        || props.pair == 'BNB_MAL' && `${arr[0]}.${arr[1].substr(0, 6)}`;
     } else {
       p = arr[0];
     }
     setPrice(p);
     setTotal(() => {
-      return props.pair == 'AGIX_BTC' && (parseFloat(p) * parseFloat(amount)).toFixed(7).toString()
-        || props.pair == 'ADA_BTC' && (parseFloat(p) * parseFloat(amount)).toFixed(7).toString()
-        || props.pair == 'BNB_BTC' && (parseFloat(p) * parseFloat(amount)).toFixed(5).toString();
+      return props.pair == 'AGIX_MAL' && (parseFloat(p) * parseFloat(amount)).toFixed(7).toString()
+        || props.pair == 'ADA_MAL' && (parseFloat(p) * parseFloat(amount)).toFixed(7).toString()
+        || props.pair == 'BNB_MAL' && (parseFloat(p) * parseFloat(amount)).toFixed(5).toString();
     });
   }
 
-  const handleStop = (e) => {
+  const handleStop = (e: React.ChangeEvent<HTMLInputElement>) => {
     let arr = e.target.value.split('.');
     let s = '';
     if (arr.length > 1) {
-      s = props.pair == 'AGIX_BTC' && `${arr[0]}.${arr[1].substr(0, 8)}`
-        || props.pair == 'ADA_BTC' && `${arr[0]}.${arr[1].substr(0, 8)}`
-        || props.pair == 'BNB_BTC' && `${arr[0]}.${arr[1].substr(0, 6)}`;
+      s = props.pair == 'AGIX_MAL' && `${arr[0]}.${arr[1].substr(0, 8)}`
+        || props.pair == 'ADA_MAL' && `${arr[0]}.${arr[1].substr(0, 8)}`
+        || props.pair == 'BNB_MAL' && `${arr[0]}.${arr[1].substr(0, 6)}`;
     } else {
       s = arr[0];
     }
     setStop(s);
   }
 
-  const handleAmount = (e) => {
+  const handleAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
     let arr = e.target.value.split('.');
     let a = '';
     if (arr.length > 1) {
-      a = props.pair == 'AGIX_BTC' && `${arr[0]}`
-        || props.pair == 'ADA_BTC' && `${arr[0]}.${arr[1].substr(0, 1)}`
-        || props.pair == 'BNB_BTC' && `${arr[0]}.${arr[1].substr(0, 3)}`;
+      a = props.pair == 'AGIX_MAL' && `${arr[0]}`
+        || props.pair == 'ADA_MAL' && `${arr[0]}.${arr[1].substr(0, 1)}`
+        || props.pair == 'BNB_MAL' && `${arr[0]}.${arr[1].substr(0, 3)}`;
     } else {
       a = arr[0];
     }
     setAmount(a);
     setTotal(() => {
-      return props.pair == 'AGIX_BTC' && (parseFloat(a) * parseFloat(price)).toFixed(7).toString()
-        || props.pair == 'ADA_BTC' && (parseFloat(a) * parseFloat(price)).toFixed(7).toString()
-        || props.pair == 'BNB_BTC' && (parseFloat(a) * parseFloat(price)).toFixed(5).toString();
+      return props.pair == 'AGIX_MAL' && (parseFloat(a) * parseFloat(price)).toFixed(7).toString()
+        || props.pair == 'ADA_MAL' && (parseFloat(a) * parseFloat(price)).toFixed(7).toString()
+        || props.pair == 'BNB_MAL' && (parseFloat(a) * parseFloat(price)).toFixed(5).toString();
     });
   }
 
-  const handleTotal = (e) => {
+  const handleTotal = (e: React.ChangeEvent<HTMLInputElement>) => {
     let arr = e.target.value.split('.');
     let t = '';
     if (arr.length > 1) {
-      t = props.pair == 'AGIX_BTC' && `${arr[0]}.${arr[1].substr(0, 7)}`
-        || props.pair == 'ADA_BTC' && `${arr[0]}.${arr[1].substr(0, 7)}`
-        || props.pair == 'BNB_BTC' && `${arr[0]}.${arr[1].substr(0, 5)}`;
+      t = props.pair == 'AGIX_MAL' && `${arr[0]}.${arr[1].substr(0, 7)}`
+        || props.pair == 'ADA_MAL' && `${arr[0]}.${arr[1].substr(0, 7)}`
+        || props.pair == 'BNB_MAL' && `${arr[0]}.${arr[1].substr(0, 5)}`;
     } else {
       t = arr[0];
     }
     setTotal(t);
     setAmount(() => {
-      return props.pair == 'AGIX_BTC' && (parseFloat(t) / parseFloat(price)).toFixed(0).toString()
-        || props.pair == 'ADA_BTC' && (parseFloat(t) / parseFloat(price)).toFixed(1).toString()
-        || props.pair == 'BNB_BTC' && (parseFloat(t) / parseFloat(price)).toFixed(3).toString();
+      return props.pair == 'AGIX_MAL' && (parseFloat(t) / parseFloat(price)).toFixed(0).toString()
+        || props.pair == 'ADA_MAL' && (parseFloat(t) / parseFloat(price)).toFixed(1).toString()
+        || props.pair == 'BNB_MAL' && (parseFloat(t) / parseFloat(price)).toFixed(3).toString();
     });
   }
 
@@ -150,20 +149,6 @@ const OrderForm: React.FC<OrderProps> = (props) => {
                   <label>{props.pair.split('_')[0]}</label>
                 </div>
               </div>
-              {/* <div className={styles.orderform__input_slide}>
-          <ReactSlider
-            className={styles.orderform__input_slide_slider}
-            marks={[0, 25, 50, 75, 100]}
-            markClassName={styles.orderform__input_slide_mark}
-            min={0}
-            max={100}
-            pearling={true}
-            minDistance={30}
-            thumbClassName={styles.orderform__input_slide_thumb}
-            trackClassName={styles.orderform__input_slide_track}
-            renderThumb={(props, state) => <div {...props}><span className="text-red">{state.valueNow}</span></div>}
-          />
-        </div> */}
               {
                 (props.submenu == 'limit' || props.submenu == 'stop-limit') &&
                 <div className={styles.orderform__input_item}>
@@ -259,10 +244,11 @@ const PlaceOrder: React.FC<Props> = (props) => {
   }
   return (
     <div className={styles.placeorder}>
-      <div className={`${styles.placeorder__menu} draggableHandle`}>
+      <div className={`${styles.placeorder__menu}`}>
         <button value="spot" onClick={(e) => handleMainMenu(e)} className={mainmenu == 'spot' ? styles.placeorder__menu_focus : ''}>Spot</button>
         <span>|</span>
         <button value="strategy" onClick={(e) => handleMainMenu(e)} className={mainmenu == 'strategy' ? styles.placeorder__menu_focus : ''}>Strategy</button>
+        <div className={`${styles.placeorder__menu_draggable} draggableHandle`}></div>
       </div>
       {
         mainmenu == 'spot' ?

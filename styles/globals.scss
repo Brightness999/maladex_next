@@ -88,6 +88,9 @@ h6 {
 .text-green {
   color: #0fdb8c;
 }
+.text-gray {
+  color: #a3a3a3;
+}
 .bg-red {
   background-color: #f00605;
 }
@@ -106,10 +109,8 @@ h6 {
 
 .react-grid-layout {
   position: relative;
-  // transition: height 200ms ease;
 }
 .react-grid-item {
-  // transition: all 200ms ease;
   transition-property: left, top;
   &:hover .react-resizable-handle {
     display: block;
