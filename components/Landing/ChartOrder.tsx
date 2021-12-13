@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import DepthChart from "./DepthChart";
 
 import styles from '/styles/Home.module.scss';
-import PreviewOrder from "./PreviewOrder";
 
-const OriginalChart = dynamic(() => import("./OriginalChart"), {
-  ssr: false
-});
+const OriginalChart = dynamic(() => import("./OriginalChart"), {ssr: false});
+const PreviewOrder = dynamic(() => import('./PreviewOrder'), {ssr: false});
+const DepthChart = dynamic(() => import('./DepthChart'), {ssr: false});
 
 type Props = {
   theme?: string;

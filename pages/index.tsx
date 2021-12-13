@@ -1,11 +1,16 @@
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
+
 import Layout from '../components/Layout';
-import Landing from '../components/Landing';
 import {
   defaultTitle,
   defaultDescription,
   defaultKeywords,
 } from '../lib/constants';
+
+const Landing = dynamic(() => import('../components/Landing'), {
+  loading: () => <p>Loading...</p>
+});
 
 const layoutProps = {
   title: defaultTitle,

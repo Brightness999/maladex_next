@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { Responsive, WidthProvider } from "react-grid-layout";
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
+import dynamic from 'next/dynamic';
 
 import api from '../../lib/api';
-import SelectPair from './SelectPair';
-import Charts from './Charts';
-import PlaceOrder from './PlaceOrder';
-import PreviewOrder from './PreviewOrder';
 import styles from '/styles/Home.module.scss';
-import Orders from './Orders';
 import { initialLayout } from '../../lib/data';
-import ChartOrder from './ChartOrder';
+
+const SelectPair = dynamic(() => import('./SelectPair'), {ssr: false});
+const Charts = dynamic(() => import('./Charts'), {ssr: false});
+const PlaceOrder = dynamic(() => import('./PlaceOrder'), {ssr: false});
+const PreviewOrder = dynamic(() => import('./PreviewOrder'), {ssr: false});
+const Orders = dynamic(() => import('./Orders'), {ssr: false});
+const ChartOrder = dynamic(() => import('./ChartOrder'), {ssr: false});
 
 type Props = {
   theme?: string;
