@@ -586,6 +586,7 @@
           span {
             padding: 0 10px;
             cursor: pointer;
+            user-select: none;
             &:hover {
               color: #f0b90b;
             }
@@ -619,6 +620,7 @@
           span {
             padding: 0 10px;
             cursor: pointer;
+            user-select: none;
             &:hover {
               color: #f0b90b;
             }
@@ -653,6 +655,7 @@
           z-index: 1;
           span {
             cursor: pointer;
+            user-select: none;
             &:hover {
               color: #f0b90b;
             }
@@ -687,6 +690,7 @@
           z-index: 1;
           span {
             cursor: pointer;
+            user-select: none;
             &:hover {
               color: #f0b90b;
             }
@@ -771,13 +775,17 @@
               gap: 5px;
               svg {
                 margin-top: -3px;
+                font-size: 12px;
               }
               span {
                 font-size: 12px;
+                user-select: none;
               }
               p {
                 margin: 0;
                 white-space: nowrap;
+                user-select: none;
+                line-height: 1;
               }
             }
             div.percentage {
