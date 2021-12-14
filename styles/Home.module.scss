@@ -116,7 +116,7 @@
           cursor: pointer;
           &:hover,
           &.active {
-            color: #c99400;
+            color: #ffb237;
           }
         }
       }
@@ -140,7 +140,7 @@
         cursor: pointer;
         &:hover,
         &.active {
-          color: #c99400;
+          color: #ffb237;
         }
       }
       svg {
@@ -196,7 +196,7 @@
         cursor: pointer;
         &:hover,
         &.active {
-          color: #c99400;
+          color: #ffb237;
         }
       }
     }
@@ -488,14 +488,20 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    border: 1px solid #3a3a3a;
+    // border: 1px solid #3a3a3a;
     border-radius: 5px;
-    padding: 4px;
-    background-color: #fff;
+    padding: 4px 8px;
+    background-color: #e20100;
     position: relative;
     cursor: pointer;
+    &_text {
+      color: #fff;
+      span {
+        font-weight: bolder;
+      }
+    }
     &_icon {
-      border: 1px solid #3a3a3a;
+      // border: 1px solid #3a3a3a;
       border-radius: 4px;
       padding: 1px 3px;
       display: flex;
@@ -505,8 +511,15 @@
         vertical-align: 0rem;
       }
     }
+    &:hover {
+      box-shadow: 0px 0px 5px 0px #e20100;
+    }
+    &:hover &_text {
+      text-shadow: 0 0 1px black;
+    }
     &:hover &_icon svg {
-      color: #c99400;
+      color: #fff;
+      // color: #ffb237;
     }
     &:hover .pair_select {
       display: block;
@@ -557,7 +570,7 @@
         }
       }
       &_star.star {
-        color: #c99400;
+        color: #ffb237;
       }
       &_activeassets {
         cursor: pointer;
@@ -566,7 +579,7 @@
         }
       }
       &_activeassets.active {
-        color: #c99400;
+        color: #ffb237;
       }
       &_pairs {
         display: flex;
@@ -592,7 +605,7 @@
             }
           }
           span.symbol {
-            color: #c99400;
+            color: #ffb237;
           }
         }
         &:hover svg {
@@ -626,7 +639,7 @@
             }
           }
           span.index {
-            color: #c99400;
+            color: #ffb237;
           }
         }
         &:hover svg {
@@ -661,7 +674,7 @@
             }
           }
           span.option {
-            color: #c99400;
+            color: #ffb237;
           }
         }
         &:hover svg {
@@ -696,7 +709,7 @@
             }
           }
           span.strategy {
-            color: #c99400;
+            color: #ffb237;
           }
         }
         &:hover svg {
@@ -758,7 +771,7 @@
                 }
               }
               p.active svg {
-                color: #c99400;
+                color: #ffb237;
               }
             }
           }
@@ -793,7 +806,7 @@
             }
             div.star {
               svg {
-                color: #c99400;
+                color: #ffb237;
               }
             }
             padding: 2px 5px;
@@ -874,9 +887,9 @@
         background-color: #1e2329;
       }
     }
-    &_symbol {
-      background-color: transparent;
-    }
+    // &_symbol {
+    //   background-color: transparent;
+    // }
   }
 }
 .orderform {
