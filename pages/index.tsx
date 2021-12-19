@@ -9,7 +9,7 @@ import {
 } from 'lib/constants';
 
 const Landing = dynamic(() => import('components/Landing'), {
-  loading: () => <p>Loading...</p>
+  loading: () => <div className='loading'>Loading...</div>
 });
 
 const layoutProps = {
