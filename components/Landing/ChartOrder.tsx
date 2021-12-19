@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 
-import styles from '/styles/Home.module.scss';
+import styles from 'styles/Home.module.scss';
 
 const OriginalChart = dynamic(() => import("./OriginalChart"), {ssr: false});
 const PreviewOrder = dynamic(() => import('./PreviewOrder'), {ssr: false});

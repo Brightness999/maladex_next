@@ -3,9 +3,9 @@ import { Responsive, WidthProvider } from "react-grid-layout";
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 import dynamic from 'next/dynamic';
 
-import api from '../../lib/api';
-import styles from '/styles/Home.module.scss';
-import { initialLayout } from '../../lib/data';
+import api from 'lib/api';
+import styles from 'styles/Home.module.scss';
+import { initialLayout } from 'lib/data';
 
 const SelectPair = dynamic(() => import('./SelectPair'), {ssr: false});
 const Charts = dynamic(() => import('./Charts'), {ssr: false});

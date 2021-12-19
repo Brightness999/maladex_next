@@ -1,14 +1,14 @@
 import { SetStateAction, useState } from 'react';
 import dynamic from 'next/dynamic';
 
-import Layout from '../../../components/Layout';
+import Layout from 'components/Layout';
 import {
   defaultTitle,
   defaultDescription,
   defaultKeywords,
-} from '../../../lib/constants';
+} from 'lib/constants';
 
-const Landing = dynamic(() => import('../../../components/Landing'), {
+const Landing = dynamic(() => import('components/Landing'), {
   loading: () => <p>Loading...</p>
 });
 
@@ -19,7 +19,7 @@ const layoutProps = {
 };
 
 const Home = () => {
-  const [theme, setTheme] = useState<string>('light');
+  const [theme, setTheme] = useState<string>('dark');
   const [page, setPage] = useState<string>("trade");
 
   return (

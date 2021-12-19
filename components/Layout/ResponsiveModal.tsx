@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
-import styles from '/styles/Navbar.module.scss';
+import styles from 'styles/Navbar.module.scss';
 
 type Props = {
   show?: boolean,

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import Highcharts from 'highcharts/highstock';
 import HighchartsReact from 'highcharts-react-official';
 
-import { BidData, AskData } from '../../lib/data';
+import { BidData, AskData } from 'lib/data';
 
 const DepthChart: React.FC = (props: HighchartsReact.Props) => {
   const chartComponentRef = useRef<HighchartsReact.RefObject>(null);

@@ -3,8 +3,8 @@ import { MathJax, MathJaxContext } from "better-react-mathjax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown, faCogs, faStar, faSearch, faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 
-import styles from '/styles/Home.module.scss';
-import { pairData, Symbols, Indexes, Options, ActiveAssets, Strategies } from "../../lib/data";
+import styles from 'styles/Home.module.scss';
+import { pairData, Symbols, Indexes, Options, ActiveAssets, Strategies } from "lib/data";
 
 type TableProps = {
   pair?: string;

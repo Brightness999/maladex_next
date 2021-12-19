@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { bech32 } from 'bech32';
 
-import Logo from '/public/img/logo.png';
-import styles from '/styles/Navbar.module.scss';
+import Logo from 'public/img/logo.png';
+import styles from 'styles/Navbar.module.scss';
 import ResponsiveModal from './ResponsiveModal';
 
 type Props = {
@@ -136,7 +136,7 @@ const Header: React.FC<Props> = (props) => {
     <nav className={`navbar navbar-inverse ${styles.navbar} ${props.theme == 'dark' && styles.dark}`} id="header">
       <div className={styles.navbar__container} >
         <div className={`navbar-header ${styles.navbar__container_header}`}>
-          <Link href="/">
+          <Link href="/trade/index/cardano-defi">
             <a className={styles.navbar__container_header_logo}>
               <Image src={Logo} alt="Logo" width="135" height="25" />
             </a>

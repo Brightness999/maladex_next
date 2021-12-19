@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import styles from '/styles/Home.module.scss';
+import styles from 'styles/Home.module.scss';
 
 type Props = {
   pair?: string;
