@@ -11,7 +11,9 @@ import ResponsiveModal from './ResponsiveModal';
 
 type Props = {
   theme?: string;
+  page?: string;
   changeTheme?: any;
+  changePage?: any;
 }
 const Header: React.FC<Props> = (props) => {
   const [modal, setModal] = useState<boolean>(false);
@@ -141,13 +143,13 @@ const Header: React.FC<Props> = (props) => {
           </Link>
           <ul className={`nav ${styles.navbar__nav}`}>
             <li className={`nav ${styles.navbar__nav_item}`}>
-              <span className="nav-link">Trade</span>
+              <span className={`nav-link ${props.page == 'trade' && 'active'}`} onClick={() => props.changePage('trade')}>Trade</span>
             </li>
             <li className={`nav ${styles.navbar__nav_item} ${styles.navbar__nav_mint}`}>
-              <span className="nav-link">Mint</span>
+              <span className={`nav-link ${props.page == 'mint' && 'active'}`} onClick={() => props.changePage('mint')}>Mint</span>
             </li>
             <li className={`nav ${styles.navbar__nav_item}`}>
-              <span className="nav-link">Track</span>
+              <span className={`nav-link ${props.page == 'track' && 'active'}`} onClick={() => props.changePage('track')}>Track</span>
             </li>
           </ul>
         </div>

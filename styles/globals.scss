@@ -161,3 +161,6 @@ h6 {
 .draggableHandle {
   cursor: grab;
 }
+.nav-link.active {
+  text-decoration: underline;
+}

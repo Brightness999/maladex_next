@@ -9,10 +9,12 @@ type LayoutProps = {
   description?: string;
   keywords?: string;
   theme?: string;
+  page?: string;
   changeTheme?: any;
+  changePage?: any;
 };
 
-const Layout = ({ children, title, description, keywords, theme, changeTheme }: LayoutProps) => {
+const Layout = ({ children, title, description, keywords, theme, page, changeTheme, changePage }: LayoutProps) => {
   return (
     <>
       <Head>
@@ -22,7 +24,7 @@ const Layout = ({ children, title, description, keywords, theme, changeTheme }: 
         {keywords && <meta name="keywords" content={keywords} />}
       </Head>
       <div className="wrapper">
-        <Header theme={theme} changeTheme={changeTheme} />
+        <Header theme={theme} page={page} changeTheme={changeTheme} changePage={changePage} />
         {children}
       </div>
     </>

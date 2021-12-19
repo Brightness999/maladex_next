@@ -1,3 +1,6 @@
+$pair-selected-color: #FEC84E;
+$pair-hover-color: #f0b90b;
+
 .container {
   background-color: #efefef;
   flex: 1;
@@ -116,7 +119,7 @@
           cursor: pointer;
           &:hover,
           &.active {
-            color: #ffb237;
+            color: #c99400;
           }
         }
       }
@@ -140,7 +143,7 @@
         cursor: pointer;
         &:hover,
         &.active {
-          color: #ffb237;
+          color: #c99400;
         }
       }
       svg {
@@ -196,7 +199,7 @@
         cursor: pointer;
         &:hover,
         &.active {
-          color: #ffb237;
+          color: #c99400;
         }
       }
     }
@@ -488,7 +491,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    // border: 1px solid #3a3a3a;
     border-radius: 5px;
     padding: 4px 8px;
     background-color: #e20100;
@@ -501,7 +503,6 @@
       }
     }
     &_icon {
-      // border: 1px solid #3a3a3a;
       border-radius: 4px;
       padding: 1px 3px;
       display: flex;
@@ -519,7 +520,6 @@
     }
     &:hover &_icon svg {
       color: #fff;
-      // color: #ffb237;
     }
     &:hover .pair_select {
       display: block;
@@ -566,20 +566,20 @@
       &_star {
         cursor: pointer;
         &:hover {
-          color: #f0b90b;
+          color: $pair-hover-color;
         }
       }
       &_star.star {
-        color: #ffb237;
+        color: $pair-selected-color;
       }
       &_activeassets {
         cursor: pointer;
         &:hover {
-          color: #f0b90b;
+          color: $pair-hover-color;
         }
       }
       &_activeassets.active {
-        color: #ffb237;
+        color: $pair-selected-color;
       }
       &_pairs {
         display: flex;
@@ -601,15 +601,15 @@
             cursor: pointer;
             user-select: none;
             &:hover {
-              color: #f0b90b;
+              color: $pair-hover-color;
             }
           }
           span.symbol {
-            color: #ffb237;
+            color: $pair-selected-color;
           }
         }
         &:hover svg {
-          color: #f0b90b;
+          color: $pair-hover-color;
         }
         &:hover &_content {
           display: flex;
@@ -635,15 +635,15 @@
             cursor: pointer;
             user-select: none;
             &:hover {
-              color: #f0b90b;
+              color: $pair-hover-color;
             }
           }
           span.index {
-            color: #ffb237;
+            color: $pair-selected-color;
           }
         }
         &:hover svg {
-          color: #f0b90b;
+          color: $pair-hover-color;
         }
         &:hover &_content {
           display: flex;
@@ -670,15 +670,15 @@
             cursor: pointer;
             user-select: none;
             &:hover {
-              color: #f0b90b;
+              color: $pair-hover-color;
             }
           }
           span.option {
-            color: #ffb237;
+            color: $pair-selected-color;
           }
         }
         &:hover svg {
-          color: #f0b90b;
+          color: $pair-hover-color;
         }
         &:hover &_content {
           display: grid;
@@ -709,7 +709,7 @@
             }
           }
           span.strategy {
-            color: #ffb237;
+            color: $pair-selected-color;
           }
         }
         &:hover svg {
@@ -771,7 +771,7 @@
                 }
               }
               p.active svg {
-                color: #ffb237;
+                color: $pair-selected-color;
               }
             }
           }
@@ -806,7 +806,7 @@
             }
             div.star {
               svg {
-                color: #ffb237;
+                color: $pair-selected-color;
               }
             }
             padding: 2px 5px;
@@ -887,9 +887,6 @@
         background-color: #1e2329;
       }
     }
-    // &_symbol {
-    //   background-color: transparent;
-    // }
   }
 }
 .orderform {
