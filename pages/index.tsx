@@ -30,7 +30,7 @@ const Home = () => {
       changeTheme={(value: SetStateAction<string>) => setTheme(value)}
       changePage={(value: SetStateAction<string>) => setPage(value)}
     >
-      <Landing theme={theme} page={page} />
+      <Landing theme={theme} />
     </Layout>
   )
 }

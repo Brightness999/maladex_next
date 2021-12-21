@@ -16,7 +16,6 @@ const ChartOrder = dynamic(() => import('./ChartOrder'), {ssr: false});
 
 type Props = {
   theme?: string;
-  page?: string;
 }
 
 const Landing: React.FC<Props> = (props) => {

@@ -8,7 +8,7 @@ import {
   defaultKeywords,
 } from 'lib/constants';
 
-const Landing = dynamic(() => import('components/Landing'), {
+const TradingAssert = dynamic(() => import('components/TradingAssert'), {
   loading: () => <div className='loading'>Loading...</div>
 });
 
@@ -30,7 +30,7 @@ const Home = () => {
       changeTheme={(value: SetStateAction<string>) => setTheme(value)}
       changePage={(value: SetStateAction<string>) => setPage(value)}
     >
-      <Landing theme={theme} page={page} />
+      <TradingAssert theme={theme} />
     </Layout>
   )
 }
