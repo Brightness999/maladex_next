@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>LRC</title>
+    <desc>Created with Sketch.</desc>
+    <g id="LRC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eth">
+            <circle id="Oval" stroke="#E0DCF4" stroke-width="0.3" fill="#FFFFFF" cx="12" cy="12" r="11.85"></circle>
+            <polygon id="Path-2" fill="#155AFF" points="15.4285839 11.7364155 23.2891767 11.7364155 12 18.5895384"></polygon>
+            <polygon id="Path" fill="#155AFF" points="12 5.17447341 12 18.5895384 6.41485544 14.0881312"></polygon>
+            <polygon id="Path-Copy" fill="#FFFFFF" transform="translate(14.792572, 11.882006) scale(-1, 1) translate(-14.792572, -11.882006) " points="17.5851446 5.17447341 17.5851446 18.5895384 12 14.0881312"></polygon>
+        </g>
+    </g>
+</svg>

@@ -3,13 +3,30 @@ import dynamic from "next/dynamic";
 
 import styles from "styles/Trading.module.scss";
 
-const TradingviewChart = dynamic(() => import('../Landing/TradingviewChart'), {
-  ssr: false
+const OriginalChart = dynamic(() => import('../Landing/OriginalChart'), {
+  ssr: false,
+  loading: () => <div className='loading'>...</div>
 })
-const PriceChart: React.FC = () => {
+
+type Props = {
+  theme?: string;
+}
+
+const PriceChart: React.FC<Props> = (props) => {
+  const [chartwidth, setChartWidth] = useState<number>(10);
+  const [chartheight, setChartHeight] = useState<number>(10);
+
+  useEffect(() => {
+    setChartWidth(document.getElementById("pricecomposition_content").clientWidth - 250);
+    setChartHeight(document.getElementById("pricecomposition_content").clientHeight);
+  }, []);
+
   return (
     <div className={styles.pricechart}>
-      <TradingviewChart />
+      <OriginalChart
+        chartheight={chartheight}
+        chartwidth={chartwidth}
+      />
     </div>
   );
 }

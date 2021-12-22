@@ -5,6 +5,8 @@ import styles from "styles/Trading.module.scss";
 
 type Props = {
   theme?: string;
+  type?: string;
+  slug?: string;
 }
 
 const Symbol: React.FC<Props> = (props) => {

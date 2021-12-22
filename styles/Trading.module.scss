@@ -18,19 +18,20 @@
       &_descriptionicon {
         display: flex;
         margin-left: 20px;
+        user-select: none;
         img {
           cursor: pointer;
         }
       }
     }
     &_description {
-
     }
   }
   .indicators {
     padding: 10px 5%;
     width: 100%;
-    th, td {
+    th,
+    td {
       span {
         white-space: nowrap;
         display: flex;
@@ -40,6 +41,17 @@
     }
     table {
       width: 100%;
+      tr {
+        outline: solid 1px grey;
+        border: none;
+        border-radius: 5px;
+        th {
+          padding: 0 10px;
+        }
+        td {
+          padding: 0 10px;
+        }
+      }
     }
   }
   .pricecomposition {
@@ -54,9 +66,10 @@
           font-size: 14px;
           font-weight: bold;
           cursor: pointer;
+          user-select: none;
         }
         &_text.active {
-          color: #c99400
+          color: #ef8d22;
         }
       }
       &_composition {
@@ -65,9 +78,10 @@
           font-size: 14px;
           font-weight: bold;
           cursor: pointer;
+          user-select: none;
         }
         &_text.active {
-          color: #c99400
+          color: #ef8d22;
         }
       }
     }
@@ -79,19 +93,34 @@
         outline: solid 1px #3a3a3a;
         border-radius: 5px;
       }
+      .compositionchart {
+        flex: 1;
+        padding: 5px;
+        outline: solid 1px #3a3a3a;
+        border-radius: 5px;
+      }
       &_order {
-        padding: 10px;
+        padding: 15px;
         outline: solid 1px #3a3a3a;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
+        width: 250px;
         .orderselection {
           padding: 10px 0;
+          span {
+            font-weight: bold;
+            font-size: 1.125em;
+          }
           &_buysell {
             padding: 5px 0;
+            cursor: pointer;
+            user-select: none;
           }
           &_liquidityforge {
             padding: 5px 0;
+            cursor: pointer;
+            user-select: none;
           }
         }
         .orderform {
@@ -99,63 +128,63 @@
           &_price {
             display: flex;
             align-items: center;
-            padding: 10px 0;
+            padding: 8px 10px;
+            margin: 10px 0;
+            background-color: rgba(230, 232, 234, 0.6);
+            border-radius: 5px;
             .label {
-              background-color: rgba(230, 232, 234, 0.6);
-              padding: 7px 5px;
-              border-top-left-radius: 5px;
-              border-bottom-left-radius: 5px;
               color: #848e9c;
-              font-size: 14px;
+              font-size: 12px;
+              user-select: none;
             }
             input {
-              flex: 1;
-              background-color: rgba(230, 232, 234, 0.6);
+              width: 100%;
+              background-color: transparent;
               border: none;
-              padding: 5px;
               text-align: right;
+              font-size: 14px;
               &:focus {
                 border: none;
                 outline: none;
               }
             }
             .symbol {
-              background-color: rgba(230, 232, 234, 0.6);
-              padding: 5px;
-              border-top-right-radius: 5px;
-              border-bottom-right-radius: 5px;
+              padding: 0px;
+              font-size: 14px;
               font-weight: bold;
+              user-select: none;
+              cursor: pointer;
             }
           }
           &_amount {
             display: flex;
             align-items: center;
-            padding: 10px 0;
+            padding: 8px 10px;
+            margin: 10px 0;
+            background-color: rgba(230, 232, 234, 0.6);
+            border-radius: 5px;
             .label {
-              background-color: rgba(230, 232, 234, 0.6);
-              padding: 7px 5px;
-              border-top-left-radius: 5px;
-              border-bottom-left-radius: 5px;
               color: #848e9c;
-              font-size: 14px;
+              font-size: 12px;
+              user-select: none;
             }
             input {
-              flex: 1;
-              background-color: rgba(230, 232, 234, 0.6);
+              width: 100%;
+              background-color: transparent;
               border: none;
-              padding: 5px;
               text-align: right;
+              font-size: 14px;
               &:focus {
                 border: none;
                 outline: none;
               }
             }
             .symbol {
-              background-color: rgba(230, 232, 234, 0.6);
-              padding: 5px;
-              border-top-right-radius: 5px;
-              border-bottom-right-radius: 5px;
+              padding: 0px;
+              font-size: 14px;
               font-weight: bold;
+              user-select: none;
+              cursor: pointer;
             }
           }
         }
@@ -166,6 +195,11 @@
             border: none;
             width: 100%;
             height: 100%;
+            min-height: 150px;
+            &:focus {
+              border: none;
+              outline: none;
+            }
           }
         }
         .orderaction {
@@ -174,8 +208,54 @@
             padding: 10px 0;
             border-radius: 5px;
             border: none;
-            box-shadow: inset 0px 0px 5px black;
+            box-shadow: inset 0px 0px 5px #a3a3a3;
             font-weight: bold;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .compositions {
+    padding: 10px 5%;
+    &_table {
+      height: 400px;
+      overflow-y: scroll;
+      box-shadow: 0 0 3px gray;
+      border-radius: 5px;
+      table {
+        width: 100%;
+        thead {
+          position: sticky;
+        }
+        tr {
+          th {
+            padding: 10px;
+          }
+          td {
+            padding: 10px;
+            div {
+              display: flex;
+              align-items: center;
+              span {
+                padding-left: 10px;
+              }
+            }
+            span {
+              font-size: 15px;
+              // font-weight: bold;
+            }
+            span.symboltext {
+              font-size: 12px;
+              color: #a3a3a3;
+              padding-left: 2px;
+            }
+            div.qtyset {
+              align-items: flex-end;
+            }
+          }
+          td.underlying {
+            background-color: #F4F4FA;
           }
         }
       }

@@ -91,6 +91,9 @@ h6 {
 .text-gray {
   color: #a3a3a3;
 }
+.text-underline {
+  text-decoration: underline;
+}
 .bg-red {
   background-color: #f00605;
 }
@@ -165,6 +168,7 @@ h6 {
   text-decoration: underline;
 }
 .loading {
+  text-align: center;
   height: 100%;
   margin: auto;
   font-size: 1.5rem;

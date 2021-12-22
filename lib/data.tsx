@@ -26024,3 +26024,357 @@ export const Symbols = ["ADA", "USDT", "AGIX", "MAL"];
 export const Indexes = ["ETH", "TRX", "XRP", "DOGE"];
 export const Options = ["AUD", "BIDR", "BRL", "EUR", "GBP", "RUB", "TRY", "TUSD", "USDC", "DAI", "IDRI", "UAH", "NGN", "VAI", "USDP"];
 export const Strategies = ["Innovation", "DeFi", "BSC", "POS", "POW", "Storage", "NFT", "Polkadot", "Gaming", "Metaverse", "Launchpad", "Launchpool", "ETF"];
+export const CompositionData = [
+    {
+        "id": "uniswap",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18,
+        "quantity": "3.811604804839402998",
+        "full_amount_in_set": "2060291.934769879854883938",
+        "total_price_usd": "56.75",
+        "percent_of_set": "22.54",
+        "benchmark": null,
+        "colors": [
+            "FF007A",
+            "FFB7DA"
+        ],
+        "stable": false,
+        "price": 15.22,
+        "change": -31.13,
+        "image": "/img/uni.svg"
+    },
+    {
+        "id": "loopring",
+        "name": "Loopring",
+        "symbol": "LRC",
+        "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+        "decimals": 18,
+        "quantity": "19.767875856756570183",
+        "full_amount_in_set": "10685156.851386589251016465",
+        "total_price_usd": "42.11",
+        "percent_of_set": "16.72",
+        "benchmark": null,
+        "colors": [
+            "155AFF",
+            "5084FF"
+        ],
+        "stable": false,
+        "price": 2.27,
+        "change": -14.02,
+        "image": "/img/lrc.svg"
+    },
+    {
+        "id": "aave",
+        "name": "Aave Token",
+        "symbol": "AAVE",
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "decimals": 18,
+        "quantity": "0.193809430580495339",
+        "full_amount_in_set": "104760.075388812932035718",
+        "total_price_usd": "35.46",
+        "percent_of_set": "14.08",
+        "benchmark": null,
+        "colors": [
+            "2EBAC6",
+            "B6509E"
+        ],
+        "stable": false,
+        "price": 206.08,
+        "change": -22.81,
+        "image": "/img/aave.svg"
+    },
+    {
+        "id": "maker",
+        "name": "Maker",
+        "symbol": "MKR",
+        "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "decimals": 18,
+        "quantity": "0.013043261693676451",
+        "full_amount_in_set": "7050.292002060473575182",
+        "total_price_usd": "31.24",
+        "percent_of_set": "12.41",
+        "benchmark": null,
+        "colors": [
+            "1ABC9C",
+            "0CAB8C"
+        ],
+        "stable": false,
+        "price": 2458.74,
+        "change": -17.32,
+        "image": "/img/mkr.svg"
+    },
+    {
+        "id": "yearn-finance",
+        "name": "Yearn",
+        "symbol": "YFI",
+        "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+        "decimals": 18,
+        "quantity": "0.00051651495752926",
+        "full_amount_in_set": "279.192533243324760515",
+        "total_price_usd": "18.45",
+        "percent_of_set": "7.33",
+        "benchmark": null,
+        "colors": [
+            "0068E2",
+            "4B8EDD"
+        ],
+        "stable": false,
+        "price": 201.10,
+        "change": -32.4,
+        "image": "/img/yfi.png"
+    },
+    {
+        "id": "compound-governance-token",
+        "name": "Compound",
+        "symbol": "COMP",
+        "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "decimals": 18,
+        "quantity": "0.089406927322901234",
+        "full_amount_in_set": "48327.248155961811285044",
+        "total_price_usd": "17.22",
+        "percent_of_set": "6.84",
+        "benchmark": null,
+        "colors": [
+            "00D395",
+            "00B07C"
+        ],
+        "stable": false,
+        "price": 33435.62,
+        "change": 6.44,
+        "image": "/img/comp.svg"
+    },
+    {
+        "id": "sushi",
+        "name": "Sushi",
+        "symbol": "SUSHI",
+        "address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        "decimals": 18,
+        "quantity": "2.789939870515052055",
+        "full_amount_in_set": "1508049.996793220273397353",
+        "total_price_usd": "15.23",
+        "percent_of_set": "6.05",
+        "benchmark": null,
+        "colors": [
+            "38b2f4",
+            "7bccf7"
+        ],
+        "stable": false,
+        "price": 5.71,
+        "change": -33.14,
+        "image": "/img/sushi.svg"
+    },
+    {
+        "id": "havven",
+        "name": "Synthetix Network Token",
+        "symbol": "SNX",
+        "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+        "decimals": 18,
+        "quantity": "2.768218444645401707",
+        "full_amount_in_set": "1496308.88489354944092963",
+        "total_price_usd": "14.78",
+        "percent_of_set": "5.87",
+        "benchmark": null,
+        "colors": [
+            "110C24",
+            "0B0520"
+        ],
+        "stable": false,
+        "price": 5.38,
+        "change": -36.87,
+        "image": "/img/snx.svg"
+    },
+    {
+        "id": "republic-protocol",
+        "name": "REN",
+        "symbol": "REN",
+        "address": "0x408e41876cCCDC0F92210600ef50372656052a38",
+        "decimals": 18,
+        "quantity": "14.471448994992236363",
+        "full_amount_in_set": "7822272.02855895797942",
+        "total_price_usd": "7.42",
+        "percent_of_set": "2.95",
+        "benchmark": null,
+        "colors": [
+            "001C3A",
+            "002042"
+        ],
+        "stable": false,
+        "price": 0.70,
+        "change": -11,
+        "image": "/img/ren.svg"
+    },
+    {
+        "id": "rari-governance-token",
+        "name": "Rari Governance Tok",
+        "symbol": "RGT",
+        "address": "0xD291E7a03283640FDc51b121aC401383A46cC623",
+        "decimals": 18,
+        "quantity": "0.162883133677053197",
+        "full_amount_in_set": "88043.442016548832328372",
+        "total_price_usd": "3.73",
+        "percent_of_set": "1.48",
+        "benchmark": null,
+        "colors": [
+            "001C3A",
+            "002042"
+        ],
+        "stable": false,
+        "price": 23.33,
+        "change": -29.6,
+        "image": "/img/Rari_Logo_Transparent.png"
+    },
+    {
+        "id": "balancer",
+        "name": "Balancer",
+        "symbol": "BAL",
+        "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "decimals": 18,
+        "quantity": "0.156289594200158856",
+        "full_amount_in_set": "84479.427145808686577214",
+        "total_price_usd": "2.92",
+        "percent_of_set": "1.16",
+        "benchmark": null,
+        "colors": [
+            "000000",
+            "1C1B1B"
+        ],
+        "stable": false,
+        "price": 18.36,
+        "change": -12.1,
+        "image": "/img/bal.svg"
+    },
+    {
+        "id": "badger-dao",
+        "name": "Badger DAO",
+        "symbol": "BADGER",
+        "address": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+        "decimals": 18,
+        "quantity": "0.144163373757846048",
+        "full_amount_in_set": "77924.824699925954785501",
+        "total_price_usd": "2.18",
+        "percent_of_set": "0.86",
+        "benchmark": null,
+        "colors": [
+            "eda633",
+            "b47c3c"
+        ],
+        "stable": false,
+        "price": 16.02,
+        "change": -39.28,
+        "image": "/img/badger_dao_logo.jpg"
+    },
+    {
+        "id": "kyber-network-crystal",
+        "name": "Kyber Network v2",
+        "symbol": "KNC",
+        "address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+        "decimals": 18,
+        "quantity": "1.483650620148337894",
+        "full_amount_in_set": "801959.689741954633869872",
+        "total_price_usd": "1.88",
+        "percent_of_set": "0.75",
+        "benchmark": null,
+        "colors": [
+            "31CB9E",
+            "1CBF8F"
+        ],
+        "stable": false,
+        "price": 1.34,
+        "change": -21.56,
+        "image": "/img/knc.svg"
+    },
+    {
+        "id": "harvest-finance",
+        "name": "Harvest Finance",
+        "symbol": "FARM",
+        "address": "0xa0246c9032bC3A600820415aE600c6388619A14D",
+        "decimals": 18,
+        "quantity": "0.009180122855912267",
+        "full_amount_in_set": "4962.144306308687493368",
+        "total_price_usd": "0.86",
+        "percent_of_set": "0.34",
+        "benchmark": null,
+        "colors": [
+            "FAD961",
+            "F76B1C"
+        ],
+        "stable": false,
+        "price": 91.50,
+        "change": -29.99,
+        "image": "/img/farm.png"
+    },
+    {
+        "id": "instadapp",
+        "name": "Instadapp",
+        "symbol": "INST",
+        "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
+        "decimals": 18,
+        "quantity": "0.25970967419982978",
+        "full_amount_in_set": "140381.223797456948024515",
+        "total_price_usd": "0.81",
+        "percent_of_set": "0.32",
+        "benchmark": null,
+        "colors": [
+            "0068E2",
+            " 4B8EDD"
+        ],
+        "stable": false,
+        "price": 3.16,
+        "change": -22.99,
+        "image": "/img/30hFM0-n_400x400.jpg"
+    },
+    {
+        "id": "vesper-finance",
+        "name": "Vesper Finance",
+        "symbol": "VSP",
+        "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
+        "decimals": 18,
+        "quantity": "0.087584233850532886",
+        "full_amount_in_set": "47342.025171692738273188",
+        "total_price_usd": "0.41",
+        "percent_of_set": "0.16",
+        "benchmark": null,
+        "colors": [
+            "948EDC",
+            "A49CD7"
+        ],
+        "stable": false,
+        "price": 4.80,
+        "change": -14.52,
+        "image": "/img/vesper_logo.jpg"
+    },
+    {
+        "id": "meta",
+        "name": "Meta",
+        "symbol": "MTA",
+        "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
+        "decimals": 18,
+        "quantity": "0.412516627370649561",
+        "full_amount_in_set": "222978.174245960629274",
+        "total_price_usd": "0.31",
+        "percent_of_set": "0.12",
+        "benchmark": null,
+        "colors": [
+            "000000",
+            "1C1B1B"
+        ],
+        "stable": false,
+        "price": 0.73,
+        "change": -57.47,
+        "image": "/img/mta.svg"
+    }
+];
+export const BenchmarkData = [
+    {
+        "id": "cardano_defi",
+        "name": "Cardano DeFi Pulse",
+        "market": 142.2,
+        "pricechange24h": 5.5,
+        "pricechange7d": -11,
+        "pricechange30d": 7.2,
+        "pricechange1y": 115.5,
+        "annualizedvol": 0.22
+    }
+]
