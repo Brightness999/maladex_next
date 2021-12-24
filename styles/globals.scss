@@ -83,22 +83,22 @@ h6 {
   display: none;
 }
 .text-red {
-  color: #f00605;
+  color: #f00605 !important;
 }
 .text-green {
-  color: #0fdb8c;
+  color: #0fdb8c !important;
 }
 .text-gray {
-  color: #a3a3a3;
+  color: #a3a3a3 !important;
 }
 .text-underline {
   text-decoration: underline;
 }
 .bg-red {
-  background-color: #f00605;
+  background-color: #f00605 !important;
 }
 .bg-green {
-  background-color: #0fdb8c;
+  background-color: #0fdb8c !important;
 }
 [type='number']::-webkit-inner-spin-button,
 [type='number']::-webkit-outer-spin-button {
