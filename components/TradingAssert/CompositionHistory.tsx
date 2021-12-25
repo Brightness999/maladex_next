@@ -64,13 +64,13 @@ const CompositionHistory: React.FC<Props> = (props) => {
       <AgGridReact
         rowData={data}
       >
-        <AgGridColumn headerName="Date" field="date" sortable={true} width={80}></AgGridColumn>
+        <AgGridColumn headerName="Date" field="date" sortable={true} width={90}></AgGridColumn>
         {assets.map((asset, key) => {
           return (
             <AgGridColumn headerName={asset.toUpperCase()} key={key}>
-              <AgGridColumn headerName="%" field={`${asset}_percent`} sortable={true} filter="agNumberColumnFilter" width={80}></AgGridColumn>
-              <AgGridColumn headerName="Quantity per set" field={`${asset}_qty`} sortable={true} filter="agNumberColumnFilter" width={170}></AgGridColumn>
-              <AgGridColumn headerName="Total price per set" field={`${asset}_total_price`} sortable={true} filter="agNumberColumnFilter" width={180}></AgGridColumn>
+              <AgGridColumn headerName="%" field={`${asset}_percent`} sortable={true} filter="agNumberColumnFilter" width={90}></AgGridColumn>
+              <AgGridColumn headerName="Quantity" field={`${asset}_qty`} sortable={true} filter="agNumberColumnFilter" width={130}></AgGridColumn>
+              <AgGridColumn headerName="Total Price" field={`${asset}_total_price`} sortable={true} filter="agNumberColumnFilter" width={140}></AgGridColumn>
             </AgGridColumn>
           )
         })}

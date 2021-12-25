@@ -1,6 +1,10 @@
+$light-dark-color: #eaecef;
+$light-yellow: #f0b90b;
+
 .trading {
   box-sizing: border-box;
   margin: 0;
+  margin-bottom: 40px;
   .symbol {
     padding: 10px 5%;
     &_content {
@@ -30,26 +34,44 @@
   .indicators {
     padding: 10px 5%;
     width: 100%;
-    th,
-    td {
-      span {
-        white-space: nowrap;
-        display: flex;
-        align-items: center;
-        padding: 10px 0;
-      }
-    }
     table {
       width: 100%;
       tr {
-        outline: solid 1px grey;
+        outline: solid 1px gray;
         border: none;
         border-radius: 5px;
-        th {
-          padding: 0 10px;
-        }
+        th,
         td {
           padding: 0 10px;
+          span {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+          }
+        }
+        td span {
+          white-space: nowrap;
+        }
+      }
+      @media (max-width: 768px) {
+        thead {
+          display: none;
+        }
+        tbody {
+          tr {
+            display: flex;
+            flex-direction: column;
+            td {
+              span {
+                display: flex;
+                justify-content: space-between;
+              }
+              span::before {
+                content: attr(data-name);
+                color: #212529;
+              }
+            }
+          }
         }
       }
     }
@@ -69,7 +91,7 @@
           user-select: none;
         }
         &_text.active {
-          color: #ef8d22;
+          color: $light-yellow;
         }
       }
       &_composition {
@@ -81,7 +103,7 @@
           user-select: none;
         }
         &_text.active {
-          color: #ef8d22;
+          color: $light-yellow;
         }
       }
     }
@@ -237,6 +259,14 @@
         }
       }
     }
+    @media (max-width: 768px) {
+      &_content {
+        flex-direction: column;
+        &_order {
+          width: 100%;
+        }
+      }
+    }
   }
   .compositions {
     padding: 10px 5%;
@@ -275,7 +305,6 @@
             }
             span {
               font-size: 15px;
-              // font-weight: bold;
             }
             span.symboltext {
               font-size: 12px;
@@ -302,16 +331,21 @@
   background-color: #181a20;
   .symbol {
     &_content_type {
-      color: #eaecef;
+      color: $light-dark-color;
     }
     &_description {
-      color: #eaecef;
+      color: $light-dark-color;
     }
   }
   .indicators {
     table {
       th span {
-        color: #eaecef;
+        color: $light-dark-color;
+      }
+      tbody tr td {
+        span::before {
+          color: $light-dark-color;
+        }
       }
     }
   }
@@ -319,11 +353,11 @@
     &_select {
       &_composition_text,
       &_price_text {
-        color: #eaecef;
+        color: $light-dark-color;
       }
       &_composition_text.active,
       &_price_text.active {
-        color: #ef8d22;
+        color: $light-yellow;
       }
     }
   }
@@ -331,7 +365,7 @@
     &_buysell,
     &_liquidityforge {
       span {
-        color: #eaecef;
+        color: $light-dark-color;
       }
     }
   }
@@ -340,40 +374,40 @@
       .label,
       input,
       .symbol {
-        color: #eaecef;
+        color: $light-dark-color;
       }
     }
     &_amount {
       .label,
       input,
       .symbol {
-        color: #eaecef;
+        color: $light-dark-color;
       }
     }
     .symbolselect_options {
       background-color: #939393;
-      color: #eaecef;
+      color: $light-dark-color;
       box-shadow: 0 0 3px #3a3a3a;
     }
   }
   .ordersummary {
     textarea {
       background-color: rgba(230, 232, 234, 0.6);
-      color: #eaecef;
+      color: $light-dark-color;
     }
   }
   .compositions {
     table {
       th span {
-        color: #eaecef;
+        color: $light-dark-color;
       }
       tbody {
         td.underlying {
           background-color: #23252b;
-          color: #eaecef;
+          color: $light-dark-color;
         }
         span {
-          color: #eaecef;
+          color: $light-dark-color;
         }
       }
     }

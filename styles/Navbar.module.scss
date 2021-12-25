@@ -1,3 +1,5 @@
+$light-red: #e20100;
+
 .navbar {
   background-color: #ffffff;
   &__container {
@@ -65,7 +67,7 @@
     position: relative;
     padding: 10px 30px;
     border-radius: 15px;
-    background-color: #e20100;
+    background-color: $light-red;
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: ease;
@@ -123,8 +125,8 @@
     @media (max-width: 768px) {
       display: flex;
       border-radius: 4px;
-      color: #e20100;
-      border: 1px solid #e20100;
+      color: $light-red;
+      border: 1px solid $light-red;
       padding: 8px;
       height: 30px;
       align-items: center;
@@ -132,7 +134,7 @@
   }
   &__toggle:hover {
     color: white;
-    background-color: #e20100;
+    background-color: $light-red;
   }
   &__bgswitch {
     border-radius: 40px;
@@ -143,7 +145,7 @@
       border: 3px solid transparent;
       fill: #ffffff;
       &_active {
-        border: 3px solid #e20100;
+        border: 3px solid $light-red;
         border-radius: 50%;
         background-color: #ffffff;
         fill: #ffb237;
@@ -154,7 +156,7 @@
       border: 3px solid transparent;
       fill: #ffffff;
       &_active {
-        border: 3px solid #e20100;
+        border: 3px solid $light-red;
         border-radius: 50%;
         background-color: #000000;
       }
@@ -360,7 +362,7 @@
   transition: all 2s ease 0s;
   &_header {
     padding: 0 20px;
-    color: #e20100;
+    color: $light-red;
     text-align: right;
     hr {
       margin: 3px;
@@ -374,7 +376,7 @@
       align-items: center;
       &_item {
         padding: 10px;
-        color: #e20100;
+        color: $light-red;
         font-size: 18px;
         font-family: 'Open Sans', sans-serif;
         background-color: transparent;
@@ -391,7 +393,7 @@
       padding: 10px 15px;
       text-align: center;
       border-radius: 15px;
-      background-color: #e20100;
+      background-color: $light-red;
       transition-property: all;
       transition-duration: 250ms;
       transition-timing-function: ease;
@@ -459,7 +461,7 @@
       border: 3px solid transparent;
       fill: #ffffff;
       &_active {
-        border: 3px solid #e20100;
+        border: 3px solid $light-red;
         border-radius: 50%;
         background-color: #ffffff;
         fill: #ffb237;
@@ -470,7 +472,7 @@
       border: 3px solid transparent;
       fill: #ffffff;
       &_active {
-        border: 3px solid #e20100;
+        border: 3px solid $light-red;
         border-radius: 50%;
         background-color: #000000;
       }

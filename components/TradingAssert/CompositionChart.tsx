@@ -11,13 +11,19 @@ import { CompositionData } from "lib/data";
 
 const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
   const [options, setOptions] = useState<Highcharts.Options>({});
-  const assets = ['mal','sundae', 'minswap', 'lq', 'indy'];
-  
+  const assets = ['mal', 'sundae', 'minswap', 'lq', 'indy'];
+
   const chartComponentRef = useRef<HighchartsReact.RefObject>(null);
-  
+
   useEffect(() => {
-    let chartwidth = document.getElementById("pricecomposition_content").clientWidth - 250;
+    let chartwidth = document.getElementById("pricecomposition_content").clientWidth;
     let chartheight = document.getElementById("pricecomposition_content").clientHeight;
+    if (document.body.clientWidth > 768) {
+      chartwidth = chartwidth - 250;
+    } else {
+      chartwidth = chartwidth - 10;
+      chartheight = 400;
+    }
     let chartdata = [];
     CompositionData.forEach(data => {
       assets.forEach(asset => {

@@ -42,7 +42,7 @@ const Compositions: React.FC<Props> = (props) => {
       })
     })
     console.log(temp_rowdata);
-    
+
     setRowData(temp_rowdata);
   }, []);
 

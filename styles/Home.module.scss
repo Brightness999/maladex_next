@@ -1,5 +1,9 @@
-$pair-selected-color: #FEC84E;
+$pair-selected-color: #fec84e;
 $pair-hover-color: #f0b90b;
+$pair-dark-color: #1e2329;
+$dark-border-color: #3a3a3a;
+$dark-background-color: #181a20;
+$light-dark-color: #eaecef;
 
 .container {
   background-color: #efefef;
@@ -10,36 +14,36 @@ $pair-hover-color: #f0b90b;
   grid-template-rows: auto minmax(200px, auto) 64px;
 }
 .container.dark {
-  background-color: #181a20;
+  background-color: $dark-background-color;
   .charts_wrapper {
-    background-color: #181a20;
-    border: 1px solid #3a3a3a;
+    background-color: $dark-background-color;
+    border: 1px solid $dark-border-color;
   }
   .orders {
     &_wrapper {
-      background-color: #181a20;
-      border: 1px solid #3a3a3a;
+      background-color: $dark-background-color;
+      border: 1px solid $dark-border-color;
     }
     &_content_header span {
-      color: #eaecef;
+      color: $light-dark-color;
     }
     &_content_header_cancel {
-      background-color: #181a20;
+      background-color: $dark-background-color;
     }
   }
   .depthchart_wrapper {
-    background-color: #181a20;
-    border: 1px solid #3a3a3a;
+    background-color: $dark-background-color;
+    border: 1px solid $dark-border-color;
   }
   .placeorder {
     &_wrapper {
-      background-color: #181a20;
-      border: 1px solid #3a3a3a;
+      background-color: $dark-background-color;
+      border: 1px solid $dark-border-color;
     }
     &__menu {
       button,
       span {
-        color: #eaecef;
+        color: $light-dark-color;
       }
     }
   }
@@ -47,18 +51,18 @@ $pair-hover-color: #f0b90b;
     &_name,
     &_value,
     &_unit {
-      color: #eaecef;
+      color: $light-dark-color;
     }
   }
   .previeworder {
     &_wrapper {
-      background-color: #181a20;
-      border: 1px solid #3a3a3a;
+      background-color: $dark-background-color;
+      border: 1px solid $dark-border-color;
     }
     &__title {
       background-color: transparent;
       span {
-        color: #eaecef;
+        color: $light-dark-color;
         z-index: 3;
       }
     }
@@ -66,17 +70,17 @@ $pair-hover-color: #f0b90b;
       &_price,
       &_amount,
       &_total {
-        color: #eaecef;
+        color: $light-dark-color;
       }
     }
     &__content_order {
       &_amount,
       &_total {
-        color: #eaecef;
+        color: $light-dark-color;
       }
     }
     &__price {
-      color: #eaecef;
+      color: $light-dark-color;
     }
   }
 }
@@ -85,7 +89,7 @@ $pair-hover-color: #f0b90b;
   &_wrapper {
     background-color: #fff;
     padding: 10px;
-    outline: 1px solid #e2e2e2;
+    outline: 1px solid $light-dark-color;
     min-width: 300px;
     min-height: 200px;
     cursor: pointer;
@@ -168,7 +172,7 @@ $pair-hover-color: #f0b90b;
   &_wrapper {
     background-color: #fff;
     padding: 10px;
-    outline: 1px solid #e2e2e2;
+    outline: 1px solid $light-dark-color;
     min-width: 300px;
     cursor: pointer;
     z-index: 4;
@@ -326,7 +330,7 @@ $pair-hover-color: #f0b90b;
   transition: height 200ms ease;
   &_wrapper {
     background-color: #fff;
-    outline: 1px solid #e2e2e2;
+    outline: 1px solid $light-dark-color;
     min-width: 250px;
     padding: 10px;
     z-index: 10;
@@ -386,7 +390,7 @@ $pair-hover-color: #f0b90b;
   overflow-y: scroll;
   &_wrapper {
     background-color: #fff;
-    outline: 1px solid #e2e2e2;
+    outline: 1px solid $light-dark-color;
     min-width: 250px;
     padding: 10px;
     z-index: 10;
@@ -850,41 +854,41 @@ $pair-hover-color: #f0b90b;
   }
 }
 .pair.dark {
-  background-color: #181a20;
-  color: #e2e2e2;
+  background-color: $dark-background-color;
+  color: $light-dark-color;
   .pair {
     &_select {
-      background-color: #1e2329;
+      background-color: $pair-dark-color;
       &_search {
         input {
           background-color: #2b3139;
-          color: #e2e2e2;
+          color: $light-dark-color;
         }
         svg {
           background-color: #2b3139;
         }
       }
       &_instrumenttypes {
-        color: #e2e2e2;
+        color: $light-dark-color;
         &_pairs_content {
-          background-color: #1e2329;
-          border: 1px solid #3a3a3a;
+          background-color: $pair-dark-color;
+          border: 1px solid $dark-border-color;
         }
         &_indexes_content {
-          background-color: #1e2329;
-          border: 1px solid #3a3a3a;
+          background-color: $pair-dark-color;
+          border: 1px solid $dark-border-color;
         }
         &_options_content {
-          background-color: #1e2329;
-          border: 1px solid #3a3a3a;
+          background-color: $pair-dark-color;
+          border: 1px solid $dark-border-color;
         }
         &_strategies_content {
-          background-color: #1e2329;
-          border: 1px solid #3a3a3a;
+          background-color: $pair-dark-color;
+          border: 1px solid $dark-border-color;
         }
       }
       &_table table thead {
-        background-color: #1e2329;
+        background-color: $pair-dark-color;
       }
     }
   }
@@ -979,7 +983,7 @@ $pair-hover-color: #f0b90b;
     z-index: 4;
   }
   &__confirm.dark {
-    background: #181a20;
+    background: $dark-background-color;
   }
 }
 .originalchart {

@@ -68,8 +68,8 @@ const Indicators: React.FC<Props> = (props) => {
           <tr>
             <th><span>Benchmark</span></th>
             <th><span>Market Cap</span></th>
-            <th><span>24h change</span></th>
-            <th><span>7d change</span></th>
+            <th><span>24h</span></th>
+            <th><span>7d</span></th>
             <th><span>30d</span></th>
             <th><span>1y</span></th>
             <th><span>Annualized vol <MathJaxContext config={config}><MathJax>{"$$\\sigma$$"}</MathJax></MathJaxContext></span></th>
@@ -77,13 +77,13 @@ const Indicators: React.FC<Props> = (props) => {
         </thead>
         <tbody>
           <tr>
-            <td><span className="text-red">{indicator.name}</span></td>
-            <td><span className="text-red">${indicator.market}M</span></td>
-            <td><span className={indicator.pricechange24h < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange24h >= 0 && '+'}{indicator.pricechange24h}%</span></td>
-            <td><span className={indicator.pricechange7d < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange7d >= 0 && '+'}{indicator.pricechange7d}%</span></td>
-            <td><span className={indicator.pricechange30d < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange30d >= 0 && '+'}{indicator.pricechange30d}%</span></td>
-            <td><span className={indicator.pricechange1y < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange1y >= 0 && '+'}{indicator.pricechange1y}%</span></td>
-            <td><span className="text-red">{indicator.annualizedvol}</span></td>
+            <td><span data-name="Benchmark" className="text-red">{indicator.name}</span></td>
+            <td><span data-name="Market Cap" className="text-red">${indicator.market}M</span></td>
+            <td><span data-name="24h change" className={indicator.pricechange24h < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange24h >= 0 && '+'}{indicator.pricechange24h}%</span></td>
+            <td><span data-name="7d change" className={indicator.pricechange7d < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange7d >= 0 && '+'}{indicator.pricechange7d}%</span></td>
+            <td><span data-name="30d change" className={indicator.pricechange30d < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange30d >= 0 && '+'}{indicator.pricechange30d}%</span></td>
+            <td><span data-name="1y change" className={indicator.pricechange1y < 0 ? 'text-red' : 'text-green'}>{indicator.pricechange1y >= 0 && '+'}{indicator.pricechange1y}%</span></td>
+            <td><span data-name="Annualized vol" className="text-red">{indicator.annualizedvol}</span></td>
           </tr>
         </tbody>
       </table>
