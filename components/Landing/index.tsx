@@ -36,6 +36,7 @@ const Landing: React.FC<Props> = (props) => {
 
   const handleSelectPair = (value: React.SetStateAction<string>) => {
     setPair(value);
+    window.location.href = '/trade/index/cardano-defi';
   }
 
   const onResize = (layout: { h: number; w: number; x: number; y: number; }[]) => {

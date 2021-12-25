@@ -136,7 +136,7 @@ const Header: React.FC<Props> = (props) => {
     <nav className={`navbar navbar-inverse ${styles.navbar} ${props.theme == 'dark' && styles.dark}`} id="header">
       <div className={styles.navbar__container} >
         <div className={`navbar-header ${styles.navbar__container_header}`}>
-          <Link href="/trade/index/cardano-defi">
+          <Link href="/">
             <a className={styles.navbar__container_header_logo}>
               <Image src={Logo} alt="Logo" width="135" height="25" />
             </a>

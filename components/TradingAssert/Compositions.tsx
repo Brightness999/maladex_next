@@ -12,7 +12,40 @@ type Props = {
   slug?: string;
 }
 
+type CompositionDataProps = {
+  id: string;
+  name: string;
+  symbol: string;
+  quantity: string;
+  total_price_usd: string;
+  percent_of_set: string;
+  colors: Array<string>;
+  price: number;
+  change: number;
+  image: string;
+  percentages: Array<number>;
+  quantities: Array<number>;
+  total_prices: Array<number>;
+}
+
 const Compositions: React.FC<Props> = (props) => {
+  const [rowdata, setRowData] = useState<Array<CompositionDataProps>>([]);
+  const assets = ['mal', 'sundae', 'minswap', 'lq', 'indy'];
+
+  useEffect(() => {
+    let temp_rowdata = [];
+    assets.forEach(asset => {
+      CompositionData.forEach(data => {
+        if (asset == data.id) {
+          temp_rowdata.push(data);
+        }
+      })
+    })
+    console.log(temp_rowdata);
+    
+    setRowData(temp_rowdata);
+  }, []);
+
   return (
     <div className={styles.compositions}>
       <div className={styles.compositions_table}>
@@ -31,8 +64,8 @@ const Compositions: React.FC<Props> = (props) => {
             <tr>
               <td>
                 <div>
-                  <Image src="/img/defi_pulse.svg" width={24} height={24} />
-                  <span>DeFi Pulse Index</span>
+                  <Image src="/img/ada.svg" width={24} height={24} />
+                  <span>Cardano DeFi Index</span>
                 </div>
               </td>
               <td colSpan={3}></td>
@@ -49,11 +82,11 @@ const Compositions: React.FC<Props> = (props) => {
                 <div>Underlying Tokens</div>
               </td>
             </tr>
-            {CompositionData.map((row, key) => {
+            {rowdata.map((row, key) => {
               return (
                 <tr key={key}>
                   <td>
-                    <div>
+                    <div className={styles.row_symbol}>
                       <Image src={row.image} width={24} height={24} />
                       <span>{row.name}</span>
                     </div>

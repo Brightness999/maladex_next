@@ -63,15 +63,14 @@ const CompositionHistory: React.FC<Props> = (props) => {
     <div className={`ag-theme-alpine ${styles.compositionhistory}`}>
       <AgGridReact
         rowData={data}
-        containerStyle={{borderRadius:'10px'}}
       >
         <AgGridColumn headerName="Date" field="date" sortable={true} width={80}></AgGridColumn>
         {assets.map((asset, key) => {
           return (
             <AgGridColumn headerName={asset.toUpperCase()} key={key}>
               <AgGridColumn headerName="%" field={`${asset}_percent`} sortable={true} filter="agNumberColumnFilter" width={80}></AgGridColumn>
-              <AgGridColumn headerName="Quantity per asset" field={`${asset}_qty`} sortable={true} filter="agNumberColumnFilter" width={170}></AgGridColumn>
-              <AgGridColumn headerName="Total price per asset" field={`${asset}_total_price`} sortable={true} filter="agNumberColumnFilter" width={180}></AgGridColumn>
+              <AgGridColumn headerName="Quantity per set" field={`${asset}_qty`} sortable={true} filter="agNumberColumnFilter" width={170}></AgGridColumn>
+              <AgGridColumn headerName="Total price per set" field={`${asset}_total_price`} sortable={true} filter="agNumberColumnFilter" width={180}></AgGridColumn>
             </AgGridColumn>
           )
         })}

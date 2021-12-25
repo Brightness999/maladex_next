@@ -173,3 +173,25 @@ h6 {
   margin: auto;
   font-size: 1.5rem;
 }
+.ag-root-wrapper {
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+}
+.ag-header-row {
+  background-color: #f4f4fa;
+
+}
+.dark {
+  .ag-header-row {
+    background-color: gray !important;
+    color: #eaecef !important;
+  }
+  .ag-row-even {
+    background-color: #181a20 !important;
+    color: #eaecef !important;
+  }
+  .ag-row-odd {
+    background-color: #181a20 !important;
+    color: #eaecef !important;
+  }
+}

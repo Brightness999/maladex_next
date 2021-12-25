@@ -5,6 +5,11 @@ import styles from "styles/Trading.module.scss";
 const OrderFrom: React.FC = () => {
   const [isbuy, setIsBuy] = useState<boolean>(true);
   const [isliquidity, setIsLiquidity] = useState<boolean>(true);
+  const [pricesymbol, setPriceSymbol] = useState<string>("MAL");
+
+  const changePriceSymbol = (value: React.SetStateAction<string>) => {
+    setPriceSymbol(value)
+  }
 
   return (
     <div className={styles.pricecomposition_content_order}>
@@ -20,7 +25,16 @@ const OrderFrom: React.FC = () => {
         <div className={styles.orderform_price}>
           <span className={styles.label}>Price</span>
           <input type="number" />
-          <span className={styles.symbol}>BTC</span>
+          <div className={styles.symbolselect}>
+            <span className={styles.symbol}>{pricesymbol}</span>
+            <div className={styles.symbolselect_options}>
+              <div className={styles.symbol} id="ADA" onClick={(e) => changePriceSymbol((e.target as HTMLElement).id)}>ADA</div>
+              <div className={styles.symbol} id="MAL" onClick={(e) => changePriceSymbol((e.target as HTMLElement).id)}>MAL</div>
+              <div className={styles.symbol} id="AGIX" onClick={(e) => changePriceSymbol((e.target as HTMLElement).id)}>AGIX</div>
+              <div className={styles.symbol} id="LQ" onClick={(e) => changePriceSymbol((e.target as HTMLElement).id)}>LQ</div>
+              <div className={styles.symbol} id="INDY" onClick={(e) => changePriceSymbol((e.target as HTMLElement).id)}>INDY</div>
+            </div>
+          </div>
         </div>
         <div className={styles.orderform_amount}>
           <span className={styles.label}>Amount</span>
