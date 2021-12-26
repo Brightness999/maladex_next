@@ -107,6 +107,7 @@ $light-yellow: #f0b90b;
     }
     &_content {
       display: flex;
+      // grid-template-columns: 75% 25%;
       .pricechart {
         flex: 1;
         padding: 5px;
@@ -125,7 +126,7 @@ $light-yellow: #f0b90b;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        width: 250px;
+        width: 100%;
         .orderselection {
           padding: 10px 0;
           span {
@@ -257,14 +258,11 @@ $light-yellow: #f0b90b;
         }
       }
     }
-    @media (max-width: 768px) {
-      &_content {
-        flex-direction: column;
-        &_order {
-          width: 100%;
-        }
-      }
-    }
+    // @media (max-width: 768px) {
+    //   &_content {
+    //     grid-template-columns: 1fr;
+    //   }
+    // }
   }
   .compositions {
     padding: 10px 5%;
@@ -292,6 +290,10 @@ $light-yellow: #f0b90b;
                 width: 24px;
                 height: 24px;
                 border-radius: 50%;
+              }
+              svg {
+                width: 16px;
+                height: 16px;
               }
               span {
                 padding-left: 10px;
@@ -321,7 +323,7 @@ $light-yellow: #f0b90b;
     }
   }
   .compositionhistory {
-    padding: 10px 5%;
+    padding: 10px 5% 40px 5%;
     height: 400px;
   }
 }

@@ -226,7 +226,6 @@ const SelectPair: React.FC<Props> = (props) => {
     });
     setIsStar(true);
     setIsActiveAasets(false);
-    // setCurrentSymbol("");
     setSymbol("");
     setIndex("");
     setOption("");
@@ -245,7 +244,6 @@ const SelectPair: React.FC<Props> = (props) => {
     });
     setIsActiveAasets(true);
     setIsStar(false);
-    // setCurrentSymbol("");
     setSymbol("");
     setIndex("");
     setOption("");

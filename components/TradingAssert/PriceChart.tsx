@@ -17,14 +17,20 @@ const PriceChart: React.FC<Props> = (props) => {
   const [chartheight, setChartHeight] = useState<number>(10);
 
   useEffect(() => {
-    let width = document.getElementById("pricecomposition_content").clientWidth;
-    let height = document.getElementById("pricecomposition_content").clientHeight;
-    if (document.body.clientWidth > 768) {
-      setChartWidth(width - 250);
+    if (typeof window !== undefined) {
+      let width = document.getElementById("pricecomposition_content").clientWidth;
+      let height = document.getElementById("pricecomposition_content").clientHeight;
+      console.log(window);
+      console.log(document.body.clientWidth);
+      console.log(height);
+      console.log(width);
+      
+      if (document.body.clientWidth > 768) {
+        setChartWidth(document.body.clientWidth * 3 / 4 - 10);
+      } else {
+        setChartWidth(width - 10);
+      }
       setChartHeight(height);
-    } else {
-      setChartWidth(width - 10);
-      setChartHeight(400);
     }
   }, []);
 
