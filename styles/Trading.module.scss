@@ -256,6 +256,11 @@ $light-yellow: #f0b90b;
         }
       }
     }
+    @media (max-width: 768px) {
+      &_content {
+        flex-direction: column;
+      }
+    }
   }
   .compositions {
     padding: 10px 5%;

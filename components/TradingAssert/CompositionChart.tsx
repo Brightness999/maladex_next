@@ -18,9 +18,9 @@ const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
   useEffect(() => {
     if (typeof window !== undefined) {
       let chartwidth = document.getElementById("pricecomposition_content").clientWidth;
-      let chartheight = document.getElementById("pricecomposition_content").clientHeight;
+      let chartheight = 474;
       if (document.body.clientWidth > 768) {
-        chartwidth = document.body.clientWidth * 3 / 4 - 10;
+        chartwidth = chartwidth - 300;
       } else {
         chartwidth = chartwidth - 10;
       }
@@ -41,7 +41,8 @@ const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
           type: 'area',
           width: chartwidth,
           height: chartheight,
-          plotShadow: false
+          plotShadow: false,
+          animation: false
         },
         title: {
           text: ''
