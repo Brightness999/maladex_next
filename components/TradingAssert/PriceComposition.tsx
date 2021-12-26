@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import dynamic from "next/dynamic";
 
 import styles from "styles/Trading.module.scss";
@@ -36,13 +36,7 @@ const PriceComposition: React.FC<Props> = (props) => {
         </div>
       </div>
       <div className={styles.pricecomposition_content} id="pricecomposition_content">
-        {ispriceselected ?
-          <PriceChart
-            theme={props.theme}
-          />
-          :
-          <CompositionChart />
-        }
+        {ispriceselected ? <PriceChart /> : <CompositionChart />}
         <OrderFrom />
       </div>
     </div>

@@ -1,37 +1,17 @@
-import { SetStateAction, useState } from 'react';
 import dynamic from 'next/dynamic';
-
-import Layout from 'components/Layout';
-import {
-  defaultTitle,
-  defaultDescription,
-  defaultKeywords,
-} from 'lib/constants';
 
 const Landing = dynamic(() => import('components/Landing'), {
   loading: () => <div className='loading'>Loading...</div>
 });
 
-const layoutProps = {
-  title: defaultTitle,
-  description: defaultDescription,
-  keywords: defaultKeywords,
-};
+type Props = {
+  theme?: string;
+  page?: string;
+}
 
-const Home = () => {
-  const [theme, setTheme] = useState<string>('light');
-  const [page, setPage] = useState<string>("trade");
-
+const Home: React.FC<Props> = (props) => {
   return (
-    <Layout
-      {...layoutProps}
-      theme={theme}
-      page={page}
-      changeTheme={(value: SetStateAction<string>) => setTheme(value)}
-      changePage={(value: SetStateAction<string>) => setPage(value)}
-    >
-      <Landing theme={theme} />
-    </Layout>
+    <Landing theme={props.theme} />
   )
 }
 

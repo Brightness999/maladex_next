@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import styles from "styles/Trading.module.scss";
 
@@ -8,7 +8,7 @@ const OrderFrom: React.FC = () => {
   const [pricesymbol, setPriceSymbol] = useState<string>("MAL");
 
   const changePriceSymbol = (value: React.SetStateAction<string>) => {
-    setPriceSymbol(value)
+    setPriceSymbol(value);
   }
 
   return (
