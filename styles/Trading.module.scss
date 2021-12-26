@@ -4,7 +4,6 @@ $light-yellow: #f0b90b;
 .trading {
   box-sizing: border-box;
   margin: 0;
-  margin-bottom: 40px;
   .symbol {
     padding: 10px 5%;
     &_content {
@@ -107,7 +106,6 @@ $light-yellow: #f0b90b;
     }
     &_content {
       display: flex;
-      // grid-template-columns: 75% 25%;
       .pricechart {
         flex: 1;
         padding: 5px;
@@ -258,11 +256,6 @@ $light-yellow: #f0b90b;
         }
       }
     }
-    // @media (max-width: 768px) {
-    //   &_content {
-    //     grid-template-columns: 1fr;
-    //   }
-    // }
   }
   .compositions {
     padding: 10px 5%;
