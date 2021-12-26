@@ -17,12 +17,12 @@ const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
 
   useEffect(() => {
     if (typeof window !== undefined) {
-      let chartwidth = document.getElementById("pricecomposition_content").clientWidth;
+      let chartwidth = document.body.clientWidth;
       let chartheight = 474;
-      if (document.body.clientWidth > 768) {
-        chartwidth = chartwidth - 300;
+      if (chartwidth > 768) {
+        chartwidth = chartwidth * 0.9 - 300;
       } else {
-        chartwidth = chartwidth - 10;
+        chartwidth = chartwidth * 0.9 - 10;
       }
       let chartdata = [];
       assets.forEach(asset => {
