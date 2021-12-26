@@ -51,10 +51,10 @@ const Compositions: React.FC<Props> = (props) => {
           <thead>
             <tr>
               <th><span>Token</span></th>
-              <th><span>Quantity per Set</span></th>
-              <th><span>Token Price</span></th>
-              <th><span>Current Price Allocation</span></th>
-              <th><span>Percent Change</span></th>
+              <th className={styles.compositions_table_hidden}><span>Quantity per Set</span></th>
+              <th className={styles.compositions_table_hidden}><span>Token Price</span></th>
+              <th className={styles.compositions_table_hidden}><span>Current Price Allocation</span></th>
+              <th className={styles.compositions_table_hidden}><span>Percent Change</span></th>
               <th><span>Total Price per Set</span></th>
             </tr>
           </thead>
@@ -66,8 +66,8 @@ const Compositions: React.FC<Props> = (props) => {
                   <span>Cardano DeFi Index</span>
                 </div>
               </td>
-              <td colSpan={3}></td>
-              <td>
+              <td colSpan={3} className={styles.compositions_table_hidden}></td>
+              <td className={styles.compositions_table_hidden}>
                 <div>
                   <FontAwesomeIcon icon={faLongArrowAltDown} color="#f00605" />
                   <span className="text-red">-30.57%</span>
@@ -89,15 +89,15 @@ const Compositions: React.FC<Props> = (props) => {
                       <span>{row.name}</span>
                     </div>
                   </td>
-                  <td>
+                  <td className={styles.compositions_table_hidden}>
                     <div className={styles.qtyset}>
                       <span>{parseFloat(row.quantity).toFixed(6)}</span>
                       <span className={styles.symboltext}>{row.symbol}</span>
                     </div>
                   </td>
-                  <td><span>${row.price}</span></td>
-                  <td><span>{row.percent_of_set}%</span></td>
-                  <td>
+                  <td className={styles.compositions_table_hidden}><span>${row.price}</span></td>
+                  <td className={styles.compositions_table_hidden}><span>{row.percent_of_set}%</span></td>
+                  <td className={styles.compositions_table_hidden}>
                     <div>
                       <FontAwesomeIcon icon={row.change < 0 ? faLongArrowAltDown : faLongArrowAltUp} color={row.change < 0 ? "#f00605" : "#0fdb8c"} />
                       <span className={row.change < 0 ? 'text-red' : 'text-green'}>{row.change >= 0 && '+'}{row.change}%</span>

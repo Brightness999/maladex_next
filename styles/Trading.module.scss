@@ -265,14 +265,14 @@ $light-yellow: #f0b90b;
   .compositions {
     padding: 10px 5%;
     &_table {
-      height: 400px;
       overflow-y: scroll;
-      box-shadow: 0 0 8px gray;
+      box-shadow: 0 0 5px gray;
       border-radius: 5px;
       table {
         width: 100%;
         thead {
           position: sticky;
+          background-color: #f4f4fa;
         }
         tr {
           th {
@@ -319,6 +319,13 @@ $light-yellow: #f0b90b;
         }
       }
     }
+    @media (max-width: 840px) {
+      &_table {
+        &_hidden {
+          display: none;
+        }
+      }
+    }
   }
   .compositionhistory {
     padding: 10px 5% 40px 5%;
@@ -362,9 +369,7 @@ $light-yellow: #f0b90b;
   .orderselection {
     &_buysell,
     &_liquidityforge {
-      span {
-        color: $light-dark-color;
-      }
+      color: $light-dark-color;
     }
   }
   .orderform {
@@ -396,6 +401,9 @@ $light-yellow: #f0b90b;
   }
   .compositions {
     table {
+      thead {
+        background-color: gray !important;
+      }
       th span {
         color: $light-dark-color;
       }
