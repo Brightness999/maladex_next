@@ -23,6 +23,7 @@ const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
         chartwidth = chartwidth * 0.9 - 300;
       } else {
         chartwidth = chartwidth * 0.9 - 10;
+        chartheight = 300;
       }
       let chartdata = [];
       assets.forEach(asset => {
