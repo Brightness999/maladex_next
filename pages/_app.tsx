@@ -18,6 +18,7 @@ const layoutProps = {
 function MyApp({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState<string>('light');
   const [page, setPage] = useState<string>("trade");
+  const [pair, setPair] = useState<string>("AGIX_MAL");
 
   const changeTheme = (value: string) => {
     setTheme(value);
@@ -33,6 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     if (typeof window !== undefined) {
       let temp_theme = window.localStorage.getItem('theme');
       let temp_page = window.localStorage.getItem('page');
+      let temp_pair = window.localStorage.getItem('pair');
       if (temp_theme) {
         setTheme(temp_theme);
       } else {
@@ -42,6 +44,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         setPage(temp_page);
       } else {
         window.localStorage.setItem('page', 'trade');
+      }
+      if (temp_pair) {
+        setPair(temp_pair);
+      } else {
+        window.localStorage.setItem('pair', 'AGIX_MAL');
       }
     }
   }, []);
@@ -57,6 +64,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps}
         theme={theme}
         page={page}
+        pair={pair}
       />
     </Layout>
   )

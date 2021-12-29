@@ -8,6 +8,7 @@ const TradingAssert = dynamic(() => import('components/TradingAssert'), {
 type Props = {
   theme?: string;
   page?: string;
+  pair?: string;
 }
 
 const Home: React.FC<Props> = (props) => {

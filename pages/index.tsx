@@ -7,11 +7,16 @@ const Landing = dynamic(() => import('components/Landing'), {
 type Props = {
   theme?: string;
   page?: string;
+  pair?: string;
 }
 
 const Home: React.FC<Props> = (props) => {
   return (
-    <Landing theme={props.theme} />
+    <Landing
+      theme={props.theme}
+      pair={props.pair}
+      page={props.page}
+    />
   )
 }
 

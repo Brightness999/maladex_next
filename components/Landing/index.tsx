@@ -16,10 +16,11 @@ const ChartOrder = dynamic(() => import('./ChartOrder'), {ssr: false});
 
 type Props = {
   theme?: string;
+  pair?: string;
+  page?: string;
 }
 
 const Landing: React.FC<Props> = (props) => {
-  const [pair, setPair] = useState<string>("AGIX_MAL");
   const [price, setPrice] = useState<string>("");
   const [TradingData, setTradingData] = useState<Array<object>>([]);
   const [chartwidth, setChartWidth] = useState<number>(0);
@@ -33,11 +34,6 @@ const Landing: React.FC<Props> = (props) => {
   const [tradingaction, setTradingAction] = useState<string>("")
   const cols = { lg: 1000, md: 1000, sm: 1000, xs: 1000, xxs: 1000 };
   const breakpoints = { lg: 1024, md: 996, sm: 768, xs: 500, xxs: 0 };
-
-  const handleSelectPair = (value: React.SetStateAction<string>) => {
-    setPair(value);
-    window.location.href = '/trade/index/cardano-defi';
-  }
 
   const onResize = (layout: { h: number; w: number; x: number; y: number; }[]) => {
     setChartWidth(window.document.body.clientWidth * layout[0].w / 1000 - 30);
@@ -56,7 +52,7 @@ const Landing: React.FC<Props> = (props) => {
 
   useEffect(() => {
     try {
-      api.get(`trade?pair=${pair}`).then((res) => {
+      api.get(`trade?pair=${props.pair}`).then((res) => {
         if (res && res.status == 200) {
           if (res.data.TradingData) {
             setTradingData(res.data.TradingData);
@@ -68,7 +64,7 @@ const Landing: React.FC<Props> = (props) => {
         }
       });
     } catch (error) { }
-  }, [pair]);
+  }, [props.pair]);
 
   const getBreakpoint = () => {
     let breakpoint = "";
@@ -117,8 +113,8 @@ const Landing: React.FC<Props> = (props) => {
     <React.Fragment>
       <SelectPair
         theme={props.theme}
-        handleSelectPair={(value: any) => handleSelectPair(value)}
-        pair={pair}
+        pair={props.pair}
+        page={props.page}
       />
       <div className={`${styles.container} ${mobile && styles.mobile} ${props.theme == 'dark' && `${styles.dark} dark`}`}>
         {mobile ?
@@ -128,7 +124,7 @@ const Landing: React.FC<Props> = (props) => {
                 theme={props.theme}
                 chartwidth={chartwidth}
                 chartheight={chartheight}
-                pair={pair}
+                pair={props.pair}
                 price={price}
                 TradingData={TradingData}
                 mobile={mobile}
@@ -143,7 +139,7 @@ const Landing: React.FC<Props> = (props) => {
             {tradingaction &&
               <div key="placeorder" className={`${styles.placeorder_wrapper} ${styles.mobile} ${placeorderclose && styles.close}`}>
                 <PlaceOrder
-                  pair={pair}
+                  pair={props.pair}
                   price={price}
                   close={() => setPlaceorderClose(true)}
                   tradingaction={tradingaction}
@@ -191,7 +187,7 @@ const Landing: React.FC<Props> = (props) => {
             </div>
             <div key="placeorder" className={`'placeorders' ${styles.placeorder_wrapper} ${placeorderclose && styles.close}`}>
               <PlaceOrder
-                pair={pair}
+                pair={props.pair}
                 price={price}
                 close={() => setPlaceorderClose(true)}
                 tradingaction="buy"
@@ -199,7 +195,7 @@ const Landing: React.FC<Props> = (props) => {
             </div>
             <div key="previeworder" className={`${styles.previeworder_wrapper} ${previeworderclose && styles.close}`}>
               <PreviewOrder
-                pair={pair}
+                pair={props.pair}
                 price={price}
                 TradingData={TradingData}
                 close={() => setPrevieworderClose(true)}

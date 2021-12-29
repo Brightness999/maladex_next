@@ -171,17 +171,17 @@ const PairTable: React.FC<TableProps> = (props) => {
 
 type Props = {
   theme?: string;
-  handleSelectPair?: any;
   pair?: string;
+  page?: string;
 }
 
 const SelectPair: React.FC<Props> = (props) => {
   const [pair, setPair] = useState<string>(props.pair);
   const [currentsymbol, setCurrentSymbol] = useState<string>("MAL");
-  const [symbol, setSymbol] = useState<string>("");
+  const [symbol, setSymbol] = useState<string>("MAL");
   const [index, setIndex] = useState<string>("");
   const [option, setOption] = useState<string>("");
-  const [startegy, setStartegy] = useState<string>("");
+  const [strategy, setStrategy] = useState<string>("");
   const [tabledata, setTableData] = useState<Array<any>>([]);
   const [isstar, setIsStar] = useState<boolean>(false);
   const [isactiveaasets, setIsActiveAasets] = useState<boolean>(false);
@@ -229,7 +229,7 @@ const SelectPair: React.FC<Props> = (props) => {
     setSymbol("");
     setIndex("");
     setOption("");
-    setStartegy("");
+    setStrategy("");
     setTableData(temp_data);
   }
 
@@ -247,7 +247,7 @@ const SelectPair: React.FC<Props> = (props) => {
     setSymbol("");
     setIndex("");
     setOption("");
-    setStartegy("");
+    setStrategy("");
     setTableData(temp_data);
   }
 
@@ -263,7 +263,7 @@ const SelectPair: React.FC<Props> = (props) => {
     setIsStar(false);
     setIndex("");
     setOption("");
-    setStartegy("");
+    setStrategy("");
     setTableData(temp_data);
   }
 
@@ -291,7 +291,7 @@ const SelectPair: React.FC<Props> = (props) => {
     setIsActiveAasets(false);
     setSymbol("");
     setOption("");
-    setStartegy("");
+    setStrategy("");
     setTableData(temp_data);
   }
 
@@ -308,7 +308,7 @@ const SelectPair: React.FC<Props> = (props) => {
     setIsActiveAasets(false);
     setSymbol("");
     setIndex("");
-    setStartegy("");
+    setStrategy("");
     setTableData(temp_data);
   }
 
@@ -322,7 +322,7 @@ const SelectPair: React.FC<Props> = (props) => {
       })
     });
     setCurrentSymbol(symbol);
-    setStartegy(value);
+    setStrategy(value);
     setIsStar(false);
     setIsActiveAasets(false);
     setSymbol("");
@@ -331,7 +331,7 @@ const SelectPair: React.FC<Props> = (props) => {
     setTableData(temp_data);
   }
 
-  const changeSort = (type) => {
+  const changeSort = (type: string) => {
     let nextsort = '';
     if (type == sortitem || sortitem == 'default') {
       if (currentsort == 'down') {
@@ -355,6 +355,11 @@ const SelectPair: React.FC<Props> = (props) => {
     }
     setCurrentSort(nextsort);
     setSortitem(type);
+  }
+
+  const changePair = (value: string) => {
+    window.localStorage.setItem('pair', value);
+    window.location.href = `/${props.page}/${symbol ? 'pair' : index ? 'index' : option ? 'option' : strategy ? 'strategy' : ''}/${pair ? pair : ''}`;
   }
 
   useEffect(() => {
@@ -426,12 +431,12 @@ const SelectPair: React.FC<Props> = (props) => {
               </div>
             </div>
             <div className={styles.pair_select_instrumenttypes_strategies}>
-              <span>{startegy ? startegy : 'Strategies'}</span>
+              <span>{strategy ? strategy : 'Strategies'}</span>
               <FontAwesomeIcon icon={faCaretDown} />
               <div className={styles.pair_select_instrumenttypes_strategies_content}>
                 {Strategies.map((value, key) => {
                   return (
-                    <span key={key} id={value} className={value == startegy ? styles.strategy : ''} onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>{value}</span>
+                    <span key={key} id={value} className={value == strategy ? styles.strategy : ''} onClick={(e) => changeStrategy((e.target as HTMLElement).id)}>{value}</span>
                   );
                 })}
               </div>
@@ -441,10 +446,10 @@ const SelectPair: React.FC<Props> = (props) => {
             <PairTable
               tabledata={tabledata}
               pair={pair}
-              handleSelectPair={props.handleSelectPair}
+              handleSelectPair={(value: string) => changePair(value)}
               changeStarPair={changeStarPair}
               currentsort={currentsort}
-              changeSort={(type) => changeSort(type)}
+              changeSort={(type: string) => changeSort(type)}
               sortitem={sortitem}
             />
           </div>
