@@ -120,7 +120,7 @@ const Landing: React.FC<Props> = (props) => {
         handleSelectPair={(value: any) => handleSelectPair(value)}
         pair={pair}
       />
-      <div className={`${styles.container} ${mobile && styles.mobile} ${props.theme == 'dark' && styles.dark}`}>
+      <div className={`${styles.container} ${mobile && styles.mobile} ${props.theme == 'dark' && `${styles.dark} dark`}`}>
         {mobile ?
           <React.Fragment>
             <div key="charts" className={styles.charts_wrapper}>

@@ -1,4 +1,5 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
+$light-dark-color: #eaecef;
 
 html,
 body {
@@ -183,14 +184,28 @@ h6 {
 .dark {
   .ag-header-row {
     background-color: gray !important;
-    color: #eaecef !important;
+    color: $light-dark-color !important;
   }
   .ag-row-even {
     background-color: #181a20 !important;
-    color: #eaecef !important;
+    color: $light-dark-color !important;
   }
   .ag-row-odd {
     background-color: #181a20 !important;
-    color: #eaecef !important;
+    color: $light-dark-color !important;
   }
+  tspan {
+    fill: $light-dark-color;
+  }
+  .highcharts-legend-item text {
+    color: $light-dark-color !important;
+    fill: $light-dark-color !important;
+  }
+  .highcharts-axis-labels text {
+    color: $light-dark-color !important;
+    fill: $light-dark-color !important;
+  }
+}
+.react-financial-charts-tooltip-label {
+  fill: #4682B4 !important;
 }

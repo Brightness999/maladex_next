@@ -32,6 +32,7 @@ const PriceChart: React.FC<Props> = (props) => {
   return (
     <div className={styles.pricechart}>
       <OriginalChart
+        theme={props.theme}
         chartheight={chartheight}
         chartwidth={chartwidth}
       />

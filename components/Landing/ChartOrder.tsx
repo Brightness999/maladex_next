@@ -84,6 +84,7 @@ const ChartOrder: React.FC<Props> = (props) => {
           </div>
           {charttype == 'original' &&
             <OriginalChart
+              theme={props.theme}
               chartwidth={chartwidth}
               chartheight={chartheight}
             />

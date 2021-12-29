@@ -4,8 +4,8 @@ import dynamic from "next/dynamic";
 import DepthChart from "./DepthChart";
 import styles from 'styles/Home.module.scss';
 
-const TradingviewChart = dynamic(() => import("./TradingviewChart"), {ssr: false});
-const OriginalChart = dynamic(() => import("./OriginalChart"), {ssr: false});
+const TradingviewChart = dynamic(() => import("./TradingviewChart"), { ssr: false });
+const OriginalChart = dynamic(() => import("./OriginalChart"), { ssr: false });
 
 type Props = {
   theme?: string;
@@ -68,6 +68,7 @@ const Charts: React.FC<Props> = (props) => {
       </div>
       <div className={`${styles.originalchart} ${charttype == 'original' && styles.active}`}>
         <OriginalChart
+          theme={props.theme}
           chartwidth={chartwidth}
           chartheight={chartheight}
         />

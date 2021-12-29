@@ -30,6 +30,7 @@ import { timeFormat } from "d3-time-format";
 import { initialData } from 'lib/data';
 
 type Props = {
+  theme?: string;
   chartwidth?: number;
   chartheight?: number;
 }
@@ -41,7 +42,7 @@ const OriginalChart: React.FC<Props> = (props) => {
   const ScaleProvider = discontinuousTimeScaleProviderBuilder().inputDateAccessor(
     (d) => new Date(d.date)
   );
-  const margin = { left: 0, right: 48, top: 0, bottom: 24 };
+  const margin = { left: 0, right: 48, top: 0, bottom: 0 };
 
   const ema12 = ema()
     .id(1)
@@ -70,7 +71,7 @@ const OriginalChart: React.FC<Props> = (props) => {
   const min = xAccessor(data[Math.max(0, data.length - 100)]);
   const xExtents = [min, max + 5];
 
-  const gridHeight = height - margin.top - margin.bottom;
+  const gridHeight = height;
 
   const elderRayHeight = 100;
   const elderRayOrigin = (_, h) => [0, h - elderRayHeight];
@@ -141,7 +142,7 @@ const OriginalChart: React.FC<Props> = (props) => {
       </Chart> */}
       <Chart id={3} height={height} yExtents={candleChartExtents}>
         <XAxis showGridLines showTickLabel={false} />
-        <YAxis showGridLines tickFormat={pricesDisplayFormat} />
+        <YAxis showGridLines tickFormat={pricesDisplayFormat} tickLabelFill={props.theme == 'dark' ? '#eaecef' : ''} tickStrokeStyle={props.theme == 'dark' ? '#eaecef' : ''} />
         <React.Fragment>
           <CandlestickSeries />
           <LineSeries yAccessor={ema26.accessor()} strokeStyle={ema26.stroke()} />

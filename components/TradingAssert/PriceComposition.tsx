@@ -36,7 +36,7 @@ const PriceComposition: React.FC<Props> = (props) => {
         </div>
       </div>
       <div className={styles.pricecomposition_content} id="pricecomposition_content">
-        {ispriceselected ? <PriceChart /> : <CompositionChart />}
+        {ispriceselected ? <PriceChart theme={props.theme} /> : <CompositionChart />}
         <OrderFrom />
       </div>
     </div>
