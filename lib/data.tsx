@@ -1925,8 +1925,8 @@ export const initialLayout = {
 };
 export const pairData = [
     {
-        "s": "BNBBTC",
-        "b": "BNB",
+        "s": "ADABTC",
+        "b": "ADA",
         "q": "MAL",
         "ts": "0.000001",
         "o": "0.011387",
@@ -2505,8 +2505,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBAUD",
-        "b": "BNB",
+        "s": "ADAAUD",
+        "b": "ADA",
         "q": "AUD",
         "ts": "0.1",
         "o": "818.8",
@@ -2521,8 +2521,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBBRL",
-        "b": "BNB",
+        "s": "ADABRL",
+        "b": "ADA",
         "q": "BRL",
         "ts": "1",
         "o": "3296",
@@ -2537,8 +2537,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBBUSD",
-        "b": "BNB",
+        "s": "ADABUSD",
+        "b": "ADA",
         "q": "ADA",
         "ts": "0.1",
         "o": "581.9",
@@ -2553,8 +2553,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBDAI",
-        "b": "BNB",
+        "s": "ADADAI",
+        "b": "ADA",
         "q": "DAI",
         "ts": "0.1",
         "o": "581.1",
@@ -2569,7 +2569,7 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBDOWNUSDT",
+        "s": "ADADOWNUSDT",
         "b": "BNBDOWN",
         "q": "USDT",
         "ts": "0.00001",
@@ -2585,8 +2585,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBETH",
-        "b": "BNB",
+        "s": "ADAETH",
+        "b": "ADA",
         "q": "ETH",
         "ts": "0.0001",
         "o": "0.1345",
@@ -2601,8 +2601,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBEUR",
-        "b": "BNB",
+        "s": "ADAEUR",
+        "b": "ADA",
         "q": "EUR",
         "ts": "0.1",
         "o": "517.6",
@@ -2617,8 +2617,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBGBP",
-        "b": "BNB",
+        "s": "ADAGBP",
+        "b": "ADA",
         "q": "GBP",
         "ts": "0.1",
         "o": "438.5",
@@ -2633,8 +2633,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBRUB",
-        "b": "BNB",
+        "s": "ADARUB",
+        "b": "ADA",
         "q": "RUB",
         "ts": "0.01",
         "o": "43327.61",
@@ -2649,8 +2649,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBTRY",
-        "b": "BNB",
+        "s": "ADATRY",
+        "b": "ADA",
         "q": "TRY",
         "ts": "1",
         "o": "8117",
@@ -2665,8 +2665,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBTUSD",
-        "b": "BNB",
+        "s": "ADATUSD",
+        "b": "ADA",
         "q": "TUSD",
         "ts": "0.1",
         "o": "581.3",
@@ -2681,8 +2681,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBUAH",
-        "b": "BNB",
+        "s": "ADAUAH",
+        "b": "ADA",
         "q": "UAH",
         "ts": "1",
         "o": "16378",
@@ -2697,7 +2697,7 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBUPUSDT",
+        "s": "ADAUPUSDT",
         "b": "BNBUP",
         "q": "USDT",
         "ts": "0.01",
@@ -5531,8 +5531,8 @@ export const pairData = [
         "sd": false,
     },
     {
-        "s": "BNBUSDT",
-        "b": "BNB",
+        "s": "ADAUSDT",
+        "b": "ADA",
         "q": "USDT",
         "ts": "0.1",
         "o": "581.4",

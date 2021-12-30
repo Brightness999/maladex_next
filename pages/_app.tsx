@@ -18,7 +18,7 @@ const layoutProps = {
 function MyApp({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState<string>('light');
   const [page, setPage] = useState<string>("trade");
-  const [pair, setPair] = useState<string>("AGIX_MAL");
+  const [pair, setPair] = useState<string>("ADA_MAL");
 
   const changeTheme = (value: string) => {
     setTheme(value);
@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       if (temp_pair) {
         setPair(temp_pair);
       } else {
-        window.localStorage.setItem('pair', 'AGIX_MAL');
+        window.localStorage.setItem('pair', 'ADA_MAL');
       }
     }
   }, []);

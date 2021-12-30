@@ -14,7 +14,7 @@ const Home: React.FC<Props> = (props) => {
   return (
     <Landing
       theme={props.theme}
-      pair="ADA_MAL"
+      pair={props.pair}
       page={props.page}
     />
   )

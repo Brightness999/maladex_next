@@ -409,7 +409,7 @@ const SelectPair: React.FC<Props> = (props) => {
               </div>
             </div>
             <div className={styles.pair_select_instrumenttypes_indexes}>
-              <span>{index? index : 'Indexes'}</span>
+              <span>{index ? index : 'Indexes'}</span>
               <FontAwesomeIcon icon={faCaretDown} />
               <div className={styles.pair_select_instrumenttypes_indexes_content}>
                 {Indexes.map((value, key) => {
