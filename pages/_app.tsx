@@ -31,9 +31,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     setPage(value);
     window.localStorage.setItem('page', value);
     if (value == 'trade') {
-      router.push('/');
+      window.location.href = '/';
     } else {
-      router.push(value);
+      window.location.href = value;
     }
   }
 
@@ -49,8 +49,14 @@ function MyApp({ Component, pageProps }: AppProps) {
       }
       if (temp_page) {
         setPage(temp_page);
+        if (temp_page == 'trade') {
+          router.push('/');
+        } else {
+          router.push(temp_page);
+        }
       } else {
         window.localStorage.setItem('page', 'trade');
+        router.push('/');
       }
       if (temp_pair) {
         setPair(temp_pair);
