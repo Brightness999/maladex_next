@@ -359,7 +359,7 @@ const SelectPair: React.FC<Props> = (props) => {
 
   const changePair = (value: string) => {
     window.localStorage.setItem('pair', value);
-    window.location.href = `/${props.page}/${symbol ? 'pair' : index ? 'index' : option ? 'option' : strategy ? 'strategy' : ''}/${pair ? pair : ''}`;
+    window.location.href = `/${props.page}/${symbol ? 'pair' : index ? 'index' : option ? 'option' : strategy ? 'strategy' : ''}/${value ? value : ''}`;
   }
 
   useEffect(() => {

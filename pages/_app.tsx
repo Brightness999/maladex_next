@@ -1,5 +1,4 @@
 import type { AppProps } from 'next/app';
-import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
 import Layout from 'components/Layout';
@@ -20,7 +19,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState<string>('light');
   const [page, setPage] = useState<string>("trade");
   const [pair, setPair] = useState<string>("ADA_MAL");
-  const router = useRouter();
 
   const changeTheme = (value: string) => {
     setTheme(value);
@@ -33,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     if (value == 'trade') {
       window.location.href = '/';
     } else {
-      window.location.href = value;
+      window.location.href = `/${value}`;
     }
   }
 
@@ -49,14 +47,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       }
       if (temp_page) {
         setPage(temp_page);
-        if (temp_page == 'trade') {
-          router.push('/');
-        } else {
-          router.push(temp_page);
-        }
       } else {
         window.localStorage.setItem('page', 'trade');
-        router.push('/');
       }
       if (temp_pair) {
         setPair(temp_pair);

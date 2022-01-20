@@ -6,6 +6,7 @@ const Trade = () => {
   useEffect(() => {
     router.push('/');
   }, []);
+  return (<></>);
 }
 
 export default Trade;
