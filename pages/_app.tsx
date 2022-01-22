@@ -46,7 +46,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         window.localStorage.setItem('theme', 'light');
       }
       if (temp_page) {
-        setPage(temp_page);
+        if (window.location.pathname.indexOf(temp_page) > -1) {
+          setPage(temp_page);
+        } else {
+          setPage('trade');
+        }
       } else {
         window.localStorage.setItem('page', 'trade');
       }

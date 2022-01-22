@@ -1,0 +1,37 @@
+.tradinghistory {
+  height: 300px;
+  flex: auto;
+}
+.switch {
+  display: flex;
+  gap: 0.5rem;
+  button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    color: #e20100;
+    background-color: #fff;
+    border: 1px solid #e20100;
+    &.active {
+      color: #fff;
+      background-color: #e20100;
+    }
+    &:focus {
+      border: 1px solid #e20100;
+      outline: 1px solid #e20100;
+    }
+  }
+}

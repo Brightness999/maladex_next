@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
+import styles from 'styles/Track.module.scss';
 
 const TradingHistoryData = [
   { id: 1, type: 'AAMM', status: 'Executing', state: 'ADA/USDC, 50:50, u+s' },
@@ -15,6 +16,16 @@ const TradingHistoryData = [
   { id: 9, type: 'AAMM', status: 'Executing', state: 'ADA/USDC, 80:20,u+s' },
   { id: 10, type: 'Limit order', status: 'Completed', state: '3.2 ADA/USDC' },
   { id: 11, type: 'AAMM', status: 'Executing', state: '4.2 ADA/USDC, 46% completed' },
+  { id: 12, type: 'Limit order', status: 'Completed', state: '2.4 ADA/USDC' },
+  { id: 13, type: 'Limit order', status: 'Executing', state: '2.5 ADA/USDC, 34% completed' },
+  { id: 14, type: 'Limit order', status: 'Executing', state: '5 ADA/X, 50% completed' },
+  { id: 15, type: 'Limit order', status: 'Completed', state: '2.9 ADA/USDC' },
+  { id: 16, type: 'AAMM', status: 'Executing', state: 'ADA/USDC, 40:60,u+s' },
+  { id: 17, type: 'Limit order', status: 'Completed', state: '2.6 ADA/USDC' },
+  { id: 18, type: 'Limit order', status: 'Executing', state: '4.6 ADA/X, 80% completed' },
+  { id: 19, type: 'AAMM', status: 'Executing', state: 'ADA/USDC, 80:20,u+s' },
+  { id: 20, type: 'Limit order', status: 'Completed', state: '3.2 ADA/USDC' },
+  { id: 21, type: 'AAMM', status: 'Executing', state: '4.2 ADA/USDC, 46% completed' },
 ]
 
 type TradingType = {
@@ -26,11 +37,10 @@ type TradingType = {
 
 const Actions = () => {
   return (
-    <div className='d-flex gap-1'>
+    <div className='d-flex pt-1 gap-1'>
       <button className='btn btn-sm btn-secondary'>Cancel</button>
       <button className='btn btn-sm btn-info'>View</button>
       <button className='btn btn-sm btn-primary'>Modify</button>
-
     </div>
   );
 }
@@ -53,7 +63,11 @@ const Home: React.FC = () => {
     }
   }
 
-  
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      window.localStorage.setItem('page', 'track');
+    }
+  }, []);
 
   useEffect(() => {
     filterTradingHistoryData();
@@ -62,18 +76,18 @@ const Home: React.FC = () => {
   return (
     <React.Fragment>
       <div className='container d-flex justify-content-center'>
-        <div className='d-flex gap-2'>
-          <button className='btn btn-lg btn-danger' onClick={() => setIsActive(true)}>Active</button>
-          <button className='btn btn-lg btn-outline-danger text-sm' onClick={() => setIsActive(false)}>Historical</button>
+        <div className={styles.switch}>
+          <button className={isactive ? styles.active : ''} onClick={() => setIsActive(true)}>Active</button>
+          <button className={isactive ? '' : styles.active} onClick={() => setIsActive(false)}>Historical</button>
         </div>
       </div>
-      <div className='container ag-theme-alpine' style={{height: '300px'}}>
-        <AgGridReact rowData={data} frameworkComponents={{actions: Actions}}>
-          <AgGridColumn headerName="ID" field='id' sortable={true} filter="agNumberColumnFilter" flex={1} />
-          <AgGridColumn headerName="Type" field='type' sortable={true} filter="agStringColumnFilter" flex={2} />
-          <AgGridColumn headerName="Status" field='status' sortable={true} filter="agStringColumnFilter" flex={2} />
-          <AgGridColumn headerName="State Summary" field='state' sortable={true} filter="agStringColumnFilter" flex={4} />
-          <AgGridColumn headerName="Actions" flex={4} cellRenderer='actions' />
+      <div className={`container ag-theme-alpine ${styles.tradinghistory}`}>
+        <AgGridReact rowData={data} frameworkComponents={{ actions: Actions }}>
+          <AgGridColumn headerName="ID" field='id' sortable={true} filter="agNumberColumnFilter" width={100} flex={2} />
+          <AgGridColumn headerName="Type" field='type' sortable={true} filter="agStringColumnFilter" width={150} flex={4} />
+          <AgGridColumn headerName="Status" field='status' sortable={true} filter="agStringColumnFilter" width={150} flex={4} />
+          <AgGridColumn headerName="State Summary" field='state' sortable={true} filter="agStringColumnFilter" />
+          <AgGridColumn headerName="Actions" cellRenderer='actions' />
         </AgGridReact>
       </div>
     </React.Fragment>
