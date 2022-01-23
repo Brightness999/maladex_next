@@ -23,7 +23,7 @@ const Layout = ({ children, title, description, keywords, theme, page, changeThe
         {description && <meta name="description" content={description} />}
         {keywords && <meta name="keywords" content={keywords} />}
       </Head>
-      <div className="wrapper">
+      <div className={`wrapper ${theme == 'dark' && 'dark'}`}>
         <Header theme={theme} page={page} changeTheme={changeTheme} changePage={changePage} />
         {children}
       </div>

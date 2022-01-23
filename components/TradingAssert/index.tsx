@@ -30,7 +30,7 @@ type Props = {
 }
 const TradingAssert: React.FC<Props> = (props) => {
   return (
-    <div className={`${styles.trading} ${props.theme == 'dark' && `${styles.dark} dark`}`}>
+    <div className={`${styles.trading} ${props.theme == 'dark' && styles.dark}`}>
       <Symbol
         theme={props.theme}
         type={props.type}

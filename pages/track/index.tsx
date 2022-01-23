@@ -45,7 +45,14 @@ const Actions = () => {
   );
 }
 
-const Home: React.FC = () => {
+type Props = {
+  theme?: string;
+  page?: string;
+  pair?: string;
+}
+
+
+const Home: React.FC<Props> = (props) => {
   const [data, setData] = useState<TradingType[]>([]);
   const [isactive, setIsActive] = useState<boolean>(false);
 
@@ -74,7 +81,7 @@ const Home: React.FC = () => {
   }, [isactive]);
 
   return (
-    <React.Fragment>
+    <div className={`${styles.track} ${props.theme == 'dark' ? styles.dark : ''}`}>
       <div className='container d-flex justify-content-center'>
         <div className={styles.switch}>
           <button className={isactive ? styles.active : ''} onClick={() => setIsActive(true)}>Active</button>
@@ -90,7 +97,7 @@ const Home: React.FC = () => {
           <AgGridColumn headerName="Actions" cellRenderer='actions' />
         </AgGridReact>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
