@@ -146,10 +146,13 @@ const Header: React.FC<Props> = (props) => {
               <span className={`nav-link ${props.page == 'trade' && 'active'}`} onClick={() => props.changePage('trade')}>Trade</span>
             </li>
             <li className={`nav ${styles.navbar__nav_item} ${styles.navbar__nav_mint}`}>
-              <span className={`nav-link ${props.page == 'mint' && 'active'}`} onClick={() => props.changePage('mint')}>Mint</span>
+              <span className={`nav-link ${props.page == 'portfolio' && 'active'}`} onClick={() => props.changePage('portfolio')}>Portfolio</span>
             </li>
             <li className={`nav ${styles.navbar__nav_item}`}>
               <span className={`nav-link ${props.page == 'track' && 'active'}`} onClick={() => props.changePage('track')}>Track</span>
+            </li>
+            <li className={`nav ${styles.navbar__nav_item}`}>
+              <span className={`nav-link ${props.page == 'mint' && 'active'}`} onClick={() => props.changePage('mint')}>Mint</span>
             </li>
           </ul>
         </div>
