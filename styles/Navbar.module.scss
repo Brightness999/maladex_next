@@ -34,13 +34,9 @@ $light-red: #e20100;
   }
   &__nav {
     padding: 10px;
-    &_mint {
-      border: solid 1px #3a3a3a;
-      border-bottom: none;
-      border-top: none;
-    }
     &_item {
       padding: 0 10px !important;
+      border-left: 1px solid #3a3a3a;
       span {
         text-decoration: none;
         color: #3a3a3a;
@@ -168,13 +164,11 @@ $light-red: #e20100;
 }
 .navbar.dark {
   background-color: #181a20;
-  .navbar__nav_item span {
-    color: #ffffff;
-  }
-  .navbar__nav_mint {
-    border: 1px solid #ffffff;
-    border-bottom: none;
-    border-top: none;
+  .navbar__nav_item {
+    border-left: 1px solid #fff;
+    span {
+      color: #ffffff;
+    }
   }
 }
 .wallet {
