@@ -90,10 +90,10 @@ const Home: React.FC<Props> = (props) => {
       </div>
       <div className={`container ag-theme-alpine ${styles.tradinghistory}`}>
         <AgGridReact rowData={data} frameworkComponents={{ actions: Actions }}>
-          <AgGridColumn headerName="ID" field='id' sortable={true} filter="agNumberColumnFilter" width={100} flex={2} />
-          <AgGridColumn headerName="Type" field='type' sortable={true} filter="agStringColumnFilter" width={150} flex={4} />
-          <AgGridColumn headerName="Status" field='status' sortable={true} filter="agStringColumnFilter" width={150} flex={4} />
-          <AgGridColumn headerName="State Summary" field='state' sortable={true} filter="agStringColumnFilter" />
+          <AgGridColumn headerName="ID" field='id' sortable={true} filter="agNumberColumnFilter" minWidth={100} flex={1} />
+          <AgGridColumn headerName="Type" field='type' sortable={true} filter="agStringColumnFilter" minWidth={150} flex={2} />
+          <AgGridColumn headerName="Status" field='status' sortable={true} filter="agStringColumnFilter" minWidth={150} flex={2} />
+          <AgGridColumn headerName="State Summary" field='state' sortable={true} filter="agStringColumnFilter" minWidth={250} flex={3} />
           <AgGridColumn headerName="Actions" cellRenderer='actions' />
         </AgGridReact>
       </div>

@@ -7,7 +7,7 @@ import {
   defaultDescription,
   defaultKeywords,
 } from 'lib/constants';
-import '../styles/globals.scss';
+import 'styles/globals.scss';
 
 const layoutProps = {
   title: defaultTitle,
