@@ -16,7 +16,7 @@ const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
   const chartComponentRef = useRef<HighchartsReact.RefObject>(null);
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       let chartwidth = document.body.clientWidth;
       let chartheight = 474;
       if (chartwidth > 768) {

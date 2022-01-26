@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       let temp_theme = window.localStorage.getItem('theme');
       let temp_page = window.localStorage.getItem('page');
       let temp_pair = window.localStorage.getItem('pair');
