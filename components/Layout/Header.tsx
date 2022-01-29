@@ -24,7 +24,7 @@ const Header: React.FC<Props> = (props) => {
   const [connecting, setConnecting] = useState<boolean>(false);
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       try {
         let connect = window.localStorage.getItem("connect");
         let wallettype = window.localStorage.getItem("wallettype");
@@ -45,7 +45,7 @@ const Header: React.FC<Props> = (props) => {
   }, []);
 
   const connectNami = () => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       setWalletType("nami");
       if (window.cardano) {
         let cardano = window.cardano;

@@ -17,7 +17,7 @@ const PriceChart: React.FC<Props> = (props) => {
   const [chartheight, setChartHeight] = useState<number>(10);
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       let width = document.body.clientWidth;
       if (width > 768) {
         setChartWidth(width * 0.9 - 300);

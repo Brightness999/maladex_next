@@ -71,7 +71,7 @@ const Home: React.FC<Props> = (props) => {
   }
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       window.localStorage.setItem('page', 'track');
     }
   }, []);

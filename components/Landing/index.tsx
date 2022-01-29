@@ -84,7 +84,7 @@ const Landing: React.FC<Props> = (props) => {
   }
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       if (layouts) {
         let width = window.document.body.clientWidth;
         window.localStorage.setItem('layouts', JSON.stringify(layouts));
