@@ -18,24 +18,19 @@ type Props = {
 const Header: React.FC<Props> = (props) => {
   const [modal, setModal] = useState<boolean>(false);
   const [walletmodal, setWalletModal] = useState<boolean>(false);
-  const [nowallet, setNoWallet] = useState<boolean>(false);
   const [address, setAddress] = useState<string>("");
-  const [wallettype, setWalletType] = useState<string>("");
   const [connecting, setConnecting] = useState<boolean>(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       try {
-        let connect = window.localStorage.getItem("connect");
         let wallettype = window.localStorage.getItem("wallettype");
-        let preaddress = window.localStorage.getItem("address");
-        if (connect) {
-          if (connect == 'true') {
-            switch (wallettype) {
-              case "nami": setAddress(preaddress); break;
-              case "yoroi": connectYoroi(); break;
-              default: break;
-            }
+        if (wallettype) {
+          switch (wallettype) {
+            case "nami": connectNami(); break;
+            case "yoroi": connectYoroi(); break;
+            case "ccvault": connectCcvault(); break;
+            default: break;
           }
         }
       } catch (error) {
@@ -46,22 +41,19 @@ const Header: React.FC<Props> = (props) => {
 
   const connectNami = () => {
     if (typeof window !== 'undefined') {
-      setWalletType("nami");
       if (window.cardano) {
-        let cardano = window.cardano;
-        if ("isEnabled" in cardano) {
+        if (window.cardano.nami) {
+          let nami = window.cardano.nami;
           setConnecting(true);
-          cardano.enable().then(() => {
-            cardano.getUsedAddresses().then(res => {
+          nami.enable().then((res) => {
+            res.getUsedAddresses().then((addresses: (WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; })[]) => {
               const realaddress = bech32.encode(
                 'addr',
-                bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
+                bech32.toWords(Uint8Array.from(Buffer.from(addresses[0], 'hex'))),
                 1000
               );
               setAddress(realaddress);
-              window.localStorage.setItem('connect', "true");
               window.localStorage.setItem('wallettype', "nami");
-              window.localStorage.setItem('address', realaddress);
               setConnecting(false);
               setWalletModal(false);
             })
@@ -70,35 +62,28 @@ const Header: React.FC<Props> = (props) => {
             setConnecting(false);
           });
         } else {
-          setNoWallet(true);
-          setTimeout(() => {
-            setNoWallet(false);
-          }, 5000);
+          window.open('https://namiwallet.io/');
         }
       } else {
-        setNoWallet(true);
-        setTimeout(() => {
-          setNoWallet(false);
-        }, 5000);
+        window.open('https://namiwallet.io/');
       }
     }
   }
 
   const connectYoroi = async () => {
     if (typeof window != undefined) {
-      setWalletType("yoroi");
       if (window.cardano) {
         if (window.cardano.yoroi) {
-          window.cardano.yoroi.enable().then((api: any) => {
+          let yoroi = window.cardano.yoroi;
+          yoroi.enable().then(res => {
             setConnecting(true);
-            api.getUnusedAddresses().then(res => {
+            res.getUnusedAddresses().then((addresses: (WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; })[]) => {
               const realaddress = bech32.encode(
                 'addr',
-                bech32.toWords(Uint8Array.from(Buffer.from(res[0], 'hex'))),
+                bech32.toWords(Uint8Array.from(Buffer.from(addresses[0], 'hex'))),
                 1000
               );
               setAddress(realaddress);
-              window.localStorage.setItem('connect', "true");
               window.localStorage.setItem('wallettype', "yoroi");
               setConnecting(false);
               setWalletModal(false);
@@ -110,26 +95,50 @@ const Header: React.FC<Props> = (props) => {
             console.log("reject wallet connection", err);
           })
         } else {
-          setNoWallet(true);
-          setTimeout(() => {
-            setNoWallet(false);
-          }, 5000);
+          window.open('https://yoroi-wallet.com/');
         }
       } else {
-        setNoWallet(true);
-        setTimeout(() => {
-          setNoWallet(false);
-        }, 5000);
+        window.open('https://yoroi-wallet.com/');
+      }
+    }
+  }
+
+  const connectCcvault = async () => {
+    if (typeof window != undefined) {
+      if (window.cardano) {
+        if (window.cardano.ccvault) {
+          let ccvault = window.cardano.ccvault;
+          ccvault.enable().then(res => {
+            setConnecting(true);
+            res.getUnusedAddresses().then((addresses: (WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; })[]) => {
+              const realaddress = bech32.encode(
+                'addr',
+                bech32.toWords(Uint8Array.from(Buffer.from(addresses[0], 'hex'))),
+                1000
+              );
+              setAddress(realaddress);
+              window.localStorage.setItem('wallettype', "ccvault");
+              setConnecting(false);
+              setWalletModal(false);
+            }).catch((err: any) => {
+              console.log("no cardano wallet connected", err);
+              setConnecting(false);
+            })
+          }).catch(err => {
+            console.log("reject wallet connection", err);
+          })
+        } else {
+          window.open('https://linktr.ee/ccvaultio/');
+        }
+      } else {
+        window.open('https://linktr.ee/ccvaultio/');
       }
     }
   }
 
   const disconnectWallet = () => {
     setAddress('');
-    setWalletType('');
-    window.localStorage.setItem('connect', "false");
-    window.localStorage.setItem('wallettype', "");
-    window.localStorage.setItem("address", "");
+    window.localStorage.setItem('wallettype', '');
   }
 
   return (
@@ -225,7 +234,7 @@ const Header: React.FC<Props> = (props) => {
                 <Image src="/img/gero.svg" alt="gero" width={60} height={60} />
                 <div><span>Gero Wallet</span></div>
               </div>
-              <div className={styles.wallet__content_wallets_wallet} onClick={() => connectNami()}>
+              <div className={styles.wallet__content_wallets_wallet} onClick={() => connectCcvault()}>
                 <Image src="/img/cc.svg" alt="cc" width={60} height={60} />
                 <div><span>CCWallet</span></div>
               </div>
@@ -235,46 +244,6 @@ const Header: React.FC<Props> = (props) => {
               <button>Learn How to Connect</button>
             </div>
           </div>
-        </div>
-      }
-      {
-        nowallet &&
-        <div className={styles.nowallet}>
-          {wallettype == 'nami' &&
-            <div className={styles.nowallet__content}>
-              <div>
-                <span>Get Nami Wallet first</span>
-              </div>
-              <div>
-                <Link href="https://namiwallet.io/">
-                  <a target="_blank" rel="noreferrer">
-                    <button>Get</button>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-          }
-          {wallettype == 'yoroi' &&
-            <React.Fragment>
-              <div className={styles.nowallet__content}>
-                <span>Get Yoroi Nightly Wallet</span>
-                <Link href="https://chrome.google.com/webstore/detail/yoroi-nightly/poonlenmfdfbjfeeballhiibknlknepo/">
-                  <a target="_blank" rel="noreferrer">
-                    <button>Get</button>
-                  </a>
-                </Link>
-              </div>
-              <div className={styles.nowallet__content}>
-                <span>Get Yoroi Connector</span>
-                <Link href="https://chrome.google.com/webstore/detail/yoroi-ergo-dapp-connector/chifollcalpmjdiokipacefnpmbgjnle/">
-                  <a target="_blank" rel="noreferrer">
-                    <button>Get</button>
-                  </a>
-                </Link>
-              </div>
-            </React.Fragment>
-          }
         </div>
       }
       <ResponsiveModal
