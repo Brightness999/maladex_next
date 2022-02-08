@@ -19,17 +19,17 @@ type CompositionDataProps = {
   quantity: string;
   total_price_usd: string;
   percent_of_set: string;
-  colors: Array<string>;
+  colors: string[];
   price: number;
   change: number;
   image: string;
-  percentages: Array<number>;
-  quantities: Array<number>;
-  total_prices: Array<number>;
+  percentages: number[];
+  quantities: number[];
+  total_prices: number[];
 }
 
 const Compositions: React.FC<Props> = (props) => {
-  const [rowdata, setRowData] = useState<Array<CompositionDataProps>>([]);
+  const [rowdata, setRowData] = useState<CompositionDataProps[]>([]);
   const assets = ['mal', 'sundae', 'minswap', 'lq', 'indy'];
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const Compositions: React.FC<Props> = (props) => {
       })
     })
     setRowData(temp_rowdata);
-  }, []);
+  }, [assets]);
 
   return (
     <div className={styles.compositions}>
