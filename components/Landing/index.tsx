@@ -20,9 +20,20 @@ type Props = {
   page?: string;
 }
 
+type DataProps = {
+  a: number;
+  p: string;
+  q: string;
+  f: number;
+  l: number;
+  T: number;
+  m: boolean;
+  M: boolean;
+}
+
 const Landing: React.FC<Props> = (props) => {
   const [price, setPrice] = useState<string>("");
-  const [TradingData, setTradingData] = useState<Array<object>>([]);
+  const [TradingData, setTradingData] = useState<DataProps[]>([]);
   const [chartwidth, setChartWidth] = useState<number>(0);
   const [chartheight, setChartHeight] = useState<number>(0);
   const [ordersclose, setOrdersClose] = useState<boolean>(false);
