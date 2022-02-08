@@ -76,7 +76,7 @@ const Home: React.FC<Props> = (props) => {
       window.localStorage.setItem('page', 'track');
     }
     filterTradingHistoryData(isactive);
-  }, []);
+  }, [isactive]);
 
   return (
     <div className={`${styles.track} ${props.theme == 'dark' ? styles.dark : ''}`}>
