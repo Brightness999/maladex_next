@@ -5,7 +5,7 @@ const Trade = () => {
   const router = useRouter();
   useEffect(() => {
     router.push('/');
-  }, []);
+  }, [router]);
   return (<></>);
 }
 
