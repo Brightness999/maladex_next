@@ -6,9 +6,24 @@ import { faCaretDown, faCogs, faStar, faSearch, faSortUp, faSortDown } from "@fo
 import styles from 'styles/Home.module.scss';
 import { pairData, Symbols, Indexes, Options, ActiveAssets, Strategies } from "lib/data";
 
+type DataProps = {
+  s: string;
+  b: string;
+  q: string;
+  ts: string;
+  o: string;
+  h: string;
+  l: string;
+  c: string;
+  v: string;
+  qv: string;
+  tags: string[];
+  sd: boolean;
+}
+
 type TableProps = {
   pair?: string;
-  tabledata?: Array<any>;
+  tabledata?: DataProps[];
   handleSelectPair?: any;
   changeStarPair?: any;
   currentsort?: string;
@@ -128,12 +143,12 @@ const PairTable: React.FC<TableProps> = (props) => {
             if (value.ts.split(".").length > 1) {
               let length = value.ts.split(".")[1].length;
               lastprice = parseFloat(value.c).toFixed(length);
-              averageprice = (value.qv / value.v).toFixed(length);
-              change = `${((value.c - value.o) / value.o * 100).toFixed(2)}`;
+              averageprice = (parseFloat(value.qv) / parseFloat(value.v)).toFixed(length);
+              change = `${((parseFloat(value.c) - parseFloat(value.o)) / parseFloat(value.o) * 100).toFixed(2)}`;
             } else {
               lastprice = value.c;
-              averageprice = (value.qv / value.v).toFixed(0);
-              change = `${((value.c - value.o) / value.o * 100).toFixed(2)}`;
+              averageprice = (parseFloat(value.qv) / parseFloat(value.v)).toFixed(0);
+              change = `${((parseFloat(value.c) - parseFloat(value.o)) / parseFloat(value.o) * 100).toFixed(2)}`;
             }
             return (
               <tr key={index}>
@@ -182,10 +197,10 @@ const SelectPair: React.FC<Props> = (props) => {
   const [index, setIndex] = useState<string>("");
   const [option, setOption] = useState<string>("");
   const [strategy, setStrategy] = useState<string>("");
-  const [tabledata, setTableData] = useState<Array<any>>([]);
+  const [tabledata, setTableData] = useState<DataProps[]>([]);
   const [isstar, setIsStar] = useState<boolean>(false);
   const [isactiveaasets, setIsActiveAasets] = useState<boolean>(false);
-  const [pairdata, setPairData] = useState<Array<any>>(pairData);
+  const [pairdata, setPairData] = useState<DataProps[]>(pairData);
   const [currentsort, setCurrentSort] = useState<string>("default");
   const [sortitem, setSortitem] = useState<string>("default");
 
@@ -370,7 +385,7 @@ const SelectPair: React.FC<Props> = (props) => {
       }
     });
     setTableData(temp_data);
-  }, []);
+  }, [currentsymbol, pairdata]);
 
   useEffect(() => {
     setPair(props.pair);
