@@ -56,8 +56,9 @@ const Home: React.FC<Props> = (props) => {
   const [data, setData] = useState<TradingType[]>([]);
   const [isactive, setIsActive] = useState<boolean>(false);
 
-  const filterTradingHistoryData = () => {
-    if (isactive) {
+  const filterTradingHistoryData = (active: boolean) => {
+    setIsActive(active);
+    if (active) {
       let temp_data = [];
       TradingHistoryData.forEach(element => {
         if (element.status == 'Executing') {
@@ -74,18 +75,15 @@ const Home: React.FC<Props> = (props) => {
     if (typeof window !== 'undefined') {
       window.localStorage.setItem('page', 'track');
     }
+    filterTradingHistoryData(isactive);
   }, []);
-
-  useEffect(() => {
-    filterTradingHistoryData();
-  }, [isactive]);
 
   return (
     <div className={`${styles.track} ${props.theme == 'dark' ? styles.dark : ''}`}>
       <div className='container d-flex justify-content-center'>
         <div className={styles.switch}>
-          <button className={isactive ? styles.active : ''} onClick={() => setIsActive(true)}>Active</button>
-          <button className={isactive ? '' : styles.active} onClick={() => setIsActive(false)}>Historical</button>
+          <button className={isactive ? styles.active : ''} onClick={() => filterTradingHistoryData(true)}>Active</button>
+          <button className={isactive ? '' : styles.active} onClick={() => filterTradingHistoryData(false)}>Historical</button>
         </div>
       </div>
       <div className={`container ag-theme-alpine ${styles.tradinghistory}`}>
