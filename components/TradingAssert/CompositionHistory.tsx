@@ -13,7 +13,7 @@ type Props = {
 }
 
 const CompositionHistory: React.FC<Props> = (props) => {
-  const [data, setData] = useState<Array<object>>([]);
+  const [data, setData] = useState<object[]>([]);
   const assets = ['mal', 'sundae', 'minswap', 'lq', 'indy'];
   useEffect(() => {
     let temp_arr = [];
@@ -57,7 +57,7 @@ const CompositionHistory: React.FC<Props> = (props) => {
       temp_data.push(temp_obj);
     }
     setData(temp_data);
-  }, []);
+  }, [assets]);
 
   return (
     <div className={`ag-theme-alpine ${styles.compositionhistory}`}>

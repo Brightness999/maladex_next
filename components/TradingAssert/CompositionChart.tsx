@@ -79,7 +79,7 @@ const CompositionChart: React.FC = (props: HighchartsReact.Props) => {
         series: chartdata
       });
     }
-  }, []);
+  }, [assets]);
 
   return (
     <div className={styles.compositionchart}>
