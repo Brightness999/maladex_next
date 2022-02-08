@@ -62,7 +62,7 @@ const Compositions: React.FC<Props> = (props) => {
             <tr>
               <td>
                 <div>
-                  <Image src="/img/ada.svg" width={24} height={24} />
+                  <Image src="/img/ada.svg" width={24} height={24} alt="" />
                   <span>Cardano DeFi Index</span>
                 </div>
               </td>
@@ -85,7 +85,7 @@ const Compositions: React.FC<Props> = (props) => {
                 <tr key={key}>
                   <td>
                     <div className={styles.row_symbol}>
-                      <Image src={row.image} width={24} height={24} />
+                      <Image src={row.image} width={24} height={24} alt="" />
                       <span>{row.name}</span>
                     </div>
                   </td>

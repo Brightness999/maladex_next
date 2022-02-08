@@ -20,21 +20,13 @@ const Symbol: React.FC<Props> = (props) => {
     <div className={styles.symbol}>
       <div className={styles.symbol_content}>
         <div className={styles.symbol_content_img}>
-          <Image
-            src="/img/ada.svg"
-            width={60}
-            height={60}
-          />
+          <Image src="/img/ada.svg" width={60} height={60} alt="" />
         </div>
         <div className={styles.symbol_content_type}>
           Cardano DeFi Index
         </div>
         <div className={styles.symbol_content_descriptionicon} onClick={() => handleExpand()}>
-          <Image
-            src="/img/info.svg"
-            width={45}
-            height={45}
-          />
+          <Image src="/img/info.svg" width={45} height={45} alt="" />
         </div>
       </div>
       {isexpanded &&
