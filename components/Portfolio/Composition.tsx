@@ -64,7 +64,7 @@ const Composition = (props: HighchartsReact.Props) => {
     responsive: {
       rules: [{
         condition: {
-          minHeight: 600,
+          minHeight: 500,
         },
         chartOptions: {
           series: [{
