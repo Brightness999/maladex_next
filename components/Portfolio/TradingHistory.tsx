@@ -3,7 +3,7 @@ import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 
-const HistoryData = [
+export const HistoryData = [
   { date: 'Feb 12, 2022, 6:34 AM', type: 'Sell', asset: 'ADA', price: 1.09, amount: 4, fees: 0.170517 },
   { date: 'Feb 12, 2022, 8:50 AM', type: 'Buy', asset: 'ADA', price: 1.14, amount: 5, fees: 0.168493 },
   { date: 'Feb 12, 2022, 2:45 AM', type: 'Sell', asset: 'AGIX', price: 0.12, amount: 11, fees: 0.169153 },
@@ -14,7 +14,7 @@ const HistoryData = [
   { date: 'Feb 11, 2022, 4:30 AM', type: 'Buy', asset: 'AGIX', price: 0.12, amount: 40, fees: 0.169153 },
   { date: 'Feb 10, 2022, 9:23 AM', type: 'Buy', asset: 'MELD', price: 0.13, amount: 10, fees: 0.170517 },
   { date: 'Feb 10, 2022, 6:45 AM', type: 'Buy', asset: 'AGIX', price: 0.11, amount: 5, fees: 0.830847 },
-  { date: 'Feb 10, 2022, 11:15 AM', type: 'Sell', asset: 'MELD', price: 0.13, amount: 8, fees: 0.170517 },
+  { date: 'Feb 10, 2022, 11:15 AM', type: 'Buy', asset: 'MELD', price: 0.13, amount: 8, fees: 0.170517 },
   { date: 'Feb 9, 2022, 10:26 AM', type: 'Sell', asset: 'MELD', price: 0.14, amount: 6, fees: 0.830847 },
   { date: 'Feb 9, 2022, 9:49 AM', type: 'Buy', asset: 'AGIX', price: 0.12, amount: 10, fees: 0.170517 },
   { date: 'Feb 9, 2022, 8:28 AM', type: 'Sell', asset: 'MELD', price: 0.14, amount: 12, fees: 0.830847 },
