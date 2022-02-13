@@ -51,7 +51,6 @@ type Props = {
   pair?: string;
 }
 
-
 const Home: React.FC<Props> = (props) => {
   const [data, setData] = useState<TradingType[]>([]);
   const [isactive, setIsActive] = useState<boolean>(false);
