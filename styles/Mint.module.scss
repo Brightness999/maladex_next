@@ -1,0 +1,34 @@
+.programmableswap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  &_title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  &_summary {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    &_review {
+      position: absolute;
+      right: 5%;
+    }
+  }
+  &_diagrams {
+    flex: 5;
+    min-height: 50vh;
+  }
+  &_resources {
+    flex: 2;
+    padding: 1.5rem;
+  }
+  &_customcode {
+    flex: 5;
+  }
+  &_errors {
+    flex: 2;
+  }
+}
