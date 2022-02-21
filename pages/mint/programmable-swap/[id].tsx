@@ -30,9 +30,9 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="d-md-flex p-md-4">
+      <div className="d-md-flex p-md-4 p-4 flex-fill">
         <div className={styles.programmableswap_customcode}>
-          <div>
+          <div className="d-flex flex-column justify-content-center align-items-center">
             <div>
               Programmable Swap Code (for the selected node above)
             </div>

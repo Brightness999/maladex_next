@@ -27,6 +27,8 @@
   }
   &_customcode {
     flex: 5;
+    display: flex;
+    justify-content: center;
   }
   &_errors {
     flex: 2;
