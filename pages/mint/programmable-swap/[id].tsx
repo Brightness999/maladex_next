@@ -2,7 +2,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import styles from "styles/Mint.module.scss";
 
-const ProgrammableSwap = dynamic(() => import('./ProgrammableSwap'), { ssr: false });
+const Diagrams = dynamic(() => import('./Diagrams'), { ssr: false });
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       </div>
       <div className="d-md-flex">
         <div className={styles.programmableswap_diagrams}>
-          <ProgrammableSwap />
+          <Diagrams />
         </div>
         <div className={styles.programmableswap_resources}>
           <div className="p-4">
