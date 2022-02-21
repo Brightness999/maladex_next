@@ -6,31 +6,42 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1px solid #eaecef;
   }
   &_summary {
+    border: 1px solid #eaecef;
     flex: 3;
     display: flex;
     justify-content: center;
     position: relative;
+    align-items: center;
     &_review {
       position: absolute;
       right: 5%;
+      padding: 0.5rem 2rem;
+      border-radius: 2rem;
+      border: none;
+      background-color: cyan;
     }
   }
   &_diagrams {
     flex: 5;
     min-height: 50vh;
+    border: 1px solid #eaecef;
   }
   &_resources {
     flex: 2;
-    padding: 1.5rem;
+    border: 1px solid #eaecef;
   }
   &_customcode {
     flex: 5;
     display: flex;
     justify-content: center;
+    border: 1px solid #eaecef;
   }
   &_errors {
     flex: 2;
+    border: 1px solid #eaecef;
   }
 }

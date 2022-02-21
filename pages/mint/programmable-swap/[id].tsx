@@ -7,9 +7,9 @@ const ProgrammableSwap = dynamic(() => import('./ProgrammableSwap'), { ssr: fals
 const Home: React.FC = () => {
   return (
     <div className={styles.programmableswap}>
-      <div className="d-md-flex p-md-4 py-4">
-        <div className={styles.programmableswap_title}>ID + Title</div>
-        <div className={styles.programmableswap_summary}>
+      <div className="d-md-flex">
+        <div className={styles.programmableswap_title + ' p-md-4 p-2'}>ID + Title</div>
+        <div className={styles.programmableswap_summary + ' p-md-4 p-2'}>
           <div>Parametrisation summary</div>
           <button className={styles.programmableswap_summary_review}>Review</button>
         </div>
@@ -19,20 +19,22 @@ const Home: React.FC = () => {
           <ProgrammableSwap />
         </div>
         <div className={styles.programmableswap_resources}>
-          <div>Resources</div>
-          <div>
-            <input type="text" />
-            <div>ADA</div>
-          </div>
-          <div>
-            <input type="text" />
-            <div>USD</div>
+          <div className="p-4">
+            <div>Resources</div>
+            <div>
+              <input type="text" />
+              <div>ADA</div>
+            </div>
+            <div>
+              <input type="text" />
+              <div>USD</div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="d-md-flex p-md-4 p-4 flex-fill">
+      <div className="d-md-flex flex-fill">
         <div className={styles.programmableswap_customcode}>
-          <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-column justify-content-center align-items-center p-md-4 p-2">
             <div>
               Programmable Swap Code (for the selected node above)
             </div>
@@ -42,7 +44,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className={styles.programmableswap_errors}>
-          <div>Errors</div>
+          <div className="p-md-4 p-2">Errors</div>
         </div>
       </div>
     </div>
