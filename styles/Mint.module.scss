@@ -1,0 +1,89 @@
+.programmableswap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  &_title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eaecef;
+  }
+  &_summary {
+    border: 1px solid #eaecef;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    &_review {
+      position: absolute;
+      right: 5%;
+      padding: 0.5rem 2rem;
+      border-radius: 2rem;
+      border: none;
+      background-color: cyan;
+      box-shadow: 0 0 5px gray;
+    }
+  }
+  &_diagrams {
+    flex: 5;
+    border: 1px solid #eaecef;
+  }
+  &_resources {
+    flex: 2;
+    border: 1px solid #eaecef;
+  }
+  &_customcode {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #eaecef;
+  }
+  &_errors {
+    flex: 2;
+    border: 1px solid #eaecef;
+  }
+}
+.reviewed {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  &_goback {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #e20100;
+    box-shadow: 0 0 5px gray;
+  }
+  &_approve {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:chartreuse;
+    box-shadow: 0 0 5px gray;
+  }
+  &_content {
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.approved {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  &_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.dark {
+  background-color: #181a20;
+  color: #eaecef;
+}
