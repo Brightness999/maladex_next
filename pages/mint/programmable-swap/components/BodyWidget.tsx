@@ -9,6 +9,9 @@ import styled from '@emotion/styled';
 
 export interface BodyWidgetProps {
   app: Application;
+  isadd?: boolean;
+  handleAdd?: any;
+  handleChangeApp?: any;
 }
 
 namespace S {
@@ -54,19 +57,6 @@ namespace S {
 }
 
 export class BodyWidget extends React.Component<BodyWidgetProps> {
-  constructor(props: BodyWidgetProps) {
-    super(props);
-
-    this.state = {
-      isAdd: false,
-    };
-    this.handleAdd = this.handleAdd.bind(this);
-  }
-
-  handleAdd(status: boolean) {
-    this.setState({ isAdd: status })
-  }
-
   render() {
     return (
       <S.Body>
@@ -74,9 +64,9 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
           <div className="title">DAG (Direct Acyclic Graph) Composer</div>
         </S.Header>
         <S.Content>
-          <S.AddNode onClick={() => this.handleAdd(true)}>+</S.AddNode>
+          <S.AddNode onClick={() => this.props.handleAdd(true)}>+</S.AddNode>
           {
-            this.state.isAdd &&
+            this.props.isadd &&
             <TrayWidget>
               <TrayItemWidget model={{ type: 'out', step: 'input' }} name="Input" color="rgb(13,202,240)" />
               <TrayItemWidget model={{ type: 'out', step: 'output' }} name="Output" color="rgb(13,202,240)" />
@@ -107,8 +97,7 @@ export class BodyWidget extends React.Component<BodyWidgetProps> {
               var point = this.props.app.getDiagramEngine().getRelativeMousePoint(event);
               node.setPosition(point);
               this.props.app.getDiagramEngine().getModel().addNode(node);
-              this.handleAdd(false);
-              this.forceUpdate();
+              this.props.handleAdd(false);
             }}
             onDragOver={(event) => {
               event.preventDefault();
