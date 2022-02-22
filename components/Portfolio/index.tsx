@@ -21,7 +21,7 @@ const CompositionData = [{
 
 const Portfolio: React.FC<Props> = (props) => {
   return (
-    <div className="d-flex flex-column">
+    <div className={`d-flex flex-column ${props.theme == 'dark' && styles.dark}`}>
       <div className="d-md-flex py-md-4 px-4">
         <div className={styles.composition}>
           <Composition />
