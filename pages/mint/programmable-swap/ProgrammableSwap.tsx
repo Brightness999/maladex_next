@@ -4,14 +4,17 @@ import styles from "styles/Mint.module.scss";
 
 const Diagrams = dynamic(() => import('./Diagrams'), { ssr: false });
 
-const ProgrammableSwap: React.FC = () => {
+type ProgrammableSwapProps = {
+  changeReview: any;
+}
+const ProgrammableSwap: React.FC<ProgrammableSwapProps> = (props) => {
   return (
     <div className={styles.programmableswap}>
       <div className="d-md-flex">
         <div className={styles.programmableswap_title + ' p-md-4 p-2'}>ID + Title</div>
         <div className={styles.programmableswap_summary + ' p-md-4 p-2'}>
           <div>Parametrisation summary</div>
-          <button className={styles.programmableswap_summary_review}>Review</button>
+          <button className={styles.programmableswap_summary_review} onClick={() => props.changeReview(true)}>Review</button>
         </div>
       </div>
       <div className="d-md-flex">

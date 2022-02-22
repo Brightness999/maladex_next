@@ -23,6 +23,7 @@
       border-radius: 2rem;
       border: none;
       background-color: cyan;
+      box-shadow: 0 0 5px gray;
     }
   }
   &_diagrams {
@@ -43,5 +44,31 @@
   &_errors {
     flex: 2;
     border: 1px solid #eaecef;
+  }
+}
+.reviewed {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  &_goback {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #e20100;
+    box-shadow: 0 0 5px gray;
+  }
+  &_approve {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:chartreuse;
+    box-shadow: 0 0 5px gray;
+  }
+  &_content {
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
