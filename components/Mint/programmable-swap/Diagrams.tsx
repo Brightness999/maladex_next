@@ -5,8 +5,9 @@ import { Application } from './Application';
 const BodyWidget = dynamic(() => import('./components/BodyWidget'), { ssr: false });
 
 const Diagrams: React.FC = () => {
+  var newapp = new Application;
   const [isadd, setIsAdd] = useState<boolean>(false);
-  const [app, setApp] = useState<Application>(null);
+  const [app, setApp] = useState<Application>(newapp);
 
   const handleAdd = (status: boolean) => {
     setIsAdd(status);
@@ -14,7 +15,6 @@ const Diagrams: React.FC = () => {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      var newapp = new Application;
       setApp(newapp);
     }
   }, []);
