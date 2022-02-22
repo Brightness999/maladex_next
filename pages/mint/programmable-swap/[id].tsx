@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Approve from "./Approve";
 import ProgrammableSwap from "./ProgrammableSwap";
 import Review from "./Review";
 
@@ -16,7 +17,7 @@ const Home: React.FC = () => {
 
   return (
     <React.Fragment>
-      {isreview ? <Review changeReview={(status: boolean) => handleChangeReview(status)} changeApprove={(status: boolean) => handleChangeApprove(status)} /> :
+      {isreview ? isapprove ? <Approve /> : <Review changeReview={(status: boolean) => handleChangeReview(status)} changeApprove={(status: boolean) => handleChangeApprove(status)} /> :
         <ProgrammableSwap changeReview={(status: boolean) => handleChangeReview(status)} />
       }
     </React.Fragment>

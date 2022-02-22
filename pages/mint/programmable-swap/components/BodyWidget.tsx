@@ -16,7 +16,7 @@ namespace S {
 		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
-		min-height: 50vh;
+		min-height: 400px;
 	`;
 
   export const Header = styled.div`
