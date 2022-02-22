@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import { BodyWidget } from './components/BodyWidget';
+import dynamic from "next/dynamic";
 import { Application } from './Application';
+
+const BodyWidget = dynamic(() => import('./components/BodyWidget'), { ssr: false });
 
 const Diagrams: React.FC = () => {
   const [isadd, setIsAdd] = useState<boolean>(false);

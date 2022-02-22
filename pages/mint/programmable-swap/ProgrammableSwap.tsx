@@ -27,11 +27,11 @@ const ProgrammableSwap: React.FC<ProgrammableSwapProps> = (props) => {
             <div className="pb-4">Resources</div>
             <div className="d-flex flex-column gap-2">
               <div className="d-flex gap-2 align-items-center">
-                <input type="text" value="245.142" className="text-center" onChange={() => {}} />
+                <input type="text" value="245.142" className="text-center" onChange={() => { }} />
                 <div>ADA</div>
               </div>
               <div className="d-flex gap-2 align-items-center">
-                <input type="text" value="125.483" className="text-center" onChange={() => {}} />
+                <input type="text" value="125.483" className="text-center" onChange={() => { }} />
                 <div>USD</div>
               </div>
             </div>

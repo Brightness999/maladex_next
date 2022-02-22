@@ -56,7 +56,7 @@ namespace S {
   `
 }
 
-export class BodyWidget extends React.Component<BodyWidgetProps> {
+export default class BodyWidget extends React.Component<BodyWidgetProps> {
   render() {
     return (
       <S.Body>
