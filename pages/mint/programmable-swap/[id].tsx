@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Approve from "./Approve";
-import ProgrammableSwap from "./ProgrammableSwap";
-import Review from "./Review";
+import Approve from "components/Mint/programmable-swap/Approve";
+import ProgrammableSwap from "components/Mint/programmable-swap/ProgrammableSwap";
+import Review from "components/Mint/programmable-swap/Review";
 
 type Props = {
   theme?: string;
