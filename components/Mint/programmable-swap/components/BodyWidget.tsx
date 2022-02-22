@@ -71,7 +71,7 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
               <TrayItemWidget model={{ type: 'out', step: 'input' }} name="Input" color="rgb(13,202,240)" />
               <TrayItemWidget model={{ type: 'out', step: 'output' }} name="Output" color="rgb(13,202,240)" />
               <TrayItemWidget model={{ type: 'both', step: 'function' }} name="f(x)" color="rgb(226,1,0)" />
-              <TrayItemWidget model={{ type: 'out', step: 'fuse' }} name="fuse" color="rgb(255,236,169)" />
+              <TrayItemWidget model={{ type: 'out', step: 'fuse' }} name="fuse" color="rgb(211,172,36)" />
               <TrayItemWidget model={{ type: 'in', step: 'result' }} name="X" color="rgb(255,143,128)" />
             </TrayWidget>
           }
@@ -84,7 +84,7 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
                 case 'input': node = new DefaultNodeModel('Input', 'rgb(13,202,240)'); break;
                 case 'output': node = new DefaultNodeModel('Output', 'rgb(13,202,240)'); break;
                 case 'function': node = new DefaultNodeModel('f(x)', 'rgb(226,1,0)'); break;
-                case 'fuse': node = new DefaultNodeModel('fuse', 'rgb(255,236,169)'); break;
+                case 'fuse': node = new DefaultNodeModel('fuse', 'rgb(211,172,36)'); break;
                 case 'result': node = new DefaultNodeModel('X', 'rgb(255,143,128)'); break;
                 default: break;
               }
