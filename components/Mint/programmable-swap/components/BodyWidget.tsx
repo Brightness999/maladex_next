@@ -69,7 +69,7 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
             this.props.isadd &&
             <TrayWidget>
               <TrayItemWidget model={{ type: 'out', step: 'input' }} name="Input" color="rgb(13,202,240)" />
-              <TrayItemWidget model={{ type: 'out', step: 'output' }} name="Output" color="rgb(13,202,240)" />
+              <TrayItemWidget model={{ type: 'in', step: 'output' }} name="Output" color="rgb(13,202,240)" />
               <TrayItemWidget model={{ type: 'both', step: 'function' }} name="f(x)" color="rgb(226,1,0)" />
               <TrayItemWidget model={{ type: 'out', step: 'fuse' }} name="fuse" color="rgb(211,172,36)" />
               <TrayItemWidget model={{ type: 'in', step: 'result' }} name="X" color="rgb(255,143,128)" />
