@@ -29,8 +29,21 @@ const Home: React.FC<Props> = (props) => {
 
   return (
     <React.Fragment>
-      {isreview ? isapprove ? <Approve theme={props.theme} /> : <Review theme={props.theme} changeReview={(status: boolean) => handleChangeReview(status)} changeApprove={(status: boolean) => handleChangeApprove(status)} /> :
-        <ProgrammableSwap theme={props.theme} changeReview={(status: boolean) => handleChangeReview(status)} />
+      {
+        isreview
+          ? isapprove
+            ? <Approve
+              theme={props.theme}
+            />
+            : <Review
+              theme={props.theme}
+              changeReview={(status: boolean) => handleChangeReview(status)}
+              changeApprove={(status: boolean) => handleChangeApprove(status)}
+            />
+          : <ProgrammableSwap
+            theme={props.theme}
+            changeReview={(status: boolean) => handleChangeReview(status)}
+          />
       }
     </React.Fragment>
   );

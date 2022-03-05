@@ -1,6 +1,6 @@
 import * as SRD from '@projectstorm/react-diagrams';
 
-export class Application {
+export default class Application {
 	protected activeModel: SRD.DiagramModel;
 	protected diagramEngine: SRD.DiagramEngine;
 

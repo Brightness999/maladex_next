@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import { Application } from './Application';
+import Application from './Application';
 
 const BodyWidget = dynamic(() => import('./components/BodyWidget'), { ssr: false });
 
@@ -18,8 +18,12 @@ const Diagrams: React.FC = () => {
       setApp(newapp);
     }
   }, []);
-  
-  return <BodyWidget app={app} isadd={isadd} handleAdd={(status: boolean) => handleAdd(status)} />;
+
+  return <BodyWidget
+    app={app}
+    isadd={isadd}
+    handleAdd={(status: boolean) => handleAdd(status)}
+  />;
 }
 
 export default Diagrams;

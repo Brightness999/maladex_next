@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { TrayWidget } from './TrayWidget';
-import { Application } from '../Application';
+import Application from '../Application';
 import { TrayItemWidget } from './TrayItemWidget';
 import { DefaultNodeModel } from '@projectstorm/react-diagrams';
 import { CanvasWidget } from '@projectstorm/react-canvas-core';
