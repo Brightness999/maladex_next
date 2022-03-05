@@ -96,7 +96,7 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
               }
               var point = this.props.app.getDiagramEngine().getRelativeMousePoint(event);
               node.setPosition(point);
-              this.props.app.getDiagramEngine().getModel().addNode(node);
+              this.props.handleChangeApp(node);
               this.props.handleAdd(false);
             }}
             onDragOver={(event) => {
