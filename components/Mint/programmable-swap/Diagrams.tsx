@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Application from './Application';
-import { NodeModel, NodeModelGenerics } from "@projectstorm/react-diagrams";
+import { DefaultNodeModel } from "@projectstorm/react-diagrams";
 
 const BodyWidget = dynamic(() => import('./components/BodyWidget'), { ssr: false });
 
@@ -14,7 +14,7 @@ const Diagrams: React.FC = () => {
     setIsAdd(status);
   }
 
-  const handleChangeApp = (node: NodeModel<NodeModelGenerics>) => {
+  const handleChangeApp = (node: DefaultNodeModel) => {
     app.getDiagramEngine().getModel().addNode(node);
     setApp(app);
   }
@@ -29,7 +29,7 @@ const Diagrams: React.FC = () => {
     app={app}
     isadd={isadd}
     handleAdd={(status: boolean) => handleAdd(status)}
-    handleChangeApp={(node: NodeModel<NodeModelGenerics>) => handleChangeApp(node)}
+    handleChangeApp={(node: DefaultNodeModel) => handleChangeApp(node)}
   />;
 }
 
