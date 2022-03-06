@@ -82,7 +82,8 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
   }
 
   handleLeave = () => {
-    let swapcode = JSON.parse(window.localStorage.getItem('swapcode'));
+    let id = history.state.as.split('/')[3];
+    let swapcodes = JSON.parse(window.localStorage.getItem('swapcodes'));
     const nodes = this.props.app.getActiveDiagram().getNodes();
     const links = this.props.app.getActiveDiagram().getLinks();
     let temp_nodes = [];
@@ -112,11 +113,15 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
         target: target,
       })
     });
-    swapcode.code = {
-      nodes: temp_nodes,
-      edges: temp_links
-    }
-    window.localStorage.setItem('swapcode', JSON.stringify(swapcode));
+    swapcodes.forEach(swapcode => {
+      if (swapcode.id == id) {
+        swapcode.code = {
+          nodes: temp_nodes,
+          edges: temp_links
+        }
+      }
+    });
+    window.localStorage.setItem('swapcodes', JSON.stringify(swapcodes));
   }
 
   render() {
