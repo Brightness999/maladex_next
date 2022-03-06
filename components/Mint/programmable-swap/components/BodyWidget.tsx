@@ -58,6 +58,28 @@ namespace S {
 }
 
 export default class BodyWidget extends React.Component<BodyWidgetProps> {
+  componentDidMount(): void {
+    this.addTextToNode();
+  }
+
+  componentDidUpdate(prevProps: Readonly<BodyWidgetProps>, prevState: Readonly<{}>, snapshot?: any): void {
+    this.addTextToNode();
+  }
+
+  addTextToNode = () => {
+    let nodes = document.querySelectorAll('.css-qcxco2');
+    if (nodes) {
+      nodes.forEach(node => {
+        if (node.children.length == 0) {
+          let input_element = document.createElement('textarea');
+          input_element.defaultValue = node.textContent;
+          node.textContent = "";
+          node.appendChild(input_element);
+        }
+      });
+    }
+  }
+
   handleDropDown = (event: React.DragEvent<HTMLDivElement>) => {
     var data = JSON.parse(event.dataTransfer.getData('storm-diagram-node'));
     var node: DefaultNodeModel = null;

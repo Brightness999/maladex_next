@@ -56,6 +56,14 @@ namespace S {
 }
 
 export class DemoCanvasWidget extends React.Component<DemoCanvasWidgetProps> {
+	handleDeleteText = (e: React.KeyboardEvent<HTMLDivElement>) => {
+		let target = e.target as HTMLTextAreaElement;
+		if (e.which == 8) {
+			e.preventDefault();
+			e.stopPropagation();
+			target.value = target.value.substr(0, target.value.length - 1);
+		}
+	}
 	render() {
 		return (
 			<>
@@ -63,6 +71,7 @@ export class DemoCanvasWidget extends React.Component<DemoCanvasWidgetProps> {
 				<S.Container
 					background={this.props.background || 'rgb(60, 60, 60)'}
 					color={this.props.color || 'rgba(255,255,255, 0.05)'}
+					onKeyDown={(e) => this.handleDeleteText(e)}
 				>
 					{this.props.children}
 				</S.Container>
