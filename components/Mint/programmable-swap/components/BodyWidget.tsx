@@ -7,12 +7,25 @@ import { CanvasWidget } from '@projectstorm/react-canvas-core';
 import { DemoCanvasWidget } from 'components/Helper/DemoCanvasWidget';
 import styled from '@emotion/styled';
 import _ from "lodash";
+import { NodeType } from '../ProgrammableSwap';
 
 export interface BodyWidgetProps {
   app: Application;
   isadd?: boolean;
   handleAdd?: any;
   handleChangeApp?: any;
+}
+
+export interface SwapcodeType {
+  id: number;
+  code: {
+    nodes: NodeType[];
+    edges: {
+      source: number;
+      target: number;
+    }[]
+  };
+  approve: boolean;
 }
 
 namespace S {
@@ -59,7 +72,15 @@ namespace S {
 
 export default class BodyWidget extends React.Component<BodyWidgetProps> {
   componentDidMount(): void {
+    const nodes = document.querySelectorAll('.node');
+    nodes.forEach((node, index) => {
+      node.id = `node-${index}`;
+    });
     this.addTextToNode();
+    const textareas = document.querySelectorAll('textarea');
+    textareas.forEach((textarea, index) => {
+      textarea.id = `textarea-${index}`;
+    });
   }
 
   componentDidUpdate(prevProps: Readonly<BodyWidgetProps>, prevState: Readonly<{}>, snapshot?: any): void {
@@ -69,11 +90,14 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
   addTextToNode = () => {
     let nodes = document.querySelectorAll('.css-qcxco2');
     if (nodes) {
-      nodes.forEach(node => {
+      nodes.forEach((node: HTMLElement) => {
         if (node.children.length == 0) {
           let input_element = document.createElement('textarea');
+          let textareas = document.querySelectorAll('textarea');
           input_element.defaultValue = node.textContent;
           node.textContent = "";
+          node.id = `textarea-${textareas.length}`;
+          node.offsetParent.id = `node-${textareas.length}`;
           node.appendChild(input_element);
         }
       });
@@ -110,9 +134,9 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
     const links = this.props.app.getActiveDiagram().getLinks();
     let temp_nodes = [];
     let temp_links = [];
-    nodes.forEach((node: DefaultNodeModel) => {
+    nodes.forEach((node: DefaultNodeModel, index) => {
       temp_nodes.push({
-        id: node.getOptions().id,
+        id: index,
         name: node.getOptions().name,
         type: _.keys(node.getPorts()).length > 1 ? 'both' : node.getInPorts().length ? 'input' : 'output',
         position: node.getPosition(),
@@ -135,7 +159,7 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
         target: target,
       })
     });
-    swapcodes.forEach(swapcode => {
+    swapcodes.forEach((swapcode: SwapcodeType) => {
       if (swapcode.id == id) {
         swapcode.code = {
           nodes: temp_nodes,

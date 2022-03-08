@@ -3,6 +3,7 @@ import Approve from "components/Mint/programmable-swap/Approve";
 import ProgrammableSwap from "components/Mint/programmable-swap/ProgrammableSwap";
 import Review from "components/Mint/programmable-swap/Review";
 import { useRouter } from 'next/router';
+import { SwapcodeType } from "components/Mint/programmable-swap/components/BodyWidget";
 
 type Props = {
   theme?: string;
@@ -23,10 +24,8 @@ const Home: React.FC<Props> = (props) => {
     setIsApprove(status);
     if (status) {
       let swapcodes = JSON.parse(window.localStorage.getItem('swapcodes'));
-      swapcodes.forEach(swapcode => {
-        if (swapcode.id == router.query.id) {
-          console.log('aaaa');
-          
+      swapcodes.forEach((swapcode: SwapcodeType) => {
+        if (swapcode.id == history.state.as.split('/')[3]) {
           swapcode.approve = true;
         }
       });
@@ -40,7 +39,7 @@ const Home: React.FC<Props> = (props) => {
       const swapcodes = window.localStorage.getItem('swapcodes');
       if (swapcodes) {
         let codes = JSON.parse(swapcodes);
-        if (!router.query.id || router.query.id >= codes.length) {
+        if (history.state.as.split('/')[3] >= codes.length) {
           router.push(`/mint/programmable-swap/${codes.length - 1}`);
         }
       }
