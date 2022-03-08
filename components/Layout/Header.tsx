@@ -70,6 +70,39 @@ const Header: React.FC<Props> = (props) => {
     }
   }
 
+  const connectGero = () => {
+    if (typeof window !== 'undefined') {
+      if (window.cardano) {
+        if (window.cardano.gerowallet) {
+          let gero = window.cardano.gerowallet;
+          setConnecting(true);
+          gero.enable().then((res) => {
+            res.getUsedAddresses().then((addresses: (WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; })[]) => {
+              console.log(addresses);
+              
+              const realaddress = bech32.encode(
+                'addr',
+                bech32.toWords(Uint8Array.from(Buffer.from(addresses[0], 'hex'))),
+                1000
+              );
+              setAddress(realaddress);
+              window.localStorage.setItem('wallettype', "gero");
+              setConnecting(false);
+              setWalletModal(false);
+            })
+          }).catch(err => {
+            console.log("reject wallet connection", err);
+            setConnecting(false);
+          });
+        } else {
+          window.open('https://gerowallet.io/');
+        }
+      } else {
+        window.open('https://gerowallet.io/');
+      }
+    }
+  }
+
   const connectYoroi = async () => {
     if (typeof window != undefined) {
       if (window.cardano) {
@@ -230,7 +263,7 @@ const Header: React.FC<Props> = (props) => {
                 <Image src="/img/yoroi.svg" alt="yoroi" width={60} height={60} />
                 <div><span>Yoroi Nightly</span></div>
               </div>
-              <div className={styles.wallet__content_wallets_wallet} onClick={() => connectNami()}>
+              <div className={styles.wallet__content_wallets_wallet} onClick={() => connectGero()}>
                 <Image src="/img/gero.svg" alt="gero" width={60} height={60} />
                 <div><span>Gero Wallet</span></div>
               </div>
@@ -250,7 +283,7 @@ const Header: React.FC<Props> = (props) => {
         show={modal}
         theme={props.theme}
         address={address}
-        changeTheme={(value) => props.changeTheme(value)}
+        changeTheme={(value: string) => props.changeTheme(value)}
         close={() => setModal(false)}
         openModal={() => setWalletModal(true)}
         disconnect={() => disconnectWallet()}
