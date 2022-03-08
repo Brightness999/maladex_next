@@ -28,6 +28,7 @@ const Header: React.FC<Props> = (props) => {
         if (wallettype) {
           switch (wallettype) {
             case "nami": connectNami(); break;
+            case "gero": connectGero(); break;
             case "yoroi": connectYoroi(); break;
             case "ccvault": connectCcvault(); break;
             default: break;
@@ -78,8 +79,6 @@ const Header: React.FC<Props> = (props) => {
           setConnecting(true);
           gero.enable().then((res) => {
             res.getUsedAddresses().then((addresses: (WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; })[]) => {
-              console.log(addresses);
-              
               const realaddress = bech32.encode(
                 'addr',
                 bech32.toWords(Uint8Array.from(Buffer.from(addresses[0], 'hex'))),
