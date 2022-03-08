@@ -7,7 +7,6 @@ import { CanvasWidget } from '@projectstorm/react-canvas-core';
 import { DemoCanvasWidget } from 'components/Helper/DemoCanvasWidget';
 import styled from '@emotion/styled';
 import _ from "lodash";
-import { NodeType } from '../ProgrammableSwap';
 
 export interface BodyWidgetProps {
   app: Application;
@@ -16,17 +15,32 @@ export interface BodyWidgetProps {
   handleChangeApp?: any;
 }
 
+export interface NodeType {
+  id: number;
+  name: string;
+  type: string;
+  color: string;
+  position: {
+    x: number;
+    y: number;
+  }
+}
+
+export interface EdgeType {
+  source: number;
+  target: number;
+}
+
 export interface SwapcodeType {
   id: number;
   code: {
-    nodes: NodeType[];
-    edges: {
-      source: number;
-      target: number;
-    }[]
+    nodes: Array<NodeType>;
+    edges: Array<EdgeType>
   };
   approve: boolean;
 }
+
+
 
 namespace S {
   export const Body = styled.div`

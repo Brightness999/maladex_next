@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import styles from "styles/Mint.module.scss";
 import { useRouter } from 'next/router';
+import { NodeType } from "./components/BodyWidget";
 
 const Diagrams = dynamic(() => import('./Diagrams'), { ssr: false });
 
@@ -10,22 +11,11 @@ interface ProgrammableSwapProps {
   theme?: string;
 }
 
-export interface NodeType {
-  id: number;
-  name: string;
-  type: string;
-  color: string;
-  position: {
-    x: number;
-    y: number;
-  }
-}
-
 const ProgrammableSwap: React.FC<ProgrammableSwapProps> = (props) => {
   const [isnodeselected, setIsNodeSelected] = useState<boolean>(false);
   const [nodeid, setNodeId] = useState<string>('');
   const [nodename, setNodeName] = useState<string>('');
-  const [inputnodes, setInputNodes] = useState<NodeType[]>([]);
+  const [inputnodes, setInputNodes] = useState<Array<NodeType>>([]);
   const router = useRouter();
 
   const handleNodeSelection = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {

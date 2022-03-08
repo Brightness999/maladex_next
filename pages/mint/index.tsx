@@ -5,7 +5,6 @@ const Home: React.FC = () => {
   const router = useRouter();
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      // window.localStorage.removeItem('swapcodes');
       const swapcodes = window.localStorage.getItem('swapcodes');
       if (swapcodes) {
         let codes = JSON.parse(swapcodes);

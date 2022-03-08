@@ -1,4 +1,5 @@
 import * as SRD from '@projectstorm/react-diagrams';
+import { NodeType } from './components/BodyWidget';
 
 export default class Application {
 	protected activeModel: SRD.DiagramModel;
@@ -19,7 +20,7 @@ export default class Application {
 				if (swapcodes[id].code) {
 					if (swapcodes[id].code.nodes) {
 						let nodes = [];
-						swapcodes[id].code.nodes.forEach(element => {
+						swapcodes[id].code.nodes.forEach((element: NodeType) => {
 							let node = new SRD.DefaultNodeModel(element.name, element.color);
 							if (element.type == 'input') {
 								node.addInPort('In');
@@ -34,7 +35,7 @@ export default class Application {
 							this.activeModel.addNode(node);
 							nodes.push(node);
 						});
-						swapcodes[id].code.edges.forEach(edge => {
+						swapcodes[id].code.edges.forEach((edge: { source: string | number; target: string | number; }) => {
 							let link = nodes[edge.source].getOutPorts()[0].link(nodes[edge.target].getInPorts()[0])
 							this.activeModel.addLink(link);
 						});
