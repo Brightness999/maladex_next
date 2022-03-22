@@ -45,11 +45,29 @@
   }
   &_customcode {
     flex: 5;
-    display: flex;
-    justify-content: center;
     border: 1px solid #eaecef;
     & textarea {
       font-family: 'Consolas';
+    }
+    &_id {
+      width: 10%;
+      word-break: break-all;
+      padding: 8px;
+    }
+    &_name {
+      width: 10%;
+      word-break: break-all;
+      padding: 8px;
+    }
+    &_inputs {
+      width: 20%;
+      word-break: break-all;
+      padding: 8px;
+    }
+    &_code {
+      width: 60%;
+      word-break: break-all;
+      padding: 8px;
     }
   }
   &_errors {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import dynamic from "next/dynamic";
 import styles from "styles/Mint.module.scss";
 import { useRouter } from 'next/router';
@@ -61,35 +61,54 @@ const ProgrammableSwap: React.FC<ProgrammableSwapProps> = (props) => {
       </div>
       <div className="d-md-flex flex-fill">
         <div className={styles.programmableswap_customcode}>
-          <div className="d-flex flex-column justify-content-center align-items-center p-md-4 p-2">
-            {
-              isnodeselected ?
+          <div className={`p-md-4 p-2 h-100 ${!isnodeselected && 'd-flex flex-column align-items-center justify-content-center'}`}>
+            {isnodeselected ? (
+              <table className="w-100 h-100">
+                <thead>
+                  <tr className="border-bottom">
+                    <th className={styles.programmableswap_customcode_id}>ID</th>
+                    <th className={styles.programmableswap_customcode_name}>Name</th>
+                    <th className={styles.programmableswap_customcode_inputs}>Inputs</th>
+                    <th className={styles.programmableswap_customcode_code}>Code</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className={styles.programmableswap_customcode_id}>
+                      <div className="h5">{nodeid}</div>
+                    </td>
+                    <td className={styles.programmableswap_customcode_name}>
+                      <div className="h5">{nodename}</div>
+                    </td>
+                    <td className={styles.programmableswap_customcode_inputs}>
+                      <div className="h5">
+                        <div>
+                          {inputnodes.map((node: NodeType, index) => {
+                            return (
+                              <div key={index}>{node.id} - {node.name}</div>
+                            )
+                          })}
+                        </div>
+                      </div>
+                    </td>
+                    <td className={styles.programmableswap_customcode_code}>
+                      <div className="d-flex gap-2 h-100">
+                        <textarea className="w-100 fs-5" name="swapcodes" id="swapcodes"></textarea>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            ) : (
+              <Fragment>
                 <div>
-                  <div className="h5">ID: {nodeid}</div>
-                  <div className="h5">Name: {nodename}</div>
-                  <div className="h5 d-flex gap-2">Inputs:
-                    <div>
-                      {inputnodes.map((node: NodeType, index) => {
-                        return (
-                          <div key={index}>{node.id} - {node.name}</div>
-                        )
-                      })}
-                    </div>
-                  </div>
-                  <div className="h5 d-flex gap-2">Code:
-                    <textarea name="swapcodes" id="swapcodes"></textarea>
-                  </div>
+                  Programmable Swap Code (for the selected node above)
                 </div>
-                :
-                <>
-                  <div>
-                    Programmable Swap Code (for the selected node above)
-                  </div>
-                  <div>
-                    Custom code
-                  </div>
-                </>
-            }
+                <div>
+                  Custom code
+                </div>
+              </Fragment>
+            )}
           </div>
         </div>
         <div className={styles.programmableswap_errors}>
