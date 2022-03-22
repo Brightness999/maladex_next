@@ -46,9 +46,6 @@
   &_customcode {
     flex: 5;
     border: 1px solid #eaecef;
-    & textarea {
-      font-family: 'Consolas';
-    }
     &_id {
       width: 10%;
       word-break: break-all;
@@ -68,6 +65,12 @@
       width: 60%;
       word-break: break-all;
       padding: 8px;
+      & textarea {
+        font-family: 'Consolas';
+        &:focus-visible {
+          outline: none;
+        }
+      }
     }
   }
   &_errors {

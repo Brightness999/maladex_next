@@ -230,6 +230,14 @@ h6 {
 .css-mtwhol {
   text-align: center;
 }
-.css-lldskh, .css-14ytlrw {
-  font-size: 12px;
+.node.css-nlpftr {
+  div {
+    border: none;
+  }
+  textarea {
+    font-size: 12px;
+    &:focus-visible {
+      outline: none;
+    }
+  }
 }
