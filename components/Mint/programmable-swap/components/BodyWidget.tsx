@@ -13,6 +13,7 @@ export interface BodyWidgetProps {
   isadd?: boolean;
   handleAdd?: any;
   handleChangeApp?: any;
+  setApp?: any;
 }
 
 export interface NodeType {
@@ -149,6 +150,9 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
     let temp_nodes = [];
     let temp_links = [];
     nodes.forEach((node: DefaultNodeModel, index) => {
+      if (node.getOptions().selected) {
+        node.getOptions().selected = false;
+      }
       temp_nodes.push({
         id: index,
         name: node.getOptions().name,
@@ -190,9 +194,7 @@ export default class BodyWidget extends React.Component<BodyWidgetProps> {
         <S.Header>
           <div className="title">DAG (Direct Acyclic Graph) Composer</div>
         </S.Header>
-        <S.Content
-          onPointerLeave={() => this.handleLeave()}
-        >
+        <S.Content onPointerLeave={() => this.handleLeave()}>
           <S.AddNode onClick={() => this.props.handleAdd(true)}>+</S.AddNode>
           {
             this.props.isadd &&

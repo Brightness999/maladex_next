@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Consolas";
+  src: url('../public/font/CONSOLA.TTF') format("truetype"),
+       url('../public/font/CONSOLAB.TTF') format("truetype"),
+       url('../public/font/consolai.ttf') format("truetype"),
+       url('../public/font/Consolas.ttf') format("truetype"),
+       url('../public/font/consolaz.ttf') format("truetype");
+}
+
 .programmableswap {
   flex: 1;
   display: flex;
@@ -36,9 +45,33 @@
   }
   &_customcode {
     flex: 5;
-    display: flex;
-    justify-content: center;
     border: 1px solid #eaecef;
+    &_id {
+      width: 10%;
+      word-break: break-all;
+      padding: 8px;
+    }
+    &_name {
+      width: 10%;
+      word-break: break-all;
+      padding: 8px;
+    }
+    &_inputs {
+      width: 20%;
+      word-break: break-all;
+      padding: 8px;
+    }
+    &_code {
+      width: 60%;
+      word-break: break-all;
+      padding: 8px;
+      & textarea {
+        font-family: 'Consolas';
+        &:focus-visible {
+          outline: none;
+        }
+      }
+    }
   }
   &_errors {
     flex: 2;
