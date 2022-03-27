@@ -22,11 +22,15 @@ const ProgrammableSwap: React.FC<ProgrammableSwapProps> = (props) => {
     const element = e.target as HTMLElement;
     if (element.offsetParent.className == 'node css-nlpftr') {
       const node = element.offsetParent;
-      const nodes = JSON.parse(window.localStorage.getItem('swapcodes'))[router.asPath.split('/')[3]].code.nodes;
-      setIsNodeSelected(true);
-      setNodeId(node.id.split('-')[1]);
-      setNodeName(document.getElementById(`textarea-${node.id.split('-')[1]}`).textContent);
-      setInputNodes(nodes.filter((n: NodeType) => n.type == 'output'));
+      const swapcodes = JSON.parse(window.localStorage.getItem('swapcodes'))
+      const swapid = router.asPath.split('/')[3]
+      if (swapcodes[swapid].code) {
+        const nodes = swapcodes[swapid].code.nodes;
+        setIsNodeSelected(true);
+        setNodeId(node.id.split('-')[1]);
+        setNodeName(document.getElementById(`textarea-${node.id.split('-')[1]}`).textContent);
+        setInputNodes(nodes.filter((n: NodeType) => n.type == 'output'));
+      }
     }
   }
 

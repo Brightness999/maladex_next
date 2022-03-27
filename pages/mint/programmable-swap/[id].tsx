@@ -42,6 +42,14 @@ const Home: React.FC<Props> = (props) => {
         if (history.state.as.split('/')[3] >= codes.length) {
           router.push(`/mint/programmable-swap/${codes.length - 1}`);
         }
+      } else {
+        const initial_swapcode = [{
+          id: 0,
+          code: null,
+          approve: false
+        }]
+        window.localStorage.setItem('swapcodes', JSON.stringify(initial_swapcode));
+        router.push('/mint/programmable-swap/0');
       }
     }
   }, []);
